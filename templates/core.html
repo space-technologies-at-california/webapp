@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="follow, index">
+
+        {% block title %}
+        <title></title>
+        {% endblock %}
+
+        {% block description %}
+        <meta name="description" content=""/>
+        {% endblock %}
+
+        {% block author %}
+        <meta author="Gan Tu (Michael)">
+        {% endblock %}
+
+        {% block keywords %}
+        <meta name="keywords" content="">
+        {% endblock %}
+
+        {% block open-graph %}
+        <!-- Open graph meta tags -->
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        {% endblock %}
+        
+        <!-- Standard Stylesheets -->
+        <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" media="all">
+        <link href="{{ url_for('static', filename='css/themify-icons.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{ url_for('static', filename='css/flexslider.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <!-- End of Standard Stylesheets -->
+
+        <!-- Theme Stylesheets -> CHANGE TO WHAT YOU WANT -->
+        <link href="{{ url_for('static', filename='css/theme.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <!-- End of Theme Stylesheets -->
+
+        <!-- Font Stylesheets -> CHANGE TO WHAT YOU WANT -->
+        <link href="{{ url_for('static', filename='css/custom-font.css') }} " rel="stylesheet" type="text/css" media="all" />
+        <!-- End of Font Stylesheets -->
+
+        <!-- Custom Stylesheets -->
+        <link href="{{ url_for('static', filename='css/custom.css') }} " rel="stylesheet" type="text/css" media="all" />
+        <!-- End of Custom Stylesheets -->
+
+        {% block more-stylesheets %}
+        {% endblock %}
+
+
+        <!-- Favicons and icons -->
+            <link rel="icon" href="">
+            <!-- Put favicons (used as icons shown for browsers) here -->
+        <!-- End of Favicons and icons -->
+
+    </head>
+    <body class="scroll-assist">
+                
+        {% block navbar %}
+            {% include "navbar.html" %}
+        {% endblock %}
+        
+        <div class="main-container">
+            
+            {% block body %}
+            {% endblock %}
+            
+            {% block footer %}
+                {% include "footer.html" %}
+            {% endblock %}
+
+        </div>
+        
+        <!-- Standard Scripts -->
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/flexslider.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/smooth-scroll.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/parallax.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        <!-- End of Standard Scripts -->
+
+        <!-- Custom Scripts -->
+        <script src="{{ url_for('static', filename='js/custom-scripts.js') }}"></script>
+        <!-- End of Custom Scripts -->
+
+        {% block more-scripts %}
+        {% endblock %}
+    </body>
+</html>
+                

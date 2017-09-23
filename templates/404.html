@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Title -->
+	<title>Page Not Found</title>
+	<!-- CSS Links -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/404.css') }}">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon/404-favicon.ico') }}" type="image/x-icon">
+	<!-- Fonts -->
+	<style>
+		@import 'https://fonts.googleapis.com/css?family=Roboto';
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- Overlay -->
+		<div class="overlay" id="particles-js"></div>
+		<!-- Content -->
+		<div class="content">
+			<div class="message">
+				<p class="message-heading">Page Not Found</p>
+				<p class="message-description">The page you are looking for was moved, removed, renamed or might never existed.</p>
+			</div>
+			<div class="links">
+				<a href="/"></a>
+				<!-- a href="#"></a> -->
+			</div>
+		</div>
+		<!-- Social -->
+		<div class="social">
+			<ul class="social-list">
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Script -->
+	<script src="{{ url_for('static', filename='js/particles.js') }}"></script>
+	<script type="text/javascript">
+		particlesJS.load('particles-js', "static/js/particles.json");
+	</script>
+</body>
+</html>
