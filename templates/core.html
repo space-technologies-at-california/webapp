@@ -22,7 +22,7 @@
         <meta name="keywords" content="space, technology, student organization, uc berkeley, startup">
         {% endblock %}
 
-        {% block open-graph %}
+        {% block open_graph %}
         <!-- Open graph meta tags -->
         <meta property="og:title" content="Space Technologies at California" />
         <meta property="og:type" content="website" />
@@ -51,7 +51,7 @@
         <link href="{{ url_for('static', filename='css/custom.css') }} " rel="stylesheet" type="text/css" media="all" />
         <!-- End of Custom Stylesheets -->
 
-        {% block more-stylesheets %}
+        {% block more_stylesheets %}
         {% endblock %}
 
 
@@ -97,7 +97,7 @@
         <script src="{{ url_for('static', filename='js/custom-scripts.js') }}"></script>
         <!-- End of Custom Scripts -->
 
-        {% block more-scripts %}
+        {% block more_scripts %}
         {% endblock %}
     </body>
 </html>
