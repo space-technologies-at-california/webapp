@@ -1,0 +1,46 @@
+{
+	"name": "Space Technologies at Cal",
+	"acronym": "STAC",
+	"mission": "Creating A Multi-Campus Initiative To Advance Space Technology",
+	"mission-short": "We Work to Push And Innovate Space Technology",
+	"slogan": "Launch Berkeley to Space!",
+	"description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies.\nWe are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous.\nOur innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today.",
+	"ocf-disclaimer": "We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.",
+	"rights": "© Copyright 2017 STAC - All Rights Reserved",
+	"logo": {
+		"stac": {
+			"light": "static/img/logo/logo-light.png",
+			"black": "static/img/logo/logo-black.png"
+		},
+		"stac-with-headline": {
+			"light": "static/img/logo/logo-subheadline-light.png",
+			"black": "static/img/logo/logo-subheadline-black.png"
+		},
+		"full": {
+			"light": "static/img/logo/logo-full-light.png",
+			"black": "static/img/logo/logo-full-black.png"
+		}
+	},
+	"social-media": {
+		"mail": {
+			"link": "mailto:inqury@stac.berkeley.edu",
+			"icon": "ti-email"
+		},
+		"twitter": {
+			"link": "https://twitter.com/stacBerkeley",
+			"icon": "ti-twitter-alt"
+		},
+		"facebook": {
+			"link": "https://www.facebook.com/stacBerkeley",
+			"icon": "ti-facebook"
+		},
+		"linkedin": {
+			"link": "https://www.linkedin.com/company/12956417/",
+			"icon": "ti-linkedin"
+		},
+		"medium": {
+			"link": "https://medium.com/@stac",
+			"icon": "ti-bookmark"
+		}
+	}
+}
