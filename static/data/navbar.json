@@ -1,10 +1,10 @@
-{
+{	
 	"left-menu":{
 		"Home": "/",
 		"About Us": "/",
 		"Projects": {
-			"Example Project 1": "",
-			"Example Project 2": ""
+			"Example Project 1": "/project",
+			"Example Project 2": "/project"
 		},
 		"Blog": "https://medium.com/@stac",
 		"Sponsor": {
