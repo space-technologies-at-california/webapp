@@ -32,13 +32,6 @@ def utility_processor():
 def index():
 	return render_template("home.html", config=config['home'])
 
-@app.route("/demo")
-def demo():
-	root = "static/img/logo/partner"
-	pics = ["{0}/{1}".format(root, x) for x in os.listdir(root)]
-	print(pics)
-	return render_template("demo.html", pic=pics)
-
 @app.route("/join")
 @app.route("/apply")
 def join():
