@@ -7,14 +7,19 @@ from flask import redirect
 
 app = Flask(__name__)
 
-def load_json(path, root="static/data/"):
+def load_json(path, root="static/data/", project=False):
+	if project:
+		root += 'projects/'
 	return json.loads(open(root + path).read())
 
 # Cache configuration files
 config = {
 	"navbar": load_json("navbar.json"),
 	"about-us": load_json("about-us.json"),
-	"home" : load_json("home-configuration.json")
+	"home" : load_json("home-configuration.json"),
+	"project": {
+		"example": load_json("example.json", project=True),
+	}
 }
 
 @app.context_processor
@@ -38,6 +43,13 @@ def demo():
 @app.route("/apply")
 def join():
 	return render_template("join.html")
+
+@app.route("/project")
+@app.route("/projects")
+@app.route("/project/<name>")
+@app.route("/projects/<name>")
+def project(name="example"):
+	return render_template("project.html", config=config['project'][name])
 
 
 ##################### Error Handling #####################

@@ -4,7 +4,6 @@
 	<title> {{ config['title'] }} | Space Technologies at Cal</title>
 {% endblock %}
 
-
 {% block body %}
 
 <!-- Head Parallax -->
@@ -142,4 +141,10 @@
 </section>
 <!-- End of Sixth Parallax -->
 
+{% endblock %}
+
+{% block more_scripts %}
+<script type="text/javascript">
+    $("nav").addClass("absolute transparent");
+</script>
 {% endblock %}
