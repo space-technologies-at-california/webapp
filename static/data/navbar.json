@@ -1,0 +1,20 @@
+{
+	"left-menu":{
+		"Home": "/",
+		"About Us": "/",
+		"Projects": {
+			"Example Project 1": "",
+			"Example Project 2": ""
+		},
+		"Blog": "https://medium.com/@stac",
+		"Sponsor": {
+			"Example Sponsor 1": "",
+			"Example Sponsor 2": ""
+		},
+		"About Us": "/"
+	},
+	"right-menu-enabled": true,
+	"right-menu": {
+		"Join Us": "/join"
+	}
+}
