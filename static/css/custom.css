@@ -1,5 +1,98 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+/*Blog Author Font*/
 .blogAuthor {
 	color: #47b475;
 	font-weight: bold;
+}
+
+/*Team Member Profile custom__Overlay Effect*/
+.custom__overlay {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+}
+.custom__overlay__background {
+		position: absolute;
+		z-index: 20;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.8);
+		opacity: 0;
+		-webkit-transition-duration: 300ms;
+				transition-duration: 300ms;
+		-webkit-transition-property: background-color, opacity, visibility, -webkit-transform;
+		transition-property: background-color, opacity, visibility, -webkit-transform;
+		transition-property: background-color, transform, opacity, visibility;
+		transition-property: background-color, transform, opacity, visibility, -webkit-transform;
+		-webkit-transition-timing-function: ease-in-out;
+				transition-timing-function: ease-in-out;
+}
+.custom__overlay__background--slide-right {
+		-webkit-transform: translateX(200%);
+				transform: translateX(200%);
+}
+.custom__overlay__background--slide-left {
+		-webkit-transform: translateX(-100%);
+				transform: translateX(-100%);
+}
+.custom__overlay__content {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		z-index: 21;
+		width: 100%;
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, -50%, 0);
+				transform: translate3d(-50%, -50%, 0);
+		-webkit-transition-duration: 350ms;
+				transition-duration: 350ms;
+		-webkit-transition-property: background-color, opacity, visibility, top, -webkit-transform;
+		transition-property: background-color, opacity, visibility, top, -webkit-transform;
+		transition-property: background-color, transform, opacity, visibility, top;
+		transition-property: background-color, transform, opacity, visibility, top, -webkit-transform;
+}
+
+.custom__overlay__content i {
+	color: black;
+}
+
+.custom__overlay__content-heading {
+		display: block;
+		font-size: 1.3rem;
+		font-weight: bold;
+}
+.custom__overlay__image {
+		-webkit-transition-duration: 250ms;
+				transition-duration: 250ms;
+		-webkit-transition-property: -webkit-transform;
+		transition-property: -webkit-transform;
+		transition-property: transform;
+		transition-property: transform, -webkit-transform;
+}
+.custom__overlay:hover .custom__overlay__background {
+		opacity: 1;
+}
+.custom__overlay:hover .custom__overlay__background--slide-right {
+		-webkit-transform: translateX(0);
+				transform: translateX(0);
+}
+.custom__overlay:hover .custom__overlay__background--slide-left {
+		-webkit-transform: translateX(0);
+				transform: translateX(0);
+}
+.custom__overlay:hover .custom__overlay__content {
+		top: 50%;
+		opacity: 1;
+		-webkit-transition-delay: 100ms;
+				transition-delay: 100ms;
+}
+.custom__overlay:hover .custom__overlay__image--skew {
+		-webkit-transform: rotate(5deg) scale(1.2);
+				transform: rotate(5deg) scale(1.2);
+}
+.custom__overlay:hover .custom__overlay__image--zoom {
+		-webkit-transform: scale(1.2);
+				transform: scale(1.2);
 }

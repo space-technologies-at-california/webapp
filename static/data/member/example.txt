@@ -1,0 +1,15 @@
+{
+	"name": "",
+	"photo": "",
+	"profile-order": null,
+	"major": "",
+	"title": "",
+	"bio": "",
+	"links": {
+		"linkedin": "",
+		"github": "",
+		"twitter": "",
+		"web": "",
+		"email": "mailto:"
+	}
+}

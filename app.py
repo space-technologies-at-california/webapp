@@ -1,4 +1,5 @@
 import os
+import glob
 import json
 from flask import Flask
 from flask import render_template
@@ -7,24 +8,33 @@ from flask import redirect
 
 app = Flask(__name__)
 
-def load_json(path, root="static/data/", project=False):
-	if project:
-		root += 'projects/'
+def load_json(path, root="static/data/", subroot=""):
+	root += subroot
 	return json.loads(open(root + path).read())
 
 # Cache configuration files
 config = {
 	"navbar": load_json("navbar.json"),
-	"about-us": load_json("about-us.json"),
+	"club": load_json("club.json"),
 	"home" : load_json("home-configuration.json"),
-	"project": {
-		"example": load_json("example.json", project=True),
-	}
+	"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob("static/data/projects/*.json") },
+	"team": load_json("team.json"),
+	"icon": load_json("icon.json")
 }
+
+# Cache configuration files II
+config["team"].update({
+	"member": [ load_json(x, root="", subroot="") for x in glob.glob("static/data/member/*.json")]
+})
+config['team']['member'].sort(key=lambda x: x['profile-order'] if x['profile-order'] is not None else float('inf')) # sort profile order
+config["team"].update({
+	"partner-logo": { x.split(".")[0] : x for x in glob.glob("static/img/logo/partner/*")}
+})
+
 
 @app.context_processor
 def utility_processor():
-    return dict(navbar=config["navbar"], aboutus=config['about-us'])
+    return dict(navbar=config["navbar"], club=config['club'], icon=config["icon"])
 
 ##################### Pages #####################
 @app.route("/")
@@ -44,6 +54,10 @@ def join():
 def project(name="example"):
 	return render_template("project.html", config=config['project'][name])
 
+@app.route("/team")
+@app.route("/aboutus/team")
+def team():
+	return render_template("team.html", config=config["team"])
 
 ##################### Error Handling #####################
 @app.errorhandler(404)

@@ -22,25 +22,10 @@
 		}
 	},
 	"social-media": {
-		"mail": {
-			"link": "mailto:inqury@stac.berkeley.edu",
-			"icon": "ti-email"
-		},
-		"twitter": {
-			"link": "https://twitter.com/stacBerkeley",
-			"icon": "ti-twitter-alt"
-		},
-		"facebook": {
-			"link": "https://www.facebook.com/stacBerkeley",
-			"icon": "ti-facebook"
-		},
-		"linkedin": {
-			"link": "https://www.linkedin.com/company/12956417/",
-			"icon": "ti-linkedin"
-		},
-		"medium": {
-			"link": "https://medium.com/@stac",
-			"icon": "ti-bookmark"
-		}
+		"mail": "mailto:inqury@stac.berkeley.edu",
+		"twitter": "https://twitter.com/stacBerkeley",
+		"facebook": "https://www.facebook.com/stacBerkeley",
+		"linkedin": "https://www.linkedin.com/company/12956417/",
+		"medium": "https://medium.com/@stac"
 	}
 }

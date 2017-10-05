@@ -1,0 +1,124 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder">
+        <img alt="Background Image" class="background-image" src="{{ config['background'] }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">{{ config['title'] }}</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li class="active">{{ config['title'] }}</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<!-- Member Profile -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">{{ config['section1'] }}</h4>
+            </div>
+        </div>
+        <!--end of row-->
+
+        <!-- Members -->
+    	{% for member in config['member'] %}
+	    	{% if loop.index % 3 == 1 or loop.first %}
+	        <div class="row">
+	        {% endif %}
+	            <div class="col-md-4 col-sm-6">
+	                <div class="image-tile outer-title text-center">
+                        <div class="custom__overlay">
+                            <div class="custom__overlay__background"></div>
+                            <div class="custom__overlay__content">
+                                <div class="custom__overlay__content-heading">
+                                    {{ member['major'] }}
+                                </div>
+                                <ul class="list-inline social-list">
+                                    {% for type, link in member['links'].items() %}
+                                        {% if link %}
+                                            <li>
+                                                <a href="{{ link }}" target="_blank">
+                                                    <i class="{{ icon[type] }}"></i>
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <img alt="{{ member['name'] }} photo" src="{{ member['photo'] }}" class="custom__overlay__image custom__overlay__image--skew">
+                        </div>
+	                    <div class="title mb16">
+	                        <h5 class="uppercase mb0"> {{ member['name']}} </h5>
+	                        <span> {{ member['title'] }} </span>
+	                    </div>
+	                    <p class="mb0">
+	                        {{ member['bio'] }}
+	                    </p>
+	                </div>
+	            </div>
+	        {% if loop.index % 3 == 0 or loop.last %}
+	        </div>
+	        {% endif %}
+        <!--end of row-->
+        {% endfor %}
+        <!-- End of Members -->
+
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Member Profile -->
+
+
+<!-- Sponsors and Partners -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">{{ config['section2'] }}</h4>
+            </div>
+        </div>
+        <!--end of row-->
+        <div class="row">
+            <div class="logo-carousel">
+                <ul class="slides">
+                	{% for partner in config['partner-logo'] %}
+                    <li>
+                        <a><img alt="{{partner}}" src="{{ config['partner-logo'][partner]}}" /></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!--end of logo slider-->
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+<!-- End of Sponsors and Partners -->
+</section>
+
+{% endblock %}
+
