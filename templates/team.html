@@ -54,9 +54,7 @@
                         <div class="custom__overlay">
                             <div class="custom__overlay__background"></div>
                             <div class="custom__overlay__content">
-                                <div class="custom__overlay__content-heading">
-                                    {{ member['major'] }}
-                                </div>
+                                <p>{{ member['bio'] }}</p>
                                 <ul class="list-inline social-list">
                                     {% for type, link in member['links'].items() %}
                                         {% if link %}
@@ -72,12 +70,12 @@
                             <img alt="{{ member['name'] }} photo" src="{{ member['photo'] }}" class="custom__overlay__image custom__overlay__image--skew">
                         </div>
 	                    <div class="title mb16">
-	                        <h5 class="uppercase mb0"> {{ member['name']}} </h5>
-	                        <span> {{ member['title'] }} </span>
+	                        <h5 class="uppercase mb0"> {{ member['name']}}</h5>
+                            <div class="custom__overlay__content-heading">
+                                {{ member['title'] }}<br>
+                                <span>{{ member['major'] }}</span>
+                            </div>
 	                    </div>
-	                    <p class="mb0">
-	                        {{ member['bio'] }}
-	                    </p>
 	                </div>
 	            </div>
 	        {% if loop.index % 3 == 0 or loop.last %}

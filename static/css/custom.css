@@ -58,6 +58,11 @@
 	color: black;
 }
 
+.custom__overlay__content p {
+	font-weight: bold !important;
+	margin: 12px !important;
+}
+
 .custom__overlay__content-heading {
 		display: block;
 		font-size: 1.3rem;
