@@ -12,24 +12,31 @@ def load_json(path, root="static/data/", subroot=""):
 	root += subroot
 	return json.loads(open(root + path).read())
 
-# Cache configuration files
-config = {
-	"navbar": load_json("navbar.json"),
-	"club": load_json("club.json"),
-	"home" : load_json("home-configuration.json"),
-	"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob("static/data/projects/*.json") },
-	"team": load_json("team.json"),
-	"icon": load_json("icon.json")
-}
+if "cache.json" in os.listdir("."):
+	config = load_json("cache.json")
+	print("cache loaded...")
+else:
+	# Cache configuration files
+	config = {
+		"navbar": load_json("navbar.json"),
+		"club": load_json("club.json"),
+		"home" : load_json("home-configuration.json"),
+		"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob("static/data/projects/*.json") },
+		"team": load_json("team.json"),
+		"icon": load_json("icon.json")
+	}
 
-# Cache configuration files II
-config["team"].update({
-	"member": [ load_json(x, root="", subroot="") for x in glob.glob("static/data/member/*.json")]
-})
-config['team']['member'].sort(key=lambda x: x['profile-order'] if x['profile-order'] is not None else float('inf')) # sort profile order
-config["team"].update({
-	"partner-logo": { x.split(".")[0] : x for x in glob.glob("static/img/logo/partner/*")}
-})
+	# Cache configuration files II
+	config["team"].update({
+		"member": [ load_json(x, root="", subroot="") for x in glob.glob("static/data/member/*.json")]
+	})
+	config['team']['member'].sort(key=lambda x: x['profile-order'] if x['profile-order'] is not None else float('inf')) # sort profile order
+	config["team"].update({
+		"partner-logo": { x.split(".")[0] : x for x in glob.glob("static/img/logo/partner/*")}
+	})
+	# save cache
+	with open("static/data/cache.json", "w") as f:
+		f.write(json.dumps(config, indent=2))
 
 
 @app.context_processor
