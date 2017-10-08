@@ -1,0 +1,67 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder">
+        <img alt="Background Image" class="background-image" src="{{ config['background'] }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">{{ config['title'] }}</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li class="active">{{ config['title'] }}</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<!-- Sponsors and Partners -->
+<section>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">{{ config['section'] }}</h4>
+            </div>
+        </div>
+        <!--end of row-->
+        
+        <div class="row">
+            <div class="logo-carousel">
+                <ul class="slides">
+                    {% for partner in config['partner-logo'] %}
+                    <li>
+                        <a><img alt="{{partner}}" src="{{ config['partner-logo'][partner]}}" /></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!--end of logo slider-->
+        </div>
+
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Sponsors and Partners -->
+
+{% endblock %}
+

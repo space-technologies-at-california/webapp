@@ -12,9 +12,7 @@
 		},
 		"Blog": "https://medium.com/@stac",
 		"Sponsor": {
-			"Example Sponsor 1": "",
-			"Example Sponsor 2": "",
-			"Industry Partner": "",
+			"Our Sponsors": "/sponsor",
 			"Support Us": ""
 		}
 	},
