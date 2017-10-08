@@ -37,12 +37,15 @@
 <!-- Member Profile -->
 <section>
     <div class="container">
+
+
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb64 mb-xs-40">{{ config['section1'] }}</h4>
+                <h4 class="uppercase mb64 mb-xs-40">{{ config['section'] }}</h4>
             </div>
         </div>
         <!--end of row-->
+
 
         <!-- Members -->
     	{% for member in config['member'] %}
@@ -89,34 +92,6 @@
     <!--end of container-->
 </section>
 <!-- End of Member Profile -->
-
-
-<!-- Sponsors and Partners -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h4 class="uppercase mb64 mb-xs-40">{{ config['section2'] }}</h4>
-            </div>
-        </div>
-        <!--end of row-->
-        <div class="row">
-            <div class="logo-carousel">
-                <ul class="slides">
-                	{% for partner in config['partner-logo'] %}
-                    <li>
-                        <a><img alt="{{partner}}" src="{{ config['partner-logo'][partner]}}" /></a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <!--end of logo slider-->
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-<!-- End of Sponsors and Partners -->
-</section>
 
 {% endblock %}
 

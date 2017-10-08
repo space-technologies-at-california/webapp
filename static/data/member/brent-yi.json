@@ -1,0 +1,15 @@
+{
+    "name": "Brent Yi",
+    "photo": "static/img/team/member/brent-yi.jpg",
+    "profile-order": 20,
+    "major": "Computer Science",
+    "title": "Electrical Expert",
+    "links": {
+        "linkedin": "https://linkedin.com/in/brentyi",
+        "github": "https://github.com/brentyi",
+        "twitter": "",
+        "web": "https://www.brentyi.com/",
+        "email": ""
+    },
+    "bio": "I'm an amateur space enthusiast here at Berkeley. I really enjoy designing stuff, and am super pumped to be a part of STAC!"
+}

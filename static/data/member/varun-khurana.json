@@ -1,0 +1,15 @@
+{
+    "name": "Varun Khurana",
+    "photo": "static/img/team/member/varun-khurana.jpg",
+    "profile-order": 10,
+    "major": "Mechanical Engineering & Pure Math",
+    "title": "CubeSat Deployer Project Lead",
+    "links": {
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "web": "",
+        "email": ""
+    },
+    "bio": "Space instills unbridled curiosity because there's just so much that we don't know about it, and this type of curiosity has been fueling me to learn for many years in areas ranging from space to mathematics and engineering."
+}

@@ -64,19 +64,20 @@
 }
 
 .custom__overlay__content-heading {
-		display: block;
-		font-size: 1.3rem;
-		font-weight: bold;
+	display: block;
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 .custom__overlay__image {
-		-webkit-transition-duration: 250ms;
-				transition-duration: 250ms;
-		-webkit-transition-property: -webkit-transform;
-		transition-property: -webkit-transform;
-		transition-property: transform;
-		transition-property: transform, -webkit-transform;
-		height: 270px !important;
-		max-width: 360px !important;
+	-webkit-transition-duration: 250ms;
+			transition-duration: 250ms;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	height: 270px;
+	max-height: 270px !important;
+	max-width: 360px !important;
 }
 
 .custom__overlay:hover .custom__overlay__background {

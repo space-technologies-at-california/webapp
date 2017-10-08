@@ -1,0 +1,15 @@
+{
+    "name": "Daniel Shen",
+    "photo": "static/img/team/member/daniel-shen.jpg",
+    "profile-order": 8,
+    "major": "Mechanical Engineering",
+    "title": "TIME Project Lead",
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/daniel-shen-640987102",
+        "github": "",
+        "twitter": "",
+        "web": "",
+        "email": ""
+    },
+    "bio": "I have diverse interests from space exploration to organic chemistry. I spend much of my time at the UC Berkeley Radio Astronomy Lab working on the HYPERION project probing signals from the Epoch of Reionization. I also enjoy competitive ballroom dance and cooking - perhaps the only thing more vast than the cosmos is the myriad of slow cooker recipes the internet has to offer."
+}

@@ -23,6 +23,7 @@ else:
 		"home" : load_json("home-configuration.json"),
 		"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob("static/data/projects/*.json") },
 		"team": load_json("team.json"),
+		"sponsor": load_json("sponsor.json"),
 		"icon": load_json("icon.json")
 	}
 
@@ -31,7 +32,7 @@ else:
 		"member": [ load_json(x, root="", subroot="") for x in glob.glob("static/data/member/*.json")]
 	})
 	config['team']['member'].sort(key=lambda x: x['profile-order'] if x['profile-order'] is not None else float('inf')) # sort profile order
-	config["team"].update({
+	config["sponsor"].update({
 		"partner-logo": { x.split(".")[0] : x for x in glob.glob("static/img/logo/partner/*")}
 	})
 	# save cache
@@ -65,6 +66,10 @@ def project(name="example"):
 @app.route("/aboutus/team")
 def team():
 	return render_template("team.html", config=config["team"])
+
+@app.route("/sponsor")
+def sponsor():
+	return render_template("sponsor.html", config=config["sponsor"])
 
 ##################### Error Handling #####################
 @app.errorhandler(404)
