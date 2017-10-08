@@ -75,9 +75,12 @@
 	transition-property: -webkit-transform;
 	transition-property: transform;
 	transition-property: transform, -webkit-transform;
-	height: 270px;
 	max-height: 270px !important;
 	max-width: 360px !important;
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+
 }
 
 .custom__overlay:hover .custom__overlay__background {

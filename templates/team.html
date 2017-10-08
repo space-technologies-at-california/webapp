@@ -48,10 +48,11 @@
 
 
         <!-- Members -->
+        <div class="row">
     	{% for member in config['member'] %}
-	    	{% if loop.index % 3 == 1 or loop.first %}
+	    	<!-- {% if loop.index % 3 == 1 or loop.first %}
 	        <div class="row">
-	        {% endif %}
+	        {% endif %} -->
 	            <div class="col-md-4 col-sm-6">
 	                <div class="image-tile outer-title text-center">
                         <div class="custom__overlay">
@@ -81,12 +82,13 @@
 	                    </div>
 	                </div>
 	            </div>
-	        {% if loop.index % 3 == 0 or loop.last %}
+	       <!--  {% if loop.index % 3 == 0 or loop.last %}
 	        </div>
-	        {% endif %}
+	        {% endif %} -->
         <!--end of row-->
         {% endfor %}
         <!-- End of Members -->
+        </div>
 
     </div>
     <!--end of container-->
