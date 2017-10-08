@@ -2,7 +2,7 @@
 	"title": "Example Project",
 	"post-img": {
 		"alt": "Post Image",
-		"url": "static/img/background/cover1.jpg"
+		"url": "img/background/cover1.jpg"
 	},
 	"date": "23 Sept",
 	"blog-title": "An amazing title gets lots of attention",
