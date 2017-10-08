@@ -5,5 +5,7 @@
 	"linkedin": "ti-linkedin",
 	"medium": "ti-bookmark-alt",
 	"github": "ti-github",
-	"web": "ti-world"
+	"web": "ti-world",
+	"checkbox": "ti-check-box",
+	"download": "ti-download"
 }

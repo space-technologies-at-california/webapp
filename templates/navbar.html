@@ -10,8 +10,8 @@
         	<!-- Logo -->
             <div class="module left">
                 <a href="/home">
-                    <img class="logo logo-light" alt="STAC logo" src="{{ club['logo']['stac']['light'] }}">
-                    <img class="logo logo-dark" alt="STAC logo" src="{{ club['logo']['stac']['black'] }}">
+                    <img class="logo logo-light" alt="STAC logo" src="{{ url_for('static', filename=club['logo']['stac']['light']) }}">
+                    <img class="logo logo-dark" alt="STAC logo" src="{{ url_for('static', filename=club['logo']['stac']['black']) }}">
                 </a>
             </div>
             <!-- End of Logo -->

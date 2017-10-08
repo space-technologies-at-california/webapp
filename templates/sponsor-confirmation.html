@@ -1,0 +1,45 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+{% block body %}
+<section class="fullscreen">
+    <div class="container v-align-transform">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="feature text-center">
+
+                    <i class="{{ icon[config['confirmation-icon']] }} icon icon-lg mb24 mb-xs-0"></i>
+
+                    <h2 class="large">
+                        {{ config["confirmation-title"] }}
+                    </h2>
+
+                    <a class="btn btn-lg btn-rounded" href="{{ url_for('static', filename=config['download-file']) }}">{{ config["download-button-text"] }}</a>
+
+                    <p class="mb40 mb-xs-24">
+                        {% for line in config['confirmation-text'] %}
+                            {{line}}
+                            <br>
+                        {% endfor %}
+                    </p>
+
+                    <ul class="list-inline social-list">
+                        {% for type, link in club['social-media'].items() %}
+                        <li>
+                            <a href="{{ link }}" target="_blank">
+                                <i class="icon icon-sm {{ icon[type] }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+{% endblock %}

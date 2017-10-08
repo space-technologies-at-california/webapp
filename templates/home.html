@@ -14,7 +14,7 @@
 
         	<!-- Background Image -->
             <div class="background-image-holder">
-                <img alt="image" class="background-image" src="{{ config['head-parallax']['background'] }}">
+                <img alt="image" class="background-image" src="{{ url_for('static', filename=config['head-parallax']['background']) }}">
             </div>
             <!-- End of Background Image -->
 
@@ -22,7 +22,7 @@
             <div class="container v-align-transform">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-                        <img alt="Logo" class="image-md mb8" src="{{ config['head-parallax']['logo'] }}">
+                        <img alt="Logo" class="image-md mb8" src="{{ url_for('static', filename=config['head-parallax']['logo']) }}">
                         <h6 class="uppercase mb32">
                         	{{ config['head-parallax']['title'] }}
                         </h6>
@@ -47,7 +47,7 @@
     <div class="col-md-6 image">
         <!-- Background Image -->
         <div class="background-image-holder">
-            <img alt="image" class="background-image" src="{{ config['second-parallax']['background'] }}">
+            <img alt="image" class="background-image" src="{{ url_for('static', filename=config['second-parallax']['background']) }}">
         </div>
         <!-- End of Background Image -->
     </div>
@@ -66,7 +66,7 @@
     <div class="col-md-6 image">
         <!-- Background Image -->
         <div class="background-image-holder">
-            <img alt="image" class="background-image" src="{{ config['third-parallax']['background'] }}">
+            <img alt="image" class="background-image" src="{{ url_for('static', filename=config['third-parallax']['background']) }}">
         </div>
         <!-- End of Background Image -->
     </div>
@@ -84,7 +84,7 @@
 <section class="image-bg bg-light parallax overlay pt160 pb160 pt-xs-80 pb-xs-80">
     <div class="background-image-holder">
         <!-- Background Image -->
-        <img alt="image" class="background-image" src="{{ config['fourth-parallax']['background'] }}">
+        <img alt="image" class="background-image" src="{{ url_for('static', filename=config['fourth-parallax']['background']) }}">
         <!-- End of Background Image -->
     </div>
     <div class="container">
@@ -107,7 +107,7 @@
         <div class="row v-align-children">
             <div class="col-md-7 col-sm-6 text-center mb-xs-24">
                 <!-- Background Image -->
-                <img class="cast-shadow" alt="image" src="{{ config['fifth-parallax']['background'] }}">
+                <img class="cast-shadow" alt="image" src="{{ url_for('static', filename=config['fifth-parallax']['background']) }}">
                 <!-- End of Background Image -->
             </div>
             
@@ -133,7 +133,7 @@
             </div>
             <div class="col-md-7 col-sm-6 text-center mb-xs-24">
                 <!-- Background Image -->
-                <img class="cast-shadow" alt="image" src="{{ config['sixth-parallax']['background'] }}">
+                <img class="cast-shadow" alt="image" src="{{ url_for('static', filename=config['sixth-parallax']['background']) }}">
                 <!-- End of Background Image -->
             </div>
         </div>

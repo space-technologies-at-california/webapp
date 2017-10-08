@@ -1,0 +1,13 @@
+{
+	"title": "Sponsorship Package Download Page",
+	"confirmation-icon": "download",
+	"confirmation-title": "Get the Sponsorship Package below",
+	"confirmation-text": [
+		"Thank you for your interests", 
+		"Please let us know if you have any questions!", 
+		"We will keep you updated on our latest project and sponsorship updates."
+	],
+	"download-button-text": "Download",
+	"download-file": "data/files/STACCorporateSponsorship.pdf",
+	"email": "sponsor@stac.berkeley.edu"
+}

@@ -41,7 +41,7 @@
                 <div class="post-snippet mb64">
                     <!-- Blog Image -->
                     <img class="mb24" alt="{{ config['post-img']['alt'] }}" 
-                    src="{{ config['post-img']['url'] }}" />
+                    src="{{ url_for('static', filename=config['post-img']['url']) }}" />
                     <!-- End of Blog Image -->
 
 

@@ -5,10 +5,9 @@
         <div class="row">
             <div class="col-sm-4">
                 <a href="#">
-                    <img class="image-xxs" alt="STAC Logo" src="{{ club['logo']['stac']['light'] }}">
+                    <img class="image-xxs" alt="STAC Logo" src=" {{ url_for('static', filename=club['logo']['stac']['light']) }}">
                 </a>
             </div>
-        
             <div class="col-sm-4 text-center">
                 <span class="fade-half">
                     {{ club["rights"] }}

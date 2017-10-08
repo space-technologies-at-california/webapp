@@ -5,8 +5,10 @@ from flask import Flask
 from flask import render_template
 from flask import url_for
 from flask import redirect
+from werkzeug.contrib.cache import SimpleCache
 
 app = Flask(__name__)
+cache = SimpleCache()
 
 def load_json(path, root="static/data/", subroot=""):
 	root += subroot
@@ -24,6 +26,7 @@ else:
 		"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob("static/data/projects/*.json") },
 		"team": load_json("team.json"),
 		"sponsor": load_json("sponsor.json"),
+		"sponsor-confirmation": load_json("sponsor-confirmation.json"),
 		"icon": load_json("icon.json")
 	}
 
@@ -40,6 +43,9 @@ else:
 		f.write(json.dumps(config, indent=2))
 
 
+
+##################### Cross Page Functionalities #####################
+
 @app.context_processor
 def utility_processor():
     return dict(navbar=config["navbar"], club=config['club'], icon=config["icon"])
@@ -54,6 +60,10 @@ def index():
 @app.route("/apply")
 def join():
 	return render_template("join.html")
+
+@app.route("/sponsor/confirmation")
+def sponsor_confirmation():
+	return render_template("sponsor-confirmation.html", config=config['sponsor-confirmation'])
 
 @app.route("/project")
 @app.route("/projects")

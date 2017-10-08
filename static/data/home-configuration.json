@@ -1,33 +1,33 @@
 {	
 	"title": "Home",
 	"head-parallax": {
-		"background": "static/img/background/space7.jpg",
-		"logo": "static/img/logo/logo-subheadline-white.png",
+		"background": "img/background/space7.jpg",
+		"logo": "img/logo/logo-subheadline-white.png",
 		"title": "Welcome to Space!",
 		"description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
 	},
 	"second-parallax": {
-		"background": "static/img/background/golden_bridge.jpg",
+		"background": "img/background/golden_bridge.jpg",
 		"title": "TO BE DONE",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 	},
 	"third-parallax": {
-		"background": "static/img/background/golden_bridge.jpg",
+		"background": "img/background/golden_bridge.jpg",
 		"title": "TO BE DONE",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 	},
 	"fourth-parallax": {
-		"background": "static/img/background/golden_bridge.jpg",
+		"background": "img/background/golden_bridge.jpg",
 		"title": "TO BE DONE",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 	},
 	"fifth-parallax": {
-		"background": "static/img/background/golden_bridge.jpg",
+		"background": "img/background/golden_bridge.jpg",
 		"title": "TO BE DONE",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 	},
 	"sixth-parallax": {
-		"background": "static/img/background/golden_bridge.jpg",
+		"background": "img/background/golden_bridge.jpg",
 		"title": "TO BE DONE",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 	}

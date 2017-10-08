@@ -9,16 +9,16 @@
 	"rights": "© Copyright 2017 STAC - All Rights Reserved",
 	"logo": {
 		"stac": {
-			"light": "static/img/logo/logo-light.png",
-			"black": "static/img/logo/logo-black.png"
+			"light": "img/logo/logo-light.png",
+			"black": "img/logo/logo-black.png"
 		},
 		"stac-with-headline": {
-			"light": "static/img/logo/logo-subheadline-light.png",
-			"black": "static/img/logo/logo-subheadline-black.png"
+			"light": "img/logo/logo-subheadline-light.png",
+			"black": "img/logo/logo-subheadline-black.png"
 		},
 		"full": {
-			"light": "static/img/logo/logo-full-light.png",
-			"black": "static/img/logo/logo-full-black.png"
+			"light": "img/logo/logo-full-light.png",
+			"black": "img/logo/logo-full-black.png"
 		}
 	},
 	"social-media": {

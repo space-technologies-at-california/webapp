@@ -11,10 +11,7 @@
 			"Example Project 2": "/project"
 		},
 		"Blog": "https://medium.com/@stac",
-		"Sponsor": {
-			"Our Sponsors": "/sponsor",
-			"Support Us": ""
-		}
+		"Sponsor": "/sponsor"
 	},
 	"right-menu-enabled": true,
 	"right-menu": {
