@@ -75,7 +75,10 @@
 		transition-property: -webkit-transform;
 		transition-property: transform;
 		transition-property: transform, -webkit-transform;
+		height: 270px !important;
+		max-width: 360px !important;
 }
+
 .custom__overlay:hover .custom__overlay__background {
 		opacity: 1;
 }
@@ -92,6 +95,7 @@
 		opacity: 1;
 		-webkit-transition-delay: 100ms;
 				transition-delay: 100ms;
+		text-overflow: scroll;
 }
 .custom__overlay:hover .custom__overlay__image--skew {
 		-webkit-transform: rotate(5deg) scale(1.2);
