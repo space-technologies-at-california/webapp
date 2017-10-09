@@ -7,5 +7,7 @@
 	"github": "ti-github",
 	"web": "ti-world",
 	"checkbox": "ti-check-box",
-	"download": "ti-download"
+	"download": "ti-download",
+	"user": "ti-user",
+	"tag": "ti-tag"
 }

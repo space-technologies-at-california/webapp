@@ -1,0 +1,24 @@
+{
+	"title": "High Altitude Balloon",
+	"post-img": {
+		"alt": "High Altitude Balloon (HAB)",
+		"url": "img/projects/balloon/balloon.png"
+	},
+	"date": "23 Sept",
+	"blog-title": "High Altitude Balloon",
+	"blog-info": {
+		"Project Led by": {
+			"list": ["Abhishyant Khare"],
+			"icon": "user"
+		},
+		"Tagged as": {
+			"list": ["Engineering"],
+			"icon": "tag"
+		}
+	},
+	"blog-content": [
+			"A high altitude balloon is an unmanned balloon, typically a weather balloon, that is launched into near space usually with some kind of scientific payload or camera. Balloons reach about 20-30 kilometers in altitude and stay aloft for 2-3 hours. High altitude balloons have recently been a focus in the scientific community as a low cost method of launching equipment into near space.", 
+			"High altitude balloons are of interest to the space community and STAC because they offer a cheap method to launch experiments to near space which might have previously required an expensive satellite. While there are a variety of space applications for high altitude balloons, the current project will focus on the long term goal of launching telescopes on high altitude balloons and on creating a reliable high altitude balloon for future STAC experiments. This way, observations can be made above the pollution of Earth’s atmosphere for a low cost.",
+			"The project will first attempt to build and launch a high altitude balloon with a test payload consisting of a camera. The goal is to create a reliable method for launching and retrieving a high altitude balloon before putting expensive equipment as the payload. Once the ability to do this is successfully is ensured, then the telescope payload will be designed and built, and launched with the balloon and will hopefully show that it is possible to put telescopes above Earth’s atmosphere for a low cost. Once that is accomplished, the balloon could be used for other experiments by STAC or as a low cost near space telescope research tool for scientists."
+		]
+}

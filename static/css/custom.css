@@ -5,6 +5,9 @@
 	color: #47b475;
 	font-weight: bold;
 }
+.blog-image {
+	max-height: 400px
+}
 
 /*Team Member Profile custom__Overlay Effect*/
 .custom__overlay {
