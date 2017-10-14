@@ -3,7 +3,7 @@
 		"Home": "/",
 		"About Us": {
 			"Team": "/team",
-			"Advisor": "",
+			"Advisor": "/advisor",
 			"Media Coverage": "/"
 		},
 		"Projects": {

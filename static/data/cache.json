@@ -4,7 +4,7 @@
       "Home": "/",
       "About Us": {
         "Team": "/team",
-        "Advisor": "",
+        "Advisor": "/advisor",
         "Media Coverage": "/"
       },
       "Projects": {
@@ -206,10 +206,71 @@
       ]
     }
   },
+  "advisor": {
+    "title": "Advisor",
+    "background": "img/background/golden_bridge.jpg",
+    "section": "The mentors who give us advice",
+    "modal-heading": "Advisor",
+    "advisor": [
+      {
+        "name": "Scott Nolan",
+        "photo": "img/team/advisor/scott-nolan.jpg",
+        "profile-order": 1,
+        "affiliation": "Founders Fund",
+        "bio": [
+          "Scott Nolan is a Partner at Founders Fund, where he focuses on investments in technology-driven companies across sectors including energy, biotechnology, aerospace, healthcare and advanced manufacturing.  Scott is a board member at Branch, CollectiveHealth, Plethora, Synthego and another company in stealth mode.",
+          "Prior to Founders Fund, Scott was an early employee at SpaceX.  There, he helped develop the propulsion systems used on the Falcon 1, Falcon 9 and Dragon vehicles and was responsible for the Dragon capsule\u2019s thermal and environmental control subsystems.",
+          "After SpaceX, Scott spent time at Bain & Company working with its private equity clients, and co-founded a startup building social web apps on the Facebook Connect platform.  Scott earned both a BS and MEng in Mechanical and Aerospace Engineering from Cornell University in 4 years, and received his MBA from Stanford University where he was co-president of the Entrepreneurs Club."
+        ]
+      },
+      {
+        "name": "Tess Hatch",
+        "photo": "img/team/advisor/tess-hatch.jpg",
+        "profile-order": 2,
+        "affiliation": "Bessemer Venture Partners",
+        "bio": [
+          "Tess is an investor in Bessemer Venture Partners Menlo Park office. She is focused on frontier tech, specifically commercial space, machine/deep/reinforcement learning, blockchain, and quantum computing. She currently serves as board observer for Rocket Lab, Spire, Auth0, Endgame, Distil Networks, Team8, Virtru, Claroty, CyberGRX, and Illusive Networks.",
+          "She holds a bachelor\u2019s degree in aerospace engineering from the University of Michigan (go blue!) and a master\u2019s degree in aeronautics and astronautics engineering from Stanford (go trees!). She was a mission manager at SpaceX where she worked with the government on integrating their payloads with the Falcon9 rocket. She also worked at Fictiv, a startup using 3D printing and CNC machining to democratize access to manufacturing.",
+          "Tess writes a space comic, Ada Ride, which you should check out for a good laugh. Don\u2019t be surprised if Tess asks you to go on a hike or walk rather than a typical coffee meeting \u2013 being a SoCal native she loves the sun."
+        ]
+      },
+      {
+        "name": "Christopher Richins",
+        "photo": "img/team/advisor/christopher-richins.jpg",
+        "profile-order": null,
+        "affiliation": "RBC Signals",
+        "bio": [
+          "Christopher Richins is co-founder and CEO of RBC Signals, a provider of global satellite ground station \"infrastructure as a service.\" Richins began his career as an RF Communications Engineer at Boeing Sea Launch, where he supported multiple launch campaigns from the ship-based equatorial launch site.",
+          "After business school, he completed an internship with SpaceX before joining Bain & Company as a management consultant. Post Bain, Richins held management roles at Arkyd Astronautics (Planetary Resources), Space Angels Network, Expedia, and Applause.",
+          "Richins earned an MBA from the Darden Graduate School of Business at the University of Virginia as a Jefferson Fellow, a master\u2019s degree in Astronautics from the University of Southern California, and a bachelor\u2019s degree in Electrical Engineering from Brigham Young University."
+        ]
+      },
+      {
+        "name": "Clarissa Redwine",
+        "photo": "img/team/advisor/clarissa-redwin.jpg",
+        "profile-order": null,
+        "affiliation": "Kickstarter",
+        "bio": [
+          "Clarissa Redwine is Kickstarter\u2019s Design & Technology Outreach Lead for the west coast. She travels up and down the coast in search of innovators, creators, and makers who can leverage the powerful community and storytelling tool of Kickstarter to bring creative projects to life."
+        ]
+      },
+      {
+        "name": "Garrett Goldberg",
+        "photo": "img/team/advisor/garrett-goldberg.jpg",
+        "profile-order": null,
+        "affiliation": "Bee Partners",
+        "bio": [
+          "Garrett Goldberg is a Partner at Bee Partners, a pre-Seed stage venture capital firm focused on supporting passionate Founders with deep market insights.  He focuses on identifying Founders and startups servicing enterprises and enabling new marketplaces.  He actively seeks investments in frontier technologies (drones, AI, NewSpace) and invests time in building companies that matter.",
+          "The team at Bee are partners to the Founders and organizations in their community and believe time is worth more than money.   An entrepreneur at heart, Garrett has worked in professional sports, real estate development, and technology. (BA, Stanford; MBA, Foster School, U. of Washington).",
+          "Bee Partners is a seed stage VC, acting as First Investor in over half our portfolio.  We invest in Founders with Deep Market Insights -- either an enabling/frontier technology that stratifies multiple industries, or a vertically-focused enterprise SaaS approach that has the opportunity to reach across multiple functional roles within that vertical."
+        ]
+      }
+    ]
+  },
   "team": {
     "title": "Team",
     "background": "img/background/golden_bridge.jpg",
-    "section": "The people who made it happen...",
+    "section": "The people who made it happen",
     "member": [
       {
         "name": "Travis Brashears",

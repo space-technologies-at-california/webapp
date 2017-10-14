@@ -1,6 +1,6 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
-/*Blog Author Font*/
+/* Blog Author Font */
 .blogAuthor {
 	color: #47b475;
 	font-weight: bold;
@@ -9,7 +9,7 @@
 	max-height: 400px
 }
 
-/*Team Member Profile custom__Overlay Effect*/
+/* Team Member Profile custom__Overlay Effect */
 .custom__overlay {
 		position: relative;
 		overflow: hidden;
@@ -112,3 +112,53 @@
 		-webkit-transform: scale(1.2);
 				transform: scale(1.2);
 }
+
+/* Advisor Page Lightbox Effects */
+.advisor_model_image {
+	-webkit-transition-duration: 250ms;
+			transition-duration: 250ms;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	max-height: 270px !important;
+	max-width: 360px !important;
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+
+}
+.advisor_model_content_image {
+	-webkit-transition-duration: 250ms;
+			transition-duration: 250ms;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	max-height: 320px !important;
+	max-width: 450px !important;
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+}
+.advisor_modal {
+	padding: 48px 48px !important;
+	max-height: 95% !important;
+	max-width: 65% !important;
+	width: 65% !important;
+}
+.advisor_modal h4, 
+.advisor_modal h5, 
+.advisor_modal h6 {
+	margin-bottom: 5px !important;
+}
+.advisor_modal img {
+	margin-bottom: 30px;
+}
+.btn-modal img {
+	opacity: 0.9;
+}
+.btn-modal img:hover {
+	opacity: 1;
+}
+

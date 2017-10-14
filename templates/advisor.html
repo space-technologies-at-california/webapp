@@ -1,0 +1,93 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder">
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename=config['background']) }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">{{ config['title'] }}</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li class="active">{{ config['title'] }}</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<!-- Advisor Profile -->
+<section>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">{{ config['section'] }}</h4>
+            </div>
+        </div>
+
+
+        <!-- Advisor Bio -->
+    	{% for advisor in config['advisor'] %}
+	    	{% if loop.index % 3 == 1 or loop.first %}
+	        <div class="row">
+	        {% endif %}
+	            <div class="col-md-4">
+	                <div class="image-tile outer-title text-center">
+                        <div class="custom__overlay">
+                            <!-- Modal -->
+						    <div class="modal-container">
+						        <a class="btn-modal advisor_model_image" href="#">
+						        	<img alt="{{ advisor['name'] }} photo" src="{{ url_for('static', filename=advisor['photo']) }}" >
+						        </a>
+						        <div class="foundry_modal advisor_modal">
+						            <h4>{{ config['modal-heading'] }}</h4>
+						            <h2><b>{{ advisor['name'] }}</b></h2>
+						            <img alt="{{ advisor['name'] }} photo" src="{{ url_for('static', filename=advisor['photo']) }}" class="advisor_model_content_image">
+						            <div>
+							            {% for paragraph in advisor['bio']%}
+							            <p>{{ paragraph }}</p>
+							            {% endfor %}
+						        	</div>
+						        </div>
+						    </div>
+						    <!-- End Modal-->
+                        </div>
+	                    <div class="title mb16">
+	                        <h5 class="uppercase mb0"> {{ advisor['name']}}</h5>
+                            <div class="custom__overlay__content-heading">
+                                {{ advisor['affiliation'] }}<br>
+                            </div>
+	                    </div>
+	                </div>
+	            </div>
+	        {% if loop.index % 3 == 0 or loop.last %}
+	        </div>
+	        {% endif %}
+        <!--end of row-->
+        {% endfor %}
+        <!-- End of Members -->
+
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Advisor Profile -->
+
+{% endblock %}

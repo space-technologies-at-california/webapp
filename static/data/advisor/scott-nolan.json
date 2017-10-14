@@ -1,0 +1,11 @@
+{
+    "name": "Scott Nolan",
+    "photo": "img/team/advisor/scott-nolan.jpg",
+    "profile-order": 1,
+    "affiliation": "Founders Fund",
+    "bio": [
+        "Scott Nolan is a Partner at Founders Fund, where he focuses on investments in technology-driven companies across sectors including energy, biotechnology, aerospace, healthcare and advanced manufacturing.  Scott is a board member at Branch, CollectiveHealth, Plethora, Synthego and another company in stealth mode.",
+        "Prior to Founders Fund, Scott was an early employee at SpaceX.  There, he helped develop the propulsion systems used on the Falcon 1, Falcon 9 and Dragon vehicles and was responsible for the Dragon capsule’s thermal and environmental control subsystems.",
+        "After SpaceX, Scott spent time at Bain & Company working with its private equity clients, and co-founded a startup building social web apps on the Facebook Connect platform.  Scott earned both a BS and MEng in Mechanical and Aerospace Engineering from Cornell University in 4 years, and received his MBA from Stanford University where he was co-president of the Entrepreneurs Club."
+    ]
+}
