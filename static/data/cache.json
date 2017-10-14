@@ -5,20 +5,36 @@
         "Home": "/"
       },
       {
-        "About Us": {
-          "Team": "/team",
-          "Advisor": "/advisor",
-          "Media Coverage": "/"
-        }
+        "About Us": [
+          {
+            "Team": "/team"
+          },
+          {
+            "Advisor": "/advisor"
+          },
+          {
+            "Media Coverage": "/"
+          }
+        ]
       },
       {
-        "Projects": {
-          "Autonomous Rover": "/project/rover",
-          "BioSphere": "/project/biosphere",
-          "High Altitude Balloon": "/project/balloon",
-          "Example Project 1": "/project",
-          "Example Project 2": "/project"
-        }
+        "Projects": [
+          {
+            "Autonomous Rover": "/project/rover"
+          },
+          {
+            "BioSphere": "/project/biosphere"
+          },
+          {
+            "High Altitude Balloon": "/project/balloon"
+          },
+          {
+            "Example Project 1": "/project"
+          },
+          {
+            "Example Project 2": "/project"
+          }
+        ]
       },
       {
         "Blog": "https://medium.com/@stac"

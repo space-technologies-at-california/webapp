@@ -35,20 +35,23 @@
                         {% for lst in navbar['left-menu'] %}
                             {% for label, value in lst.items() %}
 
-                                {% if value is mapping %}
+                                {% if value is not string %}
                                     <!-- Second Degree Navbar -->
                                     <li class="has-dropdown">
                                         <a href="#">{{label}}</a>
                                         <ul>
-                                            {% for label2, value2 in value.items() %}
-                                                {% if value2 is mapping %}
+                                            {% for lst2 in value %}
+                                            {% for label2, value2 in lst2.items() %}
+                                                {% if value2 is not string %}
 
                                                     <!-- Third Degree Navbar -->
                                                     <li class="has-dropdown">
                                                         <a href="#">{{ label2 }}</a>
                                                         <ul>
-                                                            {% for label3, value3 in value2.items() %}
+                                                            {% for lst3 in value2 %}
+                                                            {% for label3, value3 in lst3.items() %}
                                                                 <li><a href="{{ value3 }}">{{ label3 }}</a></li>
+                                                            {% endfor %}
                                                             {% endfor %}
                                                         </ul>
                                                     </li>
@@ -58,6 +61,7 @@
                                                 <li><a href="{{ value2 }}">{{ label2 }}</a></li>
 
                                                 {% endif %}
+                                            {% endfor %}
                                             {% endfor %}
                                         </ul>
                                     </li>
@@ -82,20 +86,23 @@
                             {% for lst in navbar['right-menu'] %}
                                 {% for label, value in lst.items() %}
 
-                                    {% if value is mapping %}
+                                    {% if value is not string %}
                                         <!-- Second Degree Navbar -->
                                         <li class="has-dropdown">
                                             <a href="#">{{label}}</a>
                                             <ul>
-                                                {% for label2, value2 in value.items() %}
-                                                    {% if value2 is mapping %}
+                                                {% for lst2 in value %}
+                                                {% for label2, value2 in lst2.items() %}
+                                                    {% if value2 is not string %}
 
                                                         <!-- Third Degree Navbar -->
                                                         <li class="has-dropdown">
                                                             <a href="#">{{ label2 }}</a>
                                                             <ul>
-                                                                {% for label3, value3 in value2.items() %}
+                                                                {% for lst2 in value2 %}
+                                                                {% for label3, value3 in lst2.items() %}
                                                                     <li><a href="{{ value3 }}">{{ label3 }}</a></li>
+                                                                {% endfor %}
                                                                 {% endfor %}
                                                             </ul>
                                                         </li>
@@ -105,6 +112,7 @@
                                                     <li><a href="{{ value2 }}">{{ label2 }}</a></li>
 
                                                     {% endif %}
+                                                {% endfor %}
                                                 {% endfor %}
                                             </ul>
                                         </li>
