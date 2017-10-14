@@ -1,4 +1,3 @@
-import os
 from flask import Flask
 from flask import render_template
 from flask import url_for
@@ -61,8 +60,5 @@ def internal_server_error(e):
 
 #################### Main App #####################
 if __name__ == "__main__":
-    # app.run()
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
-    app.debug = True
+    app.run()
 

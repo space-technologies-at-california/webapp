@@ -1,7 +1,9 @@
 import os
 import glob
 import json
+
 def load_json(path, root="static/data/", subroot=""):
+	root = os.getcwd() + "/" + root
 	root += subroot
 	return json.loads(open(root + path).read())
 
