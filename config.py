@@ -43,9 +43,10 @@ else:
 
 	# Cache configuration for Sponsor
 	config["sponsor"].update({
-		"partner-logo": { x.split(".")[0] : x for x in glob.glob(real_root_path + "static/img/logo/partner/*")}
+		"partner-logo": { x.split(".")[0][x.index("static"):] : x[x.index("static"):] for x in glob.glob(real_root_path + "static/img/logo/partner/*")}
 	})
 
 	# Save cache
 	with open("static/data/cache.json", "w") as f:
 		f.write(json.dumps(config, indent=2))
+
