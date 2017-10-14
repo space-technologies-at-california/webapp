@@ -1,26 +1,54 @@
 {
   "navbar": {
-    "left-menu": {
-      "Home": "/",
-      "About Us": {
-        "Team": "/team",
-        "Advisor": "/advisor",
-        "Media Coverage": "/"
+    "left-menu": [
+      {
+        "Home": "/"
       },
-      "Projects": {
-        "Autonomous Rover": "/project/rover",
-        "BioSphere": "/project/biosphere",
-        "High Altitude Balloon": "/project/balloon",
-        "Example Project 1": "/project",
-        "Example Project 2": "/project"
+      {
+        "About Us": [
+          {
+            "Team": "/team"
+          },
+          {
+            "Advisor": "/advisor"
+          },
+          {
+            "Media Coverage": "/"
+          }
+        ]
       },
-      "Blog": "https://medium.com/@stac",
-      "Sponsor": "/sponsor"
-    },
+      {
+        "Projects": [
+          {
+            "Autonomous Rover": "/project/rover"
+          },
+          {
+            "BioSphere": "/project/biosphere"
+          },
+          {
+            "High Altitude Balloon": "/project/balloon"
+          },
+          {
+            "Example Project 1": "/project"
+          },
+          {
+            "Example Project 2": "/project"
+          }
+        ]
+      },
+      {
+        "Blog": "https://medium.com/@stac"
+      },
+      {
+        "Sponsor": "/sponsor"
+      }
+    ],
     "right-menu-enabled": true,
-    "right-menu": {
-      "Join Us": "/join"
-    }
+    "right-menu": [
+      {
+        "Join Us": "/join"
+      }
+    ]
   },
   "club": {
     "name": "Space Technologies at Cal",
@@ -848,23 +876,23 @@
     "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
     "mailing-list-error-msg": "Please fill all fields correctly.",
     "partner-logo": {
-      "static/img/logo/partner/davis": "static/img/logo/partner/davis.png",
-      "static/img/logo/partner/icon": "static/img/logo/partner/icon.png",
-      "static/img/logo/partner/tech_fund": "static/img/logo/partner/tech_fund.jpg",
-      "static/img/logo/partner/big_give": "static/img/logo/partner/big_give.jpg",
-      "static/img/logo/partner/calalumni": "static/img/logo/partner/calalumni.png",
-      "static/img/logo/partner/ucsb": "static/img/logo/partner/ucsb.png",
-      "static/img/logo/partner/berkeleyengineering": "static/img/logo/partner/berkeleyengineering.jpg",
-      "static/img/logo/partner/dentspace": "static/img/logo/partner/dentspace.png",
-      "static/img/logo/partner/kla": "static/img/logo/partner/kla.png",
-      "static/img/logo/partner/nasa": "static/img/logo/partner/nasa.png",
-      "static/img/logo/partner/ssl": "static/img/logo/partner/ssl.png",
-      "static/img/logo/partner/logo": "static/img/logo/partner/logo.png",
-      "static/img/logo/partner/pear": "static/img/logo/partner/pear.png",
-      "static/img/logo/partner/ssl-small": "static/img/logo/partner/ssl-small.png",
-      "static/img/logo/partner/blueorigin": "static/img/logo/partner/blueorigin.png",
-      "static/img/logo/partner/berkeleyinnovator": "static/img/logo/partner/berkeleyinnovator.jpg",
-      "static/img/logo/partner/asuc": "static/img/logo/partner/asuc.png"
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/davis": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/davis.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/icon": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/icon.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/tech_fund": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/tech_fund.jpg",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/big_give": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/big_give.jpg",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/calalumni": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/calalumni.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/ucsb": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/ucsb.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/berkeleyengineering": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/berkeleyengineering.jpg",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/dentspace": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/dentspace.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/kla": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/kla.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/nasa": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/nasa.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/ssl": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/ssl.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/logo": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/logo.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/pear": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/pear.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/ssl-small": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/ssl-small.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/blueorigin": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/blueorigin.png",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/berkeleyinnovator": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/berkeleyinnovator.jpg",
+      "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/asuc": "/Users/michael-tu/github/webapps/stac/static/img/logo/partner/asuc.png"
     }
   },
   "sponsor-confirmation": {
