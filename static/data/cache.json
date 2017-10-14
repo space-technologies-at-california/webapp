@@ -223,7 +223,7 @@
           "github": null,
           "twitter": null,
           "web": "http://www.travisbrashears.com",
-          "email": null
+          "email": "mailto:trbrashears@berkeley.edu"
         }
       },
       {
@@ -542,19 +542,124 @@
         "bio": "I have a lot of passion for design. I\u2019m extremely interested to see how engineering in space changes in the coming future and am excited to contribute to the advancement of our understanding of the great unknown. STAC has been a great organization that has bolstered my creativity and helped me foster closer relationships with my teammates. I look forward to exploring space with them!"
       },
       {
-        "name": "Kireet Agrawal",
-        "photo": "img/team/member/kireet-agrawal.jpg",
+        "name": "Andrea Padron",
+        "photo": "img/team/member/andrea-padron.jpg",
         "profile-order": null,
         "major": "Electrical Engineering & Computer Science",
-        "title": "High Altitude Ballon Project Member",
+        "title": "CubeSat Deployer Project Member",
         "links": {
-          "linkedin": "https://www.linkedin.com/in/kireetagrawal/",
-          "github": "https://github.com/kagrawal2",
+          "linkedin": "",
+          "github": "",
           "twitter": "",
           "web": "",
           "email": ""
         },
-        "bio": "After countless trips to Kennedy space center and seeing the direct impact of innovations for the final frontier, I've been enthralled with space. I love the challenging atmosphere that surrounds technology in space. I love making wide variety of things and am currently focusing on the intersection of software, electronics and mechanical design."
+        "bio": "Space exploration and the development of space technology can open so many doors for humanity. There are answers to questions we haven't even asked yet, and space allows us to learn about ourselves and the universe. I also think everyone should have the opportunity to go to space! It would be amazing for future generations to get to experience life beyond Earth."
+      },
+      {
+        "name": "Brian Lo",
+        "photo": "img/team/member/brian-lo.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "After coming to UC Berkeley, I became very interested in aerospace through my engineering classes and certain aerospace clubs on campus. Space fascinates me because there is so much still unknown for us to explore and experiment. I am excited to take part in this exploration of space while expressing my creative freedom through STAC."
+      },
+      {
+        "name": "Christine Giuliano",
+        "photo": "img/team/member/christine-giuliano.jpg",
+        "profile-order": null,
+        "major": "Bioengineering",
+        "title": "TIME-2 Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I want (people) to live on Mars someday, but I also think that stretching the limits of science for space exploration has an extraordinary capacity for ameliorating human health. I would love to someday work on nanoscale enzyme prototypes, bioengineered food systems, or lightweight medical devices that help keep astronauts healthy but also give way to medical or ecological earth-based applications. "
+      },
+      {
+        "name": "Daksh Dave",
+        "photo": "img/team/member/daksh-dave.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Biosphere Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/dakshdave/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm fascinated by the possibility of working on a tangible project that has the potential of actually being launched into space. Also, I'm a big Star Trek fan. "
+      },
+      {
+        "name": "Daniel Jiang",
+        "photo": "img/team/member/daniel-jiang.jpg",
+        "profile-order": null,
+        "major": "Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/daniel-jiang/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "After interning at NASA and interning at an autonomous car company, I figured why not combine the best of both worlds and work on autonomous systems in space!  So I joined STAC to do exactly that, and also to meet others who are just as interested in space and cutting-edge tech as I am."
+      },
+      {
+        "name": "David Mai",
+        "photo": "img/team/member/david-mai.jpg",
+        "profile-order": null,
+        "major": "Bioengineering",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "There are so many things we haven't seen, and an incomprehensible amount of space for us to grow both physically and intellectually. I'm interested in furthering life beyond our terrestrial realm through building sustainable synthetic systems."
+      },
+      {
+        "name": "Eric D'sa",
+        "photo": "img/team/member/eric-d'sa.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "High Altitude Ballon Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The constraints of space result in really amazing technologies, from efficient jet propulsion to long range communication to autonomous control. I'm really interested in the innovations that come from developing for these environmental conditions, and all the amazing things we can do from these inventions."
+      },
+      {
+        "name": "Jonathan Lee",
+        "photo": "img/team/member/jonathan-lee.jpg",
+        "profile-order": null,
+        "major": "Materials Science and Engineering",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Sooner or later, humankind is going to evolve beyond Earth.  Space is our inevitable, irresistible destiny.  But first, our fledgling species has to leave the nest and that's where our generation comes in, paving the runway to the stars and unlocking the door to a future of infinite potential."
       },
       {
         "name": "Junhao Yu",
@@ -570,6 +675,96 @@
           "email": ""
         },
         "bio": "I\u2019m a freshman in Physics and I hold strong interests in the space. I am heavily involved in physics theories and get trained in designed. With science and passion, human beings start with nothing and build the whole civilized world, so shall we today. I\u2019m eager to do my best achieving each step of exploring the space with my passionate and outstanding teammates."
+      },
+      {
+        "name": "Kelvin Pang",
+        "photo": "img/team/member/kelvin-pang.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "TIME-2 Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/kelvinpang02",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm interested in space because it's currently the final frontier and truly innovative engineering is what it takes to further explore it. From that engineering, newly discovered technologies can be a significant impact in making the world a better place both on Earth and beyond."
+      },
+      {
+        "name": "Kevin Tang",
+        "photo": "img/team/member/kevin-tang.jpg",
+        "profile-order": null,
+        "major": "Astrophysics",
+        "title": "High Altitude Ballon Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/kevin-tang-870372141/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Learning about the development of the universe allows us to learn more about our own origins as living beings. Studying seemingly obscure topics such as cosmology or planetary and stellar sciences can help us learn more about why and how we came to be. STAC's mission to enable life beyond earth is yet another step to allow us to discover more about ourselves."
+      },
+      {
+        "name": "Kireet Agrawal",
+        "photo": "img/team/member/kireet-agrawal.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "High Altitude Ballon Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/kireetagrawal/",
+          "github": "https://github.com/kagrawal2",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "After countless trips to Kennedy space center and seeing the direct impact of innovations for the final frontier, I've been enthralled with space. I love the challenging atmosphere that surrounds technology in space. I love making wide variety of things and am currently focusing on the intersection of software, electronics and mechanical design."
+      },
+      {
+        "name": "Sirej Dua",
+        "photo": "img/team/member/sirej-dua.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"
+      },
+      {
+        "name": "Steven Cao",
+        "photo": "img/team/member/steven-cao.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "TIME2 Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I took a seminar in modern physics in senior year of high school, and I loved learning about the frontiers of science. I think space is the most frontier-like of all the sciences: all of our current knowledge comes from an Earth-like environment, so space offers unlimited potential for discovery. I want to spend my entire life discovering new things, and that starts here at STAC!"
+      },
+      {
+        "name": "Zachary Yun",
+        "photo": "img/team/member/zachary-yun.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Student Advisor",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I have been interested in space since I was a kid. That interest and excitement has only grown in recent years since having the opportunity to work on cubesats during my undergrad studies at Cal Poly SLO. I am excited to continue working on new projects at Cal that will make space more accessible for everyone. "
       }
     ]
   },

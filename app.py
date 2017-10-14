@@ -5,10 +5,8 @@ from flask import Flask
 from flask import render_template
 from flask import url_for
 from flask import redirect
-from werkzeug.contrib.cache import SimpleCache
 
 app = Flask(__name__)
-cache = SimpleCache()
 
 def load_json(path, root="static/data/", subroot=""):
 	root += subroot
@@ -34,7 +32,10 @@ else:
 	config["team"].update({
 		"member": [ load_json(x, root="", subroot="") for x in glob.glob("static/data/member/*.json")]
 	})
-	config['team']['member'].sort(key=lambda x: x['profile-order'] if x['profile-order'] is not None else float('inf')) # sort profile order
+	# config['team']['member'].sort(key=lambda x: x['profile-order'] if x['profile-order'] is not None else x["name"]) 
+	# sort profile order
+	config['team']['member'] = sorted([x for x in config['team']['member'] if x["profile-order"] is not None], key=lambda x: x["profile-order"]) + sorted([x for x in config['team']['member'] if x["profile-order"] is None], key=lambda x: x["name"])
+
 	config["sponsor"].update({
 		"partner-logo": { x.split(".")[0] : x for x in glob.glob("static/img/logo/partner/*")}
 	})
@@ -92,8 +93,8 @@ def internal_server_error(e):
 
 #################### Main App #####################
 if __name__ == "__main__":
-    #app.run()
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run()
+    # port = int(os.environ.get("PORT", 5000))
+    # app.run(host='0.0.0.0', port=port)
     app.debug = True
 
