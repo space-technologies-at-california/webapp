@@ -32,52 +32,8 @@
                     <ul class="menu">
 
                         <!-- First Degree Navbar -->
-                        {% for label, value in navbar['left-menu'].items() %}
-
-                            {% if value is mapping %}
-                                <!-- Second Degree Navbar -->
-                                <li class="has-dropdown">
-                                    <a href="#">{{label}}</a>
-                                    <ul>
-                                        {% for label2, value2 in value.items() %}
-                                            {% if value2 is mapping %}
-
-                                                <!-- Third Degree Navbar -->
-                                                <li class="has-dropdown">
-                                                    <a href="#">{{ label2 }}</a>
-                                                    <ul>
-                                                        {% for label3, value3 in value2.items() %}
-                                                            <li><a href="{{ value3 }}">{{ label3 }}</a></li>
-                                                        {% endfor %}
-                                                    </ul>
-                                                </li>
-                                                <!-- End of Third Degree Navbar -->
-                                            {% else %}
-
-                                            <li><a href="{{ value2 }}">{{ label2 }}</a></li>
-
-                                            {% endif %}
-                                        {% endfor %}
-                                    </ul>
-                                </li>
-                                <!-- End of Second Degree Navbar -->
-                            {% else %}
-
-                            <li><a href="{{ value }}">{{ label }}</a></li>
-                            
-                            {% endif %}
-                        {% endfor %}
-                        <!-- End of First Degree Navbar -->
-                    </ul>
-                </div>
-                <!-- End of Left Menu -->
-
-                {% if navbar['right-menu-enabled'] %}
-                    <!-- Right Menu -->
-                    <div class="module widget-handle left">
-                        <ul class="menu">
-                            <!-- First Degree Navbar -->
-                            {% for label, value in navbar['right-menu'].items() %}
+                        {% for lst in navbar['left-menu'] %}
+                            {% for label, value in lst.items() %}
 
                                 {% if value is mapping %}
                                     <!-- Second Degree Navbar -->
@@ -111,6 +67,54 @@
                                 <li><a href="{{ value }}">{{ label }}</a></li>
                                 
                                 {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                        <!-- End of First Degree Navbar -->
+                    </ul>
+                </div>
+                <!-- End of Left Menu -->
+
+                {% if navbar['right-menu-enabled'] %}
+                    <!-- Right Menu -->
+                    <div class="module widget-handle left">
+                        <ul class="menu">
+                            <!-- First Degree Navbar -->
+                            {% for lst in navbar['right-menu'] %}
+                                {% for label, value in lst.items() %}
+
+                                    {% if value is mapping %}
+                                        <!-- Second Degree Navbar -->
+                                        <li class="has-dropdown">
+                                            <a href="#">{{label}}</a>
+                                            <ul>
+                                                {% for label2, value2 in value.items() %}
+                                                    {% if value2 is mapping %}
+
+                                                        <!-- Third Degree Navbar -->
+                                                        <li class="has-dropdown">
+                                                            <a href="#">{{ label2 }}</a>
+                                                            <ul>
+                                                                {% for label3, value3 in value2.items() %}
+                                                                    <li><a href="{{ value3 }}">{{ label3 }}</a></li>
+                                                                {% endfor %}
+                                                            </ul>
+                                                        </li>
+                                                        <!-- End of Third Degree Navbar -->
+                                                    {% else %}
+
+                                                    <li><a href="{{ value2 }}">{{ label2 }}</a></li>
+
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
+                                        </li>
+                                        <!-- End of Second Degree Navbar -->
+                                    {% else %}
+
+                                    <li><a href="{{ value }}">{{ label }}</a></li>
+                                    
+                                    {% endif %}
+                                {% endfor %}
                             {% endfor %}
                             <!-- End of First Degree Navbar -->
                         </ul>

@@ -1,23 +1,23 @@
 {	
-	"left-menu":{
-		"Home": "/",
-		"About Us": {
-			"Team": "/team",
-			"Advisor": "/advisor",
-			"Media Coverage": "/"
-		},
-		"Projects": {
-			"Autonomous Rover": "/project/rover",
-			"BioSphere": "/project/biosphere",
-			"High Altitude Balloon": "/project/balloon",
-			"Example Project 1": "/project",
-			"Example Project 2": "/project"
-		},
-		"Blog": "https://medium.com/@stac",
-		"Sponsor": "/sponsor"
-	},
+	"left-menu":[
+		{"Home": "/"},
+		{"About Us": {
+					"Team": "/team",
+					"Advisor": "/advisor",
+					"Media Coverage": "/"
+				}},
+		{"Projects": {
+					"Autonomous Rover": "/project/rover",
+					"BioSphere": "/project/biosphere",
+					"High Altitude Balloon": "/project/balloon",
+					"Example Project 1": "/project",
+					"Example Project 2": "/project"
+				}},
+		{"Blog": "https://medium.com/@stac"},
+		{"Sponsor": "/sponsor"}
+	],
 	"right-menu-enabled": true,
-	"right-menu": {
-		"Join Us": "/join"
-	}
+	"right-menu": [
+		{"Join Us": "/join"}
+	]
 }
