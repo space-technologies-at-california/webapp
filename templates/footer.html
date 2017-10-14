@@ -19,7 +19,7 @@
                     {% for type, link in club['social-media'].items() %}
                         <li>
                             <a href="{{ link }}" target="_blank">
-                                <i class="{{ icon[type] }}"></i>
+                                <i class="{{ icon[type]['fa'] }} fa-lg"></i>
                             </a>
                         </li>
                     {% endfor %}

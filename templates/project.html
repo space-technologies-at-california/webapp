@@ -55,7 +55,7 @@
                     <ul class="post-meta">
                         {% for label, value in config['blog-info'].items() %}
                         <li>
-                            <i class="{{ icon[value['icon']] }}"></i>
+                            <i class="{{ icon[value['icon']]['ti'] }}"></i>
                             <span>
                                 {{ label }}
                                 {% for label2 in value['list'] %}
