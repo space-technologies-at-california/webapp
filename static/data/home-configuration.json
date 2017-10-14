@@ -19,6 +19,7 @@
 	"fourth-parallax": {
 		"background": "img/background/golden_bridge.jpg",
 		"title": "TO BE DONE",
+		"icon": "quote-left",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
 	},
 	"fifth-parallax": {

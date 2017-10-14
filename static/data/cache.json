@@ -74,7 +74,7 @@
       }
     },
     "social-media": {
-      "mail": "mailto:inqury@stac.berkeley.edu",
+      "email": "mailto:inqury@stac.berkeley.edu",
       "twitter": "https://twitter.com/stacBerkeley",
       "facebook": "https://www.facebook.com/stacBerkeley",
       "linkedin": "https://www.linkedin.com/company/12956417/",
@@ -102,6 +102,7 @@
     "fourth-parallax": {
       "background": "img/background/golden_bridge.jpg",
       "title": "TO BE DONE",
+      "icon": "quote-left",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     },
     "fifth-parallax": {
@@ -135,7 +136,7 @@
           "list": [
             "Engineering"
           ],
-          "icon": "tag"
+          "icon": "bookmark"
         }
       },
       "blog-content": [
@@ -164,7 +165,7 @@
           "list": [
             "Engineering"
           ],
-          "icon": "tag"
+          "icon": "bookmark"
         }
       },
       "blog-content": [
@@ -195,7 +196,7 @@
           "list": [
             "Engineering"
           ],
-          "icon": "tag"
+          "icon": "bookmark"
         }
       },
       "blog-content": [
@@ -224,7 +225,7 @@
           "list": [
             "Engineering"
           ],
-          "icon": "tag"
+          "icon": "bookmark"
         }
       },
       "blog-content": [
@@ -909,16 +910,65 @@
     "email": "sponsor@stac.berkeley.edu"
   },
   "icon": {
-    "email": "ti-email",
-    "twitter": "ti-twitter-alt",
-    "facebook": "ti-facebook",
-    "linkedin": "ti-linkedin",
-    "medium": "ti-bookmark-alt",
-    "github": "ti-github",
-    "web": "ti-world",
-    "checkbox": "ti-check-box",
-    "download": "ti-download",
-    "user": "ti-user",
-    "tag": "ti-tag"
+    "email": {
+      "fa": "fa fa-envelope",
+      "ti": "ti-email"
+    },
+    "twitter": {
+      "fa": "fa fa-twitter",
+      "ti": "ti-twitter-alt"
+    },
+    "facebook": {
+      "fa": "fa fa-facebook-square",
+      "ti": "ti-facebook"
+    },
+    "linkedin": {
+      "fa": "fa fa-linkedin-square",
+      "ti": "ti-linkedin"
+    },
+    "medium": {
+      "fa": "fa fa-medium",
+      "ti": "ti-bookmark-alt"
+    },
+    "github": {
+      "fa": "fa fa-github",
+      "ti": "ti-github"
+    },
+    "web": {
+      "fa": "fa fa-globe",
+      "ti": "ti-world"
+    },
+    "checkbox": {
+      "fa": "fa fa-check-square-o",
+      "ti": "ti-check-box"
+    },
+    "download": {
+      "fa": "fa fa-cloud-download",
+      "ti": "ti-download"
+    },
+    "user": {
+      "fa": "fa fa-user-o",
+      "ti": "ti-user"
+    },
+    "tag": {
+      "fa": "fa fa-tag",
+      "ti": "ti-tag"
+    },
+    "bookmark": {
+      "fa": "fa fa-boormark-o",
+      "ti": "ti-bookmark"
+    },
+    "quote-left": {
+      "fa": "fa fa-quote-left",
+      "ti": "ti-quote-left"
+    },
+    "menu": {
+      "fa": "fa fa-bars",
+      "ti": "ti-menu"
+    },
+    "arrow-up": {
+      "fa": "fa fa-chevron-up",
+      "ti": "ti-angle-up"
+    }
   }
 }

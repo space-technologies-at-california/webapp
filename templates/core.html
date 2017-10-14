@@ -45,7 +45,7 @@
 
         <!-- Font Stylesheets -> CHANGE TO WHAT YOU WANT -->
         <link href="{{ url_for('static', filename='css/custom-font.css') }} " rel="stylesheet" type="text/css" media="all" />
-        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/font-awesome.min.css') }} " rel="stylesheet" type="text/css" media="all" />
         <!-- End of Font Stylesheets -->
 
         <!-- Custom Stylesheets -->
@@ -75,7 +75,7 @@
         {% endblock %}
 
         <!-- Return to Top -->
-        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+        <a href="javascript:" id="return-to-top"><i class="{{ icon['arrow-up']['fa'] }}"></i></a>
         
         <div class="main-container">
             
