@@ -3,24 +3,24 @@
 	"head-parallax": {
 		"background": "img/background/space7.jpg",
 		"logo": "img/logo/logo-subheadline-white.png",
-		"title": "Welcome to Space!",
+		"title": "We work to push and innovate space technology",
 		"description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
 	},
 	"second-parallax": {
 		"background": "img/subpage/astronut-design.png",
 		"title": "Innovative Projects",
-		"description": "We are innovating space technologies and working to enable life beyond our Earth through projects including: a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
+		"description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
 	},
 	"third-parallax": {
 		"background": "img/background/cover14.jpg",
 		"title": "Muti-Campus Initiative",
-		"description": "Our innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
+		"description": "Our innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
 	},
 	"fourth-parallax": {
 		"background": "img/background/golden_bridge.jpg",
-		"title": "TO BE DONE",
+		"title": "We cannot just assume great ideas are being worked on.",
 		"icon": "quote-left",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+		"description": "There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is what STAC is trying to do. We work on a project that get humanity one step closer to a long term goal."
 	},
 	"fifth-parallax": {
 		"background": "img/background/golden_bridge.jpg",

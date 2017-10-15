@@ -141,6 +141,36 @@
 </section>
 <!-- End of Sixth Parallax -->
 
+<!-- Sponsors and Partners -->
+<section>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb-30 mb-xs-40">{{ sponsor['section1-heading'] }}</h4>
+                <br>
+            </div>
+        </div>
+        <!--end of row-->
+        <div class="row">
+            <div class="logo-carousel">
+                <ul class="slides">
+                    {% for partner in sponsor['partner-logo'] %}
+                    <li>
+                        <a><img alt="{{partner}}" src="{{ sponsor['partner-logo'][partner]}}" /></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!--end of logo slider-->
+        </div>
+
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Sponsors and Partners -->
+
+
 {% endblock %}
 
 {% block more_scripts %}

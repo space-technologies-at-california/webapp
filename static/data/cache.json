@@ -86,7 +86,7 @@
     "head-parallax": {
       "background": "img/background/space7.jpg",
       "logo": "img/logo/logo-subheadline-white.png",
-      "title": "Welcome to Space!",
+      "title": "We work to push and innovate space technology",
       "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
     },
     "second-parallax": {
@@ -101,9 +101,9 @@
     },
     "fourth-parallax": {
       "background": "img/background/golden_bridge.jpg",
-      "title": "TO BE DONE",
+      "title": "We cannot just assume great ideas are being worked on.",
       "icon": "quote-left",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      "description": "There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is what STAC is trying to do. We work on a project that get humanity one step closer to a long term goal."
     },
     "fifth-parallax": {
       "background": "img/background/golden_bridge.jpg",
@@ -238,8 +238,8 @@
   "advisor": {
     "title": "Advisor",
     "background": "img/background/golden_bridge.jpg",
-    "section": "The mentors who give us advice",
-    "modal-heading": "Advisor",
+    "section": "Awesome industry advice from",
+    "modal-heading": "Industry Advisor",
     "advisor": [
       {
         "name": "Scott Nolan",
@@ -299,7 +299,7 @@
   "team": {
     "title": "Team",
     "background": "img/background/golden_bridge.jpg",
-    "section": "The people who made it happen",
+    "section": "The people who make it happen",
     "member": [
       {
         "name": "Travis Brashears",
@@ -881,7 +881,7 @@
       "Thanks to all of our current sponsors and partners!",
       "Their support ensures that we can continue innovating and breaking through new barriers in space."
     ],
-    "section2-image": "img/group/group2.jpg",
+    "section2-image": "img/group/group3.jpg",
     "section2-heading": "Support Us",
     "section2-description": "If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at",
     "email": "sponsor@stac.berkeley.edu",
