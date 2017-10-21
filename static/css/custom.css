@@ -20,6 +20,9 @@
 	display: block;
 	margin: 0 auto 10px auto;
 }
+ol li {
+	list-style-position: inside
+}
 
 /* Return to Top Button */
 #return-to-top {
