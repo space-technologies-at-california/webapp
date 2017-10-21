@@ -76,40 +76,48 @@
                     {% for paragraph in config['blog-content'] %}
                         {% if paragraph is mapping %}
                             {% if 'type' in paragraph %}
-                                {% if 'list' in paragraph['type'] %}
-                                    <!-- List Paragraph -->
+                                {% if 'unordered-list' in paragraph['type'] %}
+                                    <!-- Unordered List Paragraph -->
                                     <ul class="bullets">
                                         {% for item in paragraph['content'] %}
-                                            <li>{{item}}</li>
+                                            <li>{{item |safe }}</li>
                                         {% endfor %}
                                     </ul>
-                                    <!-- End of List Paragraph -->
+                                    <!-- End of Unordered List Paragraph -->
+                                {% elif 'ordered-list' in paragraph['type'] %}
+                                     <!-- Ordered List Paragraph -->
+                                    <ol class="bullets">
+                                        {% for item in paragraph['content'] %}
+                                            <li>{{item |safe }}</li>
+                                        {% endfor %}
+                                    </ol>
+                                    <!-- End of Ordered List Paragraph -->
                                 {% elif 'image' in paragraph['type'] or 'img' in paragraph['type'] %}
                                     <!-- Image Paragraph -->
                                     <div class="blog-image">
                                         <img src='{{ url_for("static", filename=paragraph["url"]) }}'>
                                         {% if 'caption' in paragraph %}
-                                        <p>{{ paragraph['caption'] }}</p>
+                                        <p>{{ paragraph['caption']  |safe }}</p>
                                         {% endif %}
                                     </div>
                                     <!-- End of Image Paragraph -->
                                 {% else %}
                                     <!-- Custom Typed Paragraph with Custom Class -->
                                     <{{paragraph['type']}} class="{% if 'class' in paragraph %} {{ paragraph['class'] }}{% endif %}">
-                                            {{ paragraph['content'] }}
+                                            {{ paragraph['content']  |safe }}
                                     </{{paragraph['type']}}>
                                     <!-- End of Custom Typed Paragraph with Custom Class -->
                                 {% endif %}
                             {% else %}
                                 <!-- Text Paragraph with Custom Class-->
                                 <p class="{% if 'class' in paragraph %} {{paragraph['class']}} {% endif %}">
-                                    {{ paragraph['content'] }}
+                                    {{ paragraph['content']  |safe }}
                                 </p>
                                 <!-- End of Text Paragraph with Custom Class -->
                             {% endif %}
                         {% else %}
                             <!-- Text Paragraph -->
-                            <p> {{ paragraph }} </p>
+                            <p> {{ paragraph  |safe }} </p>
                             <!-- End of Text Paragraph -->
                         {% endif %}
                     {% endfor %}

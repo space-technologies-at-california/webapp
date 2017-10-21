@@ -41,6 +41,7 @@
 
         <!-- Theme Stylesheets -> CHANGE TO WHAT YOU WANT -->
         <link href="{{ url_for('static', filename='css/theme.css') }}" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{ url_for('static', filename='css/monokai-sublime.css') }}" rel="stylesheet" type="text/css" media="all" />
         <!-- End of Theme Stylesheets -->
 
         <!-- Font Stylesheets -> CHANGE TO WHAT YOU WANT -->
@@ -98,6 +99,7 @@
         <!-- End of Standard Scripts -->
 
         <!-- Custom Scripts -->
+        <script src="{{ url_for('static', filename='js/highlight.pack.js') }}"></script>
         <script src="{{ url_for('static', filename='js/custom-scripts.js') }}"></script>
         <!-- End of Custom Scripts -->
 
