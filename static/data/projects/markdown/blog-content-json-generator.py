@@ -4,7 +4,7 @@ import re
 
 # regex for different styles
 style = {
-	"link": "[^\s!]?\[([^\(\)\[\]\!]+)\]\(([^\(\)\[\]\!]+)\)",
+	"link": "\[([^\(\)\[\]\!]+)\]\(([^\(\)\[\]\!]+)\)",
 	"image": "!\[([^\(\)\[\]\!]+)\]\(([^\(\)\[\]\!]+)\)",
 	"bold": "(?:\*{2}([^\s].*?[^\s]|[^\s])\*{2})|(?:_{2}([^\s].*?[^\s]|[^\s])_{2})", 
 	"italic": "(?:\*([^\s].*?[^\s]|[^\s])\*)|(?:_([^\s].*?[^\s]|[^\s])_)", 
@@ -181,6 +181,9 @@ def creat_json(file):
 	unordered_list_detected = False
 	unordered_list_so_far = []
 	for d in data:
+		if "<pre>" in d and "</code>" in d:
+			res.append(d)
+			continue
 		if len(d) >= 2 and (d[:2] == '- ' or d[:2] == '* '):
 			if ordered_list_detected:
 				ordered_list_detected = False

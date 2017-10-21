@@ -1,22 +1,5 @@
 {
-	"title": "Example Project",
-	"post-img": {
-		"alt": "Post Image",
-		"url": "img/background/cover1.jpg"
-	},
-	"date": "23 Sept",
-	"blog-title": "An amazing title gets lots of attention",
-	"blog-info": {
-		"Project Led by": {
-			"list": ["Person", "Legend", "PM"],
-			"icon": "user"
-		},
-		"Tagged as": {
-			"list": ["Engineering"],
-			"icon": "bookmark"
-		}
-	},
-	"blog-content": [
+  "blog-content": [
     {
       "class": "lead",
       "content": "<b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec consectetur lorem. Vivamus imperdiet egestas eros ac sollicitudin. Nunc aliquet imperdiet lorem. Vivamus hendrerit commodo dui in congue.</b>"
