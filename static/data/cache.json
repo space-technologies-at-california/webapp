@@ -141,7 +141,10 @@
         }
       },
       "blog-content": [
-        "A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies.",
+        {
+          "class": "lead",
+          "content": "A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies."
+        },
         "Currently, several companies and research groups are focusing on developing rovers to explore the surface of Mars to verify that it is sustainable for humans. However, STAC, in partnership with NASA Ames, hopes to build an autonomous resource rover that enables commercial flights and bases on the Moon.",
         "Humans are currently unable to access most of the moon\u2019s extensive resources. There is an abundance of water trapped in the Moon\u2019s ice caps, vast areas of titanium hidden underground, and various volatiles scattered all across the Moon\u2019s surface. With the help of a resource rover that is fully controllable and autonomous, STAC will attempt to extract these resources and return them to Earth for our utilization.",
         "Moreover, research has shown that extracting water can even lead to the generation of fuel by splitting its hydrogen and oxygen atoms. Because these rovers will have autonomous capabilities, they will be extremely easy to maintain and multiply. The end goal is to implement an array of these rovers that all work together to build their own community on the Moon. Once the rovers become powerful and skilled enough, they will be able to use the resources that they extract to aid humans in space exploration."
@@ -170,7 +173,10 @@
         }
       },
       "blog-content": [
-        "The Smart Biosphere Project aims to create a controlled chambers with an earth-like atmosphere that can individually stand as a small greenhouse but can also form a large botanical shelter when connected with other units.",
+        {
+          "class": "lead",
+          "content": "The Smart Biosphere Project aims to create a controlled chambers with an earth-like atmosphere that can individually stand as a small greenhouse but can also form a large botanical shelter when connected with other units."
+        },
         "Potential applications include agriculture processing for food, biofuels, and other chemical production to supply astronauts and space colonies with these necessities. This project opens a new dimension of production in space beyond status quo mechanical and electrical systems and functions as a gateway to the colonization of space.",
         "Each biosphere unit will be maintained by a smart-control software that receives feedback from multiple sensors to ensure environmental equilibrium. Mechanical and chemical integrations will ensure detection of humidity, pH, chemical species, temperature and other environmental state variables. A controlled feedback system ensures that an individual does not need to manually monitor the biosphere.",
         "Another primary consideration for the biosphere is its efficiency. With constraints for energy and resource supplies in extraterrestrial environments, the biosphere should be self-sustaining. Some potential avenues for this development include environmental power harvesting, in-situ resource harvesting, and waste recycling."
@@ -204,7 +210,19 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non",
         "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
         "It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.",
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        {
+          "type": "image",
+          "url": "img/projects/biosphere/biosphere1.png",
+          "caption": "caption"
+        },
+        {
+          "type": "list",
+          "content": [
+            "item 1",
+            "item2"
+          ]
+        }
       ]
     },
     "balloon": {
@@ -230,7 +248,10 @@
         }
       },
       "blog-content": [
-        "A high altitude balloon is an unmanned balloon, typically a weather balloon, that is launched into near space usually with some kind of scientific payload or camera.",
+        {
+          "class": "lead",
+          "content": "A high altitude balloon is an unmanned balloon, typically a weather balloon, that is launched into near space usually with some kind of scientific payload or camera."
+        },
         "Balloons reach about 20-30 kilometers in altitude and stay aloft for 2-3 hours. High altitude balloons have recently been a focus in the scientific community as a low cost method of launching equipment into near space. ",
         "We have started developing a low cost High Altitude Balloon (HAB) program that enables a standardized system to test research experiments in a near-space environment. While there are a variety of space applications for high altitude balloons, the current project will focus on the long term goal of creating a reliable high altitude balloon for future STAC experiments. This way, observations can be made above the Earth\u2019s atmosphere for a low cost.",
         "We will launch three high-altitude balloons by May 2018. The first balloon will be equipped with a camera and electronic sensors to test the efficacy of our system and then two subsequent balloons will be launched with various research experiments, crowdsourced from the Berkeley campus community. This will form the foundation of a long lasting STAC HAB program with launches for years to come. HAB payloads (aerospace cargo) will help detail how a near space environment affects lifeforms, optics, and physical mechanics. Once the ability to do this is successfully is ensured, then we plan to launch a telescope payload to show that it is possible to put telescopes above Earth\u2019s atmosphere for a low cost method of performing cosmology. "

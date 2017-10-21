@@ -41,7 +41,7 @@
                 <!-- Post Content -->
                 <div class="post-snippet mb64">
                     <!-- Blog Image -->
-                    <img class="mb24 blog-image" alt="{{ config['post-img']['alt'] }}" 
+                    <img class="mb24 blog-intro-image" alt="{{ config['post-img']['alt'] }}" 
                     src="{{ url_for('static', filename=config['post-img']['url']) }}" />
                     <!-- End of Blog Image -->
 
@@ -60,7 +60,7 @@
                             <span>
                                 {{ label }}
                                 {% for label2 in value['list'] %}
-                                    <span class="blogAuthor">
+                                    <span class="blog-author">
                                         {{ label2 }}
                                         {% if loop.last %}{% else%},{% endif %}
                                     </span>
@@ -74,9 +74,44 @@
 
                     <!--  Blog Content -->
                     {% for paragraph in config['blog-content'] %}
-                        {% if loop.first %}<p class="lead">{% else %}<p>{% endif %}
-                            {{ paragraph }}
-                        </p>
+                        {% if paragraph is mapping %}
+                            {% if 'type' in paragraph %}
+                                {% if 'list' in paragraph['type'] %}
+                                    <!-- List Paragraph -->
+                                    <ul class="bullets">
+                                        {% for item in paragraph['content'] %}
+                                            <li>{{item}}</li>
+                                        {% endfor %}
+                                    </ul>
+                                    <!-- End of List Paragraph -->
+                                {% elif 'image' in paragraph['type'] or 'img' in paragraph['type'] %}
+                                    <!-- Image Paragraph -->
+                                    <div class="blog-image">
+                                        <img src='{{ url_for("static", filename=paragraph["url"]) }}'>
+                                        {% if 'caption' in paragraph %}
+                                        <p>{{ paragraph['caption'] }}</p>
+                                        {% endif %}
+                                    </div>
+                                    <!-- End of Image Paragraph -->
+                                {% else %}
+                                    <!-- Custom Typed Paragraph with Custom Class -->
+                                    <{{paragraph['type']}} class="{% if 'class' in paragraph %} {{ paragraph['class'] }}{% endif %}">
+                                            {{ paragraph['content'] }}
+                                    </{{paragraph['type']}}>
+                                    <!-- End of Custom Typed Paragraph with Custom Class -->
+                                {% endif %}
+                            {% else %}
+                                <!-- Text Paragraph with Custom Class-->
+                                <p class="{% if 'class' in paragraph %} {{paragraph['class']}} {% endif %}">
+                                    {{ paragraph['content'] }}
+                                </p>
+                                <!-- End of Text Paragraph with Custom Class -->
+                            {% endif %}
+                        {% else %}
+                            <!-- Text Paragraph -->
+                            <p> {{ paragraph }} </p>
+                            <!-- End of Text Paragraph -->
+                        {% endif %}
                     {% endfor %}
                     <!--  End of Blog Content -->
                 </div>

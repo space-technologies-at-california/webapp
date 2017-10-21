@@ -1,12 +1,24 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
-/* Blog Author Font */
-.blogAuthor {
+/* Blog Style */
+.blog-author {
 	color: #47b475;
 	font-weight: bold;
 }
-.blog-image {
+.blog-intro-image {
 	max-height: 400px
+}
+
+.blog-image {
+	margin-bottom: 15px;
+}
+.blog-image p {
+	text-align: center
+}
+.blog-image img {
+	max-height: 300px;
+	display: block;
+	margin: 0 auto 10px auto;
 }
 
 /* Return to Top Button */
