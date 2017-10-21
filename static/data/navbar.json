@@ -3,8 +3,7 @@
 		{"Home": "/"},
 		{"About Us": [
 					{"Team": "/team"},
-					{"Industry Advisors": "/industry-advisors"},
-					{"Media Coverage": "/"}
+					{"Industry Advisors": "/industry-advisors"}
 				]},
 		{"Projects": [
 					{"Autonomous Rover": "/project/rover"},

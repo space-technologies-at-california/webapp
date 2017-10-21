@@ -7,7 +7,10 @@
 
 {% block body %}
 <!-- Page Title Section -->
-<section class="page-title page-title-4 bg-secondary">
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder">
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename=config['background']) }}" />
+    </div>
     <div class="container">
         <div class="row">
             <!-- Main Title -->

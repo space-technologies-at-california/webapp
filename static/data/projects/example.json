@@ -1,5 +1,6 @@
 {
 	"title": "Example Project",
+  "background": "img/background/space9-cut.jpg",
 	"post-img": {
 		"alt": "Post Image",
 		"url": "img/background/cover1.jpg"

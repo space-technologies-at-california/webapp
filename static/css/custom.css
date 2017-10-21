@@ -1,5 +1,9 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
+footer {
+	padding: 36px 0 !important;
+}
+
 /* Blog Style */
 .blog-author {
 	color: #47b475;

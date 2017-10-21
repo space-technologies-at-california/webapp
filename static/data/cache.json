@@ -11,9 +11,6 @@
           },
           {
             "Industry Advisors": "/industry-advisors"
-          },
-          {
-            "Media Coverage": "/"
           }
         ]
       },
@@ -120,6 +117,7 @@
   "project": {
     "rover": {
       "title": "Autonomous Resource Rover",
+      "background": "img/background/space9-cut.jpg",
       "post-img": {
         "alt": "Autonomous Resource Rover",
         "url": "img/projects/rover/rover1.png"
@@ -152,6 +150,7 @@
     },
     "biosphere": {
       "title": "The Smart Biosphere",
+      "background": "img/background/space9-cut.jpg",
       "post-img": {
         "alt": "BioSphere",
         "url": "img/projects/biosphere/biosphere1.png"
@@ -184,6 +183,7 @@
     },
     "example": {
       "title": "Example Project",
+      "background": "img/background/space9-cut.jpg",
       "post-img": {
         "alt": "Post Image",
         "url": "img/background/cover1.jpg"
@@ -252,6 +252,7 @@
     },
     "balloon": {
       "title": "High Altitude Balloon",
+      "background": "img/background/space9-cut.jpg",
       "post-img": {
         "alt": "High Altitude Balloon (HAB)",
         "url": "img/projects/balloon/balloon.png"
@@ -285,7 +286,7 @@
   },
   "industry-advisors": {
     "title": "Industry Advisors",
-    "background": "img/background/golden_bridge.jpg",
+    "background": "img/background/space6-cut.jpg",
     "section": "Awesome industry advice from",
     "modal-heading": "Industry Advisor",
     "advisors": [
@@ -346,7 +347,7 @@
   },
   "team": {
     "title": "Team",
-    "background": "img/background/golden_bridge.jpg",
+    "background": "img/background/space6-cut.jpg",
     "section": "The people who make it happen",
     "member": [
       {

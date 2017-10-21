@@ -1,5 +1,6 @@
 {
 	"title": "High Altitude Balloon",
+	"background": "img/background/space9-cut.jpg",
 	"post-img": {
 		"alt": "High Altitude Balloon (HAB)",
 		"url": "img/projects/balloon/balloon.png"
