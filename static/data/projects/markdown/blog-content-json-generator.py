@@ -5,7 +5,7 @@ import re
 # regex for different styles
 style = {
 	"link": "\[([^\(\)\[\]\!]+)\]\(([^\(\)\[\]\!]+)\)",
-	"image": "!\[([^\(\)\[\]\!]+)\]\(([^\(\)\[\]\!]+)\)",
+	"image": "!\[([^\(\)\[\]\!]*)\]\(([^\(\)\[\]\!]+)\)",
 	"bold": "(?:\*{2}([^\s].*?[^\s]|[^\s])\*{2})|(?:_{2}([^\s].*?[^\s]|[^\s])_{2})", 
 	"italic": "(?:\*([^\s].*?[^\s]|[^\s])\*)|(?:_([^\s].*?[^\s]|[^\s])_)", 
 	"code": "`.+?`",
@@ -77,14 +77,14 @@ def headings(line):
 def image(line):
 	res = {
 		"type": "image",
-		"url": "",
-		"caption": ""
+		"url": ""
 	}
 	line = line.strip()
 	try:
 		data = style['image'].findall(line)
 		# WARNING: only the first image is returned
-		res['caption'] = data[0][0]
+		if len(data[0][0].strip()) > 0:
+			res['caption'] = data[0][0]
 		res['url'] = data[0][1]
 		return res
 	except Exception as e:
