@@ -40,10 +40,10 @@ def project(name="example"):
 def team():
 	return render_template("team.html", config=config["team"])
 
-@app.route("/advisor")
-@app.route("/aboutus/advisor")
-def advisor():
-	return render_template("advisor.html", config=config["advisor"])
+@app.route("/industry-advisors")
+@app.route("/aboutus/industry-advisors")
+def industry_advisors():
+	return render_template("industry-advisors.html", config=config["industry-advisors"])
 
 @app.route("/sponsor")
 def sponsor():

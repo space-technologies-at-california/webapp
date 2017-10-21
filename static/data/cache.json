@@ -10,7 +10,7 @@
             "Team": "/team"
           },
           {
-            "Advisor": "/advisor"
+            "Industry Advisors": "/industry-advisors"
           },
           {
             "Media Coverage": "/"
@@ -283,12 +283,12 @@
       ]
     }
   },
-  "advisor": {
-    "title": "Advisor",
+  "industry-advisors": {
+    "title": "Industry Advisors",
     "background": "img/background/golden_bridge.jpg",
     "section": "Awesome industry advice from",
     "modal-heading": "Industry Advisor",
-    "advisor": [
+    "advisors": [
       {
         "name": "Scott Nolan",
         "photo": "img/team/advisor/scott-nolan.jpg",

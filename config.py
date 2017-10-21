@@ -20,7 +20,7 @@ else:
 		"club": load_json("club.json"),
 		"home" : load_json("home-configuration.json"),
 		"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob(real_root_path + "static/data/projects/*.json") },
-		"advisor": load_json("advisor.json"),
+		"industry-advisors": load_json("industry-advisors.json"),
 		"team": load_json("team.json"),
 		"sponsor": load_json("sponsor.json"),
 		"sponsor-confirmation": load_json("sponsor-confirmation.json"),
@@ -35,11 +35,11 @@ else:
 	config['team']['member'] = sorted([x for x in config['team']['member'] if x["profile-order"] is not None], key=lambda x: x["profile-order"]) + sorted([x for x in config['team']['member'] if x["profile-order"] is None], key=lambda x: x["name"])
 
 	# Cache configuration for Advisor
-	config["advisor"].update({
-		"advisor": [ load_json(x, root="", subroot="") for x in glob.glob(real_root_path + "static/data/advisor/*.json")]
+	config["industry-advisors"].update({
+		"advisors": [ load_json(x, root="", subroot="") for x in glob.glob(real_root_path + "static/data/industry-advisors/*.json")]
 	})
 	# sort profile order
-	config['advisor']['advisor'] = sorted([x for x in config['advisor']['advisor'] if x["profile-order"] is not None], key=lambda x: x["profile-order"]) + sorted([x for x in config['advisor']['advisor'] if x["profile-order"] is None], key=lambda x: x["name"])
+	config['industry-advisors']['advisors'] = sorted([x for x in config['industry-advisors']['advisors'] if x["profile-order"] is not None], key=lambda x: x["profile-order"]) + sorted([x for x in config['industry-advisors']['advisors'] if x["profile-order"] is None], key=lambda x: x["name"])
 
 	# Cache configuration for Sponsor
 	config["sponsor"].update({
