@@ -79,7 +79,8 @@
       "facebook": "https://www.facebook.com/stacBerkeley",
       "linkedin": "https://www.linkedin.com/company/12956417/",
       "medium": "https://medium.com/@stac"
-    }
+    },
+    "disqus-comment-link": "stac-webapp"
   },
   "home": {
     "title": "Home",
@@ -92,12 +93,12 @@
     "second-parallax": {
       "background": "img/subpage/astronut-design.png",
       "title": "Innovative Projects",
-      "description": "We are innovating space technologies and working to enable life beyond our Earth through projects including: a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
+      "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
     },
     "third-parallax": {
       "background": "img/background/cover14.jpg",
       "title": "Muti-Campus Initiative",
-      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
+      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
     },
     "fourth-parallax": {
       "background": "img/background/golden_bridge.jpg",
@@ -229,9 +230,10 @@
         }
       },
       "blog-content": [
-        "A high altitude balloon is an unmanned balloon, typically a weather balloon, that is launched into near space usually with some kind of scientific payload or camera. Balloons reach about 20-30 kilometers in altitude and stay aloft for 2-3 hours. High altitude balloons have recently been a focus in the scientific community as a low cost method of launching equipment into near space.",
-        "High altitude balloons are of interest to the space community and STAC because they offer a cheap method to launch experiments to near space which might have previously required an expensive satellite. While there are a variety of space applications for high altitude balloons, the current project will focus on the long term goal of launching telescopes on high altitude balloons and on creating a reliable high altitude balloon for future STAC experiments. This way, observations can be made above the pollution of Earth\u2019s atmosphere for a low cost.",
-        "The project will first attempt to build and launch a high altitude balloon with a test payload consisting of a camera. The goal is to create a reliable method for launching and retrieving a high altitude balloon before putting expensive equipment as the payload. Once the ability to do this is successfully is ensured, then the telescope payload will be designed and built, and launched with the balloon and will hopefully show that it is possible to put telescopes above Earth\u2019s atmosphere for a low cost. Once that is accomplished, the balloon could be used for other experiments by STAC or as a low cost near space telescope research tool for scientists."
+        "A high altitude balloon is an unmanned balloon, typically a weather balloon, that is launched into near space usually with some kind of scientific payload or camera.",
+        "Balloons reach about 20-30 kilometers in altitude and stay aloft for 2-3 hours. High altitude balloons have recently been a focus in the scientific community as a low cost method of launching equipment into near space. ",
+        "We have started developing a low cost High Altitude Balloon (HAB) program that enables a standardized system to test research experiments in a near-space environment. While there are a variety of space applications for high altitude balloons, the current project will focus on the long term goal of creating a reliable high altitude balloon for future STAC experiments. This way, observations can be made above the Earth\u2019s atmosphere for a low cost.",
+        "We will launch three high-altitude balloons by May 2018. The first balloon will be equipped with a camera and electronic sensors to test the efficacy of our system and then two subsequent balloons will be launched with various research experiments, crowdsourced from the Berkeley campus community. This will form the foundation of a long lasting STAC HAB program with launches for years to come. HAB payloads (aerospace cargo) will help detail how a near space environment affects lifeforms, optics, and physical mechanics. Once the ability to do this is successfully is ensured, then we plan to launch a telescope payload to show that it is possible to put telescopes above Earth\u2019s atmosphere for a low cost method of performing cosmology. "
       ]
     }
   },
@@ -881,7 +883,7 @@
       "Thanks to all of our current sponsors and partners!",
       "Their support ensures that we can continue innovating and breaking through new barriers in space."
     ],
-    "section2-image": "img/group/group3.jpg",
+    "section2-image": "img/group/group2.jpg",
     "section2-heading": "Support Us",
     "section2-description": "If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at",
     "email": "sponsor@stac.berkeley.edu",
