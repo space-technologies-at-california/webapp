@@ -50,7 +50,7 @@
         <!-- End of Font Stylesheets -->
 
         <!-- Custom Stylesheets -->
-        <link href="{{ url_for('static', filename='css/custom.css') }} " rel="stylesheet" type="text/css" media="all" />
+        <link href="{{ url_for('static', filename='css/custom.css') }}?v={{config['version']}}" rel="stylesheet" type="text/css" media="all" />
         <!-- End of Custom Stylesheets -->
 
         {% block more_stylesheets %}
@@ -100,7 +100,7 @@
 
         <!-- Custom Scripts -->
         <script src="{{ url_for('static', filename='js/highlight.pack.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/custom-scripts.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/custom-scripts.js') }}?v={{config['version']}}"></script>
         <!-- End of Custom Scripts -->
 
         {% block more_scripts %}
