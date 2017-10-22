@@ -65,6 +65,8 @@ def industry_partnership():
 
 
 @app.route("/sponsor/confirmation")
+@app.route("/industry-partnership/confirmation")
+@app.route("/sponsor/industry-partnership/confirmation")
 def sponsor_confirmation():
 	return render_template("sponsor-confirmation.html", config=config['sponsor-confirmation'])
 
