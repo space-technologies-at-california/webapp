@@ -8,6 +8,11 @@ body {
 	color: #434343;
 }
 
+.pretty-holder {
+	top: -25px !important;
+	height: 150% !important;
+}
+
 /* Blog Style */
 .blog-author {
 	color: #47b475;
