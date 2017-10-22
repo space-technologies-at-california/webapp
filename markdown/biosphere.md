@@ -1,0 +1,12 @@
+
+# The Smart Biosphere Project aims to create a controlled chambers with an earth-like atmosphere that can individually stand as a small greenhouse but can also form a large botanical shelter when connected with other units. 
+
+Potential applications include agriculture processing for food, biofuels, and other chemical production to supply astronauts and space colonies with these necessities. This project opens a new dimension of production in space beyond status quo mechanical and electrical systems and functions as a gateway to the colonization of space. 
+
+![](img/projects/biosphere/biosphere2.png)
+
+Each biosphere unit will be maintained by a smart-control software that receives feedback from multiple sensors to ensure environmental equilibrium. Mechanical and chemical integrations will ensure detection of humidity, pH, chemical species, temperature and other environmental state variables. A controlled feedback system ensures that an individual does not need to manually monitor the biosphere. 
+
+![](img/projects/biosphere/biosphere3.png)
+
+Another primary consideration for the biosphere is its efficiency. With constraints for energy and resource supplies in extraterrestrial environments, the biosphere should be self-sustaining. Some potential avenues for this development include environmental power harvesting, in-situ resource harvesting, and waste recycling. 

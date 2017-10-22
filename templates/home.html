@@ -157,7 +157,7 @@
                 <ul class="slides">
                     {% for partner in sponsor['partner-logo'] %}
                     <li>
-                        <a><img alt="{{partner}}" src="{{ sponsor['partner-logo'][partner]}}" /></a>
+                        <a><img alt="{{partner}}" src="{{ url_for('static', filename=sponsor['partner-logo'][partner]) }}" /></a>
                     </li>
                     {% endfor %}
                 </ul>

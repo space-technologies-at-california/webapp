@@ -135,7 +135,7 @@ def process(d):
 		return image(d)
 	# heading
 	elif d[0] == "#":
-		return headings(d)
+		return headings(htmlfy(d))
 	# block
 	elif d[0] == ">":
 		return block(d)

@@ -17,7 +17,7 @@ def utility_processor():
 @app.route("/")
 @app.route("/home")
 def index():
-	return render_template("home.html", config=config['home'], sponsor=config["sponsor"])
+	return render_template("home.html", config=config['home'], sponsor=config["industry-partnership"])
 
 @app.route("/join")
 @app.route("/apply")

@@ -1,7 +1,7 @@
 {
     "name": "Christopher Richins",
     "photo": "img/team/advisor/christopher-richins.jpg",
-    "profile-order": null,
+    "profile-order": 5,
     "affiliation": "RBC Signals",
     "bio": [
         "Christopher Richins is co-founder and CEO of RBC Signals, a provider of global satellite ground station \"infrastructure as a service.\" Richins began his career as an RF Communications Engineer at Boeing Sea Launch, where he supported multiple launch campaigns from the ship-based equatorial launch site.",

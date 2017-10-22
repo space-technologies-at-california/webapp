@@ -14,9 +14,16 @@
 			"submenu": [
 					{"Autonomous Rover": "/project/rover"},
 					{"BioSphere": "/project/biosphere"},
+					{"CubeSat": "/project/cubesat"},
 					{"High Altitude Balloon": "/project/balloon"},
-					{"Example Project 1": "/project"},
-					{"Example Project 2": "/project"}
+					{"MicroG Experiments": {
+						"link": "/project/time1",
+						"submenu": [
+								{"TIME I": "/project/time1"},
+								{"TIME II": "/project/time2"}
+							]
+						}		
+					}
 				]
 			}
 		},
