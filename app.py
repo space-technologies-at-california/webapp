@@ -13,7 +13,7 @@ app = Flask(__name__)
 def utility_processor():
     return dict(navbar=config["navbar"], club=config['club'], icon=config["icon"])
 
-##################### Pages #####################
+##################### Core Pages #####################
 @app.route("/")
 @app.route("/home")
 def index():
@@ -24,16 +24,7 @@ def index():
 def join():
 	return render_template("join.html")
 
-@app.route("/sponsor/confirmation")
-def sponsor_confirmation():
-	return render_template("sponsor-confirmation.html", config=config['sponsor-confirmation'])
-
-@app.route("/project")
-@app.route("/projects")
-@app.route("/project/<name>")
-@app.route("/projects/<name>")
-def project(name="example"):
-	return render_template("project.html", config=config['project'][name])
+##################### About Us Pages #####################
 
 @app.route("/team")
 @app.route("/aboutus/team")
@@ -45,9 +36,26 @@ def team():
 def industry_advisors():
 	return render_template("industry-advisors.html", config=config["industry-advisors"])
 
+##################### Project Pages #####################
+
+@app.route("/project")
+@app.route("/projects")
+@app.route("/project/<name>")
+@app.route("/projects/<name>")
+def project(name="example"):
+	return render_template("project.html", config=config['project'][name])
+
+
+##################### Sponsor Pages #####################
+
 @app.route("/sponsor")
 def sponsor():
 	return render_template("sponsor.html", config=config["sponsor"])
+
+@app.route("/sponsor/confirmation")
+def sponsor_confirmation():
+	return render_template("sponsor-confirmation.html", config=config['sponsor-confirmation'])
+
 
 ##################### Error Handling #####################
 @app.errorhandler(404)
