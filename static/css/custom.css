@@ -32,6 +32,12 @@ ol li {
 	list-style-position: inside
 }
 
+/* Summary Page Tiles */
+.tile-left,
+.tile-right {
+	max-height: 300px;
+}
+
 /* Return to Top Button */
 #return-to-top {
     position: fixed;

@@ -26,12 +26,18 @@ def join():
 
 ##################### About Us Pages #####################
 
+@app.route("/aboutus")
+def aboutus():
+	return render_template("summary-page.html", config=config["aboutus"])
+
 @app.route("/team")
 @app.route("/aboutus/team")
 def team():
 	return render_template("team.html", config=config["team"])
 
+@app.route("/industry-advisor")
 @app.route("/industry-advisors")
+@app.route("/aboutus/industry-advisor")
 @app.route("/aboutus/industry-advisors")
 def industry_advisors():
 	return render_template("industry-advisors.html", config=config["industry-advisors"])
@@ -50,7 +56,13 @@ def project(name="example"):
 
 @app.route("/sponsor")
 def sponsor():
-	return render_template("sponsor.html", config=config["sponsor"])
+	return render_template("summary-page.html", config=config["sponsor"])
+
+@app.route("/sponsor/industry-partnership")
+@app.route("/industry-partnership")
+def industry_partnership():
+	return render_template("industry-partnership.html", config=config["industry-partnership"])
+
 
 @app.route("/sponsor/confirmation")
 def sponsor_confirmation():

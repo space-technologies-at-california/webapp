@@ -5,33 +5,52 @@
         "Home": "/"
       },
       {
-        "About Us": [
-          {
-            "Team": "/team"
-          },
-          {
-            "Industry Advisors": "/industry-advisors"
-          }
-        ]
+        "About Us": {
+          "link": "/aboutus",
+          "submenu": [
+            {
+              "Team": "/team"
+            },
+            {
+              "Industry Advisors": "/industry-advisors"
+            }
+          ]
+        }
       },
       {
-        "Projects": [
-          {
-            "Autonomous Rover": "/project/rover"
-          },
-          {
-            "BioSphere": "/project/biosphere"
-          },
-          {
-            "High Altitude Balloon": "/project/balloon"
-          },
-          {
-            "Example Project 1": "/project"
-          },
-          {
-            "Example Project 2": "/project"
-          }
-        ]
+        "Projects": {
+          "link": "#",
+          "submenu": [
+            {
+              "Autonomous Rover": "/project/rover"
+            },
+            {
+              "BioSphere": "/project/biosphere"
+            },
+            {
+              "High Altitude Balloon": "/project/balloon"
+            },
+            {
+              "TIME": {
+                "link": "",
+                "submenu": [
+                  {
+                    "TIME1": ""
+                  },
+                  {
+                    "TIME2": ""
+                  }
+                ]
+              }
+            },
+            {
+              "Example Project 1": "/project"
+            },
+            {
+              "Example Project 2": "/project"
+            }
+          ]
+        }
       },
       {
         "Blog": "https://medium.com/@stac"
@@ -286,6 +305,8 @@
   },
   "industry-advisors": {
     "title": "Industry Advisors",
+    "upper-nav-link": "/aboutus",
+    "upper-nav-text": "About Us",
     "background": "img/background/space6-cut.jpg",
     "section": "Awesome industry advice from",
     "modal-heading": "Industry Advisor",
@@ -345,8 +366,46 @@
       }
     ]
   },
+  "aboutus": {
+    "title": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "The People who Make It Happen",
+    "section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "/aboutus/team",
+        "image": "img/background/project-single-3.jpg",
+        "text-title": "Our Team",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "/aboutus/team"
+        }
+      },
+      {
+        "image-left": false,
+        "image-link": "/aboutus/industry-advisors",
+        "image": "img/background/project-single-5.jpg",
+        "text-title": "Industry Advisors",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know them",
+          "link": "/aboutus/industry-advisors"
+        }
+      }
+    ]
+  },
   "team": {
     "title": "Team",
+    "upper-nav-link": "/aboutus",
+    "upper-nav-text": "About Us",
     "background": "img/background/space6-cut.jpg",
     "section": "The people who make it happen",
     "member": [
@@ -923,8 +982,44 @@
     ]
   },
   "sponsor": {
-    "title": "Our Sponsors",
-    "background": "img/background/golden_bridge.jpg",
+    "title": "Sponsor",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "Sponsorships",
+    "section-description": "We get to continue innovating and breaking through new barriers in space with everyone's support",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "/sponsor/industry-partnership",
+        "image": "img/background/project-single-3.jpg",
+        "text-title": "Industry Partnerships",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Learn More",
+          "link": "/sponsor/industry-partnership"
+        }
+      },
+      {
+        "image-left": false,
+        "image-link": "#",
+        "image": "img/background/project-single-5.jpg",
+        "text-title": "Individual Contributors",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Learn More",
+          "link": "#"
+        }
+      }
+    ]
+  },
+  "industry-partnership": {
+    "title": "Industry Partnerships",
+    "background": "img/background/space6-cut.jpg",
     "section1-heading": "The sponsors and partners who support us",
     "section1-description": [
       "Thanks to all of our current sponsors and partners!",
@@ -941,24 +1036,24 @@
     "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
     "mailing-list-error-msg": "Please fill all fields correctly.",
     "partner-logo": {
-      "static/img/logo/partner/berkeley-engineering": "static/img/logo/partner/berkeley-engineering.jpg",
-      "static/img/logo/partner/berkeley-tech-fund": "static/img/logo/partner/berkeley-tech-fund.jpg",
-      "static/img/logo/partner/crowdfunding": "static/img/logo/partner/crowdfunding.png",
-      "static/img/logo/partner/altium": "static/img/logo/partner/altium.jpg",
-      "static/img/logo/partner/icon-lab": "static/img/logo/partner/icon-lab.png",
-      "static/img/logo/partner/bay-area-circuits": "static/img/logo/partner/bay-area-circuits.png",
-      "static/img/logo/partner/nasa": "static/img/logo/partner/nasa.png",
-      "static/img/logo/partner/uc-davis-sssc": "static/img/logo/partner/uc-davis-sssc.png",
-      "static/img/logo/partner/ssl": "static/img/logo/partner/ssl.png",
-      "static/img/logo/partner/berkeley-innovator": "static/img/logo/partner/berkeley-innovator.jpg",
-      "static/img/logo/partner/big-give": "static/img/logo/partner/big-give.jpg",
-      "static/img/logo/partner/pear": "static/img/logo/partner/pear.png",
-      "static/img/logo/partner/kla-tencor": "static/img/logo/partner/kla-tencor.png",
-      "static/img/logo/partner/berkeley-ssl": "static/img/logo/partner/berkeley-ssl.png",
-      "static/img/logo/partner/blue-origin": "static/img/logo/partner/blue-origin.png",
-      "static/img/logo/partner/dent-space": "static/img/logo/partner/dent-space.png",
-      "static/img/logo/partner/ucsb-deepspace-group": "static/img/logo/partner/ucsb-deepspace-group.png",
-      "static/img/logo/partner/asuc": "static/img/logo/partner/asuc.png"
+      "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
+      "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
+      "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
+      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
+      "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
+      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
+      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
+      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
+      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
+      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
+      "img/logo/partner/big-give": "img/logo/partner/big-give.jpg",
+      "img/logo/partner/pear": "img/logo/partner/pear.png",
+      "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
+      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
+      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
+      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png",
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png"
     }
   },
   "sponsor-confirmation": {
@@ -1036,5 +1131,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 1.1
+  "version": 2.9
 }

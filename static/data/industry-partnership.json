@@ -1,0 +1,19 @@
+{
+	"title": "Industry Partnerships",
+	"background": "img/background/space6-cut.jpg",
+	"section1-heading": "The sponsors and partners who support us",
+	"section1-description": [
+		"Thanks to all of our current sponsors and partners!",
+		"Their support ensures that we can continue innovating and breaking through new barriers in space."
+	],
+	"section2-image": "img/group/group2.jpg",
+	"section2-heading": "Support Us",
+	"section2-description": "If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at",
+	"email": "sponsor@stac.berkeley.edu",
+	"section3-heading": "Sponsorship Package",
+	"section3-description": "Learn what we offer to our sponsors and partners",
+	"section3-text": "By siging up, we will keep your information strictly confidential.",
+	"mailing-list-button-text": "Request Sponsorship Package",
+	"mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
+	"mailing-list-error-msg": "Please fill all fields correctly."
+}

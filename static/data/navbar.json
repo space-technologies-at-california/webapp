@@ -1,17 +1,25 @@
 {	
 	"left-menu":[
 		{"Home": "/"},
-		{"About Us": [
+		{"About Us": {
+			"link": "/aboutus",
+			"submenu": [
 					{"Team": "/team"},
 					{"Industry Advisors": "/industry-advisors"}
-				]},
-		{"Projects": [
+				]
+			}
+		},
+		{"Projects": { 
+			"link": "#",
+			"submenu": [
 					{"Autonomous Rover": "/project/rover"},
 					{"BioSphere": "/project/biosphere"},
 					{"High Altitude Balloon": "/project/balloon"},
 					{"Example Project 1": "/project"},
 					{"Example Project 2": "/project"}
-				]},
+				]
+			}
+		},
 		{"Blog": "https://medium.com/@stac"},
 		{"Sponsor": "/sponsor"}
 	],

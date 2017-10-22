@@ -21,14 +21,16 @@ else:
 		"home" : load_json("home-configuration.json"),
 		"project": { x.split("/")[-1].split(".")[0]  : load_json(x, root="", subroot="") for x in glob.glob(real_root_path + "static/data/projects/*.json") },
 		"industry-advisors": load_json("industry-advisors.json"),
+		"aboutus": load_json("aboutus.json"),
 		"team": load_json("team.json"),
 		"sponsor": load_json("sponsor.json"),
+		"industry-partnership": load_json("industry-partnership.json"),
 		"sponsor-confirmation": load_json("sponsor-confirmation.json"),
 		"icon": load_json("icon.json"),
 	}
 	with open(real_root_path + "static/version.txt", "r") as f:
 		cur_version_number = float(f.read().strip())
-	cur_version_number += 0.1
+	cur_version_number = round(cur_version_number + 0.1, 2)
 	with open(real_root_path + "static/version.txt", "w") as f:
 		f.write(str(cur_version_number))
 	config["version"] = cur_version_number
@@ -47,8 +49,8 @@ else:
 	config['industry-advisors']['advisors'] = sorted([x for x in config['industry-advisors']['advisors'] if x["profile-order"] is not None], key=lambda x: x["profile-order"]) + sorted([x for x in config['industry-advisors']['advisors'] if x["profile-order"] is None], key=lambda x: x["name"])
 
 	# Cache configuration for Sponsor
-	config["sponsor"].update({
-		"partner-logo": { x.split(".")[0][x.index("static"):] : x[x.index("static"):] for x in glob.glob(real_root_path + "static/img/logo/partner/*")}
+	config["industry-partnership"].update({
+		"partner-logo": { x.split(".")[0][x.index("img"):] : x[x.index("img"):] for x in glob.glob(real_root_path + "static/img/logo/partner/*")}
 	})
 
 	# Save cache

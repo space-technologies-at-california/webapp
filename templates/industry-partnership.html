@@ -22,7 +22,7 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a>Sponsor</a>
+                        <a href="/sponsor">Sponsor</a>
                     </li>
                     <li class="active">{{ config['title'] }}</li>
                 </ol>
@@ -54,7 +54,7 @@
                 <ul class="slides">
                     {% for partner in config['partner-logo'] %}
                     <li>
-                        <a><img alt="{{partner}}" src="{{ config['partner-logo'][partner]}}" /></a>
+                        <a><img alt="{{partner}}" src="{{ url_for('static', filename=config['partner-logo'][partner]) }}" /></a>
                     </li>
                     {% endfor %}
                 </ul>

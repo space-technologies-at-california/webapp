@@ -35,20 +35,20 @@
                         {% for lst in navbar['left-menu'] %}
                             {% for label, value in lst.items() %}
 
-                                {% if value is not string %}
+                                {% if value is mapping %}
                                     <!-- Second Degree Navbar -->
                                     <li class="has-dropdown">
-                                        <a href="#">{{label}}</a>
+                                        <a href="{{ value['link'] }}">{{label}}</a>
                                         <ul>
-                                            {% for lst2 in value %}
+                                            {% for lst2 in value['submenu'] %}
                                             {% for label2, value2 in lst2.items() %}
-                                                {% if value2 is not string %}
+                                                {% if value2 is mapping %}
 
                                                     <!-- Third Degree Navbar -->
                                                     <li class="has-dropdown">
-                                                        <a href="#">{{ label2 }}</a>
+                                                        <a href="{{ value2['link'] }}">{{ label2 }}</a>
                                                         <ul>
-                                                            {% for lst3 in value2 %}
+                                                            {% for lst3 in value2['submenu'] %}
                                                             {% for label3, value3 in lst3.items() %}
                                                                 <li><a href="{{ value3 }}">{{ label3 }}</a></li>
                                                             {% endfor %}
@@ -86,20 +86,20 @@
                             {% for lst in navbar['right-menu'] %}
                                 {% for label, value in lst.items() %}
 
-                                    {% if value is not string %}
+                                    {% if value is mapping %}
                                         <!-- Second Degree Navbar -->
                                         <li class="has-dropdown">
-                                            <a href="#">{{label}}</a>
+                                            <a href="{{ value['link'] }}">{{label}}</a>
                                             <ul>
-                                                {% for lst2 in value %}
+                                                {% for lst2 in value['submenu'] %}
                                                 {% for label2, value2 in lst2.items() %}
-                                                    {% if value2 is not string %}
+                                                    {% if value2 is mapping %}
 
                                                         <!-- Third Degree Navbar -->
                                                         <li class="has-dropdown">
-                                                            <a href="#">{{ label2 }}</a>
+                                                            <a href="{{ value2['link'] }}">{{ label2 }}</a>
                                                             <ul>
-                                                                {% for lst2 in value2 %}
+                                                                {% for lst2 in value2['submenu'] %}
                                                                 {% for label3, value3 in lst2.items() %}
                                                                     <li><a href="{{ value3 }}">{{ label3 }}</a></li>
                                                                 {% endfor %}

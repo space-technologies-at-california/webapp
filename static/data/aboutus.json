@@ -1,35 +1,35 @@
 {
-	"title": "Sponsor",
+	"title": "About Us",
 	"background": "img/background/space6-cut.jpg",
-	"section-title": "Sponsorships",
-	"section-description": "We get to continue innovating and breaking through new barriers in space with everyone's support",
+	"section-title": "The People who Make It Happen",
+	"section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors",
 	"blocks": [
 		{	
 			"image-left": true,
-			"image-link": "/sponsor/industry-partnership",
+			"image-link": "/aboutus/team",
 			"image": "img/background/project-single-3.jpg",
-			"text-title": "Industry Partnerships",
+			"text-title": "Our Team",
 			"text-subtitle": "Lorem ipsum dolor",
 			"text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 			"button": {
 				"enabled": true,
 				"size": "regular",
-				"text": "Learn More",
-				"link": "/sponsor/industry-partnership"
+				"text": "Get to know us",
+				"link": "/aboutus/team"
 			}
 		},
 		{	
 			"image-left": false,
-			"image-link": "#",
+			"image-link": "/aboutus/industry-advisors",
 			"image": "img/background/project-single-5.jpg",
-			"text-title": "Individual Contributors",
+			"text-title": "Industry Advisors",
 			"text-subtitle": "Lorem ipsum dolor",
 			"text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 			"button": {
 				"enabled": true,
 				"size": "regular",
-				"text": "Learn More",
-				"link": "#"
+				"text": "Get to know them",
+				"link": "/aboutus/industry-advisors"
 			}
 		}
 	]
