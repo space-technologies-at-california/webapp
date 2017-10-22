@@ -30,7 +30,7 @@ else:
 	}
 	with open(real_root_path + "static/version.txt", "r") as f:
 		cur_version_number = float(f.read().strip())
-	cur_version_number = round(cur_version_number + 0.1, 2)
+	cur_version_number = round(cur_version_number + 0.1, 1)
 	with open(real_root_path + "static/version.txt", "w") as f:
 		f.write(str(cur_version_number))
 	config["version"] = cur_version_number

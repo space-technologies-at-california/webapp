@@ -31,19 +31,6 @@
               "High Altitude Balloon": "/project/balloon"
             },
             {
-              "TIME": {
-                "link": "",
-                "submenu": [
-                  {
-                    "TIME1": ""
-                  },
-                  {
-                    "TIME2": ""
-                  }
-                ]
-              }
-            },
-            {
               "Example Project 1": "/project"
             },
             {
@@ -1131,5 +1118,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 2.9
+  "version": 3.3
 }

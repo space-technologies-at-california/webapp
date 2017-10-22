@@ -35,7 +35,8 @@ ol li {
 /* Summary Page Tiles */
 .tile-left,
 .tile-right {
-	max-height: 300px;
+	min-height: 350px;
+	max-height: 350px;
 }
 
 /* Return to Top Button */
