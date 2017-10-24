@@ -20,7 +20,7 @@
 							]
 						}		
 					},
-					{"CubeSat": "/project/cubesat"},
+					{"CubeSat Deployer": "/project/cubesat"},
 					{"High Altitude Balloon": "/project/balloon"},
 					{"MicroG Experiments": {
 						"link": "/project/time1",
