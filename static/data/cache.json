@@ -35,7 +35,7 @@
               }
             },
             {
-              "CubeSat": "/project/cubesat"
+              "CubeSat Deployer": "/project/cubesat"
             },
             {
               "High Altitude Balloon": "/project/balloon"
@@ -627,7 +627,7 @@
           "Prior to FarmX, Boogar was commercial manager at General Electric Oil & Gas, in the Subsea Offshore Drilling Systems division of Vetco-Gray in Houston, Texas. ",
           "Boogar began his career as an Air Force officer, leading cost analysis for the GPS III satellite and user equipment programs at the United States Air Force Space and Missile Systems Center. ",
           "He has a master\u2019s degree in business administration from the Haas School of Business at UC Berkeley. He is a graduate of both the Naval Postgraduate School and the United States Air Force Academy.",
-          "Harris Corporation is a leading technology innovator, solving customers\u2019 toughest mission-critical challenges by providing solutions that connect, inform and protect. Harris supports government and commercial customers around the world"
+          "Harris Corporation is a leading technology innovator, solving customers\u2019 toughest mission-critical challenges by providing solutions that connect, inform and protect. Harris supports government and commercial customers around the world."
         ]
       },
       {
@@ -1300,7 +1300,7 @@
         "image": "img/group/group4.jpg",
         "text-title": "Industry",
         "text-subtitle": "Company Involvement",
-        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development",
+        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.",
         "button": {
           "enabled": true,
           "size": "regular",
@@ -1314,7 +1314,7 @@
         "image": "img/group/gbo.jpg",
         "text-title": "Individual",
         "text-subtitle": "Personal Involvement",
-        "text-description": "You can help develop your preferred space project to enable its completion and widespread effect",
+        "text-description": "You can help develop your preferred space project to enable its completion and widespread effect.",
         "button": {
           "enabled": true,
           "size": "regular",
@@ -1438,5 +1438,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 1.6
+  "version": 1.7
 }
