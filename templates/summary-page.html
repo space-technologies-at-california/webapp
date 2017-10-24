@@ -72,9 +72,11 @@
                         <div class="tile-left bg-secondary">
                             <div class="description">
                                 <h4 class="mb8">{{ block['text-title'] }}</h4>
+                                {% if  block['text-subtitle'] %}
                                 <h6 class="uppercase">
                                     {{ block['text-subtitle'] }}
                                 </h6>
+                                {% endif %}
                                 <p>
                                     {{ block['text-description'] }}
                                 </p>

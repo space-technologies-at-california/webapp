@@ -1,13 +1,27 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
+/* Navbar */
+.menu > li > ul li a {
+  padding: 6px 22px !important;
+}
+
+.last-submenu > ul {
+  width: auto !important;
+  min-width: 90px !important;
+}
+
+
+/* Footer Size */
 footer {
 	padding: 36px 0 !important;
 }
 
+/* Text Color */
 body {
 	color: #434343;
 }
 
+/* Header Background Image */
 .pretty-holder {
 	top: -25px !important;
 	height: 150% !important;

@@ -2,7 +2,7 @@
 	"left-menu":[
 		{"Home": "/"},
 		{"About Us": {
-			"link": "/aboutus",
+			"link": "#",
 			"submenu": [
 					{"Team": "/team"},
 					{"Industry Advisors": "/industry-advisors"}
@@ -12,8 +12,14 @@
 		{"Projects": { 
 			"link": "#",
 			"submenu": [
-					{"Autonomous Rover": "/project/rover"},
-					{"BioSphere": "/project/biosphere"},
+					{"Off World Programs": {
+						"link": "#",
+						"submenu": [
+								{"Autonomous Rover": "/project/rover"},
+								{"BioSphere": "/project/biosphere"}
+							]
+						}		
+					},
 					{"CubeSat": "/project/cubesat"},
 					{"High Altitude Balloon": "/project/balloon"},
 					{"MicroG Experiments": {

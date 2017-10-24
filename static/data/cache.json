@@ -6,7 +6,7 @@
       },
       {
         "About Us": {
-          "link": "/aboutus",
+          "link": "#",
           "submenu": [
             {
               "Team": "/team"
@@ -22,10 +22,17 @@
           "link": "#",
           "submenu": [
             {
-              "Autonomous Rover": "/project/rover"
-            },
-            {
-              "BioSphere": "/project/biosphere"
+              "Off World Programs": {
+                "link": "#",
+                "submenu": [
+                  {
+                    "Autonomous Rover": "/project/rover"
+                  },
+                  {
+                    "BioSphere": "/project/biosphere"
+                  }
+                ]
+              }
             },
             {
               "CubeSat": "/project/cubesat"
@@ -561,7 +568,7 @@
   },
   "industry-advisors": {
     "title": "Industry Advisors",
-    "upper-nav-link": "/aboutus",
+    "upper-nav-link": "#",
     "upper-nav-text": "About Us",
     "background": "img/background/space6-cut.jpg",
     "section": "Awesome industry advice from",
@@ -610,9 +617,23 @@
         ]
       },
       {
+        "name": "Steve Boogar",
+        "photo": "img/team/advisor/steve-boogar.jpg",
+        "profile-order": 5,
+        "affiliation": "Harris Corporation",
+        "bio": [
+          "Steve Boogar is strategic business development manager for small satellites in the Environmental Solutions business unit of Harris Corporation\u2019s Space and Intelligence Systems segment. Space and Intelligence Systems offers complete Earth observation, weather, geospatial, space protection, and intelligence solutions from advanced sensors and payloads, ground processing, and information analytics.",
+          "Previously, Boogar was the chief operating officer and board member at FarmX, a seed-funded agricultural technology startup he cofounded in Redwood City, CA.",
+          "Prior to FarmX, Boogar was commercial manager at General Electric Oil & Gas, in the Subsea Offshore Drilling Systems division of Vetco-Gray in Houston, Texas. ",
+          "Boogar began his career as an Air Force officer, leading cost analysis for the GPS III satellite and user equipment programs at the United States Air Force Space and Missile Systems Center. ",
+          "He has a master\u2019s degree in business administration from the Haas School of Business at UC Berkeley. He is a graduate of both the Naval Postgraduate School and the United States Air Force Academy.",
+          "Harris Corporation is a leading technology innovator, solving customers\u2019 toughest mission-critical challenges by providing solutions that connect, inform and protect. Harris supports government and commercial customers around the world"
+        ]
+      },
+      {
         "name": "Christopher Richins",
         "photo": "img/team/advisor/christopher-richins.jpg",
-        "profile-order": 5,
+        "profile-order": null,
         "affiliation": "RBC Signals",
         "bio": [
           "Christopher Richins is co-founder and CEO of RBC Signals, a provider of global satellite ground station \"infrastructure as a service.\" Richins began his career as an RF Communications Engineer at Boeing Sea Launch, where he supported multiple launch campaigns from the ship-based equatorial launch site.",
@@ -660,7 +681,7 @@
   },
   "team": {
     "title": "Team",
-    "upper-nav-link": "/aboutus",
+    "upper-nav-link": "#",
     "upper-nav-text": "About Us",
     "background": "img/background/space6-cut.jpg",
     "section": "The people who make it happen",
@@ -1236,6 +1257,21 @@
         "bio": "I took a seminar in modern physics in senior year of high school, and I loved learning about the frontiers of science. I think space is the most frontier-like of all the sciences: all of our current knowledge comes from an Earth-like environment, so space offers unlimited potential for discovery. I want to spend my entire life discovering new things, and that starts here at STAC!"
       },
       {
+        "name": "Tristan Caro",
+        "photo": "static/img/team/member/tristan-caro.jpg",
+        "profile-order": null,
+        "major": "Molecular & Cell Biology ",
+        "title": "",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/tristan-caro-428542124/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space exploration will unlock a new realm of engineering and scientific inquiry, expanding our understanding of the universe and our place within it. I'm most focused on space technologies that help us understand the limits of life, as well as how we can protect Earth life that travels beyond our orbit."
+      },
+      {
         "name": "Zachary Yun",
         "photo": "img/team/member/zachary-yun.jpg",
         "profile-order": null,
@@ -1256,15 +1292,15 @@
     "title": "Sponsor",
     "background": "img/background/space6-cut.jpg",
     "section-title": "Sponsorships",
-    "section-description": "We get to continue innovating and breaking through new barriers in space with everyone's support",
+    "section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further",
     "blocks": [
       {
         "image-left": true,
         "image-link": "/sponsor/industry-partnership",
-        "image": "img/background/project-single-3.jpg",
-        "text-title": "Industry Partnerships",
-        "text-subtitle": "Lorem ipsum dolor",
-        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "image": "img/group/group4.jpg",
+        "text-title": "Industry",
+        "text-subtitle": "Company Involvement",
+        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development",
         "button": {
           "enabled": true,
           "size": "regular",
@@ -1275,14 +1311,14 @@
       {
         "image-left": false,
         "image-link": "#",
-        "image": "img/background/project-single-5.jpg",
-        "text-title": "Individual Contributors",
-        "text-subtitle": "Lorem ipsum dolor",
-        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "image": "img/group/gbo.jpg",
+        "text-title": "Individual",
+        "text-subtitle": "Personal Involvement",
+        "text-description": "You can help develop your preferred space project to enable its completion and widespread effect",
         "button": {
           "enabled": true,
           "size": "regular",
-          "text": "Learn More",
+          "text": "Coming Soon",
           "link": "#"
         }
       }
@@ -1402,5 +1438,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 1.4
+  "version": 1.6
 }
