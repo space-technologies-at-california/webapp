@@ -22,22 +22,6 @@
           "link": "#",
           "submenu": [
             {
-              "Off World Programs": {
-                "link": "#",
-                "submenu": [
-                  {
-                    "Autonomous Rover": "/project/rover"
-                  },
-                  {
-                    "BioSphere": "/project/biosphere"
-                  }
-                ]
-              }
-            },
-            {
-              "CubeSat Deployer": "/project/cubesat"
-            },
-            {
               "High Altitude Balloon": "/project/balloon"
             },
             {
@@ -49,6 +33,22 @@
                   },
                   {
                     "TIME II": "/project/time2"
+                  }
+                ]
+              }
+            },
+            {
+              "CubeSat Deployer": "/project/cubesat"
+            },
+            {
+              "Off World Programs": {
+                "link": "#",
+                "submenu": [
+                  {
+                    "Autonomous Rover": "/project/rover"
+                  },
+                  {
+                    "BioSphere": "/project/biosphere"
                   }
                 ]
               }
@@ -105,34 +105,34 @@
   "home": {
     "title": "Home",
     "head-parallax": {
-      "background": "img/background/space7.jpg",
+      "background": "img/background/sci-fi-1-cut.jpg",
       "logo": "img/logo/logo-subheadline-white.png",
       "title": "We work to push and innovate space technology",
       "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
     },
     "second-parallax": {
-      "background": "img/subpage/astronut-design.png",
-      "title": "Innovative Projects",
+      "background": "img/background/space18.jpg",
+      "title": " Innovative Projects",
       "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
     },
     "third-parallax": {
-      "background": "img/background/cover14.jpg",
-      "title": "Muti-Campus Initiative",
-      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
+      "background": "img/background/space16.jpg",
+      "title": "STAC Space Program",
+      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. We have set up a space program at Berkeley to test space experiments at a low cost. We utilize a high-quality network of university partners and industry advisors to push the technology in the space community through high-impact research. STAC provides a platform for these groups and advisors to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
     },
     "fourth-parallax": {
-      "background": "img/background/golden_bridge.jpg",
+      "background": "img/background/space14.jpg",
       "title": "We cannot just assume great ideas are being worked on.",
       "icon": "quote-left",
       "description": "There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is what STAC is trying to do. We work on a project that get humanity one step closer to a long term goal."
     },
     "fifth-parallax": {
-      "background": "img/background/sci-fi-1.jpg",
+      "background": "img/background/space7.jpg",
       "title": "TO BE DONE",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     },
     "sixth-parallax": {
-      "background": "img/background/golden_bridge.jpg",
+      "background": "img/subpage/astronut-design.png",
       "title": "TO BE DONE",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     }
@@ -1438,5 +1438,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 1.8
+  "version": 4.6
 }

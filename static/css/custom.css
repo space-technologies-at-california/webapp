@@ -11,21 +11,48 @@
 }
 
 
+
 /* Footer Size */
 footer {
 	padding: 36px 0 !important;
 }
 
-/* Text Color */
+/* Text */
 body {
 	color: #434343;
 }
 
-/* Header Background Image */
+.text-weight-520 {
+	font-weight: 520;
+}
+
+.home-quote p {
+	color: white !important;
+	font-weight: 550 !important;
+	background: rgba(0, 0, 0, 0.36);
+	padding: 20px;
+	text-shadow: 1.5px 1.5px 0.5px rgba(53, 53, 53, 0.57);
+}
+
+.home-quote i, 
+.home-quote h1,
+.home-quote h2,
+.home-quote h3,
+.home-quote h4,
+.home-quote h5,
+.home-quote h6 {
+	color: white !important;
+	font-weight: 550 !important;
+	text-shadow: 1.5px 1.5px 3.5px black;
+}
+
+
+/* Background Image */
 .pretty-holder {
 	top: -25px !important;
 	height: 150% !important;
 }
+
 
 /* Blog Style */
 .blog-author {
