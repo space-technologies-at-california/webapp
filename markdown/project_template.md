@@ -32,6 +32,14 @@ You can also add [link](http://www.google.com)
 
 It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think."
 
+<!--  You can put iframe for Google Slides  -->
+<iframe src='sampleSourceUrlHere' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'>Descriptions Here (Optional)</iframe>
+
+<!--  You can also put the iframe for Videos  -->
+ <!-- Remember to put class='embed-responsive-item' for the iframe  -->
+<iframe class='embed-responsive-item' width='640' height='360' src='sampleSourceUrlHere' allowfullscreen='allowfullscreen'>Descriptions Here (Optional)</iframe>
+
+
 <!-- You can also have a custom horizontal line break like so -->
 ---
 
