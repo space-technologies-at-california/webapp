@@ -1,0 +1,16 @@
+ <!-- Modal -->
+        <div class="modal-container">
+            <a class="btn btn-lg btn-modal" href="#" modal-link="0">
+                <i class="ti-text"></i> Basic Text</a>
+            <div class="foundry_modal advisor_modal">
+                <h4>{{ config['modal-heading'] }}</h4>
+                <h2><b>{{ advisor['name'] }}</b></h2>
+                <img alt="{{ advisor['name'] }} photo" src="{{ url_for('static', filename=advisor['photo']) }}" class="advisor_model_content_image">
+                <div>
+                    {% for paragraph in advisor['bio']%}
+                    <p>{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- End Modal-->
