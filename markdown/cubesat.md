@@ -3,9 +3,13 @@
 
 STAC is interested in this technology because recent work on directed energy propulsion of small wafer-scale spacecraft has enabled a technically-sound conversation on achieving relativistic interstellar spaceflight. This work comes out of NASA-funded work through the NASA Innovative Advanced Concept funded programs DEEP-IN and DEIS, led by Professor Philip Lubin of the UCSB Experimental Cosmology Group. 
 
+
+<iframe class='embed-responsive-item' width='640' height='360' src='https://www.youtube.com/embed/AZQlrkHhN-U' allowfullscreen='allowfullscreen'>Interview of STAC Co-Founder Travis by Times Magazine</iframe>
+
+
 One of the first steps to achieving this grander scale innovation in interstellar travel requires the use of laser communication.  Our CubeSat deployer project runs a proof-of-concept and provides initial framework for laser communication by designing and fabricating an incremental deployment of PCBsats.  
 
-_REPLACE THIS LINE WITH IFRAME CODE_
+<iframe src='https://docs.google.com/presentation/d/e/2PACX-1vTJ9V7nJQDXD2dk_dQ_j4fP0kHx_fxCr8qzVvBEmavP0nNKXlTB_3-qC47IqC43Fb_E_TJssgIhiB4F/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'>Concept of Coperations</iframe>
 
 # CubeSat Deployer Prototype
 

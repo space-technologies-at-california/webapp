@@ -17,7 +17,7 @@
 			"icon": "bookmark"
 		}
 	},
-	"blog-content": [
+  "blog-content": [
     {
       "class": "lead",
       "content": "<b> A CubeSat is a standard cubic box that can be tailored to hold a desired payload.  The CubeSat deployer mechanism essentially deploys a smaller swarm of Printable Circuit Board satellites (PCBsats).</b>"

@@ -31,6 +31,8 @@ The UCSB DeepSpace Laboratory has already written papers on the applications of 
 
 Based off of previous studies on how friction and gravity influence mechanics, we will build mini robotic arm, along with an information encoder, to experimentally see how being in a low-gravity environment influences the mechanics behind robotic movement.
 
+<iframe src='https://docs.google.com/presentation/d/e/2PACX-1vTzKFH_C-AORJJGKhvbky8xVaijTH2lNWnaRWiyJfOnvuI33e6HQc1X-ptxueC_9MSGWNAaYwbBgrb1/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe>
+
 # Collaboration
 
 We will be working closely with UC Santa Barbara and their NASA Space-grant funded group, the Deepspace Laboratory. As a UC wide effort, the laboratory at UCSB will help us make and test pre-existing electronics with laser components. Additionally, we are trying to work with various other space clubs from other UC schools.

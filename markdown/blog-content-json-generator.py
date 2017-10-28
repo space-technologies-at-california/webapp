@@ -2,6 +2,10 @@ import argparse
 import json
 import re
 
+common_unicode_conversion = {
+	"\u2018": "'",
+	"\u2019": "'"
+}
 # regex for different styles
 style = {
 	"link": "\[([^\(\)\[\]\!]+)\]\(([^\(\)\[\]\!]+)\)",
@@ -9,7 +13,9 @@ style = {
 	"bold": "(?:\*{2}([^\s].*?[^\s]|[^\s])\*{2})|(?:_{2}([^\s].*?[^\s]|[^\s])_{2})", 
 	"italic": "(?:\*([^\s].*?[^\s]|[^\s])\*)|(?:_([^\s].*?[^\s]|[^\s])_)", 
 	"code": "`.+?`",
-	"orderedList": "\s*^\s*\d+\.\s"
+	"orderedList": "\s*^\s*\d+\.\s",
+	"iframe": "<iframe.+>(.*)</iframe>",
+	"class": "<iframe.+class=['\"](.*?)['\"].*>.*"
 }
 for k in style:
 	style[k] = re.compile(style[k])
@@ -24,6 +30,11 @@ def content_to_keep(line):
 	line = line.strip()
 	return len(line) > 0 and not is_comment(line)
 
+def replace_unicode(line):
+	for k in common_unicode_conversion:
+		line = line.replace(k, common_unicode_conversion[k])
+	return line
+
 def divider(line):
 	if len(line.strip().replace("-","")) != 0:
 		raise Exception("Invalid divider format: {0}".format(line))
@@ -31,11 +42,11 @@ def divider(line):
 
 def bold(content, prefix_free=False):
 	if not prefix_free:
-		content = content.strip()[2:-2]
-	return "<b>{0}</b>".format(content)
+		content = content.strip()[2:-2].strip()
+	return "<b>{0}</b>".format(content.strip())
 
 def italicize(content):
-	return "<i>{0}</i>".format(content.strip()[1:-1])
+	return "<i>{0}</i>".format(content.strip()[1:-1].strip())
 
 def code(content, prefix_free=False, pre_enabled=False, code_language=""):
 	if not prefix_free:
@@ -128,6 +139,22 @@ def htmlfy(line):
 			match = style[key].search(line)
 	return line
 
+def iframe(d):
+	d = d.strip()
+	container = "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'>{0}</div></div>"
+	container2 = "<div class='embed-video-container embed-responsive embed-responsive-16by9' style='margin-bottom:0px'>{0}</div>"
+
+	match = style['iframe'].match(d)
+	word = htmlfy(match.groups()[0])
+	content = d.replace(word, "") 
+
+	match2 = style['class'].match(content)
+	if match2 is not None and 'embed-responsive-item' in match2.groups()[0]:
+		content = container2.format(content)
+
+	content = container.format(content + word)
+	return content
+
 def process(d):
 	"""Process general information, except multiple line code/list"""
 	# image
@@ -150,6 +177,8 @@ def creat_json(file):
 		data = f.read().strip().split("\n")
 	# filter out empty lines and comments
 	data = list(filter(content_to_keep, data))
+	# replace common unicode with english characters
+	data = list(map(replace_unicode, data))
 	# deal with pre-formated code first
 	code_multiple_line_detected = False
 	code_language = ""
@@ -191,6 +220,8 @@ def creat_json(file):
 				ordered_list_so_far = []
 			unordered_list_detected = True
 			unordered_list_so_far.append(process(d[2:].strip()))
+		elif style['iframe'].search(d) is not None:
+			res.append(iframe(d))
 		elif style['orderedList'].search(d) is not None:
 			if unordered_list_detected:
 				unordered_list_detected = False

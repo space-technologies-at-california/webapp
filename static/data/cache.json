@@ -48,7 +48,7 @@
                     "Autonomous Rover": "/project/rover"
                   },
                   {
-                    "BioSphere": "/project/biosphere"
+                    "Biosphere": "/project/biosphere"
                   }
                 ]
               }
@@ -105,7 +105,7 @@
   "home": {
     "title": "Home",
     "head-parallax": {
-      "background": "img/background/sci-fi-1-cut.jpg",
+      "background": "img/background/space7.jpg",
       "logo": "img/logo/logo-subheadline-white.png",
       "title": "We work to push and innovate space technology",
       "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
@@ -164,10 +164,11 @@
       "blog-content": [
         {
           "class": "lead",
-          "content": "<b> A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies.</b>"
+          "content": "<b>A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies.</b>"
         },
         "Several companies and research groups are developing rovers to explore the surface of Mars to verify its sustenance for humans. However, STAC, in partnership with the NASA Ames Research Center, aims to build an autonomous resource rover that steps further to enable commercial flights and bases on the Moon, which has areas that still remain unknown and uninhabited.",
-        "Humans are currently unable to access most of the moon\u2019s extensive resources. There is an abundance of water trapped in the Moon\u2019s ice caps, vast areas of heavy metals within the ilmenite region, and volatiles scattered across the Moon\u2019s surface. With the help of a resource rover that is fully controllable and autonomous, STAC will extract these resources, and either return them to Earth for our utilization, or maintain a resource bank on the Moon itself. As research has shown, a resource bank of extracted water can ease the costs of space travel by splitting hydrogen and oxygen atoms to create rocket fuel.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vQ_B7v47itfV7mBmaLuyydp07B07c0LIk4H-hNITZ2L5xfyDJKS40OGk2TD-uSK5ux03a93YP977U0c/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
+        "Humans are currently unable to access most of the moon's extensive resources. There is an abundance of water trapped in the Moon's ice caps, vast areas of heavy metals within the ilmenite region, and volatiles scattered across the Moon's surface. With the help of a resource rover that is fully controllable and autonomous, STAC will extract these resources, and either return them to Earth for our utilization, or maintain a resource bank on the Moon itself. As research has shown, a resource bank of extracted water can ease the costs of space travel by splitting hydrogen and oxygen atoms to create rocket fuel.",
         "Modern AI technology has enabled the ability for even further autonomy in tasks like navigation, exploration, and resource extraction. Current rovers require significant human intervention to operate, which is time consuming and strenuous. Automating this allows us to fully utilize the limited assets that we have on the moon. STAC aims to research the application of state-of-the-art deep learning techniques to safe and efficient rover control as well as high level tasks such as collecting resources.",
         {
           "type": "image",
@@ -190,7 +191,7 @@
         "url": "img/projects/biosphere/biosphere1.png"
       },
       "date": "21 Oct",
-      "blog-title": "The Smart Biosphere",
+      "blog-title": "Smart Environmental Engineered Design",
       "blog-info": {
         "Project Led by": {
           "list": [
@@ -206,21 +207,25 @@
         }
       },
       "blog-content": [
+        "Earth is the ultimate autonomous and self-repairing biome ideally suited for life, and while it is not possible to recreate it in its entirety with current technology, we are working to take the first steps to bring the future into the present.",
         {
           "class": "lead",
-          "content": "<b> The Smart Biosphere Project aims to create a controlled chambers with an earth-like atmosphere that can individually stand as a small greenhouse but can also form a large botanical shelter when connected with other units.</b>"
+          "content": "<b>The Biosphere Project aims to create a habitat with an earth-like environment sustained by a biologic engine and harvestable resources.  The environment would implement 'smart' controls and operation software to maintain the biome's equilibrium and continuous function.</b>"
         },
-        "Potential applications include agriculture processing for food, biofuels, and other chemical production to supply astronauts and space colonies with these necessities. This project opens a new dimension of production in space beyond status quo mechanical and electrical systems and functions as a gateway to the colonization of space.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vT2PfQ-0ewrxHQaDqDSJScajWXdn9b2hYhzKSbMb6Xjj9AZkbRF3P-d_Z4XTzX42fxIfM4-snIZfQ0v/embed?start=false&loop=false&delayms=30000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
+        "A manufactured replication of a sustainable, terra-like ecosystem would provide humanity with a means to survive extraterrestrial establishments providing for shelter, production of goods and energy-efficient regenerative systems. Agriculture can be processed for food, biofuels, chemical production etc. and our project serves as a direct way to supply astronauts and space colonies with those necessities while minimizing commercial orbital transport load.",
         {
           "type": "image",
           "url": "img/projects/biosphere/biosphere2.png"
         },
-        "Each biosphere unit will be maintained by a smart-control software that receives feedback from multiple sensors to ensure environmental equilibrium. Mechanical and chemical integrations will ensure detection of humidity, pH, chemical species, temperature and other environmental state variables. A controlled feedback system ensures that an individual does not need to manually monitor the biosphere.",
+        "The STAC Biosphere Project will open a new dimension of production in space beyond the mechanical and electrical systems of NASA's current capabilities and will serve as a home which models our own. Therefore the Biosphere is the gateway to the sustained inhabitants and eventual colonization of space.",
+        "The first prototype of our project will contain vegetation and a support system with preparation to simulate conditions for deployment on Mars. Our autonomous software will take continuous feedback data from a myriad of sensors and with an IOT network of mechanical controls alter the light, aeroponic irrigation, temperature, ventilation, humidity and gas concentrations to maintain stability. For example, through control of plant growth, one can control the composition of gases in the closed system and with harvested solar power, the system can supply light to the plants to drive photosynthesis and thereby decrease the quantity of carbon dioxide and increase oxygen or alternatively, plant lighting can be reduced to allow botanical respiration run in reverse.",
+        "The projected has manifested as a cubic, two-foot steel box that is pressurized to one atmosphere and will be structurally sound to survive a pressure differential to 0.006 atmospheres, the atmospheric pressure of Mars. The box has thermal support to protect against the sub -100 C Martian nights and runs off solar power, but contains internal UV lighting to avoid dependence on inconsistent natural light and control of plant growth. Our control system runs off a Texas Instrument Launchpad and the code is in arduino and Rasberry Pi. The plants are growing with an aeroponic irrigation system as this has shown to be one of the most efficient methods of agriculture.",
         {
           "type": "image",
           "url": "img/projects/biosphere/biosphere3.png"
         },
-        "Another primary consideration for the biosphere is its efficiency. With constraints for energy and resource supplies in extraterrestrial environments, the biosphere should be self-sustaining. Some potential avenues for this development include environmental power harvesting, in-situ resource harvesting, and waste recycling."
+        "This first effort intends to develop a working prototype on which further capabilities can be added.  Once we have designed the control scheme to handle system administration, we plan to expand to a larger enclosure and test other ecological and microbiological methods to maintaining and cycling a habitat including waste regeneration and in-situ resource utilization of regolith. In this way, it is our intention to produce a working controller for environmental monitoring and dynamic equilibrium to allow for colonization of extra-terrestrial systems."
       ]
     },
     "time1": {
@@ -249,7 +254,7 @@
       "blog-content": [
         {
           "class": "lead",
-          "content": "<b> The Interstellar Microgravity Experiments (TIMEs) are a group of experiments that we would like to test in outer-space to further aerospace research at Berkeley and around the nation. TIMEs will detail how being in a low-gravity environment - like space - will affect lifeforms, optics, and physical mechanics.</b>"
+          "content": "<b>The Interstellar Microgravity Experiments (TIMEs) are a group of experiments that we would like to test in outer-space to further aerospace research at Berkeley and around the nation. TIMEs will detail how being in a low-gravity environment - like space - will affect lifeforms, optics, and physical mechanics.</b>"
         },
         "We recently became the winner of the Blue Origin Payload Competition at Dent:Space. Winning means that we will send a mini NanoLab payload onto Blue Origin's New Shepard Spacecraft through NanoRacks for free.",
         {
@@ -274,7 +279,7 @@
         "<hr>",
         {
           "class": "lead",
-          "content": "<b> Experiments</b>"
+          "content": "<b>Experiments</b>"
         },
         "<b>C. elegans & Roundworms</b>",
         "C. elegans have been prominently used in spaceflight research. Recently, it was shown that C. elegans also have the ability to undergo suspended animation after being exposed to cooling agents. Specifically, they have been said to withstand .6 Mrad and can be suspended for up to 10-15 years.",
@@ -283,15 +288,16 @@
         "The UCSB DeepSpace Laboratory has already written papers on the applications of laser communications in space. Alongside their researchers, we will send some of their laser communication electronics into low-gravity to see if the transmission is affected in any way. Our stretch goal is to include a small vacuum with an asteroid-like sample or space-debris sample to image the plume exhaust from laser ablation to compare the effect with what we see in the lab in gravity on Earth.",
         "<b>Robotics</b>",
         "Based off of previous studies on how friction and gravity influence mechanics, we will build mini robotic arm, along with an information encoder, to experimentally see how being in a low-gravity environment influences the mechanics behind robotic movement.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vTzKFH_C-AORJJGKhvbky8xVaijTH2lNWnaRWiyJfOnvuI33e6HQc1X-ptxueC_9MSGWNAaYwbBgrb1/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
         {
           "class": "lead",
-          "content": "<b> Collaboration</b>"
+          "content": "<b>Collaboration</b>"
         },
         "We will be working closely with UC Santa Barbara and their NASA Space-grant funded group, the Deepspace Laboratory. As a UC wide effort, the laboratory at UCSB will help us make and test pre-existing electronics with laser components. Additionally, we are trying to work with various other space clubs from other UC schools.",
         "We have also started collaborating with the Space Sciences Laboratory (SSL) here at Berkeley in order to design, test, and build our experiments. We have already contacted the director of the SSL, and he has given us a space to work and conduct research. One of the researchers/professors in the lab is our point of contact in the SSL. We plan on working closely with them for research space, resources, as well as mentorship and advising.",
         "During the design and implementation stages of our project, we plan on working with Berkeley's engineering department and the Jacobs Institute. Our student organization has access to the Jacobs's Makerspace and the Supernode Makerspace in the EECS Department.",
         "Finally, we plan on working with professors from the biology department for our C. elegans (roundworm) experiment in microgravity. We have contacted various professors including Michael Shapira, an assistant research professor in the Integrative Biology department who works extensively with C. elegans. With his advice and support, we will properly culture and grow the roundworms.",
-        "<b>We are also working on the next set of <a href='/projects/time2'>microgravity experiments</a>, where we plan to reuse our chassis (or enclosure) and communication systems design for future payload launches to space.</b>"
+        "<b>We are also working on the next set of <a href='/projects/time2' target='blank'>microgravity experiments</a>, where we plan to reuse our chassis (or enclosure) and communication systems design from for future payload launches to space.</b>"
       ]
     },
     "example": {
@@ -1438,5 +1444,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 4.7
+  "version": 6.0
 }
