@@ -1038,6 +1038,21 @@
         "bio": "Space exploration and the development of space technology can open so many doors for humanity. There are answers to questions we haven't even asked yet, and space allows us to learn about ourselves and the universe. I also think everyone should have the opportunity to go to space! It would be amazing for future generations to get to experience life beyond Earth."
       },
       {
+        "name": "Arda Hatay",
+        "photo": "img/team/member/arda-hatay.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering & Physics",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "My interest in space developed as a child while observing stars at night. I kept wondering what could be out there and why we know so little about it. From that day on I imagined myself going to space as an astronaut every day. How cool it would be to be able to spend a portion of my life in space. Today I work towards that goal by aiming to advance space exploration projects."
+      },
+      {
         "name": "Audrey Zhao ",
         "photo": "img/team/member/audrey-zhao.jpg",
         "profile-order": null,
@@ -1113,6 +1128,21 @@
         "bio": "After interning at NASA and interning at an autonomous car company, I figured why not combine the best of both worlds and work on autonomous systems in space!  So I joined STAC to do exactly that, and also to meet others who are just as interested in space and cutting-edge tech as I am."
       },
       {
+        "name": "David Deng",
+        "photo": "img/team/member/david-deng.jpg",
+        "profile-order": null,
+        "major": "Nuclear Engineering & Intended EECS",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I am interested in space because my dorm needs more of it. Jk. In reality, I'm interested in space exploration because in the past fifty years, it has brought out the best of humanity: curiosity, collaboration, and some of the most cutting edge technology of our time. Our world wouldn't be the way it is today without space exploration."
+      },
+      {
         "name": "David Mai",
         "photo": "img/team/member/david-mai.jpg",
         "profile-order": null,
@@ -1126,6 +1156,21 @@
           "email": ""
         },
         "bio": "There are so many things we haven't seen, and an incomprehensible amount of space for us to grow both physically and intellectually. I'm interested in furthering life beyond our terrestrial realm through building sustainable synthetic systems."
+      },
+      {
+        "name": "David Yang",
+        "photo": "img/team/member/david-yang.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Even since I was a child, I was fascinated with space. Watching episodes of The Universe everyday after school, and seeing the vastness and mysteriousness of space fueled my curiosity. But space also has the potential to solve humanities greatest problems, and I'm excited to have the opportunity to be a part of the space revolution."
       },
       {
         "name": "Eric D'sa",
@@ -1218,6 +1263,21 @@
         "bio": "After countless trips to Kennedy space center and seeing the direct impact of innovations for the final frontier, I've been enthralled with space. I love the challenging atmosphere that surrounds technology in space. I love making wide variety of things and am currently focusing on the intersection of software, electronics and mechanical design."
       },
       {
+        "name": "Mark Hill",
+        "photo": "img/team/member/mark-hill.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/mark-h-6ab768146",
+          "github": "https://github.com/mark64",
+          "twitter": "",
+          "web": "https://drfcx.com/resume.pdf",
+          "email": ""
+        },
+        "bio": "I built my first cubesat in high school as part of the Irvine CubeSat project and wanted to keep working on amazing hands on projects that end up in space."
+      },
+      {
         "name": "Rachel He",
         "photo": "img/team/member/rachel-he.jpg",
         "profile-order": null,
@@ -1231,6 +1291,36 @@
           "email": ""
         },
         "bio": "I'm always excited to learn new things and new disciplines. Whether that be design or space exploration. I hope that by joining the team and engaging with all these other brilliant students and creators I can continue to grow and broaden my horizons."
+      },
+      {
+        "name": "Richard Yuh",
+        "photo": "img/team/member/richard-yuh.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The space industry has so much growth potential with current improvements in reusable rocket technology, in companies like SpaceX, Blue Origin, and Virgin Galactic. Exploring the frontiers of space and beyond requires the highest level of engineering and innovation, and for a mechanical engineering student, contributions to humanity exploring the stars represent the greatest accomplishment."
+      },
+      {
+        "name": "Shaantam Chawla",
+        "photo": "img/team/member/shaantam-chawla.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/shaantamchawla/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space captured my attention after I became involved with the hackathon arena in high school. To me, it's the perfect way to unleash the power of a computer and make exciting new discoveries using open data. Studying space is my way of engaging with my surroundings - it's a link between my interests in engineering and the natural world."
       },
       {
         "name": "Sirej Dua",
@@ -1444,5 +1534,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 6.3
+  "version": 6.6
 }
