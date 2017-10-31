@@ -771,7 +771,7 @@
         "name": "Philipp Wu",
         "photo": "img/team/member/philipp-wu.jpg",
         "profile-order": 6,
-        "major": "Mechanical Engineering",
+        "major": "EECS & Mechanical Engineering",
         "title": "Engineering Director",
         "links": {
           "linkedin": "",
@@ -1534,5 +1534,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 6.6
+  "version": 6.7
 }
