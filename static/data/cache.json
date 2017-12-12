@@ -100,6 +100,10 @@
       "linkedin": "https://www.linkedin.com/company/12956417/",
       "medium": "https://medium.com/@stac"
     },
+    "contact-email": {
+      "inqury": "inqury@stac.berkeley.edu",
+      "sponsor": "sponsor@stac.berkeley.edu"
+    },
     "disqus-comment-link": "stac-webapp"
   },
   "home": {
@@ -1534,5 +1538,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 6.9
+  "version": 7.6
 }
