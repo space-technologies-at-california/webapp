@@ -273,8 +273,8 @@
         },
         {
           "type": "image",
-          "url": "img/projects/time1/times-v2.png",
-          "caption": "Figure 2: Our Payload Prototype v2 Rendering"
+          "url": "img/projects/time1/times-v3.svg",
+          "caption": "Figure 2: Our Payload Prototype v3 Rendering"
         },
         "<hr>",
         {
@@ -1534,5 +1534,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 6.8
+  "version": 6.9
 }

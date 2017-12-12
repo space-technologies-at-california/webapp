@@ -11,7 +11,7 @@ The launch will create a microgravity, outer-space environment for our payload, 
 - testing laser communications and using lasers to remove space debris
 - testing the mechanics of a robotic arm
 
-![Figure 2: Our Payload Prototype v2 Rendering](img/projects/time1/times-v2.png)
+![Figure 2: Our Payload Prototype v2 Rendering](img/projects/time1/times-v3.svg)
 
 ---
 
