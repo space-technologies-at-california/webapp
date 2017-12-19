@@ -731,7 +731,7 @@
         "photo": "img/team/member/gan-tu.jpg",
         "profile-order": 3,
         "major": "Computer Science Honors",
-        "title": "Co-founder & Software Expert & Graphic Design",
+        "title": "Co-Founder & Software Expert & Graphic Design",
         "bio": "I have a tremendous passion for learning cross disciplinary subjects. Motivated by my relentless intellectual curiosity, I make efforts to acquire skills and insights in education, law, business, engineering, and design etc. I have lead and taken roles in several award winning projects with these skills, and I am excited to leverage all these experiences to explore the space, which first inspired my learning journey.",
         "links": {
           "linkedin": "https://www.linkedin.com/in/gantu",
@@ -1538,5 +1538,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 7.6
+  "version": 7.7
 }
