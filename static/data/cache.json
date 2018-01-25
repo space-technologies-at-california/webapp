@@ -1222,6 +1222,21 @@
         "bio": "I've had a fascination with space since I was a kid with glow-in-the-dark stars on my ceiling. I love to explore applications of AI/ML and space is a particularly exciting frontier."
       },
       {
+        "name": "Hall Chen",
+        "photo": "img/team/member/hall-chen.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I find high frequency telecommunications poetic that something so delicate, so minute, but so very deliberate, as the coded ripples in the electromagnetic fabric of reality around us can bring together all of mankind. With the inevitability of space exploration, it will be an incredibly humbling experience to extend the unshakable tenet of ubiquitous connectivity to mankind scattered across the stars."
+      },
+      {
         "name": "Jacob Warnagieris",
         "photo": "img/team/member/jacob-warnagieris.jpg",
         "profile-order": null,
@@ -1643,5 +1658,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 8.0
+  "version": 8.1
 }
