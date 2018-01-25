@@ -1132,21 +1132,6 @@
         "bio": "I'm fascinated by the possibility of working on a tangible project that has the potential of actually being launched into space. Also, I'm a big Star Trek fan. "
       },
       {
-        "name": "Daniel Jiang",
-        "photo": "img/team/member/daniel-jiang.jpg",
-        "profile-order": null,
-        "major": "Computer Science",
-        "title": "Autonomous Rover Project Member",
-        "links": {
-          "linkedin": "https://www.linkedin.com/in/daniel-jiang/",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "After interning at NASA and interning at an autonomous car company, I figured why not combine the best of both worlds and work on autonomous systems in space!  So I joined STAC to do exactly that, and also to meet others who are just as interested in space and cutting-edge tech as I am."
-      },
-      {
         "name": "David Deng",
         "photo": "img/team/member/david-deng.jpg",
         "profile-order": null,
@@ -1490,21 +1475,6 @@
           "email": ""
         },
         "bio": "Space exploration will unlock a new realm of engineering and scientific inquiry, expanding our understanding of the universe and our place within it. I'm most focused on space technologies that help us understand the limits of life, as well as how we can protect Earth life that travels beyond our orbit."
-      },
-      {
-        "name": "Zachary Yun",
-        "photo": "img/team/member/zachary-yun.jpg",
-        "profile-order": null,
-        "major": "Mechanical Engineering",
-        "title": "Student Advisor",
-        "links": {
-          "linkedin": "",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "I have been interested in space since I was a kid. That interest and excitement has only grown in recent years since having the opportunity to work on cubesats during my undergrad studies at Cal Poly SLO. I am excited to continue working on new projects at Cal that will make space more accessible for everyone. "
       }
     ]
   },
