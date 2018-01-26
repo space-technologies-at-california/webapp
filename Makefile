@@ -8,10 +8,7 @@ run:
 	python app.py
 
 update:
-	git checkout v1
-	git add -A
-	git commit
-	git push
+	bash -c "git checkout v1; git add -A; git commit; git push" ||
 	git checkout master
 	git merge v1
 	git push
@@ -23,5 +20,3 @@ update:
 	git push
 	git checkout v1
 	ssh ocf-stac-webapp 'cd myapp/src; git pull; cd ..; ./restart'
-
-
