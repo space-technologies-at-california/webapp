@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+import datetime
 
 real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
 
@@ -52,6 +53,9 @@ else:
 	config["industry-partnership"].update({
 		"partner-logo": { x.split(".")[0][x.index("img"):] : x[x.index("img"):] for x in glob.glob(real_root_path + "static/img/logo/partner/*")}
 	})
+
+	# Update Rights Info with current year
+	config["club"]["rights"] = config["club"]["rights"].format(datetime.datetime.now().year)
 
 	# Save cache
 	with open("static/data/cache.json", "w") as f:
