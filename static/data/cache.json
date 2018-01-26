@@ -1536,6 +1536,7 @@
       "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
       "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
       "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
+      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
       "img/logo/partner/altium": "img/logo/partner/altium.jpg",
       "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
       "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
@@ -1543,7 +1544,6 @@
       "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
       "img/logo/partner/ssl": "img/logo/partner/ssl.png",
       "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
-      "img/logo/partner/big-give": "img/logo/partner/big-give.jpg",
       "img/logo/partner/pear": "img/logo/partner/pear.png",
       "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
       "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
@@ -1628,5 +1628,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 8.1
+  "version": 8.3
 }
