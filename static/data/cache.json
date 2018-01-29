@@ -1,0 +1,1632 @@
+{
+  "navbar": {
+    "left-menu": [
+      {
+        "Home": "/"
+      },
+      {
+        "About Us": {
+          "link": "#",
+          "submenu": [
+            {
+              "Team": "/team"
+            },
+            {
+              "Industry Advisors": "/industry-advisors"
+            }
+          ]
+        }
+      },
+      {
+        "Projects": {
+          "link": "#",
+          "submenu": [
+            {
+              "High Altitude Balloon": "/project/balloon"
+            },
+            {
+              "MicroG Experiments": {
+                "link": "/project/time1",
+                "submenu": [
+                  {
+                    "TIME I": "/project/time1"
+                  },
+                  {
+                    "TIME II": "/project/time2"
+                  }
+                ]
+              }
+            },
+            {
+              "CubeSat Deployer": "/project/cubesat"
+            },
+            {
+              "Off World Programs": {
+                "link": "#",
+                "submenu": [
+                  {
+                    "Autonomous Rover": "/project/rover"
+                  },
+                  {
+                    "Biosphere": "/project/biosphere"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Blog": "https://medium.com/@stac"
+      },
+      {
+        "Sponsor": "/sponsor"
+      }
+    ],
+    "right-menu-enabled": true,
+    "right-menu": [
+      {
+        "Join Us": "/join"
+      }
+    ]
+  },
+  "club": {
+    "name": "Space Technologies at Cal",
+    "acronym": "STAC",
+    "mission": "Creating A Multi-Campus Initiative To Advance Space Technology",
+    "mission-short": "We Work to Push And Innovate Space Technology",
+    "slogan": "Launch Berkeley to Space!",
+    "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies.\nWe are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous.\nOur innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today.",
+    "ocf-disclaimer": "We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.",
+    "rights": "\u00a9 Copyright 2018 STAC - All Rights Reserved",
+    "logo": {
+      "stac": {
+        "light": "img/logo/logo-light.png",
+        "black": "img/logo/logo-black.png"
+      },
+      "stac-with-headline": {
+        "light": "img/logo/logo-subheadline-light.png",
+        "black": "img/logo/logo-subheadline-black.png"
+      },
+      "full": {
+        "light": "img/logo/logo-full-light.png",
+        "black": "img/logo/logo-full-black.png"
+      }
+    },
+    "social-media": {
+      "email": "mailto:inqury@stac.berkeley.edu",
+      "twitter": "https://twitter.com/stacBerkeley",
+      "facebook": "https://www.facebook.com/stacBerkeley",
+      "linkedin": "https://www.linkedin.com/company/12956417/",
+      "medium": "https://medium.com/@stac"
+    },
+    "contact-email": {
+      "inqury": "inqury@stac.berkeley.edu",
+      "sponsor": "sponsor@stac.berkeley.edu"
+    },
+    "disqus-comment-link": "stac-webapp"
+  },
+  "home": {
+    "title": "Home",
+    "head-parallax": {
+      "background": "img/background/space7.jpg",
+      "logo": "img/logo/logo-subheadline-white.png",
+      "title": "We work to push and innovate space technology",
+      "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
+    },
+    "second-parallax": {
+      "background": "img/projects/stac-projects.png",
+      "title": " Innovative Projects",
+      "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
+    },
+    "third-parallax": {
+      "background": "img/background/space16.jpg",
+      "title": "STAC Space Program",
+      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. We have set up a space program at Berkeley to test space experiments at a low cost. We utilize a high-quality network of university partners and industry advisors to push the technology in the space community through high-impact research. STAC provides a platform for these groups and advisors to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
+    },
+    "fourth-parallax": {
+      "background": "img/background/space14.jpg",
+      "title": "We cannot just assume great ideas are being worked on.",
+      "icon": "quote-left",
+      "description": "There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is exactly what STAC is trying to do. We work on projects that get humanity one step closer to long term space innovations."
+    },
+    "fifth-parallax": {
+      "background": "img/background/space7.jpg",
+      "title": "TO BE DONE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    },
+    "sixth-parallax": {
+      "background": "img/subpage/astronut-design.png",
+      "title": "TO BE DONE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    }
+  },
+  "project": {
+    "rover": {
+      "title": "Autonomous Resource Rover",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "Autonomous Resource Rover",
+        "url": "img/projects/rover/rover1.png"
+      },
+      "date": "21 Oct",
+      "blog-title": "Autonomous Resource Rover",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "Anoushka Giri"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        {
+          "class": "lead",
+          "content": "<b>A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies.</b>"
+        },
+        "Several companies and research groups are developing rovers to explore the surface of Mars to verify its sustenance for humans. However, STAC, in partnership with the NASA Ames Research Center, aims to build an autonomous resource rover that steps further to enable commercial flights and bases on the Moon, which has areas that still remain unknown and uninhabited.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vQ_B7v47itfV7mBmaLuyydp07B07c0LIk4H-hNITZ2L5xfyDJKS40OGk2TD-uSK5ux03a93YP977U0c/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
+        "Humans are currently unable to access most of the moon's extensive resources. There is an abundance of water trapped in the Moon's ice caps, vast areas of heavy metals within the ilmenite region, and volatiles scattered across the Moon's surface. With the help of a resource rover that is fully controllable and autonomous, STAC will extract these resources, and either return them to Earth for our utilization, or maintain a resource bank on the Moon itself. As research has shown, a resource bank of extracted water can ease the costs of space travel by splitting hydrogen and oxygen atoms to create rocket fuel.",
+        "Modern AI technology has enabled the ability for even further autonomy in tasks like navigation, exploration, and resource extraction. Current rovers require significant human intervention to operate, which is time consuming and strenuous. Automating this allows us to fully utilize the limited assets that we have on the moon. STAC aims to research the application of state-of-the-art deep learning techniques to safe and efficient rover control as well as high level tasks such as collecting resources.",
+        {
+          "type": "image",
+          "url": "img/projects/rover/deepQ.png",
+          "caption": "Figure 1: Deep Q Learning Architecture"
+        },
+        "Because these rovers will have autonomous capabilities, they will be extremely easy to maintain and multiply. The end goal is to implement an array of these rovers that all work together to build their own community on the Moon. Once the rovers become powerful and skilled enough, they will be able to use the resources that they extract to aid humans in space exploration.",
+        {
+          "type": "image",
+          "url": "img/projects/rover/demo.gif",
+          "caption": "Figure 2: Autonomous Mode Demo in Simulator"
+        }
+      ]
+    },
+    "biosphere": {
+      "title": "The Smart Biosphere",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "BioSphere",
+        "url": "img/projects/biosphere/biosphere1.png"
+      },
+      "date": "21 Oct",
+      "blog-title": "Smart Environmental Engineered Design",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "William Sharpless"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        "Earth is the ultimate autonomous and self-repairing biome ideally suited for life, and while it is not possible to recreate it in its entirety with current technology, we are working to take the first steps to bring the future into the present.",
+        {
+          "class": "lead",
+          "content": "<b>The Biosphere Project aims to create a habitat with an earth-like environment sustained by a biologic engine and harvestable resources.  The environment would implement 'smart' controls and operation software to maintain the biome's equilibrium and continuous function.</b>"
+        },
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vT2PfQ-0ewrxHQaDqDSJScajWXdn9b2hYhzKSbMb6Xjj9AZkbRF3P-d_Z4XTzX42fxIfM4-snIZfQ0v/embed?start=false&loop=false&delayms=30000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
+        "A manufactured replication of a sustainable, terra-like ecosystem would provide humanity with a means to survive extraterrestrial establishments providing for shelter, production of goods and energy-efficient regenerative systems. Agriculture can be processed for food, biofuels, chemical production etc. and our project serves as a direct way to supply astronauts and space colonies with those necessities while minimizing commercial orbital transport load.",
+        {
+          "type": "image",
+          "url": "img/projects/biosphere/biosphere2.png"
+        },
+        "The STAC Biosphere Project will open a new dimension of production in space beyond the mechanical and electrical systems of NASA's current capabilities and will serve as a home which models our own. Therefore the Biosphere is the gateway to the sustained inhabitants and eventual colonization of space.",
+        "The first prototype of our project will contain vegetation and a support system with preparation to simulate conditions for deployment on Mars. Our autonomous software will take continuous feedback data from a myriad of sensors and with an IOT network of mechanical controls alter the light, aeroponic irrigation, temperature, ventilation, humidity and gas concentrations to maintain stability. For example, through control of plant growth, one can control the composition of gases in the closed system and with harvested solar power, the system can supply light to the plants to drive photosynthesis and thereby decrease the quantity of carbon dioxide and increase oxygen or alternatively, plant lighting can be reduced to allow botanical respiration run in reverse.",
+        "The projected has manifested as a cubic, two-foot steel box that is pressurized to one atmosphere and will be structurally sound to survive a pressure differential to 0.006 atmospheres, the atmospheric pressure of Mars. The box has thermal support to protect against the sub -100 C Martian nights and runs off solar power, but contains internal UV lighting to avoid dependence on inconsistent natural light and control of plant growth. Our control system runs off a Texas Instrument Launchpad and the code is in arduino and Rasberry Pi. The plants are growing with an aeroponic irrigation system as this has shown to be one of the most efficient methods of agriculture.",
+        {
+          "type": "image",
+          "url": "img/projects/biosphere/biosphere3.png"
+        },
+        "This first effort intends to develop a working prototype on which further capabilities can be added.  Once we have designed the control scheme to handle system administration, we plan to expand to a larger enclosure and test other ecological and microbiological methods to maintaining and cycling a habitat including waste regeneration and in-situ resource utilization of regolith. In this way, it is our intention to produce a working controller for environmental monitoring and dynamic equilibrium to allow for colonization of extra-terrestrial systems."
+      ]
+    },
+    "time1": {
+      "title": "TIME I",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "The Interstellar Microgravity Experiments I",
+        "url": "img/projects/time1/microG.jpg"
+      },
+      "date": "21 Oct",
+      "blog-title": "The Interstellar Microgravity Experiments (TIME) I",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "Daniel Shen"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        {
+          "class": "lead",
+          "content": "<b>The Interstellar Microgravity Experiments (TIMEs) are a group of experiments that we would like to test in outer-space to further aerospace research at Berkeley and around the nation. TIMEs will detail how being in a low-gravity environment - like space - will affect lifeforms, optics, and physical mechanics.</b>"
+        },
+        "We recently became the winner of the Blue Origin Payload Competition at Dent:Space. Winning means that we will send a mini NanoLab payload onto Blue Origin's New Shepard Spacecraft through NanoRacks for free.",
+        {
+          "type": "image",
+          "url": "img/projects/time1/blue-origin.jpg",
+          "caption": "Figure 1: Blue Origin"
+        },
+        "The launch will create a microgravity, outer-space environment for our payload, where we will conduct various experiments, including:",
+        {
+          "type": "unordered-list",
+          "content": [
+            "observing life's ability to survive in microgravity by re-animating C. elegans (or roundworms)",
+            "testing laser communications and using lasers to remove space debris",
+            "testing the mechanics of a robotic arm"
+          ]
+        },
+        {
+          "type": "image",
+          "url": "img/projects/time1/times-v3.svg",
+          "caption": "Figure 2: Our Payload Prototype v3 Rendering"
+        },
+        "<hr>",
+        {
+          "class": "lead",
+          "content": "<b>Experiments</b>"
+        },
+        "<b>C. elegans & Roundworms</b>",
+        "C. elegans have been prominently used in spaceflight research. Recently, it was shown that C. elegans also have the ability to undergo suspended animation after being exposed to cooling agents. Specifically, they have been said to withstand .6 Mrad and can be suspended for up to 10-15 years.",
+        "To test their ability to be the first specimen to be included on the maiden interstellar voyage, our project would involve suspending the C. elegans into an immobile state, and re-animating them once they are in space to see how they react. Moreover, The two C. elegans groups would each have a paired control group on earth in our labs.",
+        "<b>Laser Communication and Ablation</b>",
+        "The UCSB DeepSpace Laboratory has already written papers on the applications of laser communications in space. Alongside their researchers, we will send some of their laser communication electronics into low-gravity to see if the transmission is affected in any way. Our stretch goal is to include a small vacuum with an asteroid-like sample or space-debris sample to image the plume exhaust from laser ablation to compare the effect with what we see in the lab in gravity on Earth.",
+        "<b>Robotics</b>",
+        "Based off of previous studies on how friction and gravity influence mechanics, we will build mini robotic arm, along with an information encoder, to experimentally see how being in a low-gravity environment influences the mechanics behind robotic movement.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vTzKFH_C-AORJJGKhvbky8xVaijTH2lNWnaRWiyJfOnvuI33e6HQc1X-ptxueC_9MSGWNAaYwbBgrb1/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
+        {
+          "class": "lead",
+          "content": "<b>Collaboration</b>"
+        },
+        "We will be working closely with UC Santa Barbara and their NASA Space-grant funded group, the Deepspace Laboratory. As a UC wide effort, the laboratory at UCSB will help us make and test pre-existing electronics with laser components. Additionally, we are trying to work with various other space clubs from other UC schools.",
+        "We have also started collaborating with the Space Sciences Laboratory (SSL) here at Berkeley in order to design, test, and build our experiments. We have already contacted the director of the SSL, and he has given us a space to work and conduct research. One of the researchers/professors in the lab is our point of contact in the SSL. We plan on working closely with them for research space, resources, as well as mentorship and advising.",
+        "During the design and implementation stages of our project, we plan on working with Berkeley's engineering department and the Jacobs Institute. Our student organization has access to the Jacobs's Makerspace and the Supernode Makerspace in the EECS Department.",
+        "Finally, we plan on working with professors from the biology department for our C. elegans (roundworm) experiment in microgravity. We have contacted various professors including Michael Shapira, an assistant research professor in the Integrative Biology department who works extensively with C. elegans. With his advice and support, we will properly culture and grow the roundworms.",
+        "<b>We are also working on the next set of <a href='/projects/time2' target='blank'>microgravity experiments</a>, where we plan to reuse our chassis (or enclosure) and communication systems design from for future payload launches to space.</b>"
+      ]
+    },
+    "example": {
+      "title": "Example Project",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "Post Image",
+        "url": "img/background/cover1.jpg"
+      },
+      "date": "23 Sept",
+      "blog-title": "An amazing title gets lots of attention",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "Person",
+            "Legend",
+            "PM"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        {
+          "class": "lead",
+          "content": "<b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec consectetur lorem. Vivamus imperdiet egestas eros ac sollicitudin. Nunc aliquet imperdiet lorem. Vivamus hendrerit commodo dui in congue.</b>"
+        },
+        "Ut faucibus urna non nisl ultrices eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae ultrices lacus. Vestibulum sit amet maximus lectus. Cras nec magna a velit hendrerit condimentum ut vel neque. In velit purus, iaculis non rutrum et, tincidunt sit amet lacus. Praesent feugiat tortor ligula, vitae consectetur augue finibus eleifend. Maecenas iaculis rhoncus nulla sit amet pharetra.",
+        "<i><a href='http://www.goldengatebridge.org' target='blank'>Example Golden Bridge</a></i>",
+        {
+          "type": "image",
+          "url": "img/background/cover1.jpg",
+          "caption": "Figure Caption: Example Golden Bridge"
+        },
+        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+        {
+          "type": "ordered-list",
+          "content": [
+            "Beatae vitae dicta sunt explicabo",
+            "Inventore veritatis et quasi architecto",
+            "Sed do eiusmod tempor incididunt",
+            "Accusamus et iusto odio dignissimos ducimus"
+          ]
+        },
+        "<b>Sed risus libero, facilisis et maximus vitae, hendrerit eu turpis. Phasellus aliquet elit et tellus tincidunt, eget luctus ipsum dictum. Nullam tincidunt elementum tortor, eget dictum lectus laoreet eget. Nam ac odio ligula.</b>",
+        "<blockquote>It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.</blockquote>",
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "<hr>",
+        {
+          "class": "lead",
+          "content": "<b> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</b>"
+        },
+        {
+          "type": "unordered-list",
+          "content": [
+            "Beatae vitae dicta sunt explicabo",
+            "Inventore veritatis et quasi architecto",
+            "Sed do eiusmod tempor incididunt",
+            "Accusamus et iusto odio dignissimos ducimus"
+          ]
+        },
+        "Vestibulum semper, enim nec <code class=''>malesuada aliquam</code>, justo est luctus metus, eu efficitur ex sapien sed diam. Vivamus fringilla massa a erat hendrerit consectetur. <code class=''>Nam purus dolor</code>, sagittis sit amet placerat semper, convallis id odio.",
+        "<pre><code class='python'>def build_model(cropping_box=((70,25), (0,0)), input_shape=(160,320,3)):\n    model = Sequential()\n    model.add(Cropping2D(cropping=cropping_box))\n    model.add(Lambda(lambda x: x / 255.0 - 0.5, input_shape=input_shape))\n    model.add(Convolution2D(24, 5, 5, subsample=(2,2), activation=\"elu\"))\n    model.add(Convolution2D(64, 3, 3, activation=\"elu\"))\n    keep_prob = 0.5\n    model.add(Dropout(keep_prob))\n    model.add(Flatten())\n    model.add(Dense(100))\n    model.add(Activation(\"elu\"))\n    model.add(Dropout(keep_prob))\n    model.add(Dense(1))\n    return model</code></pre>",
+        "Donec sollicitudin dui eu leo mattis, nec euismod sem finibus. Pellentesque id quam ligula. Nam consectetur elementum euismod. Ut id magna odio. Nulla suscipit enim id tincidunt"
+      ]
+    },
+    "cubesat": {
+      "title": "CubeSat Deployer",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "CubeSat Deployer",
+        "url": "img/background/solar.jpg"
+      },
+      "date": "21 Oct",
+      "blog-title": "CubeSat Deployer",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "Varun Khurana"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        {
+          "class": "lead",
+          "content": "<b> A CubeSat is a standard cubic box that can be tailored to hold a desired payload.  The CubeSat deployer mechanism essentially deploys a smaller swarm of Printable Circuit Board satellites (PCBsats).</b>"
+        },
+        "STAC is interested in this technology because recent work on directed energy propulsion of small wafer-scale spacecraft has enabled a technically-sound conversation on achieving relativistic interstellar spaceflight. This work comes out of NASA-funded work through the NASA Innovative Advanced Concept funded programs DEEP-IN and DEIS, led by Professor Philip Lubin of the UCSB Experimental Cosmology Group.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><div class='embed-video-container embed-responsive embed-responsive-16by9' style='margin-bottom:0px'><iframe class='embed-responsive-item' width='640' height='360' src='https://www.youtube.com/embed/AZQlrkHhN-U' allowfullscreen='allowfullscreen'></iframe></div>Interview of STAC Co-Founder Travis by Times Magazine</div></div>",
+        "One of the first steps to achieving this grander scale innovation in interstellar travel requires the use of laser communication.  Our CubeSat deployer project runs a proof-of-concept and provides initial framework for laser communication by designing and fabricating an incremental deployment of PCBsats.",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vTJ9V7nJQDXD2dk_dQ_j4fP0kHx_fxCr8qzVvBEmavP0nNKXlTB_3-qC47IqC43Fb_E_TJssgIhiB4F/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe>Concept of Coperations</div></div>",
+        {
+          "class": "lead",
+          "content": "<b> CubeSat Deployer Prototype</b>"
+        },
+        "Our 1U-3U CubeSat will deploy several PCBSats that are held within the CubeSat. This CubeSat will act as a communication link and mothership for all the PCBSats once they are deployed.  We plan to deploy each individual PCBSat individually and with a time delay so that there are more opportunities to test laser communication.",
+        "The deployment mechanism works similarly to a trigger mechanism, where the 1U-3U CubeSat acts as the barrel for ejecting PCBSats. With this deployment scheme, the PCBSats are deployed in such a way that the PCBSats are tangential to a sphere centered about the CubeSat. This will allow the CubeSat to orient itself and communicate with the PCBSats quite rapidly.",
+        "We will have altitude control, a radio link down to Earth, GPS, and numerous other electronic components within the CubeSat. This will provide a great technological and scientific demonstration PCBSat's for in-space missions.",
+        {
+          "type": "image",
+          "url": "img/projects/cubesat/rendition-of-CalSat.png",
+          "caption": "Figure 1: Artistic Rendition of CalSat Deployer of PCBSats"
+        },
+        "<b>Altitude Control</b>",
+        "We are working on developing our Avionics for the CalSat Deployer by using Torque Coils.",
+        "<b>Communication</b>",
+        "We will plan to develop a Laser-Comm Link or Radio link between each PCBSat (once deployed) and the CalSat Deployer. The Deployer will act as the data link from the PCBSats back down to Earth.",
+        "<b>Power</b>",
+        "The objective is to develop a low power CubeSat. Proposed components include:",
+        {
+          "type": "unordered-list",
+          "content": [
+            "Photovoltaics on the outside of CubeSat",
+            "LIPO battery onboard",
+            "Power distribution board and power controller",
+            "Everything will run on 3.3V and 5V power"
+          ]
+        },
+        "<b>Electronics</b>",
+        "Proposed electronic components of the Cubesat command and data handling (C&DH) board are:",
+        {
+          "type": "unordered-list",
+          "content": [
+            "CPU (either a processor or microcontroller)",
+            "Running a Linux real-time operating system (RTOS)",
+            "NAND and/or NOR Flash memory",
+            "SRAM and/or SDRAM memory",
+            "Serial communication (SPI, I2C, UART, RS-422, etc.) capabilities",
+            "3.3V and 5V Voltage regulators",
+            "Uplink/Downlink communication bus",
+            "Digital I/O and Analog sensing capabilities",
+            "Stackable connector pins",
+            "Backup battery",
+            "Radio"
+          ]
+        },
+        "<b>Testing Prototype</b>",
+        "With our partnership with the Space Sciences Laboratory (SSL), we will be running vibration tests and thermo-vacuum chamber tests at the SSL facilities.",
+        {
+          "class": "lead",
+          "content": "<b> Goals of CubeSat Deployer</b>"
+        },
+        {
+          "type": "unordered-list",
+          "content": [
+            "Provide cost effective and flexible test platform for developing spacecraft and communications technology",
+            "Allow for integration of various sensor systems to support data capture and manipulation",
+            "Utilize readily available materials and integrated circuits to support quick revision turnaround times and system re-designs",
+            "Explore the limits of rigid PCB manufacturing capabilities for future use",
+            "Test and validate early-life directed energy technologies",
+            "Test and validate early-life propulsion and orientation systems",
+            "Test and validate CalSat Deployer on Earth in the lab and with balloons at high-altitudes",
+            "Test controls for CubeSat and PCBSat with UC Davis SSS Air Bearing and with SSL facilities",
+            "Provide a starting point from which future revisions/systems can be based on",
+            "Provide an inexpensive platform to deploy multiple experiments in a single launch",
+            "Produce data, feedback and calculations in order to drive future development",
+            "The CubeSat Deployer could also have a laser onboard to test photon propulsion"
+          ]
+        },
+        "<hr>",
+        {
+          "class": "lead",
+          "content": "<b> PCB Spacecraft Prototype (UCSB and STAC)</b>"
+        },
+        "Because the PCBsat fabrication is done with our partner at UCSB, more details on PCBsat specs can be found <a href='http://www.deepspace.ucsb.edu/projects/wafer-scale-spacecraft-development' target='blank'>on their site</a>.",
+        {
+          "type": "image",
+          "url": "img/projects/cubesat/waferSat1.png",
+          "caption": "Figure 2: Initial revision of waferSat on a PC Board"
+        },
+        "Above is the initial revision of waferSat on a PC Board developed at UCSB. It includes subsystems for altitude control, digital image acquisition, inter-system communications, and photovoltaic power source.",
+        "<b>Development Path and Timeline</b>",
+        {
+          "type": "image",
+          "url": "img/projects/cubesat/evolution-of-PCBSats.png",
+          "caption": "Figure 3: Evolution of PCBSats to Wafer Spacecraft for Interstellar Travel"
+        },
+        {
+          "type": "ordered-list",
+          "content": [
+            "Develop and 3D-print initial CalSat design",
+            "Develop electronics and power for CalSat",
+            "Develop Altitude and control systems with suntracker and torque coils",
+            "Test PCBSat on ground with UCSB",
+            "2nd prototype of CalSat deployer",
+            "Combine electronic avionics with CalSat deployer",
+            "Develop comm-link for ground",
+            "Raise funding and awareness for the CalSat",
+            "Testing prototype at SSL",
+            "Fix any prototype flaws",
+            "Prepare for launch - mid 2018"
+          ]
+        }
+      ]
+    },
+    "time2": {
+      "title": "TIME II",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "The Interstellar Microgravity Experiments II",
+        "url": "img/projects/time2/microG.jpg"
+      },
+      "date": "21 Oct",
+      "blog-title": "The Interstellar Microgravity Experiments (TIME) II",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "Daniel Sotsaikich"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        {
+          "class": "lead",
+          "content": "<b> We have been working on the next set of microgravity experiments, after our initial set of <a href='/projects/time1'>microgravity experiments</a>. We plan to reuse our chassis (or enclosure) and communication systems design from the TIME project for future payload launches to space.</b>"
+        },
+        "Reusability of our current design allows us to focus our efforts on the ideation, design, and actual implementation of a new set of experiments for the future payload. Our enclosure has a modular shelving design, which enables easy integration with new experiments while meeting safety and design requirements.",
+        "We hope to use the second set of microgravity experiments to cement TIME as an annual project within STAC. With a solid chassis and communication systems already designed, TIME will be a great platform for us to explore new and scientifically-significant research ideas every year. It will allow future members the ability to research their own specific interests from the vast array of topics that are affected by microgravity, and keep the future of STAC on the path towards pushing the frontiers of space research.",
+        "TIME-2, the official second set of microgravity experiments within STAC, is still in the idea-generation and brainstorming phase. We are currently pursuing a solid direction into an array of biology experiments, with focuses on bacteria, stem cell, and CRISPR. We have been reading a ton of literature and talking to multiple professors and graduate students on campus, and hope to push out a defined set of experiments within the next few weeks."
+      ]
+    },
+    "balloon": {
+      "title": "High Altitude Balloon",
+      "background": "img/background/space11.jpg",
+      "post-img": {
+        "alt": "High Altitude Balloon (HAB)",
+        "url": "img/projects/balloon/balloon.png"
+      },
+      "date": "23 Sept",
+      "blog-title": "High Altitude Balloon",
+      "blog-info": {
+        "Project Led by": {
+          "list": [
+            "Abhishyant Khare"
+          ],
+          "icon": "user"
+        },
+        "Tagged as": {
+          "list": [
+            "Engineering"
+          ],
+          "icon": "bookmark"
+        }
+      },
+      "blog-content": [
+        {
+          "class": "lead",
+          "content": "<b> A high altitude balloon is an unmanned balloon, typically a weather balloon, that is launched into near space usually with some kind of scientific payload or camera.</b>"
+        },
+        "Balloons reach about 20-30 kilometers in altitude and stay aloft for 2-3 hours. High altitude balloons have recently been a focus in the scientific community as a low cost method of launching equipment into near space.",
+        "We have started developing a low cost High Altitude Balloon (HAB) program that enables a standardized system to test research experiments in a near-space environment. While there are a variety of space applications for high altitude balloons, the current project will focus on the long term goal of creating a reliable high altitude balloon for future STAC experiments. This way, observations can be made above the Earth\u2019s atmosphere for a low cost.",
+        "We will launch our first balloon by January 2018. The first balloon will be equipped with a camera and electronic sensors to test the efficacy of our system. Future balloons will be launched with various research experiments. The first research experiment will come within STAC, and will test the adaptability of microorganisms capable of surviving harsh environments on Earth to near space. The subsequent balloon launches will contain experiments that are sourced from the UC Berkeley academic community as well as from STAC. This will form the foundation of a long lasting STAC HAB program with launches for years to come."
+      ]
+    }
+  },
+  "industry-advisors": {
+    "title": "Industry Advisors",
+    "upper-nav-link": "#",
+    "upper-nav-text": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section": "Awesome industry advice from",
+    "modal-heading": "Industry Advisor",
+    "advisors": [
+      {
+        "name": "Scott Nolan",
+        "photo": "img/team/advisor/scott-nolan.jpg",
+        "profile-order": 1,
+        "affiliation": "Founders Fund",
+        "bio": [
+          "Scott Nolan is a Partner at Founders Fund, where he focuses on investments in technology-driven companies across sectors including energy, biotechnology, aerospace, healthcare and advanced manufacturing.  Scott is a board member at Branch, CollectiveHealth, Plethora, Synthego and another company in stealth mode.",
+          "Prior to Founders Fund, Scott was an early employee at SpaceX.  There, he helped develop the propulsion systems used on the Falcon 1, Falcon 9 and Dragon vehicles and was responsible for the Dragon capsule\u2019s thermal and environmental control subsystems.",
+          "After SpaceX, Scott spent time at Bain & Company working with its private equity clients, and co-founded a startup building social web apps on the Facebook Connect platform.  Scott earned both a BS and MEng in Mechanical and Aerospace Engineering from Cornell University in 4 years, and received his MBA from Stanford University where he was co-president of the Entrepreneurs Club."
+        ]
+      },
+      {
+        "name": "Tess Hatch",
+        "photo": "img/team/advisor/tess-hatch.jpg",
+        "profile-order": 2,
+        "affiliation": "Bessemer Venture Partners",
+        "bio": [
+          "Tess is an investor in Bessemer Venture Partners Menlo Park office. She is focused on frontier tech, specifically commercial space, machine/deep/reinforcement learning, blockchain, and quantum computing. She currently serves as board observer for Rocket Lab, Spire, Auth0, Endgame, Distil Networks, Team8, Virtru, Claroty, CyberGRX, and Illusive Networks.",
+          "She holds a bachelor\u2019s degree in aerospace engineering from the University of Michigan (go blue!) and a master\u2019s degree in aeronautics and astronautics engineering from Stanford (go trees!). She was a mission manager at SpaceX where she worked with the government on integrating their payloads with the Falcon9 rocket. She also worked at Fictiv, a startup using 3D printing and CNC machining to democratize access to manufacturing.",
+          "Tess writes a space comic, Ada Ride, which you should check out for a good laugh. Don\u2019t be surprised if Tess asks you to go on a hike or walk rather than a typical coffee meeting \u2013 being a SoCal native she loves the sun."
+        ]
+      },
+      {
+        "name": "Garrett Goldberg",
+        "photo": "img/team/advisor/garrett-goldberg.jpg",
+        "profile-order": 3,
+        "affiliation": "Bee Partners",
+        "bio": [
+          "Garrett Goldberg is a Partner at Bee Partners, a pre-Seed stage venture capital firm focused on supporting passionate Founders with deep market insights.  He focuses on identifying Founders and startups servicing enterprises and enabling new marketplaces.  He actively seeks investments in frontier technologies (drones, AI, NewSpace) and invests time in building companies that matter.",
+          "The team at Bee are partners to the Founders and organizations in their community and believe time is worth more than money.   An entrepreneur at heart, Garrett has worked in professional sports, real estate development, and technology. (BA, Stanford; MBA, Foster School, U. of Washington).",
+          "Bee Partners is a seed stage VC, acting as First Investor in over half our portfolio.  We invest in Founders with Deep Market Insights -- either an enabling/frontier technology that stratifies multiple industries, or a vertically-focused enterprise SaaS approach that has the opportunity to reach across multiple functional roles within that vertical."
+        ]
+      },
+      {
+        "name": "Clarissa Redwine",
+        "photo": "img/team/advisor/clarissa-redwin.jpg",
+        "profile-order": 4,
+        "affiliation": "Kickstarter",
+        "bio": [
+          "Clarissa Redwine is Kickstarter\u2019s Design & Technology Outreach Lead for the west coast. She travels up and down the coast in search of innovators, creators, and makers who can leverage the powerful community and storytelling tool of Kickstarter to bring creative projects to life."
+        ]
+      },
+      {
+        "name": "Steve Boogar",
+        "photo": "img/team/advisor/steve-boogar.jpg",
+        "profile-order": 5,
+        "affiliation": "Harris Corporation",
+        "bio": [
+          "Steve Boogar is strategic business development manager for small satellites in the Environmental Solutions business unit of Harris Corporation\u2019s Space and Intelligence Systems segment. Space and Intelligence Systems offers complete Earth observation, weather, geospatial, space protection, and intelligence solutions from advanced sensors and payloads, ground processing, and information analytics.",
+          "Previously, Boogar was the chief operating officer and board member at FarmX, a seed-funded agricultural technology startup he cofounded in Redwood City, CA.",
+          "Prior to FarmX, Boogar was commercial manager at General Electric Oil & Gas, in the Subsea Offshore Drilling Systems division of Vetco-Gray in Houston, Texas. ",
+          "Boogar began his career as an Air Force officer, leading cost analysis for the GPS III satellite and user equipment programs at the United States Air Force Space and Missile Systems Center. ",
+          "He has a master\u2019s degree in business administration from the Haas School of Business at UC Berkeley. He is a graduate of both the Naval Postgraduate School and the United States Air Force Academy.",
+          "Harris Corporation is a leading technology innovator, solving customers\u2019 toughest mission-critical challenges by providing solutions that connect, inform and protect. Harris supports government and commercial customers around the world."
+        ]
+      },
+      {
+        "name": "Christopher Richins",
+        "photo": "img/team/advisor/christopher-richins.jpg",
+        "profile-order": null,
+        "affiliation": "RBC Signals",
+        "bio": [
+          "Christopher Richins is co-founder and CEO of RBC Signals, a provider of global satellite ground station \"infrastructure as a service.\" Richins began his career as an RF Communications Engineer at Boeing Sea Launch, where he supported multiple launch campaigns from the ship-based equatorial launch site.",
+          "After business school, he completed an internship with SpaceX before joining Bain & Company as a management consultant. Post Bain, Richins held management roles at Arkyd Astronautics (Planetary Resources), Space Angels Network, Expedia, and Applause.",
+          "Richins earned an MBA from the Darden Graduate School of Business at the University of Virginia as a Jefferson Fellow, a master\u2019s degree in Astronautics from the University of Southern California, and a bachelor\u2019s degree in Electrical Engineering from Brigham Young University."
+        ]
+      }
+    ]
+  },
+  "aboutus": {
+    "title": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "The People who Make It Happen",
+    "section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "/aboutus/team",
+        "image": "img/background/project-single-3.jpg",
+        "text-title": "Our Team",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "/aboutus/team"
+        }
+      },
+      {
+        "image-left": false,
+        "image-link": "/aboutus/industry-advisors",
+        "image": "img/background/project-single-5.jpg",
+        "text-title": "Industry Advisors",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know them",
+          "link": "/aboutus/industry-advisors"
+        }
+      }
+    ]
+  },
+  "team": {
+    "title": "Team",
+    "upper-nav-link": "#",
+    "upper-nav-text": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section": "The people who make it happen",
+    "member": [
+      {
+        "name": "Travis Brashears",
+        "photo": "img/team/member/travis-brashears.jpg",
+        "profile-order": 1,
+        "major": "Engineering Physics",
+        "title": "Co-Founder & Co-President & Engineering Design Lead",
+        "bio": "Space exploration offers humans a means of striving for something greater far beyond Earth, so I have dedicated the past 4 years of my life to exploring the possibilities of innovations in technology for space. I believe there comes a time when you have to start changing the world, otherwise the world will change without you. This is why we started STAC.",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/travis-brashears-8b48b853",
+          "github": null,
+          "twitter": null,
+          "web": "http://www.travisbrashears.com",
+          "email": "mailto:trbrashears@berkeley.edu"
+        }
+      },
+      {
+        "name": "Olivia Hsu",
+        "photo": "img/team/member/olivia-hsu.jpg",
+        "profile-order": 2,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Co-Founder & Co-President & Electronics Lead",
+        "bio": "Space is an area of limitless possibilities and unchartered territory that not only inspires innovative technology but also excites creative ideas. Humans have the opportunity to learn new information through space exploration and research, which is why I\u2019ve spent time working at NASA and would like to study space even further through STAC.",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/olivia-hsu-022736a8",
+          "github": null,
+          "twitter": null,
+          "web": null,
+          "email": "mailto:oliviahsu@stac.berkeley.edu"
+        }
+      },
+      {
+        "name": "Gan Tu",
+        "photo": "img/team/member/gan-tu.jpg",
+        "profile-order": 3,
+        "major": "Computer Science Honors",
+        "title": "Co-Founder & Software Expert & Graphic Design",
+        "bio": "I have a tremendous passion for learning cross disciplinary subjects. Motivated by my relentless intellectual curiosity, I make efforts to acquire skills and insights in education, law, business, engineering, and design etc. I have lead and taken roles in several award winning projects with these skills, and I am excited to leverage all these experiences to explore the space, which first inspired my learning journey.",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/gantu",
+          "github": "https://github.com/michael-tu",
+          "twitter": "https://twitter.com/michael_tu_idea",
+          "web": "http://tugan.me/",
+          "email": "mailto:michael@stac.berkeley.edu"
+        }
+      },
+      {
+        "name": "Camille Stuczynski",
+        "photo": "img/team/member/camille-stuczynski.jpg",
+        "profile-order": 4,
+        "major": "Industrial Engineering and Operations Research",
+        "title": "Internal Vice President",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/camillestuczynski/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm pursuing excellence in engineering management. The STAC team is incredibly passionate and innovative. I am so excited to do anything I can to further our discovery in space technology. I am heavily involved in the logistics, recruiting, and financing of multiple engineering teams and research projects, and hope to turn those skills into a career in furthering science and engineering."
+      },
+      {
+        "name": "Malhar Patel",
+        "photo": "img/team/member/malhar-patel.jpg",
+        "profile-order": 5,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "External Vice President",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/malharp/",
+          "github": "https://github.com/malharpatel",
+          "twitter": "",
+          "web": "",
+          "email": "mailto:malhar@berkeley.edu"
+        },
+        "bio": "I became interested in space after debating space policy my freshman year of high school. There has been a huge resurgence in space research within the past few years and I strive to apply AI to the next frontier. Space is no longer the abstract concept that people believe is out of reach; it's a place where we can have a positive impact."
+      },
+      {
+        "name": "Philipp Wu",
+        "photo": "img/team/member/philipp-wu.jpg",
+        "profile-order": 6,
+        "major": "EECS & Mechanical Engineering",
+        "title": "Engineering Director",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I love to learn and there is nothing more prodigious than exploring the depths of space. Growing up next to JPL, space research has always been part of my life. Design is also something that has always been important to me and the projects at STAC allow for us to help aid the human effort in space exploration in a variety of areas. I hope to learn as much as I can. As the writer Brandon Sanderson says, \u201cJourney before Destination."
+      },
+      {
+        "name": "Daniel Shen",
+        "photo": "img/team/member/daniel-shen.jpg",
+        "profile-order": 8,
+        "major": "Mechanical Engineering",
+        "title": "TIME Project Lead",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/daniel-shen-640987102",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I have diverse interests from space exploration to organic chemistry. I spend much of my time at the UC Berkeley Radio Astronomy Lab working on the HYPERION project probing signals from the Epoch of Reionization. I also enjoy competitive ballroom dance and cooking - perhaps the only thing more vast than the cosmos is the myriad of slow cooker recipes the internet has to offer."
+      },
+      {
+        "name": "Varun Khurana",
+        "photo": "img/team/member/varun-khurana.jpg",
+        "profile-order": 10,
+        "major": "Mechanical Engineering & Pure Math",
+        "title": "CubeSat Deployer Project Lead",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space instills unbridled curiosity because there's just so much that we don't know about it, and this type of curiosity has been fueling me to learn for many years in areas ranging from space to mathematics and engineering."
+      },
+      {
+        "name": "Abhishyant Khare",
+        "photo": "img/team/member/abhishyant-khare.jpg",
+        "profile-order": 11,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "High Altitude Balloon Project Lead",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "http://www.abhishyant.com",
+          "email": ""
+        },
+        "bio": "I have been interested in space ever since I started watching Futurama as a kid, and firmly believe that humanity will settle beyond Earth in our lifetime. I study engineering so that I can be a part of that great endeavour in any way I can."
+      },
+      {
+        "name": "Daniel Sotsaikich",
+        "photo": "img/team/member/daniel-sotsaikich.jpg",
+        "profile-order": 12,
+        "major": "Mechanical Engineering",
+        "title": "TIME-2 Project Lead",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/daniel-sotsaikich-109b22132/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I want to put all of my education and engineering skills towards extending the limits of human knowledge and innovation. I am extremely curious about what is out there in space and am so grateful that I found STAC, where I can fully unleash my ambition working with the most brilliant people I know."
+      },
+      {
+        "name": "William Sharpless",
+        "photo": "img/team/member/william-sharpless.jpg",
+        "profile-order": 13,
+        "major": "Molecular Environmental Biology",
+        "title": "Biosphere Project Lead",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/will-sharpless-b5202b126/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space is the gate to our future, holding answers to our earthly troubles and greater questions for us to explore. My biggest question is how can life exist in space, or on other planets? I seek to discover how we can spread and grow life beyond our little home."
+      },
+      {
+        "name": "Anoushka Giri",
+        "photo": "img/team/member/anoushka-giri.jpg",
+        "profile-order": 14,
+        "major": "Mechanical Engineering",
+        "title": "Autonomous Rover Project Lead",
+        "links": {
+          "linkedin": "http://linkedin.com/in/anoushka-giri-161490125",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space is often looked at as where our future is heading, but I don't think many people realize how much of it is already a part of what we do. From the incredible span of NASA spinoffs to the new modes of industry it allows for, space is the motivation that has pushed us there. I know space technology will only continue to set off even more chain reactions that go on to help everyone, and I hope to let our world appreciate and get involved with it more! "
+      },
+      {
+        "name": "Victoria Yim",
+        "photo": "img/team/member/victoria-yim.jpg",
+        "profile-order": 15,
+        "major": "Mechanical Engineering",
+        "title": "Social Officer",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "When I was younger, space and space travel terrified me; even the experts knew so little about about it and that deeply worried me. As I grew older, I started to learn more about what we didn't know yet and my fear turned into curiosity. Now, the unknown quality of space is what fuels me to discover what it truly is and how humans will get there."
+      },
+      {
+        "name": "Ravi Dashputre",
+        "photo": "img/team/member/ravi-dashputre.jpg",
+        "profile-order": 16,
+        "major": "Intended Applied Math",
+        "title": "Outreach Officer",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/ravi-dashputre-54aa38129/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The future of humanity is written in the stars. The next big step in our evolution is reaching beyond our world to others unknown. I want to do everything that I can to help us get to closer to knowing more about the universe. There are untold wonders out there to be found!"
+      },
+      {
+        "name": "James Mang",
+        "photo": "img/team/member/james-mang.jpg",
+        "profile-order": 17,
+        "major": "Intended Astrophysics and Chemistry",
+        "title": "Financial Officer",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I have always had a passion for space since I was a child. For me, space is the future and space is the ultimate destination for humanity. The innovations that come from space exploration just blows my mind and makes me profound at what we can achieve. There is so much in space that we don't understand and I want to be able to discover these unknowns myself."
+      },
+      {
+        "name": "Namrita Baru",
+        "photo": "img/team/member/namrita-baru.jpg",
+        "profile-order": 18,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Software Expert",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "My passion for space began in 2nd grade with my admiration and respect for my female role model in STEM: Sally Ride, the first American woman in space. Space specifically fascinates me because there is so much research and science to develop to aid us in exploring and learning about what the universe has to offer. Exploring the unknown, and being able to do that with so many degrees of freedom, is why I'm interested in space."
+      },
+      {
+        "name": "Aviral Pandey",
+        "photo": "img/team/member/aviral-pandey.jpg",
+        "profile-order": 19,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Electrical Expert",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I enjoy working on electronics projects, and electronics for space present some unique challenges not found elsewhere. The STAC team offers me an opportunity to find solutions to these challenges while working with a unique, motivated, and outstanding group of individuals."
+      },
+      {
+        "name": "Brent Yi",
+        "photo": "img/team/member/brent-yi.jpg",
+        "profile-order": 20,
+        "major": "Computer Science",
+        "title": "Electrical Expert",
+        "links": {
+          "linkedin": "https://linkedin.com/in/brentyi",
+          "github": "https://github.com/brentyi",
+          "twitter": "",
+          "web": "https://www.brentyi.com/",
+          "email": ""
+        },
+        "bio": "I'm an amateur space enthusiast here at Berkeley. I really enjoy designing stuff, and am super pumped to be a part of STAC!"
+      },
+      {
+        "name": "Emily Stednitz",
+        "photo": "img/team/member/emily-stednitz.jpg",
+        "profile-order": 21,
+        "major": "Mechanical Engineering",
+        "title": "Mechanical Expert",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/emilystednitz/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I am passionate about shaping our future in space and working on projects that really matter. The opportunities for space exploration are boundless and offer unique challenges. Hands-on learning is my favorite building and testing is what I love most. I have experience in a variety of disciplines including product design and flight controls engineering, and I also carry a private pilot license."
+      },
+      {
+        "name": "Albert Li",
+        "photo": "img/team/member/albert-li.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Spring Hiatus: Product Design Intern, Apple",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/alberthli",
+          "github": "https://www.github.com/alberthli",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I have a lot of passion for design. I\u2019m extremely interested to see how engineering in space changes in the coming future and am excited to contribute to the advancement of our understanding of the great unknown. STAC has been a great organization that has bolstered my creativity and helped me foster closer relationships with my teammates. I look forward to exploring space with them!"
+      },
+      {
+        "name": "Andrea Padron",
+        "photo": "img/team/member/andrea-padron.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space exploration and the development of space technology can open so many doors for humanity. There are answers to questions we haven't even asked yet, and space allows us to learn about ourselves and the universe. I also think everyone should have the opportunity to go to space! It would be amazing for future generations to get to experience life beyond Earth."
+      },
+      {
+        "name": "Arda Hatay",
+        "photo": "img/team/member/arda-hatay.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering & Physics",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "My interest in space developed as a child while observing stars at night. I kept wondering what could be out there and why we know so little about it. From that day on I imagined myself going to space as an astronaut every day. How cool it would be to be able to spend a portion of my life in space. Today I work towards that goal by aiming to advance space exploration projects."
+      },
+      {
+        "name": "Audrey Zhao ",
+        "photo": "img/team/member/audrey-zhao.jpg",
+        "profile-order": null,
+        "major": "Chemical Engineering",
+        "title": "Biosphere Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Aspiring to become a chemical engineer, I have been interested in sustainable energy and environment. Space is a place full of possibilities, and I would love to explore it with my knowledge and skills learnt at Cal and STAC. Also, I'm just thrilled to work with all STAC members!"
+      },
+      {
+        "name": "Bradley Qu",
+        "photo": "img/team/member/bradley-qu.jpg",
+        "profile-order": null,
+        "major": "Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/bradley-q-9541a9112/",
+          "github": "https://github.com/bradleyq",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space exploration is challenging. It pushes us to the limits of design, planning, and control. And it is this unforgiving battle against the elements (or lack thereof) that gives space exploration its allure. Not to mention the beauty and excitement that comes with discovering the unknown."
+      },
+      {
+        "name": "Brian Lo",
+        "photo": "img/team/member/brian-lo.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "After coming to UC Berkeley, I became very interested in aerospace through my engineering classes and certain aerospace clubs on campus. Space fascinates me because there is so much still unknown for us to explore and experiment. I am excited to take part in this exploration of space while expressing my creative freedom through STAC."
+      },
+      {
+        "name": "Christine Giuliano",
+        "photo": "img/team/member/christine-giuliano.jpg",
+        "profile-order": null,
+        "major": "Bioengineering",
+        "title": "TIME-2 Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I want (people) to live on Mars someday, but I also think that stretching the limits of science for space exploration has an extraordinary capacity for ameliorating human health. I would love to someday work on nanoscale enzyme prototypes, bioengineered food systems, or lightweight medical devices that help keep astronauts healthy but also give way to medical or ecological earth-based applications. "
+      },
+      {
+        "name": "Cody Yanna",
+        "photo": "img/team/member/cody-yanna.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "www.linkedin.com/in/codyyanna",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space is the final frontier! A lack of interest in it doesn't even seem plausible to me. It's thrilling that there are so many answers out there waiting to be found; many questions to be asked. Space exploration and study could very well be necessary to lengthen the lifespan of the human race, which is by all measures a goal I am more than proud to work towards."
+      },
+      {
+        "name": "Connor Prisby",
+        "photo": "img/team/member/connor-prisby.jpg",
+        "profile-order": null,
+        "major": "Computer Science",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "https://github.com/cprizzle",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I've always had a wide and varying range of interests, but I've been pushed to STAC since I saw how diverse and multifaceted space exploration can be. I'm glad to be at the forefront of the current thread of space technology, and I hope to see my own code headed towards the stars."
+      },
+      {
+        "name": "Daksh Dave",
+        "photo": "img/team/member/daksh-dave.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Biosphere Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/dakshdave/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm fascinated by the possibility of working on a tangible project that has the potential of actually being launched into space. Also, I'm a big Star Trek fan. "
+      },
+      {
+        "name": "David Deng",
+        "photo": "img/team/member/david-deng.jpg",
+        "profile-order": null,
+        "major": "Nuclear Engineering & Intended EECS",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I am interested in space because my dorm needs more of it. Jk. In reality, I'm interested in space exploration because in the past fifty years, it has brought out the best of humanity: curiosity, collaboration, and some of the most cutting edge technology of our time. Our world wouldn't be the way it is today without space exploration."
+      },
+      {
+        "name": "David Mai",
+        "photo": "img/team/member/david-mai.jpg",
+        "profile-order": null,
+        "major": "Bioengineering",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "There are so many things we haven't seen, and an incomprehensible amount of space for us to grow both physically and intellectually. I'm interested in furthering life beyond our terrestrial realm through building sustainable synthetic systems."
+      },
+      {
+        "name": "David Yang",
+        "photo": "img/team/member/david-yang.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Even since I was a child, I was fascinated with space. Watching episodes of The Universe everyday after school, and seeing the vastness and mysteriousness of space fueled my curiosity. But space also has the potential to solve humanities greatest problems, and I'm excited to have the opportunity to be a part of the space revolution."
+      },
+      {
+        "name": "Eric D'sa",
+        "photo": "img/team/member/eric-d'sa.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Spring Hiatus: Data Platform Intern, NVIDIA",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The constraints of space result in really amazing technologies, from efficient jet propulsion to long range communication to autonomous control. I'm really interested in the innovations that come from developing for these environmental conditions, and all the amazing things we can do from these inventions."
+      },
+      {
+        "name": "Gokul Swamy",
+        "photo": "img/team/member/gokul-swamy.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/gokul-swamy",
+          "github": "https://github.com/gkswamy98",
+          "twitter": "",
+          "web": "http://gokulswamy.me/",
+          "email": ""
+        },
+        "bio": "I've had a fascination with space since I was a kid with glow-in-the-dark stars on my ceiling. I love to explore applications of AI/ML and space is a particularly exciting frontier."
+      },
+      {
+        "name": "Hall Chen",
+        "photo": "img/team/member/hall-chen.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I find high frequency telecommunications poetic that something so delicate, so minute, but so very deliberate, as the coded ripples in the electromagnetic fabric of reality around us can bring together all of mankind. With the inevitability of space exploration, it will be an incredibly humbling experience to extend the unshakable tenet of ubiquitous connectivity to mankind scattered across the stars."
+      },
+      {
+        "name": "Jacob Warnagieris",
+        "photo": "img/team/member/jacob-warnagieris.jpg",
+        "profile-order": null,
+        "major": "Statistics",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/jacob-warnagieris-02573a132",
+          "github": "https://github.com/jwarnagieris",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The sophistication and innovation of the first satellites and space technologies sparked my passion for the subject. We are in the midst of a new era of space exploration, and I\u2019m excited to tackle the unique challenges that space presents. STAC gives me the opportunity to pursue my passions alongside a group of inspiring teammates."
+      },
+      {
+        "name": "Jonathan Lee",
+        "photo": "img/team/member/jonathan-lee.jpg",
+        "profile-order": null,
+        "major": "Materials Science and Engineering",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Sooner or later, humankind is going to evolve beyond Earth.  Space is our inevitable, irresistible destiny.  But first, our fledgling species has to leave the nest and that's where our generation comes in, paving the runway to the stars and unlocking the door to a future of infinite potential."
+      },
+      {
+        "name": "Junhao Yu",
+        "photo": "img/team/member/tom-yu.jpg",
+        "profile-order": null,
+        "major": "Physics",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I\u2019m a freshman in Physics and I hold strong interests in the space. I am heavily involved in physics theories and get trained in designed. With science and passion, human beings start with nothing and build the whole civilized world, so shall we today. I\u2019m eager to do my best achieving each step of exploring the space with my passionate and outstanding teammates."
+      },
+      {
+        "name": "Kelvin Pang",
+        "photo": "img/team/member/kelvin-pang.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "TIME-2 Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/kelvinpang02",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm interested in space because it's currently the final frontier and truly innovative engineering is what it takes to further explore it. From that engineering, newly discovered technologies can be a significant impact in making the world a better place both on Earth and beyond."
+      },
+      {
+        "name": "Kevin Tang",
+        "photo": "img/team/member/kevin-tang.jpg",
+        "profile-order": null,
+        "major": "Astrophysics",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/kevin-tang-870372141/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Learning about the development of the universe allows us to learn more about our own origins as living beings. Studying seemingly obscure topics such as cosmology or planetary and stellar sciences can help us learn more about why and how we came to be. STAC's mission to enable life beyond earth is yet another step to allow us to discover more about ourselves."
+      },
+      {
+        "name": "Kireet Agrawal",
+        "photo": "img/team/member/kireet-agrawal.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/kireetagrawal/",
+          "github": "https://github.com/kagrawal2",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "After countless trips to Kennedy space center and seeing the direct impact of innovations for the final frontier, I've been enthralled with space. I love the challenging atmosphere that surrounds technology in space. I love making wide variety of things and am currently focusing on the intersection of software, electronics and mechanical design."
+      },
+      {
+        "name": "Makena Fetzer",
+        "photo": "img/team/member/makena-fetzer.jpg",
+        "profile-order": null,
+        "major": "Astrophysics",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/makena-fetzer-96294b119",
+          "github": "https://github.com/makenafetzer",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Ever since I was little, I've had butterflies in my stomach just looking up at the night sky and asking questions about space, a place where physical limits are tested and pushed to their extremes. I hope to inhabit the seemingly uninhabitable and create technology that will help people, all with the goal of exploring the universe. "
+      },
+      {
+        "name": "Mark Hill",
+        "photo": "img/team/member/mark-hill.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/mark-h-6ab768146",
+          "github": "https://github.com/mark64",
+          "twitter": "",
+          "web": "https://drfcx.com/resume.pdf",
+          "email": ""
+        },
+        "bio": "I built my first cubesat in high school as part of the Irvine CubeSat project and wanted to keep working on amazing hands on projects that end up in space."
+      },
+      {
+        "name": "Matthew Trepte",
+        "photo": "img/team/member/matthew-trepte.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "https://github.com/mtrepte",
+          "twitter": "",
+          "web": "https://mtrepte.github.io",
+          "email": ""
+        },
+        "bio": "Somewhere, something incredible is waiting to be known."
+      },
+      {
+        "name": "Neil Bhattacharjee",
+        "photo": "img/team/member/neil-bhattacharjee.jpg",
+        "profile-order": null,
+        "major": "Intended Computer Science",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The sheer distances involved in space have never ceased to amaze and intrigue me. At STAC, i'm able to directly research and learn more about space, gradually taking steps towards answering questions that fueled my passion in the first place. "
+      },
+      {
+        "name": "Rachel He",
+        "photo": "img/team/member/rachel-he.jpg",
+        "profile-order": null,
+        "major": "Economics",
+        "title": "Graphic Designer",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm always excited to learn new things and new disciplines. Whether that be design or space exploration. I hope that by joining the team and engaging with all these other brilliant students and creators I can continue to grow and broaden my horizons."
+      },
+      {
+        "name": "Richard Yuh",
+        "photo": "img/team/member/richard-yuh.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "TIME Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "The space industry has so much growth potential with current improvements in reusable rocket technology, in companies like SpaceX, Blue Origin, and Virgin Galactic. Exploring the frontiers of space and beyond requires the highest level of engineering and innovation, and for a mechanical engineering student, contributions to humanity exploring the stars represent the greatest accomplishment."
+      },
+      {
+        "name": "Sepehr Rostamzadeh",
+        "photo": "img/team/member/sepehr-rostamzadeh.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Spring Hiatus: Interior Engineering Intern, Tesla",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I\u2019ve been interested in space exploration and experimentation ever since I learned about the possibility of life outside of Earth. I hope to utilize my experiences from working in Pieter Abbeel\u2019s AI Robotics Lab and in Aerospace SAE to help design for the various projects in which STAC will participate. I\u2019m extremely excited to see what this group of bright, passionate engineers can accomplish!"
+      },
+      {
+        "name": "Shaantam Chawla",
+        "photo": "img/team/member/shaantam-chawla.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/shaantamchawla/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space captured my attention after I became involved with the hackathon arena in high school. To me, it's the perfect way to unleash the power of a computer and make exciting new discoveries using open data. Studying space is my way of engaging with my surroundings - it's a link between my interests in engineering and the natural world."
+      },
+      {
+        "name": "Sirej Dua",
+        "photo": "img/team/member/sirej-dua.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"
+      },
+      {
+        "name": "Steven Cao",
+        "photo": "img/team/member/steven-cao.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "TIME2 Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I took a seminar in modern physics in senior year of high school, and I loved learning about the frontiers of science. I think space is the most frontier-like of all the sciences: all of our current knowledge comes from an Earth-like environment, so space offers unlimited potential for discovery. I want to spend my entire life discovering new things, and that starts here at STAC!"
+      },
+      {
+        "name": "Tristan Caro",
+        "photo": "img/team/member/tristan-caro.jpg",
+        "profile-order": null,
+        "major": "Molecular & Cell Biology ",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/tristan-caro-428542124/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space exploration will unlock a new realm of engineering and scientific inquiry, expanding our understanding of the universe and our place within it. I'm most focused on space technologies that help us understand the limits of life, as well as how we can protect Earth life that travels beyond our orbit."
+      }
+    ]
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "Sponsorships",
+    "section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "/sponsor/industry-partnership",
+        "image": "img/group/group4.jpg",
+        "text-title": "Industry",
+        "text-subtitle": "Company Involvement",
+        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Learn More",
+          "link": "/sponsor/industry-partnership"
+        }
+      },
+      {
+        "image-left": false,
+        "image-link": "#",
+        "image": "img/group/gbo.jpg",
+        "text-title": "Individual",
+        "text-subtitle": "Personal Involvement",
+        "text-description": "You can help develop your preferred space project to enable its completion and widespread effect.",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Coming Soon",
+          "link": "#"
+        }
+      }
+    ]
+  },
+  "industry-partnership": {
+    "title": "Industry Partnerships",
+    "background": "img/background/space6-cut.jpg",
+    "section1-heading": "The sponsors and partners who support us",
+    "section1-description": [
+      "Thanks to all of our current sponsors and partners!",
+      "Their support ensures that we can continue innovating and breaking through new barriers in space."
+    ],
+    "section2-image": "img/group/group2.jpg",
+    "section2-heading": "Support Us",
+    "section2-description": "If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at",
+    "email": "sponsor@stac.berkeley.edu",
+    "section3-heading": "Sponsorship Package",
+    "section3-description": "Learn what we offer to our sponsors and partners",
+    "section3-text": "By siging up, we will keep your information strictly confidential.",
+    "mailing-list-button-text": "Request Sponsorship Package",
+    "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
+    "mailing-list-error-msg": "Please fill all fields correctly.",
+    "partner-logo": {
+      "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
+      "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
+      "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
+      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
+      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
+      "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
+      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
+      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
+      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
+      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
+      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
+      "img/logo/partner/pear": "img/logo/partner/pear.png",
+      "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
+      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
+      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
+      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png",
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png"
+    }
+  },
+  "sponsor-confirmation": {
+    "title": "Sponsorship Package Download Page",
+    "confirmation-icon": "download",
+    "confirmation-title": "Get the Sponsorship Package below",
+    "confirmation-text": [
+      "Thank you for your interests.",
+      "We will keep you informed on our latest project and sponsorship updates.",
+      "Please let us know if you have any questions!"
+    ],
+    "download-button-text": "Download",
+    "download-file": "data/files/STACCorporateSponsorship.pdf",
+    "email": "sponsor@stac.berkeley.edu"
+  },
+  "icon": {
+    "email": {
+      "fa": "fa fa-envelope",
+      "ti": "ti-email"
+    },
+    "twitter": {
+      "fa": "fa fa-twitter",
+      "ti": "ti-twitter-alt"
+    },
+    "facebook": {
+      "fa": "fa fa-facebook-square",
+      "ti": "ti-facebook"
+    },
+    "linkedin": {
+      "fa": "fa fa-linkedin-square",
+      "ti": "ti-linkedin"
+    },
+    "medium": {
+      "fa": "fa fa-medium",
+      "ti": "ti-bookmark-alt"
+    },
+    "github": {
+      "fa": "fa fa-github",
+      "ti": "ti-github"
+    },
+    "web": {
+      "fa": "fa fa-globe",
+      "ti": "ti-world"
+    },
+    "checkbox": {
+      "fa": "fa fa-check-square-o",
+      "ti": "ti-check-box"
+    },
+    "download": {
+      "fa": "fa fa-cloud-download",
+      "ti": "ti-download"
+    },
+    "user": {
+      "fa": "fa fa-user-o",
+      "ti": "ti-user"
+    },
+    "tag": {
+      "fa": "fa fa-tag",
+      "ti": "ti-tag"
+    },
+    "bookmark": {
+      "fa": "fa fa-boormark-o",
+      "ti": "ti-bookmark"
+    },
+    "quote-left": {
+      "fa": "fa fa-quote-left",
+      "ti": "ti-quote-left"
+    },
+    "menu": {
+      "fa": "fa fa-bars",
+      "ti": "ti-menu"
+    },
+    "arrow-up": {
+      "fa": "fa fa-chevron-up",
+      "ti": "ti-angle-up"
+    }
+  },
+  "version": 8.7
+}
