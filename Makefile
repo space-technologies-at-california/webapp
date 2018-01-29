@@ -7,8 +7,8 @@ run:
 	open http://127.0.0.1:5000/
 	python app.py
 
-update: clean
-	bash -c "git checkout v1; git add -A; git commit; git push; git checkout master" || git checkout master
+update:
+	bash -c "git checkout v1; git add -A; git commit; git push;" || git checkout master
 	git merge v1
 	git push
 	git checkout heroku
