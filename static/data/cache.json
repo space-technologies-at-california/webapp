@@ -1528,7 +1528,7 @@
     "email": "sponsor@stac.berkeley.edu",
     "section3-heading": "Sponsorship Package",
     "section3-description": "Learn what we offer to our sponsors and partners",
-    "section3-text": "By siging up, we will keep your information strictly confidential.",
+    "section3-text": "By signing up, we will keep your information strictly confidential.",
     "mailing-list-button-text": "Request Sponsorship Package",
     "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
     "mailing-list-error-msg": "Please fill all fields correctly.",
@@ -1628,5 +1628,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 8.7
+  "version": 8.8
 }
