@@ -1,52 +1,69 @@
-# Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec consectetur lorem. Vivamus imperdiet egestas eros ac sollicitudin. Nunc aliquet imperdiet lorem. Vivamus hendrerit commodo dui in congue. 
 
-Ut faucibus urna non nisl ultrices eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae ultrices lacus. Vestibulum sit amet maximus lectus. Cras nec magna a velit hendrerit condimentum ut vel neque. In velit purus, iaculis non rutrum et, tincidunt sit amet lacus. Praesent feugiat tortor ligula, vitae consectetur augue finibus eleifend. Maecenas iaculis rhoncus nulla sit amet pharetra.
+<!-- WARNINGS! PLEASE READ BELOW AS STAC PROJECT CONTENT GUIDELINE -->
 
-_[Example Golden Bridge](http://www.goldengatebridge.org)_
+<!-- Note please keep any content you want together as ONE LINE like this. Separate lines will be treated as separate paragraphs. Only One-level Lists Are Supported Right Now; Cannot Have Nested Lists -->
 
-![Figure Caption: Example Golden Bridge](img/background/cover1.jpg)
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+<!-- Also, please keep your comment in one line. -->
 
 
-1. Beatae vitae dicta sunt explicabo
-2. Inventore veritatis et quasi architecto
-3. Sed do eiusmod tempor incididunt
-4. Accusamus et iusto odio dignissimos ducimus
+<!-- ############################################# -->
 
-**Sed risus libero, facilisis et maximus vitae, hendrerit eu turpis. Phasellus aliquet elit et tellus tincidunt, eget luctus ipsum dictum. Nullam tincidunt elementum tortor, eget dictum lectus laoreet eget. Nam ac odio ligula.**
 
-> It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.
+<!-- All  headings will be replaced by the SAME sized, LARGER, BOLDED font, so which heading u use does NOT matter. Therefore, note all of these headings will be the same size font -->
+# Section Heading 1
+## Section Heading 2
+### Section Heading 3
+#### Section Heading 4 
+##### Section Heading 5
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+
+<!-- You can add image as usual. If you do not want to show caption for the image, leave it EMPTY -->
+![caption goes here](img/logo/ocf.png) 
+
+Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+ 
+You can also add [link](http://www.google.com)
+
+<!-- Use '>...' to surround the text you want it to show as styled block quotes. Also, make sure your quote is typed here on the same line!-->
+
+> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" 
+
+
+It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think."
+
+<!--  You can put iframe for Google Slides  -->
+<iframe src='sampleSourceUrlHere' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'>Descriptions Here (Optional)</iframe>
+
+<!--  You can also put the iframe for Videos  -->
+ <!-- Remember to put class='embed-responsive-item' for the iframe  -->
+<iframe class='embed-responsive-item' width='640' height='360' src='sampleSourceUrlHere' allowfullscreen='allowfullscreen'>Descriptions Here (Optional)</iframe>
+
+
+<!-- You can also have a custom horizontal line break like so -->
 ---
 
-# Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-- Beatae vitae dicta sunt explicabo
-- Inventore veritatis et quasi architecto
-- Sed do eiusmod tempor incididunt
-- Accusamus et iusto odio dignissimos ducimus
-
-
-Vestibulum semper, enim nec `malesuada aliquam`, justo est luctus metus, eu efficitur ex sapien sed diam. Vivamus fringilla massa a erat hendrerit consectetur. `Nam purus dolor`, sagittis sit amet placerat semper, convallis id odio. 
+You can also add `code`:
 
 ```python
-def build_model(cropping_box=((70,25), (0,0)), input_shape=(160,320,3)):
-    model = Sequential()
-    model.add(Cropping2D(cropping=cropping_box))
-    model.add(Lambda(lambda x: x / 255.0 - 0.5, input_shape=input_shape))
-    model.add(Convolution2D(24, 5, 5, subsample=(2,2), activation="elu"))
-    model.add(Convolution2D(64, 3, 3, activation="elu"))
-    keep_prob = 0.5
-    model.add(Dropout(keep_prob))
-    model.add(Flatten())
-    model.add(Dense(100))
-    model.add(Activation("elu"))
-    model.add(Dropout(keep_prob))
-    model.add(Dense(1))
-    return model
+def hellow_word(x):
+	print("hello")
 ```
 
-Donec sollicitudin dui eu leo mattis, nec euismod sem finibus. Pellentesque id quam ligula. Nam consectetur elementum euismod. Ut id magna odio. Nulla suscipit enim id tincidunt
+<!-- Note you can still bold things -->
+**Unordered** __List__
+
+<!-- WARING: ONLY ONE-LEVEL LISTS ARE SUPPORTED RIGHT NOW; CANNOT HAVE NESTED LISTS -->
+<!-- Both - or * works as unordered lists -->
+- Unordered List Items Goes here
+* Unordered List Items Goes here
+
+<!-- Note you can still italicize things -->
+*Ordered* _List_
+
+1. hi
+2. hi
+
+
+

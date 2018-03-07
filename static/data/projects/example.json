@@ -1,63 +1,79 @@
 {
-	"title": "Example Project",
+  "title": "Example Project",
   "background": "img/background/space11.jpg",
-	"post-img": {
-		"alt": "Post Image",
-		"url": "img/background/cover1.jpg"
-	},
-	"date": "23 Sept",
-	"blog-title": "An amazing title gets lots of attention",
-	"blog-info": {
-		"Project Led by": {
-			"list": ["Person", "Legend", "PM"],
-			"icon": "user"
-		},
-		"Tagged as": {
-			"list": ["Engineering"],
-			"icon": "bookmark"
-		}
-	},
-	"blog-content": [
+  "post-img": {
+    "alt": "Post Image",
+    "url": "img/background/cover1.jpg"
+  },
+  "date": "23 Sept",
+  "blog-title": "An amazing title gets lots of attention",
+  "blog-info": {
+    "Project Led by": {
+      "list": [
+        "Person",
+        "Legend",
+        "PM"
+      ],
+      "icon": "user"
+    },
+    "Tagged as": {
+      "list": [
+        "Engineering"
+      ],
+      "icon": "bookmark"
+    }
+  },
+  "blog-content": [
     {
       "class": "lead",
-      "content": "<b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec consectetur lorem. Vivamus imperdiet egestas eros ac sollicitudin. Nunc aliquet imperdiet lorem. Vivamus hendrerit commodo dui in congue.</b>"
+      "content": "<b>Section Heading 1</b>"
     },
-    "Ut faucibus urna non nisl ultrices eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae ultrices lacus. Vestibulum sit amet maximus lectus. Cras nec magna a velit hendrerit condimentum ut vel neque. In velit purus, iaculis non rutrum et, tincidunt sit amet lacus. Praesent feugiat tortor ligula, vitae consectetur augue finibus eleifend. Maecenas iaculis rhoncus nulla sit amet pharetra.",
-    "<i><a href='http://www.goldengatebridge.org' target='blank'>Example Golden Bridge</a></i>",
+    {
+      "class": "lead",
+      "content": "<b>Section Heading 2</b>"
+    },
+    {
+      "class": "lead",
+      "content": "<b>Section Heading 3</b>"
+    },
+    {
+      "class": "lead",
+      "content": "<b>Section Heading 4</b>"
+    },
+    {
+      "class": "lead",
+      "content": "<b>Section Heading 5</b>"
+    },
+    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
     {
       "type": "image",
-      "url": "img/background/cover1.jpg",
-      "caption": "Figure Caption: Example Golden Bridge"
+      "url": "img/logo/ocf.png",
+      "caption": "caption goes here"
     },
-    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
-    {
-      "type": "ordered-list",
-      "content": [
-        "Beatae vitae dicta sunt explicabo",
-        "Inventore veritatis et quasi architecto",
-        "Sed do eiusmod tempor incididunt",
-        "Accusamus et iusto odio dignissimos ducimus"
-      ]
-    },
-    "<b>Sed risus libero, facilisis et maximus vitae, hendrerit eu turpis. Phasellus aliquet elit et tellus tincidunt, eget luctus ipsum dictum. Nullam tincidunt elementum tortor, eget dictum lectus laoreet eget. Nam ac odio ligula.</b>",
-    "<blockquote>It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.</blockquote>",
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "You can also add <a href='http://www.google.com' target='blank'>link</a>",
+    "<blockquote>\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium\"</blockquote>",
+    "It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.\"",
+    "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='sampleSourceUrlHere' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe>Descriptions Here (Optional)</div></div>",
+    "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><div class='embed-video-container embed-responsive embed-responsive-16by9' style='margin-bottom:0px'><iframe class='embed-responsive-item' width='640' height='360' src='sampleSourceUrlHere' allowfullscreen='allowfullscreen'></iframe></div>Descriptions Here (Optional)</div></div>",
     "<hr>",
-    {
-      "class": "lead",
-      "content": "<b> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</b>"
-    },
+    "You can also add <code class=''>code</code>:",
+    "<pre><code class='python'>def hellow_word(x):\n\tprint(\"hello\")</code></pre>",
+    "<b>Unordered</b> <b>List</b>",
     {
       "type": "unordered-list",
       "content": [
-        "Beatae vitae dicta sunt explicabo",
-        "Inventore veritatis et quasi architecto",
-        "Sed do eiusmod tempor incididunt",
-        "Accusamus et iusto odio dignissimos ducimus"
+        "Unordered List Items Goes here",
+        "Unordered List Items Goes here"
       ]
     },
-    "Vestibulum semper, enim nec <code class=''>malesuada aliquam</code>, justo est luctus metus, eu efficitur ex sapien sed diam. Vivamus fringilla massa a erat hendrerit consectetur. <code class=''>Nam purus dolor</code>, sagittis sit amet placerat semper, convallis id odio.",
-    "<pre><code class='python'>def build_model(cropping_box=((70,25), (0,0)), input_shape=(160,320,3)):\n    model = Sequential()\n    model.add(Cropping2D(cropping=cropping_box))\n    model.add(Lambda(lambda x: x / 255.0 - 0.5, input_shape=input_shape))\n    model.add(Convolution2D(24, 5, 5, subsample=(2,2), activation=\"elu\"))\n    model.add(Convolution2D(64, 3, 3, activation=\"elu\"))\n    keep_prob = 0.5\n    model.add(Dropout(keep_prob))\n    model.add(Flatten())\n    model.add(Dense(100))\n    model.add(Activation(\"elu\"))\n    model.add(Dropout(keep_prob))\n    model.add(Dense(1))\n    return model</code></pre>",
-    "Donec sollicitudin dui eu leo mattis, nec euismod sem finibus. Pellentesque id quam ligula. Nam consectetur elementum euismod. Ut id magna odio. Nulla suscipit enim id tincidunt"
+    "<i>Ordered</i> <i>List</i>",
+    {
+      "type": "ordered-list",
+      "content": [
+        "hi",
+        "hi"
+      ]
+    }
   ]
 }

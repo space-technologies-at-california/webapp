@@ -19,3 +19,13 @@ update:
 	git push
 	git checkout v1
 	ssh ocf-stac-webapp 'cd myapp/src; git pull; cd ..; ./restart'
+
+# useage: make json file=<path-to-file>
+json:
+	python markdown/blog-content-json-generator.py $(file)
+
+updateBlogContent:
+	python markdown/update-blog-content.py $(file)
+
+# make blog-update file=<path-to-file>
+blog-update: json updateBlogContent
