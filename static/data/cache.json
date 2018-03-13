@@ -1112,6 +1112,21 @@
         "bio": "Space exploration and the development of space technology can open so many doors for humanity. There are answers to questions we haven't even asked yet, and space allows us to learn about ourselves and the universe. I also think everyone should have the opportunity to go to space! It would be amazing for future generations to get to experience life beyond Earth."
       },
       {
+        "name": "Andrew Li",
+        "photo": "img/team/member/andrew-li.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://linkedin.com/in/andrew-y-li",
+          "github": "https://github.com/andrewyli",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I'm interested in space and STAC because I want to learn more about the challenges of living and learning in space. It's a field that feels more powered by the curiosity and drive of humankind rather than personal gain, and thus something I'd like to be a part of."
+      },
+      {
         "name": "Arda Hatay",
         "photo": "img/team/member/arda-hatay.jpg",
         "profile-order": null,
@@ -1758,5 +1773,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 9.9
+  "version": 10.0
 }
