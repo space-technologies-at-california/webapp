@@ -1,9 +1,9 @@
 {
     "name": "Jacob Warnagieris",
     "photo": "img/team/member/jacob-warnagieris.jpg",
-    "profile-order": null,
+    "profile-order": 15,
     "major": "Statistics",
-    "title": "CubeSat Deployer Project Member",
+    "title": "Social Officer",
     "links": {
         "linkedin": "https://www.linkedin.com/in/jacob-warnagieris-02573a132",
         "github": "https://github.com/jwarnagieris",

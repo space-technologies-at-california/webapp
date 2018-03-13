@@ -902,19 +902,19 @@
         "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"
       },
       {
-        "name": "Victoria Yim",
-        "photo": "img/team/member/victoria-yim.jpg",
+        "name": "Jacob Warnagieris",
+        "photo": "img/team/member/jacob-warnagieris.jpg",
         "profile-order": 15,
-        "major": "Mechanical Engineering",
+        "major": "Statistics",
         "title": "Social Officer",
         "links": {
-          "linkedin": "",
-          "github": "",
+          "linkedin": "https://www.linkedin.com/in/jacob-warnagieris-02573a132",
+          "github": "https://github.com/jwarnagieris",
           "twitter": "",
           "web": "",
           "email": ""
         },
-        "bio": "When I was younger, space and space travel terrified me; even the experts knew so little about about it and that deeply worried me. As I grew older, I started to learn more about what we didn't know yet and my fear turned into curiosity. Now, the unknown quality of space is what fuels me to discover what it truly is and how humans will get there."
+        "bio": "The sophistication and innovation of the first satellites and space technologies sparked my passion for the subject. We are in the midst of a new era of space exploration, and I\u2019m excited to tackle the unique challenges that space presents. STAC gives me the opportunity to pursue my passions alongside a group of inspiring teammates."
       },
       {
         "name": "Audrey Zhao ",
@@ -1322,21 +1322,6 @@
         "bio": "I find high frequency telecommunications poetic that something so delicate, so minute, but so very deliberate, as the coded ripples in the electromagnetic fabric of reality around us can bring together all of mankind. With the inevitability of space exploration, it will be an incredibly humbling experience to extend the unshakable tenet of ubiquitous connectivity to mankind scattered across the stars."
       },
       {
-        "name": "Jacob Warnagieris",
-        "photo": "img/team/member/jacob-warnagieris.jpg",
-        "profile-order": null,
-        "major": "Statistics",
-        "title": "CubeSat Deployer Project Member",
-        "links": {
-          "linkedin": "https://www.linkedin.com/in/jacob-warnagieris-02573a132",
-          "github": "https://github.com/jwarnagieris",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "The sophistication and innovation of the first satellites and space technologies sparked my passion for the subject. We are in the midst of a new era of space exploration, and I\u2019m excited to tackle the unique challenges that space presents. STAC gives me the opportunity to pursue my passions alongside a group of inspiring teammates."
-      },
-      {
         "name": "Jason Hou",
         "photo": "img/team/member/jason-hou.jpg",
         "profile-order": null,
@@ -1605,6 +1590,21 @@
           "email": ""
         },
         "bio": "Space exploration will unlock a new realm of engineering and scientific inquiry, expanding our understanding of the universe and our place within it. I'm most focused on space technologies that help us understand the limits of life, as well as how we can protect Earth life that travels beyond our orbit."
+      },
+      {
+        "name": "Victoria Yim",
+        "photo": "img/team/member/victoria-yim.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "High Altitude Balloon Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "When I was younger, space and space travel terrified me; even the experts knew so little about about it and that deeply worried me. As I grew older, I started to learn more about what we didn't know yet and my fear turned into curiosity. Now, the unknown quality of space is what fuels me to discover what it truly is and how humans will get there."
       }
     ]
   },
@@ -1758,5 +1758,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 9.6
+  "version": 9.7
 }
