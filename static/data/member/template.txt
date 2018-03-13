@@ -1,0 +1,15 @@
+{
+    "name": "",
+    "photo": "img/team/member/",
+    "profile-order": null,
+    "major": "",
+    "title": "",
+    "links": {
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "web": "",
+        "email": ""
+    },
+    "bio": ""
+}

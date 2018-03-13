@@ -1,6 +1,6 @@
 default: clean run
 
-clean: static/data/cache.json
+clean:
 	rm -f static/data/cache.json
 
 run:

@@ -332,45 +332,55 @@
       "blog-content": [
         {
           "class": "lead",
-          "content": "<b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec consectetur lorem. Vivamus imperdiet egestas eros ac sollicitudin. Nunc aliquet imperdiet lorem. Vivamus hendrerit commodo dui in congue.</b>"
+          "content": "<b>Section Heading 1</b>"
         },
-        "Ut faucibus urna non nisl ultrices eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae ultrices lacus. Vestibulum sit amet maximus lectus. Cras nec magna a velit hendrerit condimentum ut vel neque. In velit purus, iaculis non rutrum et, tincidunt sit amet lacus. Praesent feugiat tortor ligula, vitae consectetur augue finibus eleifend. Maecenas iaculis rhoncus nulla sit amet pharetra.",
-        "<i><a href='http://www.goldengatebridge.org' target='blank'>Example Golden Bridge</a></i>",
-        {
-          "type": "image",
-          "url": "img/background/cover1.jpg",
-          "caption": "Figure Caption: Example Golden Bridge"
-        },
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
-        {
-          "type": "ordered-list",
-          "content": [
-            "Beatae vitae dicta sunt explicabo",
-            "Inventore veritatis et quasi architecto",
-            "Sed do eiusmod tempor incididunt",
-            "Accusamus et iusto odio dignissimos ducimus"
-          ]
-        },
-        "<b>Sed risus libero, facilisis et maximus vitae, hendrerit eu turpis. Phasellus aliquet elit et tellus tincidunt, eget luctus ipsum dictum. Nullam tincidunt elementum tortor, eget dictum lectus laoreet eget. Nam ac odio ligula.</b>",
-        "<blockquote>It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.</blockquote>",
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "<hr>",
         {
           "class": "lead",
-          "content": "<b> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</b>"
+          "content": "<b>Section Heading 2</b>"
         },
+        {
+          "class": "lead",
+          "content": "<b>Section Heading 3</b>"
+        },
+        {
+          "class": "lead",
+          "content": "<b>Section Heading 4</b>"
+        },
+        {
+          "class": "lead",
+          "content": "<b>Section Heading 5</b>"
+        },
+        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+        {
+          "type": "image",
+          "url": "img/logo/ocf.png",
+          "caption": "caption goes here"
+        },
+        "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+        "You can also add <a href='http://www.google.com' target='blank'>link</a>",
+        "<blockquote>\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium\"</blockquote>",
+        "It's our challenges and obstacles that give us layers of depth and make us interesting. Are they fun when they happen? No. But they are what make us unique. And that's what I know for sure... I think.\"",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='sampleSourceUrlHere' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe>Descriptions Here (Optional)</div></div>",
+        "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><div class='embed-video-container embed-responsive embed-responsive-16by9' style='margin-bottom:0px'><iframe class='embed-responsive-item' width='640' height='360' src='sampleSourceUrlHere' allowfullscreen='allowfullscreen'></iframe></div>Descriptions Here (Optional)</div></div>",
+        "<hr>",
+        "You can also add <code class=''>code</code>:",
+        "<pre><code class='python'>def hellow_word(x):\n\tprint(\"hello\")</code></pre>",
+        "<b>Unordered</b> <b>List</b>",
         {
           "type": "unordered-list",
           "content": [
-            "Beatae vitae dicta sunt explicabo",
-            "Inventore veritatis et quasi architecto",
-            "Sed do eiusmod tempor incididunt",
-            "Accusamus et iusto odio dignissimos ducimus"
+            "Unordered List Items Goes here",
+            "Unordered List Items Goes here"
           ]
         },
-        "Vestibulum semper, enim nec <code class=''>malesuada aliquam</code>, justo est luctus metus, eu efficitur ex sapien sed diam. Vivamus fringilla massa a erat hendrerit consectetur. <code class=''>Nam purus dolor</code>, sagittis sit amet placerat semper, convallis id odio.",
-        "<pre><code class='python'>def build_model(cropping_box=((70,25), (0,0)), input_shape=(160,320,3)):\n    model = Sequential()\n    model.add(Cropping2D(cropping=cropping_box))\n    model.add(Lambda(lambda x: x / 255.0 - 0.5, input_shape=input_shape))\n    model.add(Convolution2D(24, 5, 5, subsample=(2,2), activation=\"elu\"))\n    model.add(Convolution2D(64, 3, 3, activation=\"elu\"))\n    keep_prob = 0.5\n    model.add(Dropout(keep_prob))\n    model.add(Flatten())\n    model.add(Dense(100))\n    model.add(Activation(\"elu\"))\n    model.add(Dropout(keep_prob))\n    model.add(Dense(1))\n    return model</code></pre>",
-        "Donec sollicitudin dui eu leo mattis, nec euismod sem finibus. Pellentesque id quam ligula. Nam consectetur elementum euismod. Ut id magna odio. Nulla suscipit enim id tincidunt"
+        "<i>Ordered</i> <i>List</i>",
+        {
+          "type": "ordered-list",
+          "content": [
+            "hi",
+            "hi"
+          ]
+        }
       ]
     },
     "cubesat": {
@@ -732,14 +742,14 @@
         "profile-order": 3,
         "major": "Computer Science Honors",
         "title": "Co-Founder & Software Expert & Graphic Design",
-        "bio": "I have a tremendous passion for learning cross disciplinary subjects. Motivated by my relentless intellectual curiosity, I make efforts to acquire skills and insights in education, law, business, engineering, and design etc. I have lead and taken roles in several award winning projects with these skills, and I am excited to leverage all these experiences to explore the space, which first inspired my learning journey.",
         "links": {
           "linkedin": "https://www.linkedin.com/in/gantu",
           "github": "https://github.com/michael-tu",
           "twitter": "https://twitter.com/michael_tu_idea",
           "web": "http://tugan.me/",
           "email": "mailto:michael@stac.berkeley.edu"
-        }
+        },
+        "bio": "There are great knowns and great known unknowns, but what's even more fascinating are those great unknown unknowns. Space is exactly one of those mysterious and spectacular final destinations for humans. With a relentless passion and intellectual curiosity, I explore the world with a state of adventurous and exploratory mind."
       },
       {
         "name": "Camille Stuczynski",
@@ -877,6 +887,21 @@
         "bio": "Space is often looked at as where our future is heading, but I don't think many people realize how much of it is already a part of what we do. From the incredible span of NASA spinoffs to the new modes of industry it allows for, space is the motivation that has pushed us there. I know space technology will only continue to set off even more chain reactions that go on to help everyone, and I hope to let our world appreciate and get involved with it more! "
       },
       {
+        "name": "Sirej Dua",
+        "photo": "img/team/member/sirej-dua.jpg",
+        "profile-order": 14.5,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover AI Lead",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"
+      },
+      {
         "name": "Victoria Yim",
         "photo": "img/team/member/victoria-yim.jpg",
         "profile-order": 15,
@@ -892,11 +917,26 @@
         "bio": "When I was younger, space and space travel terrified me; even the experts knew so little about about it and that deeply worried me. As I grew older, I started to learn more about what we didn't know yet and my fear turned into curiosity. Now, the unknown quality of space is what fuels me to discover what it truly is and how humans will get there."
       },
       {
+        "name": "Audrey Zhao ",
+        "photo": "img/team/member/audrey-zhao.jpg",
+        "profile-order": 15.5,
+        "major": "Chemical Engineering",
+        "title": "Internal Officer",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Aspiring to become a chemical engineer, I have been interested in sustainable energy and environment. Space is a place full of possibilities, and I would love to explore it with my knowledge and skills learnt at Cal and STAC. Also, I'm just thrilled to work with all STAC members!"
+      },
+      {
         "name": "Ravi Dashputre",
         "photo": "img/team/member/ravi-dashputre.jpg",
         "profile-order": 16,
         "major": "Intended Applied Math",
-        "title": "Outreach Officer",
+        "title": "External Officer",
         "links": {
           "linkedin": "https://www.linkedin.com/in/ravi-dashputre-54aa38129/",
           "github": "",
@@ -905,6 +945,21 @@
           "email": ""
         },
         "bio": "The future of humanity is written in the stars. The next big step in our evolution is reaching beyond our world to others unknown. I want to do everything that I can to help us get to closer to knowing more about the universe. There are untold wonders out there to be found!"
+      },
+      {
+        "name": "Shaantam Chawla",
+        "photo": "img/team/member/shaantam-chawla.jpg",
+        "profile-order": 16.5,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "External Officer",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/shaantamchawla/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space captured my attention after I became involved with the hackathon arena in high school. To me, it's the perfect way to unleash the power of a computer and make exciting new discoveries using open data. Studying space is my way of engaging with my surroundings - it's a link between my interests in engineering and the natural world."
       },
       {
         "name": "James Mang",
@@ -935,6 +990,36 @@
           "email": ""
         },
         "bio": "My passion for space began in 2nd grade with my admiration and respect for my female role model in STEM: Sally Ride, the first American woman in space. Space specifically fascinates me because there is so much research and science to develop to aid us in exploring and learning about what the universe has to offer. Exploring the unknown, and being able to do that with so many degrees of freedom, is why I'm interested in space."
+      },
+      {
+        "name": "Mark Hill",
+        "photo": "img/team/member/mark-hill.jpg",
+        "profile-order": 18.25,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Engineering Officer",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/mark-h-6ab768146",
+          "github": "https://github.com/mark64",
+          "twitter": "",
+          "web": "https://drfcx.com/resume.pdf",
+          "email": ""
+        },
+        "bio": "I built my first cubesat in high school as part of the Irvine CubeSat project and wanted to keep working on amazing hands on projects that end up in space."
+      },
+      {
+        "name": "Brian Lo",
+        "photo": "img/team/member/brian-lo.jpg",
+        "profile-order": 18.5,
+        "major": "Mechanical Engineering",
+        "title": "Engineering Officer",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "After coming to UC Berkeley, I became very interested in aerospace through my engineering classes and certain aerospace clubs on campus. Space fascinates me because there is so much still unknown for us to explore and experiment. I am excited to take part in this exploration of space while expressing my creative freedom through STAC."
       },
       {
         "name": "Aviral Pandey",
@@ -982,6 +1067,21 @@
         "bio": "I am passionate about shaping our future in space and working on projects that really matter. The opportunities for space exploration are boundless and offer unique challenges. Hands-on learning is my favorite building and testing is what I love most. I have experience in a variety of disciplines including product design and flight controls engineering, and I also carry a private pilot license."
       },
       {
+        "name": "Chelsey Fang",
+        "photo": "img/team/member/chelsey-fang.jpg",
+        "profile-order": 22,
+        "major": "Chemical Engineering",
+        "title": "Chemical Engineering Expert",
+        "links": {
+          "linkedin": "www.linkedin.com/in/chelsey-f",
+          "github": "https://github.com/cjfang",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "In an era where technology has improved by leaps and bounds, the ability of space exploration has unlocked a new realm for discovery and learning. The sheer vastness of space is intimidating, yet so intriguing. I hope to help those around me and push the barriers of what we think is possible."
+      },
+      {
         "name": "Albert Li",
         "photo": "img/team/member/albert-li.jpg",
         "profile-order": null,
@@ -1001,7 +1101,7 @@
         "photo": "img/team/member/andrea-padron.jpg",
         "profile-order": null,
         "major": "Electrical Engineering & Computer Science",
-        "title": "CubeSat Deployer Project Member",
+        "title": "High Altitude Balloon Project Member",
         "links": {
           "linkedin": "",
           "github": "",
@@ -1027,21 +1127,6 @@
         "bio": "My interest in space developed as a child while observing stars at night. I kept wondering what could be out there and why we know so little about it. From that day on I imagined myself going to space as an astronaut every day. How cool it would be to be able to spend a portion of my life in space. Today I work towards that goal by aiming to advance space exploration projects."
       },
       {
-        "name": "Audrey Zhao ",
-        "photo": "img/team/member/audrey-zhao.jpg",
-        "profile-order": null,
-        "major": "Chemical Engineering",
-        "title": "Biosphere Project Member",
-        "links": {
-          "linkedin": "",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "Aspiring to become a chemical engineer, I have been interested in sustainable energy and environment. Space is a place full of possibilities, and I would love to explore it with my knowledge and skills learnt at Cal and STAC. Also, I'm just thrilled to work with all STAC members!"
-      },
-      {
         "name": "Bradley Qu",
         "photo": "img/team/member/bradley-qu.jpg",
         "profile-order": null,
@@ -1055,21 +1140,6 @@
           "email": ""
         },
         "bio": "Space exploration is challenging. It pushes us to the limits of design, planning, and control. And it is this unforgiving battle against the elements (or lack thereof) that gives space exploration its allure. Not to mention the beauty and excitement that comes with discovering the unknown."
-      },
-      {
-        "name": "Brian Lo",
-        "photo": "img/team/member/brian-lo.jpg",
-        "profile-order": null,
-        "major": "Mechanical Engineering",
-        "title": "CubeSat Deployer Project Member",
-        "links": {
-          "linkedin": "",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "After coming to UC Berkeley, I became very interested in aerospace through my engineering classes and certain aerospace clubs on campus. Space fascinates me because there is so much still unknown for us to explore and experiment. I am excited to take part in this exploration of space while expressing my creative freedom through STAC."
       },
       {
         "name": "Christine Giuliano",
@@ -1192,6 +1262,36 @@
         "bio": "The constraints of space result in really amazing technologies, from efficient jet propulsion to long range communication to autonomous control. I'm really interested in the innovations that come from developing for these environmental conditions, and all the amazing things we can do from these inventions."
       },
       {
+        "name": "Evan Braun",
+        "photo": "img/team/member/evan-barun.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/evanjbraun/",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Creating and designing technology to endure the harsh challenges of space pushes the limits of human creativity.  The future of the human race relies on us becoming a spacefaring civilization by utilizing this creativity.  STAC is the perfect opportunity for me as an undergraduate to start working towards this future. "
+      },
+      {
+        "name": "Evan Frenklak",
+        "photo": "img/team/member/evan-frenklak.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "https://github.com/efrenklak",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Since competing in NASA\u2019s ZeroRobotics in high school, I\u2019ve remained fascinated with space technology. I believe outer space has shaped modern culture, inspiring rapid innovation in communications, education, robotics, medicine and numerous other fields. I look forward to continuing the tradition of discovery."
+      },
+      {
         "name": "Gokul Swamy",
         "photo": "img/team/member/gokul-swamy.jpg",
         "profile-order": null,
@@ -1211,7 +1311,7 @@
         "photo": "img/team/member/hall-chen.jpg",
         "profile-order": null,
         "major": "Electrical Engineering & Computer Science",
-        "title": "High Altitude Balloon Project Member",
+        "title": "CubeSat Deployer Project Member",
         "links": {
           "linkedin": "",
           "github": "",
@@ -1235,6 +1335,21 @@
           "email": ""
         },
         "bio": "The sophistication and innovation of the first satellites and space technologies sparked my passion for the subject. We are in the midst of a new era of space exploration, and I\u2019m excited to tackle the unique challenges that space presents. STAC gives me the opportunity to pursue my passions alongside a group of inspiring teammates."
+      },
+      {
+        "name": "Jason Hou",
+        "photo": "img/team/member/jason-hou.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "CubeSat Deployer Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/jasonfhou/",
+          "github": "https://github.com/jasonf-hou",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Space is an age-old frontier of human exploration. Its exploration presents some of the most complex and interesting challenges in engineering and science. Combined with my passion for working on electronics projects, STAC provides a unique opportunity to engage in both."
       },
       {
         "name": "Jonathan Lee",
@@ -1265,6 +1380,21 @@
           "email": ""
         },
         "bio": "I\u2019m a freshman in Physics and I hold strong interests in the space. I am heavily involved in physics theories and get trained in designed. With science and passion, human beings start with nothing and build the whole civilized world, so shall we today. I\u2019m eager to do my best achieving each step of exploring the space with my passionate and outstanding teammates."
+      },
+      {
+        "name": "Katelyn Yu",
+        "photo": "img/team/member/katelyn-yu.jpg",
+        "profile-order": null,
+        "major": "Environmental Sciences",
+        "title": "Research Officer",
+        "links": {
+          "linkedin": "",
+          "github": "https://github.com/katelynyu123",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Growing up, my parents always encouraged me to explore my curiosity with space and science. I love the interdisciplinary nature of space research and the boundless possibilities of this field. I'm excited to contribute to the innovative research being conducted through Space Tech at Cal."
       },
       {
         "name": "Kelvin Pang",
@@ -1327,21 +1457,6 @@
         "bio": "Ever since I was little, I've had butterflies in my stomach just looking up at the night sky and asking questions about space, a place where physical limits are tested and pushed to their extremes. I hope to inhabit the seemingly uninhabitable and create technology that will help people, all with the goal of exploring the universe. "
       },
       {
-        "name": "Mark Hill",
-        "photo": "img/team/member/mark-hill.jpg",
-        "profile-order": null,
-        "major": "Electrical Engineering & Computer Science",
-        "title": "CubeSat Deployer Project Member",
-        "links": {
-          "linkedin": "https://www.linkedin.com/in/mark-h-6ab768146",
-          "github": "https://github.com/mark64",
-          "twitter": "",
-          "web": "https://drfcx.com/resume.pdf",
-          "email": ""
-        },
-        "bio": "I built my first cubesat in high school as part of the Irvine CubeSat project and wanted to keep working on amazing hands on projects that end up in space."
-      },
-      {
         "name": "Matthew Trepte",
         "photo": "img/team/member/matthew-trepte.jpg",
         "profile-order": null,
@@ -1355,6 +1470,21 @@
           "email": ""
         },
         "bio": "Somewhere, something incredible is waiting to be known."
+      },
+      {
+        "name": "Mia Mirkovic",
+        "photo": "img/team/member/mia-mirkovic.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Biosphere Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "https://github.com/miamirkovic",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Pursuing space travel is actually what pushed me toward engineering and computing. The idea of pushing the boundaries of what we can perceive and peeling away layers of abstraction from our idea of our own place in the universe has always appealed to me from an EE and more general perspective."
       },
       {
         "name": "Neil Bhattacharjee",
@@ -1402,6 +1532,21 @@
         "bio": "The space industry has so much growth potential with current improvements in reusable rocket technology, in companies like SpaceX, Blue Origin, and Virgin Galactic. Exploring the frontiers of space and beyond requires the highest level of engineering and innovation, and for a mechanical engineering student, contributions to humanity exploring the stars represent the greatest accomplishment."
       },
       {
+        "name": "Ruta Joshi",
+        "photo": "img/team/member/ruta-joshi.jpg",
+        "profile-order": null,
+        "major": "Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/ruta-joshi-35471878/",
+          "github": "https://github.com/rutajoshi",
+          "twitter": "",
+          "web": "https://rutajoshi.github.io/",
+          "email": ""
+        },
+        "bio": "Space to me is the final frontier. It represents the fact that people can do anything and literally go where no one has gone before, and that drives me as a technologist. I'd like to put my computer science skills to use to take people beyond the limits of imagination and atmosphere."
+      },
+      {
         "name": "Sepehr Rostamzadeh",
         "photo": "img/team/member/sepehr-rostamzadeh.jpg",
         "profile-order": null,
@@ -1417,36 +1562,6 @@
         "bio": "I\u2019ve been interested in space exploration and experimentation ever since I learned about the possibility of life outside of Earth. I hope to utilize my experiences from working in Pieter Abbeel\u2019s AI Robotics Lab and in Aerospace SAE to help design for the various projects in which STAC will participate. I\u2019m extremely excited to see what this group of bright, passionate engineers can accomplish!"
       },
       {
-        "name": "Shaantam Chawla",
-        "photo": "img/team/member/shaantam-chawla.jpg",
-        "profile-order": null,
-        "major": "Electrical Engineering & Computer Science",
-        "title": "Autonomous Rover Project Member",
-        "links": {
-          "linkedin": "https://www.linkedin.com/in/shaantamchawla/",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "Space captured my attention after I became involved with the hackathon arena in high school. To me, it's the perfect way to unleash the power of a computer and make exciting new discoveries using open data. Studying space is my way of engaging with my surroundings - it's a link between my interests in engineering and the natural world."
-      },
-      {
-        "name": "Sirej Dua",
-        "photo": "img/team/member/sirej-dua.jpg",
-        "profile-order": null,
-        "major": "Electrical Engineering & Computer Science",
-        "title": "Autonomous Rover Project Member",
-        "links": {
-          "linkedin": "",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"
-      },
-      {
         "name": "Steven Cao",
         "photo": "img/team/member/steven-cao.jpg",
         "profile-order": null,
@@ -1460,6 +1575,21 @@
           "email": ""
         },
         "bio": "I took a seminar in modern physics in senior year of high school, and I loved learning about the frontiers of science. I think space is the most frontier-like of all the sciences: all of our current knowledge comes from an Earth-like environment, so space offers unlimited potential for discovery. I want to spend my entire life discovering new things, and that starts here at STAC!"
+      },
+      {
+        "name": "Timothy Huang",
+        "photo": "img/team/member/timothy-huang.jpg",
+        "profile-order": null,
+        "major": "Mechanical Engineering",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/temhuang/",
+          "github": "https://github.com/15huangtimothy",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "There is so little known about space, which means there is so much there to discover. By advancing in space technologies, we can apply these innovations to further improve our lives. I believe that space is the catalyst for modern innovation. Also, stars are pretty."
       },
       {
         "name": "Tristan Caro",
@@ -1628,5 +1758,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 9.0
+  "version": 9.6
 }
