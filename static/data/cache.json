@@ -906,7 +906,7 @@
         "photo": "img/team/member/jacob-warnagieris.jpg",
         "profile-order": 15,
         "major": "Statistics",
-        "title": "Social Officer",
+        "title": "Social Officer & CubeSat Team",
         "links": {
           "linkedin": "https://www.linkedin.com/in/jacob-warnagieris-02573a132",
           "github": "https://github.com/jwarnagieris",
@@ -921,7 +921,7 @@
         "photo": "img/team/member/audrey-zhao.jpg",
         "profile-order": 15.5,
         "major": "Chemical Engineering",
-        "title": "Internal Officer",
+        "title": "Internal Officer & Biosphere Team",
         "links": {
           "linkedin": "",
           "github": "",
@@ -936,7 +936,7 @@
         "photo": "img/team/member/ravi-dashputre.jpg",
         "profile-order": 16,
         "major": "Intended Applied Math",
-        "title": "External Officer",
+        "title": "External Officer & CubeSat Team",
         "links": {
           "linkedin": "https://www.linkedin.com/in/ravi-dashputre-54aa38129/",
           "github": "",
@@ -951,7 +951,7 @@
         "photo": "img/team/member/shaantam-chawla.jpg",
         "profile-order": 16.5,
         "major": "Electrical Engineering & Computer Science",
-        "title": "External Officer",
+        "title": "External Officer & Autonomous Rover Team",
         "links": {
           "linkedin": "https://www.linkedin.com/in/shaantamchawla/",
           "github": "",
@@ -966,7 +966,7 @@
         "photo": "img/team/member/james-mang.jpg",
         "profile-order": 17,
         "major": "Intended Astrophysics and Chemistry",
-        "title": "Financial Officer",
+        "title": "Financial Officer & TIME Team",
         "links": {
           "linkedin": "",
           "github": "",
@@ -981,7 +981,7 @@
         "photo": "img/team/member/namrita-baru.jpg",
         "profile-order": 18,
         "major": "Electrical Engineering & Computer Science",
-        "title": "Software Expert",
+        "title": "Software Expert & Autonomous Rover Team",
         "links": {
           "linkedin": "",
           "github": "",
@@ -996,7 +996,7 @@
         "photo": "img/team/member/mark-hill.jpg",
         "profile-order": 18.25,
         "major": "Electrical Engineering & Computer Science",
-        "title": "Engineering Officer",
+        "title": "Engineering Officer & CubeSat Team",
         "links": {
           "linkedin": "https://www.linkedin.com/in/mark-h-6ab768146",
           "github": "https://github.com/mark64",
@@ -1011,7 +1011,7 @@
         "photo": "img/team/member/brian-lo.jpg",
         "profile-order": 18.5,
         "major": "Mechanical Engineering",
-        "title": "Engineering Officer",
+        "title": "Engineering Officer & CubeSat Team",
         "links": {
           "linkedin": "",
           "github": "",
@@ -1551,7 +1551,7 @@
         "photo": "img/team/member/steven-cao.jpg",
         "profile-order": null,
         "major": "Electrical Engineering & Computer Science",
-        "title": "TIME2 Project Member",
+        "title": "TIME-2 Project Member",
         "links": {
           "linkedin": "",
           "github": "",
@@ -1758,5 +1758,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 9.7
+  "version": 9.9
 }
