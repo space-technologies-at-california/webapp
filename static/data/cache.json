@@ -977,21 +977,6 @@
         "bio": "I have always had a passion for space since I was a child. For me, space is the future and space is the ultimate destination for humanity. The innovations that come from space exploration just blows my mind and makes me profound at what we can achieve. There is so much in space that we don't understand and I want to be able to discover these unknowns myself."
       },
       {
-        "name": "Namrita Baru",
-        "photo": "img/team/member/namrita-baru.jpg",
-        "profile-order": 18,
-        "major": "Electrical Engineering & Computer Science",
-        "title": "Software Expert & Autonomous Rover Team",
-        "links": {
-          "linkedin": "",
-          "github": "",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "My passion for space began in 2nd grade with my admiration and respect for my female role model in STEM: Sally Ride, the first American woman in space. Space specifically fascinates me because there is so much research and science to develop to aid us in exploring and learning about what the universe has to offer. Exploring the unknown, and being able to do that with so many degrees of freedom, is why I'm interested in space."
-      },
-      {
         "name": "Mark Hill",
         "photo": "img/team/member/mark-hill.jpg",
         "profile-order": 18.25,
@@ -1020,6 +1005,21 @@
           "email": ""
         },
         "bio": "After coming to UC Berkeley, I became very interested in aerospace through my engineering classes and certain aerospace clubs on campus. Space fascinates me because there is so much still unknown for us to explore and experiment. I am excited to take part in this exploration of space while expressing my creative freedom through STAC."
+      },
+      {
+        "name": "Katelyn Yu",
+        "photo": "img/team/member/katelyn-yu.jpg",
+        "profile-order": 18.55,
+        "major": "Environmental Sciences",
+        "title": "Research Officer",
+        "links": {
+          "linkedin": "",
+          "github": "https://github.com/katelynyu123",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "Growing up, my parents always encouraged me to explore my curiosity with space and science. I love the interdisciplinary nature of space research and the boundless possibilities of this field. I'm excited to contribute to the innovative research being conducted through Space Tech at Cal."
       },
       {
         "name": "Aviral Pandey",
@@ -1095,6 +1095,21 @@
           "email": ""
         },
         "bio": "I have a lot of passion for design. I\u2019m extremely interested to see how engineering in space changes in the coming future and am excited to contribute to the advancement of our understanding of the great unknown. STAC has been a great organization that has bolstered my creativity and helped me foster closer relationships with my teammates. I look forward to exploring space with them!"
+      },
+      {
+        "name": "Alex Ungar",
+        "photo": "img/team/member/alex-ungar.jpg",
+        "profile-order": null,
+        "major": "Engineering Physics",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "I am interested in space because of what is happening here on Earth. Our current  understanding of nature and state of technology have put us in a position to answer the most compelling questions about what is out there. "
       },
       {
         "name": "Andrea Padron",
@@ -1382,21 +1397,6 @@
         "bio": "I\u2019m a freshman in Physics and I hold strong interests in the space. I am heavily involved in physics theories and get trained in designed. With science and passion, human beings start with nothing and build the whole civilized world, so shall we today. I\u2019m eager to do my best achieving each step of exploring the space with my passionate and outstanding teammates."
       },
       {
-        "name": "Katelyn Yu",
-        "photo": "img/team/member/katelyn-yu.jpg",
-        "profile-order": null,
-        "major": "Environmental Sciences",
-        "title": "Research Officer",
-        "links": {
-          "linkedin": "",
-          "github": "https://github.com/katelynyu123",
-          "twitter": "",
-          "web": "",
-          "email": ""
-        },
-        "bio": "Growing up, my parents always encouraged me to explore my curiosity with space and science. I love the interdisciplinary nature of space research and the boundless possibilities of this field. I'm excited to contribute to the innovative research being conducted through Space Tech at Cal."
-      },
-      {
         "name": "Kelvin Pang",
         "photo": "img/team/member/kelvin-pang.jpg",
         "profile-order": null,
@@ -1485,6 +1485,21 @@
           "email": ""
         },
         "bio": "Pursuing space travel is actually what pushed me toward engineering and computing. The idea of pushing the boundaries of what we can perceive and peeling away layers of abstraction from our idea of our own place in the universe has always appealed to me from an EE and more general perspective."
+      },
+      {
+        "name": "Namrita Baru",
+        "photo": "img/team/member/namrita-baru.jpg",
+        "profile-order": null,
+        "major": "Electrical Engineering & Computer Science",
+        "title": "Autonomous Rover Project Member",
+        "links": {
+          "linkedin": "",
+          "github": "",
+          "twitter": "",
+          "web": "",
+          "email": ""
+        },
+        "bio": "My passion for space began in 2nd grade with my admiration and respect for my female role model in STEM: Sally Ride, the first American woman in space. Space specifically fascinates me because there is so much research and science to develop to aid us in exploring and learning about what the universe has to offer. Exploring the unknown, and being able to do that with so many degrees of freedom, is why I'm interested in space."
       },
       {
         "name": "Neil Bhattacharjee",
@@ -1773,5 +1788,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 10.0
+  "version": 10.3
 }

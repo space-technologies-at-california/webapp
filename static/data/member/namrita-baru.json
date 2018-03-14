@@ -1,9 +1,9 @@
 {
     "name": "Namrita Baru",
     "photo": "img/team/member/namrita-baru.jpg",
-    "profile-order": 18,
+    "profile-order": null,
     "major": "Electrical Engineering & Computer Science",
-    "title": "Software Expert & Autonomous Rover Team",
+    "title": "Autonomous Rover Project Member",
     "links": {
         "linkedin": "",
         "github": "",
