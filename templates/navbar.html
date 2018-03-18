@@ -38,7 +38,11 @@
                                 {% if value is mapping %}
                                     <!-- Second Degree Navbar -->
                                     <li class="has-dropdown">
-                                        <a href="{{ value['link'] }}">{{label}}</a>
+                                        {% if value['link'].startswith("http") %}
+                                            <a href="{{ value['link'] }}" target="_blank">{{label}}</a>
+                                        {% else %}
+                                            <a href="{{ value['link'] }}">{{label}}</a>
+                                        {% endif%}
                                         <ul>
                                             {% for lst2 in value['submenu'] %}
                                             {% for label2, value2 in lst2.items() %}
@@ -46,11 +50,19 @@
 
                                                     <!-- Third Degree Navbar -->
                                                     <li class="has-dropdown last-submenu">
-                                                        <a href="{{ value2['link'] }}">{{ label2 }}</a>
+                                                        {% if value2['link'].startswith("http") %}
+                                                            <a href="{{ value2['link'] }}" target="_blank">{{label2}}</a>
+                                                        {% else %}
+                                                            <a href="{{ value2['link'] }}">{{label2}}</a>
+                                                        {% endif%}
                                                         <ul>
                                                             {% for lst3 in value2['submenu'] %}
                                                             {% for label3, value3 in lst3.items() %}
-                                                                <li><a href="{{ value3 }}">{{ label3 }}</a></li>
+                                                                {% if value3.startswith("http") %}
+                                                                    <li><a href="{{ value3 }}" target="_blank">{{label3}}</a></li>
+                                                                {% else %}
+                                                                    <li><a href="{{ value3 }}">{{label3}}</a></li>
+                                                                {% endif%}
                                                             {% endfor %}
                                                             {% endfor %}
                                                         </ul>
@@ -58,7 +70,11 @@
                                                     <!-- End of Third Degree Navbar -->
                                                 {% else %}
 
-                                                <li><a href="{{ value2 }}">{{ label2 }}</a></li>
+                                                {% if value2.startswith("http") %}
+                                                    <li><a href="{{ value2 }}" target="_blank">{{label2}}</a></li>
+                                                {% else %}
+                                                    <li><a href="{{ value2 }}">{{label2}}</a></li>
+                                                {% endif%}
 
                                                 {% endif %}
                                             {% endfor %}
@@ -68,7 +84,11 @@
                                     <!-- End of Second Degree Navbar -->
                                 {% else %}
 
-                                <li><a href="{{ value }}">{{ label }}</a></li>
+                                    {% if value.startswith("http") %}
+                                        <li><a href="{{ value }}" target="_blank">{{label}}</a></li>
+                                    {% else %}
+                                        <li><a href="{{ value }}">{{label}}</a></li>
+                                    {% endif%}
                                 
                                 {% endif %}
                             {% endfor %}
