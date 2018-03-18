@@ -63,7 +63,7 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Space Technology Symposium": "/sts"
+        "Space Tech Symposium": "/sts"
       }
     ],
     "right-menu-enabled": true,
@@ -1776,5 +1776,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 10.9
+  "version": 11.0
 }
