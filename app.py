@@ -71,6 +71,11 @@ def industry_partnership():
 def sponsor_confirmation():
 	return render_template("sponsor-confirmation.html", config=config['sponsor-confirmation'])
 
+##################### Additional Pages #####################
+
+@app.route("/sts")
+def sts():
+    return redirect("https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279")
 
 ##################### Error Handling #####################
 
