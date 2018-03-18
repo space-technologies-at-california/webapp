@@ -34,7 +34,8 @@
 			}
 		},
 		{"Blog": "https://medium.com/@stac"},
-		{"Sponsor": "/sponsor"}
+		{"Sponsor": "/sponsor"},
+		{"Space Technology Symposium": "/sts"}
 	],
 	"right-menu-enabled": true,
 	"right-menu": [
