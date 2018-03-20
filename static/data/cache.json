@@ -63,7 +63,7 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Space Tech Symposium": "https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279"
+        "Space Tech Symposium": "/sts"
       }
     ],
     "right-menu-enabled": true,
@@ -1776,5 +1776,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 11.7
+  "version": 15.1
 }
