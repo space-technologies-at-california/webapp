@@ -75,7 +75,8 @@ def sponsor_confirmation():
 
 @app.route("/sts")
 def sts():
-    return redirect("https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279")
+    return render_template("stac-sts.html")
+    # return redirect("https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279")
 
 ##################### Error Handling #####################
 
