@@ -97,14 +97,14 @@
       }
     },
     "social-media": {
-      "email": "mailto:inqury@stac.berkeley.edu",
+      "email": "mailto:inquiry@stac.berkeley.edu",
       "twitter": "https://twitter.com/stacBerkeley",
       "facebook": "https://www.facebook.com/stacBerkeley",
       "linkedin": "https://www.linkedin.com/company/12956417/",
       "medium": "https://medium.com/@stac"
     },
     "contact-email": {
-      "inqury": "inqury@stac.berkeley.edu",
+      "inquiry": "inquiry@stac.berkeley.edu",
       "sponsor": "sponsor@stac.berkeley.edu"
     },
     "disqus-comment-link": "stac-webapp"
@@ -1776,5 +1776,5 @@
       "ti": "ti-angle-up"
     }
   },
-  "version": 11.6
+  "version": 11.7
 }
