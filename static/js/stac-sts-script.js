@@ -333,11 +333,8 @@ function initializeMap() {
             }
         ],
 
-        lat = 37.874822,
+        lat = 37.874246,
         lng = -122.258326,
-
-
-
 
         customMap = new google.maps.StyledMapType(styles, {
             name: 'Styled Map'
