@@ -19,12 +19,11 @@
                     <p>
                         {{ config["body"] }}
                     </p>
-                    <form class="halves form-newsletter" data-success="{{ config['success-msg'] }}" data-error="{{ config['error-msg'] }}">
+                    <form class="halves form-newsletter" data-success="{{ config['success-msg'] }}" data-error="{{ config['error-msg'] }}" success-redirect="/home">
                         <input class="mb16 validate-required validate-email signup-email-field" type="text" placeholder="Email Address" name="email" />
                         <button class="mb16" type="submit">{{ config["call-for-action"] }}</button>
                         <span>{{ config["privacy-msg"] }}</span>
-                        <iframe srcdoc="{{ config['source-code'] }}" class="mail-list-form">
-                        </iframe>
+                        {% include 'mailchimp/kickstarter.html' %}
                     </form>
                 </div>
             </div>
