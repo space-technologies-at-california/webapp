@@ -769,6 +769,9 @@ $(document).ready(function() {
                 formError.fadeOut(200);
                 // Create a new loading spinner in the submit button.
                 submitButton.html(jQuery('<div />').addClass('form-loading')).attr('disabled', 'disabled');
+
+                console.log(preparedForm);
+                console.log(preparedForm.attr('action'));
                 
                 try{
                     $.ajax({
