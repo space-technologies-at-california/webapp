@@ -78,6 +78,10 @@ def sts():
     return render_template("stac-sts.html")
     # return redirect("https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279")
 
+@app.route("/kickstarter")
+def kickstarter():
+    return render_template("kickstarter.html", config=config["kickstarter"])
+
 ##################### Error Handling #####################
 
 @app.route('/404')

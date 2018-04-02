@@ -1,0 +1,44 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="main-container">
+<section class="cover fullscreen image-bg overlay">
+    <div class="background-image-holder">
+        <img alt="image" class="background-image" src="{{ url_for('static', filename=config['background-img']) }}" />
+    </div>
+    <div class="container v-align-transform">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+                <div class="feature bordered text-center">
+                    <h3 class="uppercase">{{ config["heading"] }}</h3>
+                    <p>
+                        {{ config["body"] }}
+                    </p>
+                    <form class="halves form-newsletter" data-success="{{ config['success-msg'] }}" data-error="{{ config['error-msg'] }}">
+                        <input class="mb16 validate-required validate-email signup-email-field" type="text" placeholder="Email Address" name="email" />
+                        <button class="mb16" type="submit">{{ config["call-for-action"] }}</button>
+                        <span>{{ config["privacy-msg"] }}</span>
+                        <iframe srcdoc="{{ config['source-code'] }}" class="mail-list-form">
+                        </iframe>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+
+
+{% endblock %}
+
+{% block more_scripts %}
+<script type="text/javascript">
+    $("nav").addClass("absolute transparent");
+</script>
+{% endblock %}
