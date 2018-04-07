@@ -19,7 +19,7 @@
                     <p>
                         {{ config["body"] }}
                     </p>
-                    <form class="halves form-newsletter" data-success="{{ config['success-msg'] }}" data-error="{{ config['error-msg'] }}" success-redirect="/home">
+                    <form class="halves form-newsletter" data-success="{{ config['success-msg'] }}" data-error="{{ config['error-msg'] }}">
                         <input class="mb16 validate-required validate-email signup-email-field" type="text" placeholder="Email Address" name="email" />
                         <button class="mb16" type="submit">{{ config["call-for-action"] }}</button>
                         <span>{{ config["privacy-msg"] }}</span>
