@@ -21,44 +21,6 @@ real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
 def utility_processor():
     return dict(navbar=config["navbar"], club=config['club'], icon=config["icon"])
 
-##################### Authentication #####################
-
-@app.route('/login', methods=['GET', 'POST'])
-@auth_helper.get_username
-def login(username):
-    if username:
-        return redirect('/admin-update/member_id=gan-tu')
-
-    if request.method == 'GET':
-        return render_template('login.html', error=False)
-
-    username = database.escape(request.form['username'])
-    password = database.escape(request.form['password'])
-
-    correct = auth_helper.check_login(username, password)
-    if not correct:
-        return render_template('login.html', error=True)
-
-    session_id = auth_helper.generate_session_id()
-    database.execute("INSERT INTO sessions VALUES ('{}', '{}');".format(session_id, username))
-
-    resp = redirect('/admin-update/member_id=gan-tu')
-    resp.set_cookie('SESSION_ID', session_id)
-    return resp
-
-@app.route('/logout')
-@auth_helper.get_username
-# @auth_helper.csrf_protect
-def logout(username):
-    if not username:
-        return render_template('index.html', error='Error')
-
-    resp = make_response(redirect(url_for('index')))
-    resp.set_cookie('SESSION_ID', '')
-    username = database.escape(username)
-    database.execute("DELETE FROM sessions WHERE username = '{}'".format(username))
-    return resp
-
 ##################### Core Pages #####################
 @app.route("/")
 @app.route("/home")
@@ -71,9 +33,93 @@ def join():
 	# return render_template("join.html")
 	return redirect("https://goo.gl/forms/s86BFh1eUmHFRM0P2")
 
-@app.route("/admin-update/member_id=<member_id>", methods=['GET', 'POST'])
+
+##################### Authentication #####################
+
+@app.route('/login', methods=['GET', 'POST'])
 @auth_helper.get_username
-# @auth_helper.csrf_protect
+def login(username):
+    if username:
+        return redirect('/admin')
+
+    if request.method == 'GET':
+        return render_template('login.html', error=False)
+
+    username = database.escape(request.form['username'])
+    password = database.escape(request.form['password'])
+
+    correct = auth_helper.check_login(username, password)
+    if not correct:
+        return render_template('login.html', error=True)
+
+    session_id = auth_helper.generate_session_id()
+    # Delete past sessions
+    database.execute("DELETE FROM sessions WHERE username = '{}'".format(username))
+    # Insert new sessions
+    database.execute("INSERT INTO sessions VALUES ('{}', '{}');".format(session_id, username))
+
+    resp = redirect('/admin')
+    resp.set_cookie('SESSION_ID', session_id, httponly=True, max_age=60*5)
+    return resp
+
+@app.route('/logout')
+@auth_helper.get_username
+def logout(username):
+    if not username:
+        return redirect(url_for('index'))
+
+    resp = make_response(redirect(url_for('index')))
+    resp.set_cookie('SESSION_ID', '')
+    username = database.escape(username)
+    database.execute("DELETE FROM sessions WHERE username = '{}'".format(username))
+    return resp
+
+##################### Admin Pages #####################
+
+@app.route("/admin")
+@app.route("/admin/")
+@app.route("/admin/update")
+@app.route("/admin/update/")
+@auth_helper.get_username
+def admin(username):
+    if not username:
+        return render_template('login.html')
+
+    all_names =  database.fetchall("""
+        SELECT first_name || " " || last_name AS full_name FROM people AS a, members AS b
+        WHERE a.id = b.id ORDER BY full_name;
+    """)
+
+    return render_template('admin.html', username=username, all_names=all_names)
+
+@app.route("/admin/route/<dest>", methods=['GET', 'POST'])
+@auth_helper.get_username
+def admin_route(username, dest):
+    if request.method == 'POST' and dest == 'update_member':
+        FirstName = database.escape(request.form["FirstName"])
+        LastName = database.escape(request.form["LastName"])
+        if FirstName and LastName:
+            FirstName = FirstName.upper().strip()
+            LastName = LastName.upper().strip()
+            if len(FirstName) > 1:
+                FirstName = FirstName[0] + FirstName[1:].lower()
+            if len(LastName) > 1:
+                LastName = LastName[0] + LastName[1:].lower()
+
+            person_id = database.fetchone("""
+                SELECT b.id FROM people as a, members as b
+                WHERE a.id = b.id AND a.first_name == '{}' AND a.last_name == '{}'
+            """.format(FirstName, LastName))
+            if person_id and person_id[0]:
+                return redirect("/admin/update/member_id={}".format(person_id[0]))
+
+        return render_template('admin.html', username=username, memberUpdateFail=True, FirstName=FirstName, LastName=LastName, routeFail=False)
+    else:
+        return render_template('admin.html', username=username, memberUpdateFail=False, routeFail=True, dest=dest)
+
+
+@app.route("/admin/update/member_id=<member_id>", methods=['GET', 'POST'])
+@auth_helper.get_username
 def admin_update_member(username, member_id):
     if not username:
         return render_template('login.html')
@@ -117,7 +163,7 @@ def admin_update_member(username, member_id):
                 ("email", p[11])
             ]
 
-        return render_template("admin-update-members.html", member=member_id, fail=fail, info=info)
+        return render_template("admin-update-members.html", member=member_id, fail=fail, info=info, username=username)
 
     else:
         escape_input = lambda x: "NULL" if x is None or x.lower().strip() == "none" or x.lower().strip() == "null" else database.escape(x.strip())

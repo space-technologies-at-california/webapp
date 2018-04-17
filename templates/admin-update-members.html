@@ -21,7 +21,8 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    <li class="active">Admin - Update Members</li>
+                    <li><a href="/admin">Admin</a></li>
+                    <li class="active">Update Members</li>
                 </ol>
             </div>
         </div>
@@ -40,9 +41,11 @@
                 <h4>Trying to update <b>{{ member }}</b>, but <b>{{ member }}</b> cannot be found!</h4>
             {% else %}
                 <h4 class="uppercase">Update Member: {{ info["name"] }}</h4>
+                <p>You are currently logged in as: <b>{{ username }}</b></p>
+                <p>Click <a href="/logout">here to log out</a>, or the session will terminate in 5 min. Or return back to <a href="/admin">admin page</a>.</p>
                 <hr>
 
-                <form action="/admin-update/member_id={{ member }}" method="post" data-success="Successfully Updated the member">
+                <form action="/admin/update/member_id={{ member }}" method="post" data-success="Successfully Updated the member">
 
                     {% for field, existing_data in info %}
                         {% if field == 'name' %}
