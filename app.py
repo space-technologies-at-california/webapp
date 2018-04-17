@@ -11,6 +11,8 @@ from config import config
 
 app = Flask(__name__)
 
+real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
+
 ##################### Cross Page Functionalities #####################
 
 @app.context_processor
@@ -211,7 +213,7 @@ def project(name="example"):
           "icon": project_data[9]
         }
       },
-      "blog-content": json.loads(blog.create_json(project_data[10], returnString=True))["blog-content"]
+      "blog-content": json.loads(blog.create_json(real_root_path + project_data[10], returnString=True))["blog-content"]
     }
 
     return render_template("project.html", projects=projects)
