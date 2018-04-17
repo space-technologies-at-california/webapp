@@ -1,8 +1,11 @@
 import sqlite3
 import sys
 from functools import wraps
+import os
 
-DATABASE_FILE = 'db'
+real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
+
+DATABASE_FILE = real_root_path + 'db'
 # DATABASE_FILE = ':memory:'
 conn = sqlite3.connect(DATABASE_FILE)
 
