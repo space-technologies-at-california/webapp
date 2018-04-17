@@ -1,7 +1,7 @@
 {% extends 'core.html' %}
 
 {% block title %}
-    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+    <title> {{ projects['title'] }} | Space Technologies at Cal</title>
 {% endblock %}
 
 
@@ -9,13 +9,13 @@
 <!-- Page Title Section -->
 <section class="page-title page-title-4 image-bg overlay parallax">
     <div class="background-image-holder pretty-holder">
-        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename=config['background']) }}" />
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename=projects['background']) }}" />
     </div>
     <div class="container">
         <div class="row">
             <!-- Main Title -->
             <div class="col-md-6">
-                <h3 class="uppercase mb0">{{ config['title'] }}</h3>
+                <h3 class="uppercase mb0">{{ projects['title'] }}</h3>
             </div>
             <!-- End of Main Title -->
 
@@ -28,7 +28,7 @@
                     <li>
                         <a href="#">Project</a>
                     </li>
-                    <li class="active">{{ config['title'] }}</li>
+                    <li class="active">{{ projects['title'] }}</li>
                 </ol>
             </div>
             <!-- End of Breadcrumb -->
@@ -44,20 +44,20 @@
                 <!-- Post Content -->
                 <div class="post-snippet mb64">
                     <!-- Blog Image -->
-                    <img class="mb24 blog-intro-image" alt="{{ config['post-img']['alt'] }}" 
-                    src="{{ url_for('static', filename=config['post-img']['url']) }}" />
+                    <img class="mb24 blog-intro-image" alt="{{ projects['post-img']['alt'] }}" 
+                    src="{{ url_for('static', filename=projects['post-img']['url']) }}" />
                     <!-- End of Blog Image -->
 
 
                     <!-- Blog Leading Info -->
                     <div class="post-title">
-                        <span class="label">{{ config['date'] }}</span>
+                        <span class="label">{{ projects['date'] }}</span>
                         <h4 class="inline-block">
-                            {{ config['blog-title'] }}
+                            {{ projects['blog-title'] }}
                         </h4>
                     </div>
                     <ul class="post-meta">
-                        {% for label, value in config['blog-info'].items() %}
+                        {% for label, value in projects['blog-info'].items() %}
                         <li>
                             <i class="{{ icon[value['icon']]['ti'] }}"></i>
                             <span>
@@ -76,7 +76,7 @@
                     <!-- End of Blog Leading Info -->
 
                     <!--  Blog Content -->
-                    {% for paragraph in config['blog-content'] %}
+                    {% for paragraph in projects['blog-content'] %}
                         {% if paragraph is mapping %}
                             {% if 'type' in paragraph %}
                                 {% if 'unordered-list' in paragraph['type'] %}
@@ -124,6 +124,7 @@
                             <!-- End of Text Paragraph -->
                         {% endif %}
                     {% endfor %}
+                    
                     <!--  End of Blog Content -->
                 </div>
                 <!-- End of Post Content -->

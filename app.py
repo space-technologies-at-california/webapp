@@ -1,4 +1,7 @@
 import os
+import database
+import blog
+import json
 from flask import Flask
 from flask import render_template
 from flask import url_for
@@ -34,14 +37,68 @@ def aboutus():
 @app.route("/team")
 @app.route("/aboutus/team")
 def team():
-	return render_template("team.html", config=config["team"])
+
+    everyone = database.fetchall("""
+        SELECT  a.first_name || " " || a.last_name as name,
+                a.photo as photo,
+                b.major as major,
+                b.title as title,
+                a.bio as bio,
+                c.github as github,
+                c.linkedin as linkedin,
+                c.twitter as twitter,
+                c.web as web,
+                d.email as email
+        FROM people as a, members as b, links as c, contacts as d
+        WHERE a.id = b.id AND a.id = c.id And a.id = d.id
+        ORDER BY profile_order
+    """)
+    
+    members = list()
+    for p in everyone:
+        members.append({
+            "name": p[0],
+            "photo": p[1],
+            "major": p[2],
+            "title": p[3],
+            "bio": p[4],
+            "links": {
+                "github": p[5],
+                "linkedin": p[6],
+                "twitter": p[7],
+                "web": p[8],
+                "email": p[9]
+            }
+    })   
+
+    return render_template("team.html", config=config["team"], members=members)
 
 @app.route("/industry-advisor")
 @app.route("/industry-advisors")
 @app.route("/aboutus/industry-advisor")
 @app.route("/aboutus/industry-advisors")
 def industry_advisors():
-	return render_template("industry-advisors.html", config=config["industry-advisors"])
+
+    everyone = database.fetchall("""
+        SELECT  a.first_name || " " || a.last_name as name,
+                a.photo as photo,
+                b.affiliation as affiliation,
+                a.bio as bio
+        FROM people as a, advisors as b
+        WHERE a.id = b.id
+        ORDER BY b.profile_order
+    """)
+    
+    advisors = list()
+    for p in everyone:
+        advisors.append({
+            "name": p[0],
+            "photo": p[1],
+            "affiliation": p[2],
+            "bio": p[3].split("\n")
+    }) 
+    
+    return render_template("industry-advisors.html", config=config["industry-advisors"], advisors=advisors)
 
 ##################### Project Pages #####################
 
@@ -50,8 +107,47 @@ def industry_advisors():
 @app.route("/project/<name>")
 @app.route("/projects/<name>")
 def project(name="example"):
-	return render_template("project.html", config=config['project'][name])
 
+    project_data = database.fetchone("""
+        SELECT  a.page_title as title,
+                a.page_banner_img as background,
+                a.blog_img_alt as post_img_alt,
+                a.blog_img as post_img_url,
+                a.blog_date as blog_date,
+                a.blog_title as blog_title,
+                b.project_lead as project_lead,
+                b.project_lead_icon as project_lead_icon,
+                a.blog_tag as blog_tag,
+                a.blog_tag_icon as blog_tag_icon,
+                a.blog_content_markdown as blog_content_markdown
+        FROM blog_posts as a, projects as b
+        WHERE a.project_id = b.id AND a.project_id = '{0}'
+    """.format(name))
+
+
+    projects = {
+      "title": project_data[0],
+      "background": project_data[1],
+      "post-img": {
+        "alt": project_data[2],
+        "url": project_data[3]
+      },
+      "date": project_data[4],
+      "blog-title": project_data[5],
+      "blog-info": {
+        "Project Led by": {
+          "list": project_data[6].split("\n"),
+          "icon": project_data[7]
+        },
+        "Tagged as": {
+          "list": project_data[8].split("\n"),
+          "icon": project_data[9]
+        }
+      },
+      "blog-content": json.loads(blog.create_json(project_data[10], returnString=True))["blog-content"]
+    }
+
+    return render_template("project.html", projects=projects)
 
 ##################### Sponsor Pages #####################
 
@@ -76,7 +172,6 @@ def sponsor_confirmation():
 @app.route("/sts")
 def sts():
     return render_template("stac-sts.html")
-    # return redirect("https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279")
 
 @app.route("/kickstarter")
 def kickstarter():

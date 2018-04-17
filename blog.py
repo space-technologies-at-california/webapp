@@ -171,7 +171,7 @@ def process(d):
 	else:
 		return htmlfy(d)
 
-def creat_json(file, returnString=False):
+def create_json(file, returnString=False):
 	# read in the file
 	with open(file, "r") as f:
 		data = f.read().strip().split("\n")
@@ -267,7 +267,7 @@ if __name__ == "__main__":
 		if args.stringOnly:
 			print(creat_json(args.source, args.stringOnly))
 		else:
-			print("json file saved as {0}".format(creat_json(args.source, args.stringOnly)))
+			print("json file saved as {0}".format(create_json(args.source, args.stringOnly)))
 		print("SUCCESS")
 	except Exception as e:
 		print("FAILED\n")

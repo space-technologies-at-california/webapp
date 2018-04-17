@@ -63,14 +63,14 @@ conn.executescript("""
 
     CREATE TABLE links (
         id text PRIMARY KEY UNIQUE NOT NULL, 
-        github text NOT NULL, 
-        linkedin text NOT NULL, 
-        twitter text NOT NULL, 
-        web text NOT NULL);
+        github text, 
+        linkedin text, 
+        twitter text, 
+        web text);
 
     CREATE TABLE contacts (
         id text PRIMARY KEY UNIQUE NOT NULL, 
-        email text NOT NULL);
+        email text);
 
     CREATE TABLE blog_posts (
         id text PRIMARY KEY UNIQUE NOT NULL, 
@@ -89,12 +89,19 @@ conn.executescript("""
         id text PRIMARY KEY UNIQUE NOT NULL, 
         full_name text NOT NULL,
         project_lead text,
+        project_lead_icon text,
         project_type text);
 
     CREATE TABLE icons (
         name text PRIMARY KEY UNIQUE NOT NULL, 
         font_awesome text NOT NULL,
         themify text NOT NULL);
+
+    CREATE TABLE icons (
+        name text PRIMARY KEY UNIQUE NOT NULL, 
+        font_awesome text NOT NULL,
+        themify text NOT NULL);
+
 """)
 
 #########################
@@ -114,6 +121,8 @@ def sanitize_input(dictionary):
             continue
         elif type(v) is str:
             v = v.strip()
+            if len(v) == 0:
+                v = "NULL"
         dictionary[k] = escape_html(escape_sql(v))
     return dictionary
 
@@ -143,7 +152,7 @@ def initialize_member():
                 k, first, last, v["photo"], v["bio"], \
                     v["major"], v["title"], v["profile-order"],\
                     v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], \
-                    v["links"]["email"]));
+                    v["links"]["email"]).replace('"NULL"', 'null'));
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
@@ -172,7 +181,7 @@ def initialize_advisor():
             escape_null = lambda x: x if x else "NULL"
             conn.executescript(template.format(\
                 k, first, last, v["photo"], v["bio"], \
-                    v["affiliation"], v["profile-order"]));
+                    v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'));
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
@@ -190,12 +199,10 @@ def initialize_project_blog():
 
     template = """
         INSERT INTO blog_posts VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}');
-        INSERT INTO projects VALUES ('{}', '{}', '{}', '{}');
+        INSERT INTO projects VALUES ('{}', '{}', '{}', '{}', '{}');
     """
 
     for k, v in projects.items():
-        if k == "example": 
-            continue
         try:
             tmp = { 
                 "id": k,
@@ -205,7 +212,7 @@ def initialize_project_blog():
                 "blog_img": v["post-img"]["url"],
                 "blog_img_alt": v["post-img"]["alt"],
                 "blog_date": v["date"],
-                "blog_tag": ", ".join(v["blog-info"]["Tagged as"]["list"]),
+                "blog_tag": "\n".join(v["blog-info"]["Tagged as"]["list"]),
                 "blog_tag_icon": v["blog-info"]["Tagged as"]["icon"],
                 "blog_content_markdown": "markdown/{}.md".format(k),
                 "project_id": k,
@@ -215,12 +222,13 @@ def initialize_project_blog():
             tmp2 = {
                 "id": k,
                 "full_name": v["title"],
-                "project_lead": ", ".join(v["blog-info"]["Project Led by"]["list"]),
+                "project_lead": "\n".join(v["blog-info"]["Project Led by"]["list"]),
+                "project_lead_icon": v["blog-info"]["Project Led by"]["icon"],
                 "project_type": ", ".join(v["blog-info"]["Tagged as"]["list"]),
             }
             tmp2 = sanitize_input(tmp2)
 
-            conn.executescript(template.format(tmp["id"], tmp["page_title"], tmp["page_banner_img"], tmp["blog_title"], tmp["blog_img"], tmp["blog_img_alt"], tmp["blog_date"], tmp["blog_tag"], tmp["blog_tag_icon"], tmp["blog_content_markdown"], tmp["project_id"], tmp2["id"], tmp2["full_name"], tmp2["project_lead"], tmp2["project_type"] ))
+            conn.executescript(template.format(tmp["id"], tmp["page_title"], tmp["page_banner_img"], tmp["blog_title"], tmp["blog_img"], tmp["blog_img_alt"], tmp["blog_date"], tmp["blog_tag"], tmp["blog_tag_icon"], tmp["blog_content_markdown"], tmp["project_id"], tmp2["id"], tmp2["full_name"], tmp2["project_lead"], tmp2["project_lead_icon"], tmp2["project_type"]).replace('"NULL"', 'null'))
 
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
@@ -241,7 +249,7 @@ def initialize_icons():
 
     for k, v in icons.items():
         try:
-            conn.executescript(template.format(k, v["fa"], v["ti"]));
+            conn.executescript(template.format(k, v["fa"], v["ti"]).replace('"NULL"', 'null'));
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break

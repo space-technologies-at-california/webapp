@@ -22,7 +22,7 @@ update:
 
 # useage: make json file=<path-to-file>
 json:
-	python markdown/blog-content-json-generator.py $(file)
+	python blog.py $(file)
 
 updateBlogContent:
 	python markdown/update-blog-content.py $(file)
