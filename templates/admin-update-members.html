@@ -44,7 +44,7 @@
 
                 <form action="/admin-update/member_id={{ member }}" method="post" data-success="Successfully Updated the member">
 
-                    {% for field, existing_data in info.items() %}
+                    {% for field, existing_data in info %}
                         {% if field == 'name' %}
                             <div class="input-with-label text-left">
                                 <span>member_id:</span> <p>{{ member }}</p>
@@ -62,7 +62,7 @@
                                     <div class="input-with-label text-left">
                                         <span>{{ field }} (cannot by modified)</span>
                                         <input type="text" name="{{ field }}" id="{{ field }}" class="validate-required" value="{{ existing_data }}" hidden>
-                                        <p style="padding-bottom: 10px"><img src="{{ url_for('static', filename=info['photo']) }}" height="300px"></p>
+                                        <p style="padding-bottom: 10px"><img src="{{ url_for('static', filename=existing_data) }}" height="300px"></p>
                                     </div>
                                  {% else %}
                                      <div class="input-with-label text-left">
