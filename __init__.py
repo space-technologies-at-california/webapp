@@ -27,7 +27,7 @@ def make_escaper(replacements):
 
 escape_sql = make_escaper({
     ';': '\;',
-    "'": "\'",
+    "'": "''",
     '--': '&ndash;',
     '*': '&#42;',
     })

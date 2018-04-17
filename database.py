@@ -30,3 +30,27 @@ def fetchone(query):
 def fetchall(query):
     with conn:
         return conn.execute(query).fetchall()
+
+def make_escaper(replacements):
+    def escaper(inp):
+        for old, new in replacements.items():
+            inp = inp.replace(old, new)
+        return inp
+    return escaper
+
+escape_sql = make_escaper({
+    ';': '\;',
+    "'": "''",
+    '--': '&ndash;',
+    '*': '&#42;',
+})
+
+escape_html = make_escaper({
+    '<': '&lt;',
+    '>': '&gt;'
+})
+
+def escape(v):
+    return escape_html(escape_sql(v))
+
+

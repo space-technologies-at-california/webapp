@@ -1,0 +1,85 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> Admin - Update Members | Space Technologies at Cal</title>
+{% endblock %}
+
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder pretty-holder">
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename='img/background/space6-cut.jpg') }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">Admin - Update Members</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="active">Admin - Update Members</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<section class="left">
+
+    <div class="row">
+
+        <div class="col-md-6 col-md-offset-3 content">
+            {% if fail %}
+                <h4>Trying to update <b>{{ member }}</b>, but <b>{{ member }}</b> cannot be found!</h4>
+            {% else %}
+                <h4 class="uppercase">Update Member: {{ info["name"] }}</h4>
+                <hr>
+
+                <form action="/admin-update/member_id={{ member }}" method="post" data-success="Successfully Updated the member">
+
+                    {% for field, existing_data in info.items() %}
+                        {% if field == 'name' %}
+                            <div class="input-with-label text-left">
+                                <span>member_id:</span> <p>{{ member }}</p>
+                                <span>{{ field }}</span>
+                                <h5>{{ existing_data }}</h5>
+                            </div>          
+                        {% else %}
+                            {% if field == 'bio' %}
+                                <div class="input-with-label text-left">
+                                    <span>{{ field }}</span>
+                                    <textarea type="text" name="{{ field }}" id="{{ field }}" class="validate-required" rows="4" style="overflow: scroll">{{ existing_data }} </textarea>
+                                </div>
+                            {% else %}
+                                {% if field == 'photo' %}
+                                    <div class="input-with-label text-left">
+                                        <span>{{ field }} (cannot by modified)</span>
+                                        <input type="text" name="{{ field }}" id="{{ field }}" class="validate-required" value="{{ existing_data }}" hidden>
+                                        <p style="padding-bottom: 10px"><img src="{{ url_for('static', filename=info['photo']) }}" height="300px"></p>
+                                    </div>
+                                 {% else %}
+                                     <div class="input-with-label text-left">
+                                        <span>{{ field }}</span>
+                                        <input type="text" name="{{ field }}" id="{{ field }}" class="validate-required" value="{{ existing_data }}">
+                                    </div>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+                    <button type="submit">Update</button>
+                </form>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+

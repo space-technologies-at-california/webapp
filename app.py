@@ -2,6 +2,7 @@ import os
 import database
 import blog
 import json
+from flask import request
 from flask import Flask
 from flask import render_template
 from flask import url_for
@@ -27,6 +28,72 @@ def index():
 def join():
 	# return render_template("join.html")
 	return redirect("https://goo.gl/forms/s86BFh1eUmHFRM0P2")
+
+@app.route("/admin-update/member_id=<member_id>", methods=['GET', 'POST'])
+def admin_update_member(member_id):
+
+    if request.method == 'GET':
+
+        p = database.fetchone("""
+            SELECT  a.first_name || " " || a.last_name as name,
+                    a.first_name as first_name,
+                    a.last_name as last_name,
+                    a.photo as photo,
+                    b.major as major,
+                    b.title as title,
+                    a.bio as bio,
+                    c.github as github,
+                    c.linkedin as linkedin,
+                    c.twitter as twitter,
+                    c.web as web,
+                    d.email as email
+            FROM people as a, members as b, links as c, contacts as d
+            WHERE a.id = b.id AND a.id = c.id And a.id = d.id AND b.id = '{0}'
+            ORDER BY profile_order
+        """.format(member_id))
+
+        fail = p is None
+        info = {}
+
+        if not fail:
+            info = {
+                "name": p[0],
+                "first_name": p[1],
+                "last_name": p[2],
+                "photo": p[3],
+                "major": p[4],
+                "title": p[5],
+                "bio": p[6],
+                "github": p[7],
+                "linkedin": p[8],
+                "twitter": p[9],
+                "web": p[10],
+                "email": p[11]
+            }
+
+        return render_template("admin-update-members.html", member=member_id, fail=fail, info=info)
+
+    else:
+        escape_input = lambda x: "NULL" if x is None or x.lower().strip() == "none" or x.lower().strip() == "null" else database.escape(x.strip())
+
+
+        database.execute("""
+            UPDATE people set first_name='{}', last_name='{}', photo='{}', bio='{}' WHERE id = '{}';
+        """.format(escape_input(request.form["first_name"]), escape_input(request.form["last_name"]), escape_input(request.form["photo"]), escape_input(request.form["bio"]), escape_input(member_id)).replace("'NULL'", 'null'))
+
+        database.execute("""
+            UPDATE members set major='{}', title='{}' WHERE id = '{}';
+        """.format(escape_input(request.form["major"]), escape_input(request.form["title"]), escape_input(member_id)).replace("'NULL'", 'null'))
+
+        database.execute("""
+            UPDATE links set github='{}', linkedin='{}', twitter='{}', web='{}' WHERE id = '{}';
+        """.format(escape_input(request.form["github"]), escape_input(request.form["linkedin"]), escape_input(request.form["twitter"]), escape_input(request.form["web"]), escape_input(member_id)).replace("'NULL'", 'null'))
+
+        database.execute("""
+            UPDATE contacts set email='{}' WHERE id = '{}';
+        """.format(escape_input(request.form["email"]), escape_input(member_id)).replace("'NULL'", 'null'))
+
+    return redirect(url_for("team"))
 
 ##################### About Us Pages #####################
 
