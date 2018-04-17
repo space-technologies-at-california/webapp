@@ -36,7 +36,7 @@
 		{"Blog": "https://medium.com/@stac"},
 		{"Sponsor": "/sponsor"},
 		{"Space Tech Symposium": "/sts"},
-		{"Kickstarter": "/kickstarter"}
+		{"Kickstarter": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad"}
 	],
 	"right-menu-enabled": true,
 	"right-menu": [
