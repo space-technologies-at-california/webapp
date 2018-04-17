@@ -45,6 +45,19 @@ escape_html = make_escaper({
 #########################
 
 conn.executescript("""
+
+    CREATE TABLE users (
+        username text PRIMARY KEY UNIQUE NOT NULL, 
+        salt text NOT NULL,
+        hash text NOT NULL);
+    
+    INSERT INTO users VALUES ('admin', 'e57828893f61634ef866327d99fd42', 'd263f0210222a898fd908454aaad253f80f3418949dad2b0f82d0d64594de07b');
+    
+    CREATE TABLE sessions (
+        id uuid PRIMARY KEY UNIQUE NOT NULL, 
+        username text NOT NULL
+    );
+
     CREATE TABLE people (
         id text PRIMARY KEY UNIQUE NOT NULL, 
         first_name text NOT NULL, 

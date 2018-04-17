@@ -18,7 +18,7 @@ update:
 	git merge v1 -m "obtain updates from v1 branch"
 	git push
 	git checkout v1
-	ssh ocf-stac-webapp 'cd myapp/src; git pull; cd ..; ./restart'
+	ssh ocf-stac-webapp 'cd myapp/src; git checkout -- .; git pull; cd ..; ./restart'
 
 # useage: make json file=<path-to-file>
 json:

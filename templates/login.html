@@ -1,0 +1,48 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> Log In | Space Technologies at Cal</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="main-container">
+    <section class="cover fullscreen image-bg overlay">
+        <div class="background-image-holder">
+            <img alt="image" class="background-image" src="{{ url_for('static', filename='img/background/vent4.jpg') }}" />
+        </div>
+        <div class="container v-align-transform">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <div class="feature bordered text-center">
+                        <h4 class="uppercase">Login Here</h4>
+                        <form class="text-left" action="/login" method="post">
+                            <input class="mb0" type="text" id="username" name="username" placeholder="Username" />
+                            <input class="mb0" type="password" id="password" name="password" placeholder="Password" />
+                            <input type="submit" value="Login" />
+                        </form>
+                        {% if error %}
+                        <div class="form-error">Failed: Incorrect username or password.</div>
+                        {% endif %}
+                        <!-- <p class="mb0">Forgot your password?
+                            <a href="#">Click Here To Reset</a>
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+</div>
+    <!--end of container-->
+</section>
+
+
+{% endblock %}
+
+{% block more_scripts %}
+<script type="text/javascript">
+    $("nav").addClass("absolute transparent");
+</script>
+{% endblock %}

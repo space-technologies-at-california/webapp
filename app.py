@@ -3,11 +3,13 @@ import database
 import blog
 import json
 from flask import request
+from flask import make_response
 from flask import Flask
 from flask import render_template
 from flask import url_for
 from flask import redirect
 from config import config
+import auth_helper
 
 app = Flask(__name__)
 
@@ -18,6 +20,44 @@ real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
 @app.context_processor
 def utility_processor():
     return dict(navbar=config["navbar"], club=config['club'], icon=config["icon"])
+
+##################### Authentication #####################
+
+@app.route('/login', methods=['GET', 'POST'])
+@auth_helper.get_username
+def login(username):
+    if username:
+        return redirect('/admin-update/member_id=gan-tu')
+
+    if request.method == 'GET':
+        return render_template('login.html', error=False)
+
+    username = database.escape(request.form['username'])
+    password = database.escape(request.form['password'])
+
+    correct = auth_helper.check_login(username, password)
+    if not correct:
+        return render_template('login.html', error=True)
+
+    session_id = auth_helper.generate_session_id()
+    database.execute("INSERT INTO sessions VALUES ('{}', '{}');".format(session_id, username))
+
+    resp = redirect('/admin-update/member_id=gan-tu')
+    resp.set_cookie('SESSION_ID', session_id)
+    return resp
+
+@app.route('/logout')
+@auth_helper.get_username
+@auth_helper.csrf_protect
+def logout(username):
+    if not username:
+        return render_template('index.html', error='Error')
+
+    resp = make_response(redirect(url_for('index')))
+    resp.set_cookie('SESSION_ID', '')
+    username = database.escape(username)
+    database.execute("DELETE FROM sessions WHERE username = '{}'".format(username))
+    return resp
 
 ##################### Core Pages #####################
 @app.route("/")
@@ -32,7 +72,11 @@ def join():
 	return redirect("https://goo.gl/forms/s86BFh1eUmHFRM0P2")
 
 @app.route("/admin-update/member_id=<member_id>", methods=['GET', 'POST'])
-def admin_update_member(member_id):
+@auth_helper.get_username
+@auth_helper.csrf_protect
+def admin_update_member(username, member_id):
+    if not username:
+        return render_template('login.html')
 
     if request.method == 'GET':
 
