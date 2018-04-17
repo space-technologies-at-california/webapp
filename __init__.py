@@ -65,8 +65,10 @@ conn.executescript("""
         id text PRIMARY KEY UNIQUE NOT NULL, 
         github text, 
         linkedin text, 
-        twitter text, 
-        web text);
+        twitter text,
+        web text,
+        medium text,
+        facebook text);
 
     CREATE TABLE contacts (
         id text PRIMARY KEY UNIQUE NOT NULL, 
@@ -135,8 +137,8 @@ def initialize_member():
     template = """
         INSERT INTO people VALUES ("{0}", "{1}", "{2}", "{3}", "{4}");
         INSERT INTO members VALUES ("{0}", "{5}", "{6}", {7});
-        INSERT INTO links VALUES ("{0}", "{8}", "{9}", "{10}", "{11}");
-        INSERT INTO contacts VALUES ("{0}", "{12}");
+        INSERT INTO links VALUES ("{0}", "{8}", "{9}", "{10}", "{11}", "{12}", '{13}');
+        INSERT INTO contacts VALUES ("{0}", "{14}");
     """
 
     for k, v in member.items():
@@ -146,8 +148,8 @@ def initialize_member():
             conn.executescript(template.format(\
                 k, first, last, v["photo"], v["bio"], \
                     v["major"], v["title"], v["profile-order"],\
-                    v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], \
-                    v["links"]["email"]).replace('"NULL"', 'null'));
+                    v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], "NULL", "NULL", \
+                    v["links"]["email"].replace("mailto:", "")).replace('"NULL"', 'null'));
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
@@ -251,6 +253,29 @@ def initialize_icons():
 
 initialize_icons()
 
+#############################
+# CLUB INFO INITIALIZATION
+#############################
+
+def initialize_club():
+    club = json.load(open('static/data/club.json'))
+    
+    # add social media links
+    template = """
+        INSERT INTO links VALUES ("{}", "{}", "{}", "{}", "{}", "{}",  "{}");
+    """
+    template = template.format('stac-club', 'NULL', club["social-media"]["linkedin"], club["social-media"]["twitter"], 'NULL', club["social-media"]["medium"], club["social-media"]["facebook"])
+    conn.executescript(template)
+
+    # add contact emails
+    template = """
+        INSERT INTO contacts VALUES ("{}", "{}");
+    """
+
+    for k, v in club["contact-email"].items():
+        conn.executescript(template.format("stac-{0}".format(k), v.replace("mailto:", "")))
+
+initialize_club()
 
 #########################
 # COMMIT CHANGES

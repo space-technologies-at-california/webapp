@@ -67,7 +67,7 @@ def team():
                 "linkedin": p[6],
                 "twitter": p[7],
                 "web": p[8],
-                "email": p[9]
+                "email": "mailto:" + p[9] if p[9] else p[9]
             }
     })   
 
