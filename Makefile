@@ -4,7 +4,7 @@ clean:
 	rm -f static/data/cache.json
 
 run:
-	open http://127.0.0.1:5000/
+	bash -c "sleep 1; open http://127.0.0.1:5000" &
 	python app.py
 
 update:
