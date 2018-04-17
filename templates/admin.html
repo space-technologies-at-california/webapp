@@ -1,0 +1,95 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> Admin Page | Space Technologies at Cal</title>
+{% endblock %}
+
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder pretty-holder">
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename='img/background/space6-cut.jpg') }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">Admin Page</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">Admin Page</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<section class="left">
+
+    <div class="row">
+
+        <div class="col-md-6 col-md-offset-3 content">
+            
+                <h4 class="uppercase">Admin Control</h4>
+                <p>You are currently logged in as: <b>{{ username }}</b></p>
+                <p>Click <a href="/logout">here to Log out</a>, or the session will terminate in 5 min.</p>
+                <hr>
+
+                <h5>You can only update member's profile as of now:</h5>
+
+            
+                <form action="/admin/route/update_member" method="post" data-success="Routing to update the member">
+                    <p>Make sure you type the name as it appears on the <a href="/team" target="_blank">team</a> page.</p>
+
+                    <div class="input-with-label text-left">
+                        <span>Type the <b>first</b> name of the person you want to update:</span>
+                        <input type="text" name="FirstName" id="FirstName" class="validate-required" placeholder="Elon">
+                    </div>
+
+                    <div class="input-with-label text-left">
+                        <span>Type the <b>last</b> name of the person you want to update:</span>
+                        <input type="text" name="LastName" id="LastName" class="validate-required" placeholder="Musk">
+                    </div>
+
+                    <button type="submit">Update</button>
+                </form>
+
+                <div class="text-center">
+                    <div class="modal-container">
+                        <a class="btn btn-modal" href="#">
+                            <i class="ti-text"></i> Show ALL members' names</a>
+                        <div class="foundry_modal">
+                            <h4>Here is a list of all members' names</h4>
+                            <hr>
+                            <p>
+                                <ul>
+                                    {% for name in all_names %}
+                                        <li>{{ name[0] }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {% if memberUpdateFail %}
+                    <h4>Cannot find the member you typed: {{ FirstName }} {{ LastName}}</h4>
+                    <p>Make sure you type the name as it appears on the <a href="/team" target="_blank">team</a> page.</p>
+                {% endif %}
+
+                {% if routeFail %}
+                    <div class="form-error">Failed to route to {{ dest }}</div>
+                {% endif %}
+                
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
