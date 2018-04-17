@@ -1,15 +1,15 @@
 {
-    "name": "Kelvin Pang",
-    "photo": "img/team/member/kelvin-pang.jpg",
-    "profile-order": null,
-    "major": "Mechanical Engineering",
-    "title": "TIME-2 Project Member",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/kelvinpang02",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I'm interested in space because it's currently the final frontier and truly innovative engineering is what it takes to further explore it. From that engineering, newly discovered technologies can be a significant impact in making the world a better place both on Earth and beyond."
+  "name": "Kelvin Pang",
+  "photo": "img/team/member/kelvin-pang.jpg",
+  "profile-order": 47,
+  "major": "Mechanical Engineering",
+  "title": "TIME-2 Project Member",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/kelvinpang02",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I'm interested in space because it's currently the final frontier and truly innovative engineering is what it takes to further explore it. From that engineering, newly discovered technologies can be a significant impact in making the world a better place both on Earth and beyond."
 }

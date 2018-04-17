@@ -1,15 +1,15 @@
 {
-    "name": "Eric D'sa",
-    "photo": "img/team/member/eric-d'sa.jpg",
-    "profile-order": null,
-    "major": "Electrical Engineering & Computer Science",
-    "title": "Spring Hiatus: Data Platform Intern, NVIDIA",
-    "links": {
-        "linkedin": "",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "The constraints of space result in really amazing technologies, from efficient jet propulsion to long range communication to autonomous control. I'm really interested in the innovations that come from developing for these environmental conditions, and all the amazing things we can do from these inventions."
+  "name": "Eric D'sa",
+  "photo": "img/team/member/eric-d'sa.jpg",
+  "profile-order": 39,
+  "major": "Electrical Engineering & Computer Science",
+  "title": "Spring Hiatus: Data Platform Intern, NVIDIA",
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "The constraints of space result in really amazing technologies, from efficient jet propulsion to long range communication to autonomous control. I'm really interested in the innovations that come from developing for these environmental conditions, and all the amazing things we can do from these inventions."
 }

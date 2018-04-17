@@ -1,15 +1,15 @@
 {
-    "name": "Steven Cao",
-    "photo": "img/team/member/steven-cao.jpg",
-    "profile-order": null,
-    "major": "Electrical Engineering & Computer Science",
-    "title": "TIME-2 Project Member",
-    "links": {
-        "linkedin": "",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I took a seminar in modern physics in senior year of high school, and I loved learning about the frontiers of science. I think space is the most frontier-like of all the sciences: all of our current knowledge comes from an Earth-like environment, so space offers unlimited potential for discovery. I want to spend my entire life discovering new things, and that starts here at STAC!"
+  "name": "Steven Cao",
+  "photo": "img/team/member/steven-cao.jpg",
+  "profile-order": 58,
+  "major": "Electrical Engineering & Computer Science",
+  "title": "TIME-2 Project Member",
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I took a seminar in modern physics in senior year of high school, and I loved learning about the frontiers of science. I think space is the most frontier-like of all the sciences: all of our current knowledge comes from an Earth-like environment, so space offers unlimited potential for discovery. I want to spend my entire life discovering new things, and that starts here at STAC!"
 }

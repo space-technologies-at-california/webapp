@@ -1,15 +1,15 @@
 {
-    "name": "Gokul Swamy",
-    "photo": "img/team/member/gokul-swamy.jpg",
-    "profile-order": null,
-    "major": "Electrical Engineering & Computer Science",
-    "title": "Autonomous Rover Project Member",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/gokul-swamy",
-        "github": "https://github.com/gkswamy98",
-        "twitter": "",
-        "web": "http://gokulswamy.me/",
-        "email": ""
-    },
-    "bio": "I've had a fascination with space since I was a kid with glow-in-the-dark stars on my ceiling. I love to explore applications of AI/ML and space is a particularly exciting frontier."
+  "name": "Gokul Swamy",
+  "photo": "img/team/member/gokul-swamy.jpg",
+  "profile-order": 42,
+  "major": "Electrical Engineering & Computer Science",
+  "title": "Autonomous Rover Project Member",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/gokul-swamy",
+    "github": "https://github.com/gkswamy98",
+    "twitter": "",
+    "web": "http://gokulswamy.me/",
+    "email": ""
+  },
+  "bio": "I've had a fascination with space since I was a kid with glow-in-the-dark stars on my ceiling. I love to explore applications of AI/ML and space is a particularly exciting frontier."
 }

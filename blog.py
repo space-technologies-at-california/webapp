@@ -171,7 +171,7 @@ def process(d):
 	else:
 		return htmlfy(d)
 
-def creat_json(file):
+def create_json(file, returnString=False):
 	# read in the file
 	with open(file, "r") as f:
 		data = f.read().strip().split("\n")
@@ -246,20 +246,28 @@ def creat_json(file):
 	elif unordered_list_detected:
 		unordered_list_detected = False
 		res.append(unordered_list(unordered_list_so_far))
-	# save file
-	saveName = "{0}.json".format(file.split(".")[0])
-	with open(saveName, "w") as f:
-		json.dump({"blog-content": res}, f, indent=2)
-	return saveName
+
+	if returnString:
+		return json.dumps({"blog-content": res}, indent=2)
+	else:
+		# save file
+		saveName = "{0}.json".format(file.split(".")[0])
+		with open(saveName, "w") as f:
+			json.dump({"blog-content": res}, f, indent=2)
+		return saveName
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="a parser that converts a text file to a json file according to stac blog content guideline")
 	parser.add_argument("source", type=str, help="<name>.txt")
+	parser.add_argument("--stringOnly", action="store_true", help="return string only?")
 	args = parser.parse_args()
 
 	try:
-		print("json file saved as {0}".format(creat_json(args.source)))
+		if args.stringOnly:
+			print(creat_json(args.source, args.stringOnly))
+		else:
+			print("json file saved as {0}".format(create_json(args.source, args.stringOnly)))
 		print("SUCCESS")
 	except Exception as e:
 		print("FAILED\n")

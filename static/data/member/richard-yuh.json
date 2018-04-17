@@ -1,15 +1,15 @@
 {
-    "name": "Richard Yuh",
-    "photo": "img/team/member/richard-yuh.jpg",
-    "profile-order": null,
-    "major": "Mechanical Engineering",
-    "title": "TIME Project Member",
-    "links": {
-        "linkedin": "",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "The space industry has so much growth potential with current improvements in reusable rocket technology, in companies like SpaceX, Blue Origin, and Virgin Galactic. Exploring the frontiers of space and beyond requires the highest level of engineering and innovation, and for a mechanical engineering student, contributions to humanity exploring the stars represent the greatest accomplishment."
+  "name": "Richard Yuh",
+  "photo": "img/team/member/richard-yuh.jpg",
+  "profile-order": 55,
+  "major": "Mechanical Engineering",
+  "title": "TIME Project Member",
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "The space industry has so much growth potential with current improvements in reusable rocket technology, in companies like SpaceX, Blue Origin, and Virgin Galactic. Exploring the frontiers of space and beyond requires the highest level of engineering and innovation, and for a mechanical engineering student, contributions to humanity exploring the stars represent the greatest accomplishment."
 }

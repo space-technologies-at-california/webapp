@@ -1,15 +1,15 @@
 {
-    "name": "Anoushka Giri",
-    "photo": "img/team/member/anoushka-giri.jpg",
-    "profile-order": 14,
-    "major": "Mechanical Engineering",
-    "title": "Autonomous Rover Project Lead",
-    "links": {
-        "linkedin": "http://linkedin.com/in/anoushka-giri-161490125",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "Space is often looked at as where our future is heading, but I don't think many people realize how much of it is already a part of what we do. From the incredible span of NASA spinoffs to the new modes of industry it allows for, space is the motivation that has pushed us there. I know space technology will only continue to set off even more chain reactions that go on to help everyone, and I hope to let our world appreciate and get involved with it more! "
+  "name": "Anoushka Giri",
+  "photo": "img/team/member/anoushka-giri.jpg",
+  "profile-order": 12,
+  "major": "Mechanical Engineering",
+  "title": "Autonomous Rover Project Lead",
+  "links": {
+    "linkedin": "http://linkedin.com/in/anoushka-giri-161490125",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "Space is often looked at as where our future is heading, but I don't think many people realize how much of it is already a part of what we do. From the incredible span of NASA spinoffs to the new modes of industry it allows for, space is the motivation that has pushed us there. I know space technology will only continue to set off even more chain reactions that go on to help everyone, and I hope to let our world appreciate and get involved with it more! "
 }

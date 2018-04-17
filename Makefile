@@ -4,7 +4,7 @@ clean:
 	rm -f static/data/cache.json
 
 run:
-	open http://127.0.0.1:5000/
+	bash -c "sleep 1; open http://127.0.0.1:5000" &
 	python app.py
 	
 update:
@@ -22,7 +22,7 @@ update:
 
 # useage: make json file=<path-to-file>
 json:
-	python markdown/blog-content-json-generator.py $(file)
+	python blog.py $(file)
 
 updateBlogContent:
 	python markdown/update-blog-content.py $(file)

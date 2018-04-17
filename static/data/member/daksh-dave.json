@@ -1,15 +1,15 @@
 {
-    "name": "Daksh Dave",
-    "photo": "img/team/member/daksh-dave.jpg",
-    "profile-order": null,
-    "major": "Mechanical Engineering",
-    "title": "Biosphere Project Member",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/dakshdave/",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I'm fascinated by the possibility of working on a tangible project that has the potential of actually being launched into space. Also, I'm a big Star Trek fan. "
+  "name": "Daksh Dave",
+  "photo": "img/team/member/daksh-dave.jpg",
+  "profile-order": 35,
+  "major": "Mechanical Engineering",
+  "title": "Biosphere Project Member",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/dakshdave/",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I'm fascinated by the possibility of working on a tangible project that has the potential of actually being launched into space. Also, I'm a big Star Trek fan. "
 }
