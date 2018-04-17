@@ -36,16 +36,16 @@ def get_username(f):
         return f(username, *args, **kwargs)
     return decorated_function
 
-# Assume for the actual site, this is replaced by the actual URL.
-SERVER_NAME = ['127.0.0.1:5000/', 'stac.berkeley.edu']
+# # Assume for the actual site, this is replaced by the actual URL.
+# SERVER_NAME = ['127.0.0.1:5000/', 'stac.berkeley.edu']
 
-def csrf_protect(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        referer = request.headers.get('Referer')
-        if referer:
-            if SERVER_NAME[0] not in referer and SERVER_NAME[1] not in referer:
-                print('Potential CSRF blocked', file=sys.stderr)
-                return 'Potential CSRF blocked', 403
-        return f(*args, **kwargs)
-    return decorated_function
+# # def csrf_protect(f):
+# #     @wraps(f)
+# #     def decorated_function(*args, **kwargs):
+# #         referer = request.headers.get('Referer')
+# #         if referer:
+# #             if SERVER_NAME[0] not in referer and SERVER_NAME[1] not in referer:
+# #                 print('Potential CSRF blocked', file=sys.stderr)
+# #                 return 'Potential CSRF blocked', 403
+# #         return f(*args, **kwargs)
+# #     return decorated_function
