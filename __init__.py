@@ -26,8 +26,8 @@ def make_escaper(replacements):
     return escaper
 
 escape_sql = make_escaper({
-    ';': '',
-    "'": "''",
+    ';': '\;',
+    "'": "\'",
     '--': '&ndash;',
     '*': '&#42;',
     })
@@ -91,11 +91,6 @@ conn.executescript("""
         project_lead text,
         project_lead_icon text,
         project_type text);
-
-    CREATE TABLE icons (
-        name text PRIMARY KEY UNIQUE NOT NULL, 
-        font_awesome text NOT NULL,
-        themify text NOT NULL);
 
     CREATE TABLE icons (
         name text PRIMARY KEY UNIQUE NOT NULL, 
