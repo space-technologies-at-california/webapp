@@ -48,7 +48,7 @@ def login(username):
 
 @app.route('/logout')
 @auth_helper.get_username
-@auth_helper.csrf_protect
+# @auth_helper.csrf_protect
 def logout(username):
     if not username:
         return render_template('index.html', error='Error')
@@ -73,7 +73,7 @@ def join():
 
 @app.route("/admin-update/member_id=<member_id>", methods=['GET', 'POST'])
 @auth_helper.get_username
-@auth_helper.csrf_protect
+# @auth_helper.csrf_protect
 def admin_update_member(username, member_id):
     if not username:
         return render_template('login.html')
