@@ -8,6 +8,7 @@ from flask import render_template
 from flask import url_for
 from flask import redirect
 from config import config
+from collections import OrderedDict
 
 app = Flask(__name__)
 
@@ -58,7 +59,7 @@ def admin_update_member(member_id):
         info = {}
 
         if not fail:
-            info = {
+            info = OrderedDict({
                 "name": p[0],
                 "first_name": p[1],
                 "last_name": p[2],
@@ -71,7 +72,7 @@ def admin_update_member(member_id):
                 "twitter": p[9],
                 "web": p[10],
                 "email": p[11]
-            }
+            })
 
         return render_template("admin-update-members.html", member=member_id, fail=fail, info=info)
 
@@ -165,7 +166,7 @@ def industry_advisors():
             "photo": p[1],
             "affiliation": p[2],
             "bio": p[3].split("\n")
-    }) 
+        }) 
     
     return render_template("industry-advisors.html", config=config["industry-advisors"], advisors=advisors)
 
