@@ -1,15 +1,15 @@
 {
-    "name": "Tristan Caro",
-    "photo": "img/team/member/tristan-caro.jpg",
-    "profile-order": null,
-    "major": "Molecular & Cell Biology ",
-    "title": "High Altitude Balloon Project Member",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/tristan-caro-428542124/",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "Space exploration will unlock a new realm of engineering and scientific inquiry, expanding our understanding of the universe and our place within it. I'm most focused on space technologies that help us understand the limits of life, as well as how we can protect Earth life that travels beyond our orbit."
+  "name": "Tristan Caro",
+  "photo": "img/team/member/tristan-caro.jpg",
+  "profile-order": 60,
+  "major": "Molecular & Cell Biology ",
+  "title": "High Altitude Balloon Project Member",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/tristan-caro-428542124/",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "Space exploration will unlock a new realm of engineering and scientific inquiry, expanding our understanding of the universe and our place within it. I'm most focused on space technologies that help us understand the limits of life, as well as how we can protect Earth life that travels beyond our orbit."
 }

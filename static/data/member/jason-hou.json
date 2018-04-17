@@ -1,15 +1,15 @@
 {
-    "name": "Jason Hou",
-    "photo": "img/team/member/jason-hou.jpg",
-    "profile-order": null,
-    "major": "Electrical Engineering & Computer Science",
-    "title": "CubeSat Deployer Project Member",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/jasonfhou/",
-        "github": "https://github.com/jasonf-hou",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "Space is an age-old frontier of human exploration. Its exploration presents some of the most complex and interesting challenges in engineering and science. Combined with my passion for working on electronics projects, STAC provides a unique opportunity to engage in both."
+  "name": "Jason Hou",
+  "photo": "img/team/member/jason-hou.jpg",
+  "profile-order": 44,
+  "major": "Electrical Engineering & Computer Science",
+  "title": "CubeSat Deployer Project Member",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jasonfhou/",
+    "github": "https://github.com/jasonf-hou",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "Space is an age-old frontier of human exploration. Its exploration presents some of the most complex and interesting challenges in engineering and science. Combined with my passion for working on electronics projects, STAC provides a unique opportunity to engage in both."
 }

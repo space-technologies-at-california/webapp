@@ -1,15 +1,15 @@
 {
-    "name": "Aviral Pandey",
-    "photo": "img/team/member/aviral-pandey.jpg",
-    "profile-order": 19,
-    "major": "Electrical Engineering & Computer Science",
-    "title": "Electrical Expert",
-    "links": {
-        "linkedin": "",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I enjoy working on electronics projects, and electronics for space present some unique challenges not found elsewhere. The STAC team offers me an opportunity to find solutions to these challenges while working with a unique, motivated, and outstanding group of individuals."
+  "name": "Aviral Pandey",
+  "photo": "img/team/member/aviral-pandey.jpg",
+  "profile-order": 22,
+  "major": "Electrical Engineering & Computer Science",
+  "title": "Electrical Expert",
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I enjoy working on electronics projects, and electronics for space present some unique challenges not found elsewhere. The STAC team offers me an opportunity to find solutions to these challenges while working with a unique, motivated, and outstanding group of individuals."
 }

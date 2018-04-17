@@ -1,15 +1,15 @@
 {
-	"name": "Gan Tu",
-	"photo": "img/team/member/gan-tu.jpg",
-	"profile-order": 3,
-	"major": "Computer Science Honors",
-	"title": "Co-Founder & Software Expert & Graphic Design",
-	"links": {
-		"linkedin": "https://www.linkedin.com/in/gantu",
-		"github": "https://github.com/michael-tu",
-		"twitter": "https://twitter.com/michael_tu_idea",
-		"web": "http://tugan.me/",
-		"email": "mailto:michael@stac.berkeley.edu"
-	},
-	"bio": "There are great knowns and great known unknowns, but what's even more fascinating are those great unknown unknowns. Space is exactly one of those mysterious and spectacular final destinations for humans. With a relentless passion and intellectual curiosity, I explore the world with a state of adventurous and exploratory mind."
+  "name": "Gan Tu",
+  "photo": "img/team/member/gan-tu.jpg",
+  "profile-order": 3,
+  "major": "Computer Science Honors",
+  "title": "Co-Founder & Software Expert & Graphic Design",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/gantu",
+    "github": "https://github.com/michael-tu",
+    "twitter": "https://twitter.com/michael_tu_idea",
+    "web": "http://tugan.me/",
+    "email": "mailto:michael@stac.berkeley.edu"
+  },
+  "bio": "There are great knowns and great known unknowns, but what's even more fascinating are those great unknown unknowns. Space is exactly one of those mysterious and spectacular final destinations for humans. With a relentless passion and intellectual curiosity, I explore the world with a state of adventurous and exploratory mind."
 }

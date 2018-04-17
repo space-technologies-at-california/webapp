@@ -1,15 +1,15 @@
 {
-    "name": "Albert Li",
-    "photo": "img/team/member/albert-li.jpg",
-    "profile-order": null,
-    "major": "Mechanical Engineering",
-    "title": "Spring Hiatus: Product Design Intern, Apple",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/alberthli",
-        "github": "https://www.github.com/alberthli",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I have a lot of passion for design. I’m extremely interested to see how engineering in space changes in the coming future and am excited to contribute to the advancement of our understanding of the great unknown. STAC has been a great organization that has bolstered my creativity and helped me foster closer relationships with my teammates. I look forward to exploring space with them!"
+  "name": "Albert Li",
+  "photo": "img/team/member/albert-li.jpg",
+  "profile-order": 26,
+  "major": "Mechanical Engineering",
+  "title": "Spring Hiatus: Product Design Intern, Apple",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/alberthli",
+    "github": "https://www.github.com/alberthli",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I have a lot of passion for design. I\u2019m extremely interested to see how engineering in space changes in the coming future and am excited to contribute to the advancement of our understanding of the great unknown. STAC has been a great organization that has bolstered my creativity and helped me foster closer relationships with my teammates. I look forward to exploring space with them!"
 }

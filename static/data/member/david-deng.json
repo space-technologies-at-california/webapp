@@ -1,15 +1,15 @@
 {
-    "name": "David Deng",
-    "photo": "img/team/member/david-deng.jpg",
-    "profile-order": null,
-    "major": "Nuclear Engineering & Intended EECS",
-    "title": "TIME Project Member",
-    "links": {
-        "linkedin": "",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I am interested in space because my dorm needs more of it. Jk. In reality, I'm interested in space exploration because in the past fifty years, it has brought out the best of humanity: curiosity, collaboration, and some of the most cutting edge technology of our time. Our world wouldn't be the way it is today without space exploration."
+  "name": "David Deng",
+  "photo": "img/team/member/david-deng.jpg",
+  "profile-order": 36,
+  "major": "Nuclear Engineering & Intended EECS",
+  "title": "TIME Project Member",
+  "links": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I am interested in space because my dorm needs more of it. Jk. In reality, I'm interested in space exploration because in the past fifty years, it has brought out the best of humanity: curiosity, collaboration, and some of the most cutting edge technology of our time. Our world wouldn't be the way it is today without space exploration."
 }

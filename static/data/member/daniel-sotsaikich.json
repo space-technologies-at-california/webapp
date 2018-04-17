@@ -1,15 +1,15 @@
 {
-    "name": "Daniel Sotsaikich",
-    "photo": "img/team/member/daniel-sotsaikich.jpg",
-    "profile-order": 12,
-    "major": "Mechanical Engineering",
-    "title": "TIME-2 Project Lead",
-    "links": {
-        "linkedin": "https://www.linkedin.com/in/daniel-sotsaikich-109b22132/",
-        "github": "",
-        "twitter": "",
-        "web": "",
-        "email": ""
-    },
-    "bio": "I want to put all of my education and engineering skills towards extending the limits of human knowledge and innovation. I am extremely curious about what is out there in space and am so grateful that I found STAC, where I can fully unleash my ambition working with the most brilliant people I know."
+  "name": "Daniel Sotsaikich",
+  "photo": "img/team/member/daniel-sotsaikich.jpg",
+  "profile-order": 10,
+  "major": "Mechanical Engineering",
+  "title": "TIME-2 Project Lead",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/daniel-sotsaikich-109b22132/",
+    "github": "",
+    "twitter": "",
+    "web": "",
+    "email": ""
+  },
+  "bio": "I want to put all of my education and engineering skills towards extending the limits of human knowledge and innovation. I am extremely curious about what is out there in space and am so grateful that I found STAC, where I can fully unleash my ambition working with the most brilliant people I know."
 }
