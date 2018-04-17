@@ -7,10 +7,12 @@ import glob
 # CREATE NEW DATABASE
 #########################
 
+real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
+
 DATABASE_FILE = 'db'
 # DATABASE_FILE = ':memory:'
-if DATABASE_FILE in os.listdir('.'):
-    os.remove(DATABASE_FILE)
+if DATABASE_FILE in os.listdir(real_root_path):
+    os.remove(real_root_path + DATABASE_FILE)
 conn = sqlite3.connect(DATABASE_FILE)
 
 
