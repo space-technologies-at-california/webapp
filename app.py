@@ -334,7 +334,8 @@ def sts():
 
 @app.route("/kickstarter")
 def kickstarter():
-    return render_template("kickstarter.html", config=config["kickstarter"])
+    #return render_template("kickstarter.html", config=config["kickstarter"])
+    return redirect("https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad")
 
 ##################### Error Handling #####################
 
