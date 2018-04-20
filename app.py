@@ -95,6 +95,12 @@ def admin(username):
 @app.route("/admin/route/<dest>", methods=['GET', 'POST'])
 @auth_helper.get_username
 def admin_route(username, dest):
+
+    all_names =  database.fetchall("""
+        SELECT first_name || " " || last_name AS full_name FROM people AS a, members AS b
+        WHERE a.id = b.id ORDER BY full_name;
+    """)
+
     if request.method == 'POST' and dest == 'update_member':
         FirstName = database.escape(request.form["FirstName"])
         LastName = database.escape(request.form["LastName"])
@@ -113,9 +119,9 @@ def admin_route(username, dest):
             if person_id and person_id[0]:
                 return redirect("/admin/update/member_id={}".format(person_id[0]))
 
-        return render_template('admin.html', username=username, memberUpdateFail=True, FirstName=FirstName, LastName=LastName, routeFail=False)
+        return render_template('admin.html', username=username, memberUpdateFail=True, routeFail=False, FirstName=FirstName, LastName=LastName, all_names=all_names)
     else:
-        return render_template('admin.html', username=username, memberUpdateFail=False, routeFail=True, dest=dest)
+        return render_template('admin.html', username=username, memberUpdateFail=False, routeFail=True, dest=dest, all_names=all_names)
 
 
 @app.route("/admin/update/member_id=<member_id>", methods=['GET', 'POST'])
