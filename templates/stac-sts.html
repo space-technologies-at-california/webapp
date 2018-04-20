@@ -27,7 +27,7 @@
       <link href="{{ url_for('static', filename='css/fonts.css') }}" rel="stylesheet" type="text/css"  media="all" />
       <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
-      <link href="{{ url_for('static', filename='css/component.css') }}" rel="stylesheet"/>
+      <link href="{{ url_for('static', filename='css/component.css') }}" rel="stylesheet" type="text/css"/>
       <script src="{{ url_for('static', filename='js/modernizr.custom.js') }}"></script>
    </head>
    <body>
@@ -86,6 +86,7 @@
                               <li><a class="scroll" href="#speakers">Speakers</a></li>
                               <li><a class="scroll" href="#agenda">Agenda</a></li>
                               <li><a class="scroll" href="#tickets">Tickets</a></li>
+                              <li><a class="scroll" href="#sponsors">Sponsors</a></li>
                               <li><a class="scroll" href="#location">Location</a></li>
                               <li><a class="scroll" href="#faq">FAQ</a></li>
                            </ul>
@@ -671,6 +672,55 @@
             <!--End container-->
          </section>
          <!--End tickets section-->
+         
+         <!--Sponsor section-->
+         <section class="sponser pt-100 pb-100" id="sponsor">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+                     <h1 class="title">Bigup to Our Sponsors </h1>
+                     <p class="title-lead mt-10 mb-20">For further info about sponsoring feel free to get in touch with us at <a href="mailto:events@stac.berkeley.edu" class="gradient-text">events@stac.berkeley.edu</a></p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container" id="sponsors">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12  col-sm-push-2 text-center">
+                     <div class="col-md-2 col-sm-2 ">
+                        <div class="block-sponsor-img">
+                           <a href="http://citrisfoundry.org" target="_blank"><img src="{{ url_for('static', filename='img/subpage/sts/sponsors/citris.png') }}" alt="CITRIS"></a>
+                        </div>
+                     </div>
+                     <div class="col-md-2 col-sm-2 text-center">
+                        <div class="block-sponsor-img">
+                           <a href="http://skydeck.berkeley.edu" target="_blank"><img src="{{ url_for('static', filename='img/subpage/sts/sponsors/skydeck.png') }}" alt="SKYDECK"></a>
+                        </div>
+                     </div>
+                     <div class="col-md-2 col-sm-2 text-center">
+                        <div class="block-sponsor-img">
+                           <a href="http://beepartners.vc" target="_blank"><img src="{{ url_for('static', filename='img/subpage/sts/sponsors/bee-partners.png') }} " alt="BEE PARTNERS"></a>
+                        </div>
+                     </div>
+                     <div class="col-md-2 col-sm-2 text-center">
+                        <div class="block-sponsor-img">
+                           <a href="https://www.nsf.gov/news/special_reports/i-corps/" target="_blank"><img src="{{ url_for('static', filename='img/subpage/sts/sponsors/nsf.png') }}" alt="NSF"></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End sponser section-->
+
+
          <!--Contact section-->
          <section id="location" class="location pt-200 pb-200 bg-dark">
             <div class="block-map ">

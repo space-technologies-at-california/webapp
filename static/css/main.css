@@ -734,12 +734,12 @@ select.error {
 
 /* Sponsors section*/
 
-.block-sponsor img {
-    opacity: .2;
-    width: 85%;
+.block-sponsor-img img {
+    opacity: 0.8;
+    width: 90%;
 }
-.block-sponsor img:hover {
-    opacity: .4;
+.block-sponsor-img img:hover {
+    opacity: 1.0;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
