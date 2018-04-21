@@ -14,3 +14,9 @@ Modern AI technology has enabled the ability for even further autonomy in tasks 
 Because these rovers will have autonomous capabilities, they will be extremely easy to maintain and multiply. The end goal is to implement an array of these rovers that all work together to build their own community on the Moon. Once the rovers become powerful and skilled enough, they will be able to use the resources that they extract to aid humans in space exploration.
 
 ![Figure 2: Autonomous Mode Demo in Simulator](img/projects/rover/demo.gif)
+
+Below are animations of our rover in a moon simulator we built:
+
+![Figure 3: Autonomous Rover in Moon Simulator](img/projects/rover/sim1.gif)
+
+![Figure 4: Autonomous Rover in Moon Simulator](img/projects/rover/sim2.gif)
