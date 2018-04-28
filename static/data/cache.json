@@ -256,6 +256,7 @@
       "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
       "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
       "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
+      "img/logo/partner/citris": "img/logo/partner/citris.png",
       "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
       "img/logo/partner/altium": "img/logo/partner/altium.jpg",
       "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
@@ -358,5 +359,5 @@
     "call-for-action": "Keep Me Updated",
     "privacy-msg": "*We won't share your email with third parties."
   },
-  "version": 38.1
+  "version": 38.2
 }
