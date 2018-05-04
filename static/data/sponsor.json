@@ -20,7 +20,7 @@
 		},
 		{	
 			"image-left": false,
-			"image-link": "#",
+			"image-link": "/kickstarter",
 			"image": "img/group/gbo.jpg",
 			"text-title": "Individual",
 			"text-subtitle": "Personal Involvement",
@@ -28,8 +28,8 @@
 			"button": {
 				"enabled": true,
 				"size": "regular",
-				"text": "Coming Soon",
-				"link": "#"
+				"text": "Kickstarter",
+				"link": "/kickstarter"
 			}
 		}
 	]

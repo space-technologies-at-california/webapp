@@ -225,8 +225,8 @@
         "button": {
           "enabled": true,
           "size": "regular",
-          "text": "Coming Soon",
-          "link": "#"
+          "text": "Kick Starter",
+          "link": "/kickstarter"
         }
       }
     ]
@@ -356,5 +356,5 @@
     "call-for-action": "Keep Me Updated",
     "privacy-msg": "*We won't share your email with third parties."
   },
-  "version": 38.7
+  "version": 38.8
 }
