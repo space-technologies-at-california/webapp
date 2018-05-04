@@ -63,9 +63,6 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Space Tech Symposium": "/sts"
-      },
-      {
         "Kickstarter": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad"
       }
     ],
@@ -359,5 +356,5 @@
     "call-for-action": "Keep Me Updated",
     "privacy-msg": "*We won't share your email with third parties."
   },
-  "version": 38.6
+  "version": 38.7
 }
