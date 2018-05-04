@@ -6,7 +6,7 @@ We have started developing a low cost High Altitude Balloon (HAB) program that e
 
 We have already launched our first balloon in March and a second launc in April of 2018. 
 
-<iframe class='embed-responsive-item' width='640' height='360' src='https://www.youtube.com/embed/QLS7XfSBsL4' allowfullscreen='allowfullscreen'>STAC HAB 1 Launch Video</iframe>
+<iframe class='embed-responsive-item' width='800' height='500' src='https://www.youtube.com/embed/QLS7XfSBsL4' allowfullscreen='allowfullscreen'>STAC HAB 1 Launch Video</iframe>
 
 With our first launch we achieved an altitude of 101,000 feet and were able to recover our balloon. We launched several experiments on the balloon, one for the Koskella/Lindow labs at Berkeley, and two for NASA, working with scientists at NASA Ames and NASA JPL. We tested the adaptability of microorganisms capable of surviving harsh environments on Earth to near space. 
 
