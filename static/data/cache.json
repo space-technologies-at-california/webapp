@@ -217,7 +217,7 @@
       },
       {
         "image-left": false,
-        "image-link": "#",
+        "image-link": "/kickstarter",
         "image": "img/group/gbo.jpg",
         "text-title": "Individual",
         "text-subtitle": "Personal Involvement",
@@ -225,7 +225,7 @@
         "button": {
           "enabled": true,
           "size": "regular",
-          "text": "Kick Starter",
+          "text": "Kickstarter",
           "link": "/kickstarter"
         }
       }
@@ -263,7 +263,10 @@
       "img/logo/partner/ssl": "img/logo/partner/ssl.png",
       "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
       "img/logo/partner/pear": "img/logo/partner/pear.png",
+      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
+      "img/logo/partner/icorps": "img/logo/partner/icorps.png",
       "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
+      "img/logo/partner/skydeck": "img/logo/partner/skydeck.png",
       "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
       "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
       "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
@@ -356,5 +359,5 @@
     "call-for-action": "Keep Me Updated",
     "privacy-msg": "*We won't share your email with third parties."
   },
-  "version": 38.8
+  "version": 38.9
 }
