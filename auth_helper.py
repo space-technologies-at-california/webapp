@@ -18,6 +18,16 @@ def check_login(username, password):
     hashed_password = sha256("{}{}".format(salt, password).encode()).hexdigest()
     return correct_hash == hashed_password
 
+def create_login(username, password):
+    username = database.escape(str(username))
+    salt = generate_salt()
+    hashed_password = sha256("{}{}".format(salt, str(password)).encode()).hexdigest()
+    template = """
+        INSERT INTO users VALUES ('{}', '{}', '{}');
+    """
+    template = template.format(username, salt, hashed_password)
+    database.execute(template)
+
 def is_valid_username(username):
     username = database.escape(username)
     return bool(database.fetchone("SELECT 1 FROM users WHERE username='{}';".format(username)))
