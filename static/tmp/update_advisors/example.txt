@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "photo": "",
+  "profile-order": 6,
+  "affiliation": "",
+  "bio": [
+    "paragraph 1 placeholder",
+    "paragraph 2 placeholder",
+    "you can add more"
+  ]
+}

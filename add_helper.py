@@ -62,3 +62,32 @@ def add_advisors(folder):
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
+
+def update_advisors(folder):
+    if len(folder) <= 0:
+        return
+    elif folder[-1] == "/":
+        folder = folder[:-1]
+    advisors = [json.loads(open(x).read()) for x in glob.glob("{}/*.json".format(folder))]
+    advisors = {
+        x['name'].lower().replace(' ', '-'): x for x in advisors
+    }
+    advisors = sanitize_input(advisors)
+
+    template = """
+        UPDATE people set first_name='{1}', last_name='{2}', photo='{3}', bio='{4}') where id='{0}';
+        UPDATE advisors set affiliation='{5}', profile_order={6} where id='{0}';
+    """
+
+    for k, v in advisors.items():
+        try:
+            first, last = v['name'].split(" ")
+            escape_null = lambda x: x if x else "NULL"
+            conn.executescript(template.format(\
+                k, first, last, v["photo"], v["bio"], \
+                    v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'));
+        except Exception as e:
+            print("failed at", k, "for", e, "\n v:\n", v)
+            break
+
+
