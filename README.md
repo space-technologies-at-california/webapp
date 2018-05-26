@@ -19,7 +19,7 @@ Type `make` to view changes locally to make sure everthing works.
 
 Then, merge and push your changes to both `master` branch and `ocf` branch. 
 
-Lastly, `ssh` into your ocf server and type `./restart` in the `myapp` folder to udpate the live website.
+Lastly, `ssh` into your ocf server, pull changes from `ocf` branch, type `./restart` in the `myapp` folder to udpate the live website.
 
 ### OCF SSH
 
