@@ -3,3 +3,4 @@ __pycache__
 unsync/
 update.sh
 markdown/*.json
+*.pyc

@@ -8,7 +8,7 @@ run:
 	python app.py
 	
 update:
-	bash -c "git checkout v1; git add -A; git commit; git push; git checkout master" || git checkout master
+	bash -c "git checkout v1; git add -u; git commit; git push; git checkout master" || git checkout master
 	git merge v1 -m "obtain updates from v1 branch"
 	git push
 	git checkout heroku
