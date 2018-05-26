@@ -19,9 +19,9 @@ def check_login(username, password):
     return correct_hash == hashed_password
 
 def create_login(username, password):
-    username = database.escape(username)
+    username = database.escape(str(username))
     salt = generate_salt()
-    hashed_password = sha256("{}{}".format(salt, password).encode()).hexdigest()
+    hashed_password = sha256("{}{}".format(salt, str(password)).encode()).hexdigest()
     template = """
         INSERT INTO users VALUES ('{}', '{}', '{}');
     """
