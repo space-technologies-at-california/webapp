@@ -15,7 +15,6 @@ update:
 	git merge development -m "obtain updates from development branch"
 	git push
 	git checkout development
-	# ssh ocf-stac-webapp 'cd myapp/src; git checkout -- .; git pull; cd ..; ./restart'
 
 
 # useage: make json file=<path-to-file>
@@ -27,3 +26,9 @@ updateBlogContent:
 
 # make blog-update file=<path-to-file>
 blog-update: json updateBlogContent
+
+
+restart-remote:
+	# you need to configure a shortcut in .ssh/config to point ocf-stac-webapp
+	# to ssh stac@apphost.ocf.berkeley.edu for this to work
+	ssh ocf-stac-webapp 'cd myapp/src; git checkout -- .; git pull; cd ..; ./restart'

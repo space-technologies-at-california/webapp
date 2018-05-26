@@ -21,6 +21,33 @@ Then, merge and push your changes to both `master` branch and `ocf` branch.
 
 Lastly, `ssh` into your ocf server, pull changes from `ocf` branch, type `./restart` in the `myapp` folder to udpate the live website.
 
+**Shortcut**
+
+For ease of updating website, you have the option to set it up so you can use `make` commands to do everyhing for you.
+
+First, put your public key on the ocf server so you don't need to type password when sshing.
+
+Second, add the following line to your `.ssh/config` file
+
+```
+Host ocf-stac-webapp
+HostName apphost.ocf.berkeley.edu
+User stac
+```
+
+Now, to sync changes under `development` branch to both `ocf` and `master` branch, type
+
+```
+make update
+```
+
+To restar the website in ocf remote server, type
+
+```
+make restart-remote
+```
+
+
 ### OCF SSH
 
 To access webapp
