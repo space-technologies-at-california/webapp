@@ -41,7 +41,7 @@ Now, to sync changes under `development` branch to both `ocf` and `master` branc
 make update
 ```
 
-To restar the website in ocf remote server, type
+To restart the website in ocf remote server, type
 
 ```
 make restart-remote
