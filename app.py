@@ -177,19 +177,19 @@ def admin_update_member(username, member_id):
 
         database.execute("""
             UPDATE people set first_name='{}', last_name='{}', photo='{}', bio='{}' WHERE id = '{}';
-        """.format(escape_input(request.form["first_name"]), escape_input(request.form["last_name"]), escape_input(request.form["photo"]), escape_input(request.form["bio"]), escape_input(member_id)).replace("'NULL'", 'null'))
+        """.format(escape_input(request.form["first_name"]), escape_input(request.form["last_name"]), escape_input(request.form["photo"]), escape_input(request.form["bio"]), escape_input(member_id)).replace("'NULL'", 'null').encode("utf-8").decode("utf-8"))
 
         database.execute("""
             UPDATE members set major='{}', title='{}' WHERE id = '{}';
-        """.format(escape_input(request.form["major"]), escape_input(request.form["title"]), escape_input(member_id)).replace("'NULL'", 'null'))
+        """.format(escape_input(request.form["major"]), escape_input(request.form["title"]), escape_input(member_id)).replace("'NULL'", 'null').encode("utf-8").decode("utf-8"))
 
         database.execute("""
             UPDATE links set github='{}', linkedin='{}', twitter='{}', web='{}' WHERE id = '{}';
-        """.format(escape_input(request.form["github"]), escape_input(request.form["linkedin"]), escape_input(request.form["twitter"]), escape_input(request.form["web"]), escape_input(member_id)).replace("'NULL'", 'null'))
+        """.format(escape_input(request.form["github"]), escape_input(request.form["linkedin"]), escape_input(request.form["twitter"]), escape_input(request.form["web"]), escape_input(member_id)).replace("'NULL'", 'null').encode("utf-8").decode("utf-8"))
 
         database.execute("""
             UPDATE contacts set email='{}' WHERE id = '{}';
-        """.format(escape_input(request.form["email"]), escape_input(member_id)).replace("'NULL'", 'null'))
+        """.format(escape_input(request.form["email"]), escape_input(member_id)).replace("'NULL'", 'null').encode("utf-8").decode("utf-8"))
 
     return redirect(url_for("team"))
 
