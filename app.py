@@ -146,7 +146,7 @@ def admin_update_member(username, member_id):
                     c.web as web,
                     d.email as email
             FROM people as a, members as b, links as c, contacts as d
-            WHERE a.id = b.id AND a.id = c.id And a.id = d.id AND b.id = '{0}'
+            WHERE a.id = b.id AND a.id = c.id And a.id = d.id AND b.id = '{0}' AND b.hidden == 0
             ORDER BY profile_order
         """.format(member_id))
 
@@ -215,7 +215,7 @@ def team():
                 c.web as web,
                 d.email as email
         FROM people as a, members as b, links as c, contacts as d
-        WHERE a.id = b.id AND a.id = c.id And a.id = d.id
+        WHERE a.id = b.id AND a.id = c.id AND a.id = d.id AND b.hidden == 0
         ORDER BY profile_order
     """)
     
