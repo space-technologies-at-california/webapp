@@ -47,50 +47,56 @@ escape_html = make_escaper({
 conn.executescript("""
 
     CREATE TABLE users (
-        username text PRIMARY KEY UNIQUE NOT NULL, 
+        username text PRIMARY KEY UNIQUE NOT NULL,
         salt text NOT NULL,
         hash text NOT NULL);
-    
+
     INSERT INTO users VALUES ('admin', 'e57828893f61634ef866327d99fd42', 'd263f0210222a898fd908454aaad253f80f3418949dad2b0f82d0d64594de07b');
-    
+
     CREATE TABLE sessions (
-        id uuid PRIMARY KEY UNIQUE NOT NULL, 
+        id uuid PRIMARY KEY UNIQUE NOT NULL,
         username text NOT NULL
     );
 
     CREATE TABLE people (
-        id text PRIMARY KEY UNIQUE NOT NULL, 
-        first_name text NOT NULL, 
-        last_name text NOT NULL, 
-        photo text NOT NULL, 
+        id text PRIMARY KEY UNIQUE NOT NULL,
+        first_name text NOT NULL,
+        last_name text NOT NULL,
+        photo text NOT NULL,
         bio text NOT NULL);
 
     CREATE TABLE members (
         id text UNIQUE NOT NULL,
-        major text NOT NULL, 
+        major text NOT NULL,
+        title text NOT NULL,
+        profile_order decimal);
+
+    CREATE TABLE alumni (
+        id text UNIQUE NOT NULL,
+        major text NOT NULL,
         title text NOT NULL,
         profile_order decimal);
 
     CREATE TABLE advisors (
         id text PRIMARY KEY UNIQUE NOT NULL,
-        affiliation text NOT NULL, 
+        affiliation text NOT NULL,
         profile_order decimal);
 
     CREATE TABLE links (
-        id text PRIMARY KEY UNIQUE NOT NULL, 
-        github text, 
-        linkedin text, 
+        id text PRIMARY KEY UNIQUE NOT NULL,
+        github text,
+        linkedin text,
         twitter text,
         web text,
         medium text,
         facebook text);
 
     CREATE TABLE contacts (
-        id text PRIMARY KEY UNIQUE NOT NULL, 
+        id text PRIMARY KEY UNIQUE NOT NULL,
         email text);
 
     CREATE TABLE blog_posts (
-        id text PRIMARY KEY UNIQUE NOT NULL, 
+        id text PRIMARY KEY UNIQUE NOT NULL,
         page_title text NOT NULL,
         page_banner_img text,
         blog_title text NOT NULL,
@@ -103,14 +109,14 @@ conn.executescript("""
         project_id text);
 
     CREATE TABLE projects (
-        id text PRIMARY KEY UNIQUE NOT NULL, 
+        id text PRIMARY KEY UNIQUE NOT NULL,
         full_name text NOT NULL,
         project_lead text,
         project_lead_icon text,
         project_type text);
 
     CREATE TABLE icons (
-        name text PRIMARY KEY UNIQUE NOT NULL, 
+        name text PRIMARY KEY UNIQUE NOT NULL,
         font_awesome text NOT NULL,
         themify text NOT NULL);
 
@@ -122,7 +128,7 @@ conn.executescript("""
 
 def sanitize_input(dictionary):
     for k, v in dictionary.items():
-        if v is None: 
+        if v is None:
             v = "NULL"
         elif type(v) is float or type(v) is int:
             continue
@@ -172,6 +178,39 @@ def initialize_member():
 initialize_member()
 
 #########################
+# ALUMNI INITIALIZATION
+#########################
+
+def initialize_alumni():
+    alumni = [json.loads(open(x).read()) for x in glob.glob("static/data/alumni/*.json")]
+    alumni = {
+        x['name'].lower().strip().replace(' ', '-'): x for x in alumni
+    }
+    alumni = sanitize_input(alumni)
+
+    template = """
+        INSERT INTO people VALUES ("{0}", "{1}", "{2}", "{3}", "{4}");
+        INSERT INTO alumni VALUES ("{0}", "{5}", "{6}", {7});
+        INSERT INTO links VALUES ("{0}", "{8}", "{9}", "{10}", "{11}", "{12}", '{13}');
+        INSERT INTO contacts VALUES ("{0}", "{14}");
+    """
+
+    for k, v in alumni.items():
+        try:
+            first, last = v['name'].strip().split(" ")
+            escape_null = lambda x: x if x else "NULL"
+            conn.executescript(template.format(\
+                k, first, last, v["photo"], v["bio"], \
+                    v["major"], v["title"], v["profile-order"],\
+                    v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], "NULL", "NULL", \
+                    v["links"]["email"].replace("mailto:", "")).replace('"NULL"', 'null'));
+        except Exception as e:
+            print("failed at", k, "for", e, "\n v:\n", v)
+            break
+
+initialize_alumni()
+
+#########################
 # ADVISOR INITIALIZATION
 #########################
 
@@ -216,7 +255,7 @@ def initialize_project_blog():
 
     for k, v in projects.items():
         try:
-            tmp = { 
+            tmp = {
                 "id": k,
                 "page_title": v["title"],
                 "page_banner_img": v["background"],
@@ -274,7 +313,7 @@ initialize_icons()
 
 def initialize_club():
     club = json.load(open('static/data/club.json'))
-    
+
     # add social media links
     template = """
         INSERT INTO links VALUES ("{}", "{}", "{}", "{}", "{}", "{}",  "{}");

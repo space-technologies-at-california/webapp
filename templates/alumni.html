@@ -1,0 +1,96 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder pretty-holder">
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename=config['background']) }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">{{ config['title'] }}</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{ config['upper-nav-link'] }}">{{ config['upper-nav-text'] }}</a>
+                    </li>
+                    <li class="active">{{ config['title'] }}</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<!-- Alumni Profile -->
+<section>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4 class="uppercase mb64 mb-xs-40">{{ config['section'] }}</h4>
+            </div>
+        </div>
+        <!--end of row-->
+
+
+        <!-- Alumni -->
+    	{% for alum in alumni %}
+	    	{% if loop.index % 3 == 1 or loop.first %}
+	        <div class="row">
+	        {% endif %}
+	            <div class="col-md-4">
+	                <div class="image-tile outer-title text-center">
+                        <div class="custom__overlay">
+                            <div class="custom__overlay__background"></div>
+                            <div class="custom__overlay__content">
+                                <p>{{ alum['bio'] }}</p>
+                                <ul class="list-inline social-list">
+                                    {% for type, link in alum['links'].items() %}
+                                        {% if link %}
+                                            <li>
+                                                <a href="{{ link }}" target="_blank">
+                                                    <i class="{{ icon[type]['fa'] }} fa-lg"></i>
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <img alt="{{ alum['name'] }} photo" src="{{ url_for('static', filename=alum['photo']) }}" class="custom__overlay__image custom__overlay__image--zoom">
+                        </div>
+	                    <div class="title mb16">
+	                        <h5 class="uppercase mb0"> {{ alum['name']}}</h5>
+                            <div class="custom__overlay__content-heading">
+                                {{ alum['title'] }}<br>
+                                <span>{{ alum['major'] }}</span>
+                            </div>
+	                    </div>
+	                </div>
+	            </div>
+	        {% if loop.index % 3 == 0 or loop.last %}
+	        </div>
+	        {% endif %}
+        <!--end of row-->
+        {% endfor %}
+        <!-- End of Alumni -->
+
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Alumni Profile -->
+
+{% endblock %}

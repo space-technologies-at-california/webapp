@@ -1,15 +1,16 @@
-{	
+{
 	"left-menu":[
 		{"Home": "/"},
 		{"About Us": {
 			"link": "#",
 			"submenu": [
 					{"Team": "/team"},
+					{"Alumni": "/alumni"},
 					{"Industry Advisors": "/industry-advisors"}
 				]
 			}
 		},
-		{"Projects": { 
+		{"Projects": {
 			"link": "#",
 			"submenu": [
 					{"High Altitude Balloon": "/project/balloon"},
@@ -19,7 +20,7 @@
 								{"TIME I": "/project/time1"},
 								{"TIME II": "/project/time2"}
 							]
-						}		
+						}
 					},
 					{"CubeSat Deployer": "/project/cubesat"},
 					{"Off World Programs": {
@@ -28,7 +29,7 @@
 								{"Autonomous Rover": "/project/rover"},
 								{"Biosphere": "/project/biosphere"}
 							]
-						}		
+						}
 					}
 				]
 			}
