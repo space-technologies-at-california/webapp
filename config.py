@@ -23,6 +23,7 @@ else:
 		"industry-advisors": load_json("industry-advisors.json"),
 		"aboutus": load_json("aboutus.json"),
 		"team": load_json("team.json"),
+		"alumni": load_json("alumni.json"),
 		"sponsor": load_json("sponsor.json"),
 		"industry-partnership": load_json("industry-partnership.json"),
 		"sponsor-confirmation": load_json("sponsor-confirmation.json"),
@@ -49,4 +50,3 @@ else:
 	# Save cache
 	with open("static/data/cache.json", "w") as f:
 		f.write(json.dumps(config, indent=2))
-

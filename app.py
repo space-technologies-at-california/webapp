@@ -146,7 +146,7 @@ def admin_update_member(username, member_id):
                     c.web as web,
                     d.email as email
             FROM people as a, members as b, links as c, contacts as d
-            WHERE a.id = b.id AND a.id = c.id And a.id = d.id AND b.id = '{0}' AND b.hidden == 0
+            WHERE a.id = b.id AND a.id = c.id And a.id = d.id AND b.id = '{0}'
             ORDER BY profile_order
         """.format(member_id))
 
@@ -215,10 +215,10 @@ def team():
                 c.web as web,
                 d.email as email
         FROM people as a, members as b, links as c, contacts as d
-        WHERE a.id = b.id AND a.id = c.id AND a.id = d.id AND b.hidden == 0
+        WHERE a.id = b.id AND a.id = c.id AND a.id = d.id
         ORDER BY profile_order
     """)
-    
+
     members = list()
     for p in everyone:
         members.append({
@@ -234,9 +234,48 @@ def team():
                 "web": p[8],
                 "email": "mailto:" + p[9] if p[9] else p[9]
             }
-    })   
+    })
 
     return render_template("team.html", config=config["team"], members=members)
+
+@app.route("/alumni")
+@app.route("/aboutus/alumni")
+def alumni():
+
+    everyone = database.fetchall("""
+        SELECT  a.first_name || " " || a.last_name as name,
+                a.photo as photo,
+                b.major as major,
+                b.title as title,
+                a.bio as bio,
+                c.github as github,
+                c.linkedin as linkedin,
+                c.twitter as twitter,
+                c.web as web,
+                d.email as email
+        FROM people as a, alumni as b, links as c, contacts as d
+        WHERE a.id = b.id AND a.id = c.id AND a.id = d.id
+        ORDER BY profile_order
+    """)
+
+    alumni = list()
+    for p in everyone:
+        alumni.append({
+            "name": p[0],
+            "photo": p[1],
+            "major": p[2],
+            "title": p[3],
+            "bio": p[4],
+            "links": {
+                "github": p[5],
+                "linkedin": p[6],
+                "twitter": p[7],
+                "web": p[8],
+                "email": "mailto:" + p[9] if p[9] else p[9]
+            }
+    })
+
+    return render_template("alumni.html", config=config["alumni"], alumni=alumni)
 
 @app.route("/industry-advisor")
 @app.route("/industry-advisors")
@@ -253,7 +292,7 @@ def industry_advisors():
         WHERE a.id = b.id
         ORDER BY b.profile_order
     """)
-    
+
     advisors = list()
     for p in everyone:
         advisors.append({
@@ -261,8 +300,8 @@ def industry_advisors():
             "photo": p[1],
             "affiliation": p[2],
             "bio": p[3].split("\n")
-        }) 
-    
+        })
+
     return render_template("industry-advisors.html", config=config["industry-advisors"], advisors=advisors)
 
 ##################### Project Pages #####################
@@ -363,4 +402,3 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
     app.debug = True
-
