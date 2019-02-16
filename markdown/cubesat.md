@@ -1,5 +1,5 @@
 
-# A CubeSat is a standard cubic box that can be tailored to hold a desired payload.  The CubeSat deployer mechanism essentially deploys a smaller swarm of Printable Circuit Board satellites (PCBsats).  
+# A CubeSat is a standard cubic box that can be tailored to hold a desired payload.  The CubeSat deployer mechanism essentially deploys a smaller series of Printable Circuit Board satellites (PCBsats).  
 
 STAC is interested in this technology because recent work on directed energy propulsion of small wafer-scale spacecraft has enabled a technically-sound conversation on achieving relativistic interstellar spaceflight. This work comes out of NASA-funded work through the NASA Innovative Advanced Concept funded programs DEEP-IN and DEIS, led by Professor Philip Lubin of the UCSB Experimental Cosmology Group. 
 
@@ -9,33 +9,25 @@ STAC is interested in this technology because recent work on directed energy pro
 
 One of the first steps to achieving this grander scale innovation in interstellar travel requires the use of laser communication.  Our CubeSat deployer project runs a proof-of-concept and provides initial framework for laser communication by designing and fabricating an incremental deployment of PCBsats.  
 
-<iframe src='https://docs.google.com/presentation/d/e/2PACX-1vTJ9V7nJQDXD2dk_dQ_j4fP0kHx_fxCr8qzVvBEmavP0nNKXlTB_3-qC47IqC43Fb_E_TJssgIhiB4F/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'>Concept of Coperations</iframe>
 
 # CubeSat Deployer Prototype
 
-Our 1U-3U CubeSat will deploy several PCBSats that are held within the CubeSat. This CubeSat will act as a communication link and mothership for all the PCBSats once they are deployed.  We plan to deploy each individual PCBSat individually and with a time delay so that there are more opportunities to test laser communication. 
-
-The deployment mechanism works similarly to a trigger mechanism, where the 1U-3U CubeSat acts as the barrel for ejecting PCBSats. With this deployment scheme, the PCBSats are deployed in such a way that the PCBSats are tangential to a sphere centered about the CubeSat. This will allow the CubeSat to orient itself and communicate with the PCBSats quite rapidly. 
-
-We will have altitude control, a radio link down to Earth, GPS, and numerous other electronic components within the CubeSat. This will provide a great technological and scientific demonstration PCBSat's for in-space missions.
+The CubeSat project is a satellite mission to investigate the technological feasibility of point-to-point laser communication in Low Earth Orbit (LEO). There is currently no infrastructure for inter-satellite data exchange in space -- something much-needed with the strong intentions industry leaders and investors have shown in deploying constellations spanning thousands of satellites. Currently, if Alice (a satellite in LEO) wants to speak to Bob (another satellite in LEO), information has to be passed down to Alice’s gateway (on Earth), through the internet to Bob’s gateway (also on Earth), and then back up to Bob. Point-to-point data links between satellites in LEO provides a low-latency alternative for orbiting spacecraft to communicate with each other. One of the strongest candidates for point-to-point communication in space is laser technology. We are proposing a 3U CubeSat that will deploy several smaller Printed Circuit Board (PCB) satellites and then establish laser communications with them using closed-loop feedback control. The challenge being addressed by the STAC CubeSat project is how to best achieve the high pointing accuracy required by laser communication systems. Our goal is to empirically quantify the performance of laser closed-loop control algorithms and assess the capabilities of the self-orienting PCBSats.
  
 ![Figure 1: Artistic Rendition of CalSat Deployer of PCBSats](img/projects/cubesat/rendition-of-CalSat.png)
 
 
-**Altitude Control**
+**Attitude Determination and Control Systems**
 
-We are working on developing our Avionics for the CalSat Deployer by using Torque Coils.
+In order to be able to orient the CubeSat and the PCBSats we require precise and active control systems. The CubeSat will use a combination of magnetorquers and momentum wheels to accurately point in the desired direction. The magnetorquers will be primarily used to detumble the CubeSat after deployment. The momentum wheels will provide an active control system whilst in orbit to in order to deploy the PCBSats in the correct direction. We will use self-designed magnetorquers on the PCBSats to orient their lasers towards the CubeSat receivers.
 
-**Communication**
-We will plan to develop a Laser-Comm Link or Radio link between each PCBSat (once deployed) and the CalSat Deployer. The Deployer will act as the data link from the PCBSats back down to Earth.
+**Software and Communication**
 
-**Power**
+The software subteam is primarily responsible for communications between the satellite and ground station as well as laser communications between the CubeSat deployer and individual PCBSats. The team is also responsible for writing software to control the onboard microcontroller and satellite states. Incoming sensory data, ground communications signals, and PCBSat signals are collected and analyzed to control internal hardware and send outgoing communications; this divides the role of the software into: data input, output, and error correction.
 
-The objective is to develop a low power CubeSat. Proposed components include:
-- Photovoltaics on the outside of CubeSat
-- LIPO battery onboard
-- Power distribution board and power controller
-- Everything will run on 3.3V and 5V power
+**Power Systems**
+
+The main objective is to develop a power system for the CubeSat. All systems on the CubeSat are powered by LiPo battery banks, which are charged periodically by solar panels on the outside of the chassis. The battery banks provide more than 7.5 Volts, which can be further divided to supply different subsystems. The power system PCB also manages charge cycles and power distribution to ensure the functionality of other subsystems during both the sunlit and eclipse periods of the orbit.
 
 **Electronics**
 
@@ -97,4 +89,4 @@ Above is the initial revision of waferSat on a PC Board developed at UCSB. It in
 8. Raise funding and awareness for the CalSat
 9. Testing prototype at SSL
 10. Fix any prototype flaws
-11. Prepare for launch - mid 2018
+11. Prepare for launch - mid 2019
