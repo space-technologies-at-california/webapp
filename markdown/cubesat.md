@@ -62,7 +62,6 @@ With our partnership with the Space Sciences Laboratory (SSL), we will be runnin
 - Provide a starting point from which future revisions/systems can be based on
 - Provide an inexpensive platform to deploy multiple experiments in a single launch
 - Produce data, feedback and calculations in order to drive future development
-- The CubeSat Deployer could also have a laser onboard to test photon propulsion
 
 ---
 
@@ -89,4 +88,4 @@ Above is the initial revision of waferSat on a PC Board developed at UCSB. It in
 8. Raise funding and awareness for the CalSat
 9. Testing prototype at SSL
 10. Fix any prototype flaws
-11. Prepare for launch - mid 2019
+11. Prepare for launch - mid 2020
