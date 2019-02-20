@@ -1,373 +1,373 @@
 {
-  "industry-partnership": {
-    "section3-text": "By signing up, we will keep your information strictly confidential.", 
-    "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.", 
-    "mailing-list-error-msg": "Please fill all fields correctly.", 
-    "title": "Industry Partnerships", 
-    "section3-description": "Learn what we offer to our sponsors and partners", 
-    "mailing-list-button-text": "Request Sponsorship Package", 
-    "section2-description": "If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at", 
-    "section3-heading": "Sponsorship Package", 
-    "section1-description": [
-      "Thanks to all of our current sponsors and partners!", 
-      "Their support ensures that we can continue innovating and breaking through new barriers in space."
-    ], 
-    "partner-logo": {
-      "img/logo/partner/nasa": "img/logo/partner/nasa.png", 
-      "img/logo/partner/skydeck": "img/logo/partner/skydeck.png", 
-      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png", 
-      "img/logo/partner/asuc": "img/logo/partner/asuc.png", 
-      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png", 
-      "img/logo/partner/pear": "img/logo/partner/pear.png", 
-      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg", 
-      "img/logo/partner/ssl": "img/logo/partner/ssl.png", 
-      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png", 
-      "img/logo/partner/citris": "img/logo/partner/citris.png", 
-      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png", 
-      "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png", 
-      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png", 
-      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png", 
-      "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg", 
-      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg", 
-      "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg", 
-      "img/logo/partner/icorps": "img/logo/partner/icorps.png", 
-      "img/logo/partner/altium": "img/logo/partner/altium.jpg", 
-      "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png", 
-      "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png", 
-      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png"
-    }, 
-    "background": "img/background/space6-cut.jpg", 
-    "section2-image": "img/group/group2.jpg", 
-    "section2-heading": "Support Us", 
-    "section1-heading": "The sponsors and partners who support us", 
-    "email": "sponsor@stac.berkeley.edu"
-  }, 
-  "club": {
-    "social-media": {
-      "twitter": "https://twitter.com/stacBerkeley", 
-      "medium": "https://medium.com/@stac", 
-      "facebook": "https://www.facebook.com/stacBerkeley", 
-      "email": "mailto:inquiry@stac.berkeley.edu", 
-      "linkedin": "https://www.linkedin.com/company/12956417/"
-    }, 
-    "slogan": "Launch Berkeley to Space!", 
-    "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies.\nWe are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous.\nOur innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today.", 
-    "mission-short": "We Work to Push And Innovate Space Technology", 
-    "rights": "\u00a9 Copyright 2019 STAC - All Rights Reserved", 
-    "acronym": "STAC", 
-    "ocf-disclaimer": "We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.", 
-    "mission": "Creating A Multi-Campus Initiative To Advance Space Technology", 
-    "contact-email": {
-      "inquiry": "inquiry@stac.berkeley.edu", 
-      "sponsor": "sponsor@stac.berkeley.edu"
-    }, 
-    "disqus-comment-link": "stac-webapp", 
-    "logo": {
-      "full": {
-        "light": "img/logo/logo-full-light.png", 
-        "black": "img/logo/logo-full-black.png"
-      }, 
-      "stac": {
-        "light": "img/logo/logo-light.png", 
-        "black": "img/logo/logo-black.png"
-      }, 
-      "stac-with-headline": {
-        "light": "img/logo/logo-subheadline-light.png", 
-        "black": "img/logo/logo-subheadline-black.png"
-      }
-    }, 
-    "name": "Space Technologies at Cal"
-  }, 
-  "sponsor-confirmation": {
-    "title": "Sponsorship Package Download Page", 
-    "confirmation-icon": "download", 
-    "download-button-text": "Download", 
-    "download-file": "data/files/STACCorporateSponsorship.pdf", 
-    "confirmation-title": "Get the Sponsorship Package below", 
-    "confirmation-text": [
-      "Thank you for your interests.", 
-      "We will keep you informed on our latest project and sponsorship updates.", 
-      "Please let us know if you have any questions!"
-    ], 
-    "email": "sponsor@stac.berkeley.edu"
-  }, 
-  "sponsor": {
-    "section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further", 
-    "blocks": [
-      {
-        "text-subtitle": "Company Involvement", 
-        "image": "img/group/group4.jpg", 
-        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.", 
-        "image-left": true, 
-        "text-title": "Industry", 
-        "image-link": "/sponsor/industry-partnership", 
-        "button": {
-          "link": "/sponsor/industry-partnership", 
-          "text": "Learn More", 
-          "enabled": true, 
-          "size": "regular"
-        }
-      }, 
-      {
-        "text-subtitle": "Personal Involvement", 
-        "image": "img/group/gbo.jpg", 
-        "text-description": "You can help develop your preferred space project to enable its completion and widespread effect.", 
-        "image-left": false, 
-        "text-title": "Individual", 
-        "image-link": "/kickstarter", 
-        "button": {
-          "link": "/kickstarter", 
-          "text": "Kickstarter", 
-          "enabled": true, 
-          "size": "regular"
-        }
-      }
-    ], 
-    "section-title": "Sponsorships", 
-    "background": "img/background/space6-cut.jpg", 
-    "title": "Sponsor"
-  }, 
-  "home": {
-    "second-parallax": {
-      "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous.", 
-      "background": "img/projects/stac-projects.png", 
-      "title": " Innovative Projects"
-    }, 
-    "title": "Home", 
-    "fourth-parallax": {
-      "icon": "quote-left", 
-      "description": "There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is exactly what STAC is trying to do. We work on projects that get humanity one step closer to long term space innovations.", 
-      "background": "img/background/space14.jpg", 
-      "title": "We cannot just assume great ideas are being worked on."
-    }, 
-    "head-parallax": {
-      "logo": "img/logo/logo-subheadline-white.png", 
-      "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies.", 
-      "background": "img/background/space7.jpg", 
-      "title": "We work to push and innovate space technology"
-    }, 
-    "fifth-parallax": {
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo", 
-      "background": "img/background/space7.jpg", 
-      "title": "TO BE DONE"
-    }, 
-    "sixth-parallax": {
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo", 
-      "background": "img/subpage/astronut-design.png", 
-      "title": "TO BE DONE"
-    }, 
-    "third-parallax": {
-      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. We have set up a space program at Berkeley to test space experiments at a low cost. We utilize a high-quality network of university partners and industry advisors to push the technology in the space community through high-impact research. STAC provides a platform for these groups and advisors to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today.", 
-      "background": "img/background/space16.jpg", 
-      "title": "STAC Space Program"
-    }
-  }, 
-  "icon": {
-    "web": {
-      "fa": "fa fa-globe", 
-      "ti": "ti-world"
-    }, 
-    "medium": {
-      "fa": "fa fa-medium", 
-      "ti": "ti-bookmark-alt"
-    }, 
-    "bookmark": {
-      "fa": "fa fa-boormark-o", 
-      "ti": "ti-bookmark"
-    }, 
-    "quote-left": {
-      "fa": "fa fa-quote-left", 
-      "ti": "ti-quote-left"
-    }, 
-    "twitter": {
-      "fa": "fa fa-twitter", 
-      "ti": "ti-twitter-alt"
-    }, 
-    "tag": {
-      "fa": "fa fa-tag", 
-      "ti": "ti-tag"
-    }, 
-    "linkedin": {
-      "fa": "fa fa-linkedin-square", 
-      "ti": "ti-linkedin"
-    }, 
-    "checkbox": {
-      "fa": "fa fa-check-square-o", 
-      "ti": "ti-check-box"
-    }, 
-    "github": {
-      "fa": "fa fa-github", 
-      "ti": "ti-github"
-    }, 
-    "facebook": {
-      "fa": "fa fa-facebook-square", 
-      "ti": "ti-facebook"
-    }, 
-    "user": {
-      "fa": "fa fa-user-o", 
-      "ti": "ti-user"
-    }, 
-    "menu": {
-      "fa": "fa fa-bars", 
-      "ti": "ti-menu"
-    }, 
-    "download": {
-      "fa": "fa fa-cloud-download", 
-      "ti": "ti-download"
-    }, 
-    "arrow-up": {
-      "fa": "fa fa-chevron-up", 
-      "ti": "ti-angle-up"
-    }, 
-    "email": {
-      "fa": "fa fa-envelope", 
-      "ti": "ti-email"
-    }
-  }, 
   "navbar": {
     "left-menu": [
       {
         "Home": "/"
-      }, 
+      },
       {
         "About Us": {
+          "link": "#",
           "submenu": [
             {
               "Team": "/team"
-            }, 
+            },
             {
               "Alumni": "/alumni"
-            }, 
+            },
             {
               "Industry Advisors": "/industry-advisors"
             }
-          ], 
-          "link": "#"
+          ]
         }
-      }, 
+      },
       {
         "Projects": {
+          "link": "#",
           "submenu": [
             {
               "High Altitude Balloon": "/project/balloon"
-            }, 
+            },
             {
               "MicroG Experiments": {
+                "link": "/project/time1",
                 "submenu": [
                   {
                     "TIME I": "/project/time1"
-                  }, 
+                  },
                   {
                     "TIME II": "/project/time2"
                   }
-                ], 
-                "link": "/project/time1"
+                ]
               }
-            }, 
+            },
             {
               "CubeSat Deployer": "/project/cubesat"
-            }, 
+            },
             {
               "Off World Programs": {
+                "link": "#",
                 "submenu": [
                   {
                     "Autonomous Rover": "/project/rover"
-                  }, 
+                  },
                   {
                     "Biosphere": "/project/biosphere"
                   }
-                ], 
-                "link": "#"
+                ]
               }
             }
-          ], 
-          "link": "#"
+          ]
         }
-      }, 
+      },
       {
         "Blog": "https://medium.com/@stac"
-      }, 
+      },
       {
         "Sponsor": "/sponsor"
-      }, 
+      },
       {
         "Kickstarter": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad"
       }
-    ], 
-    "right-menu-enabled": true, 
+    ],
+    "right-menu-enabled": true,
     "right-menu": [
       {
         "Join Us": "/join"
       }
     ]
-  }, 
-  "alumni": {
-    "upper-nav-text": "About Us", 
-    "upper-nav-link": "#", 
-    "section": "The people who made it happen", 
-    "background": "img/background/space6-cut.jpg", 
-    "title": "Alumni"
-  }, 
+  },
+  "club": {
+    "name": "Space Technologies at Cal",
+    "acronym": "STAC",
+    "mission": "Creating A Multi-Campus Initiative To Advance Space Technology",
+    "mission-short": "We Work to Push And Innovate Space Technology",
+    "slogan": "Launch Berkeley to Space!",
+    "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies.\nWe are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous.\nOur innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today.",
+    "ocf-disclaimer": "We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.",
+    "rights": "\u00a9 Copyright 2019 STAC - All Rights Reserved",
+    "logo": {
+      "stac": {
+        "light": "img/logo/logo-light.png",
+        "black": "img/logo/logo-black.png"
+      },
+      "stac-with-headline": {
+        "light": "img/logo/logo-subheadline-light.png",
+        "black": "img/logo/logo-subheadline-black.png"
+      },
+      "full": {
+        "light": "img/logo/logo-full-light.png",
+        "black": "img/logo/logo-full-black.png"
+      }
+    },
+    "social-media": {
+      "email": "mailto:inquiry@stac.berkeley.edu",
+      "twitter": "https://twitter.com/stacBerkeley",
+      "facebook": "https://www.facebook.com/stacBerkeley",
+      "linkedin": "https://www.linkedin.com/company/12956417/",
+      "medium": "https://medium.com/@stac"
+    },
+    "contact-email": {
+      "inquiry": "inquiry@stac.berkeley.edu",
+      "sponsor": "sponsor@stac.berkeley.edu"
+    },
+    "disqus-comment-link": "stac-webapp"
+  },
+  "home": {
+    "title": "Home",
+    "head-parallax": {
+      "background": "img/background/space7.jpg",
+      "logo": "img/logo/logo-subheadline-white.png",
+      "title": "We work to push and innovate space technology",
+      "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
+    },
+    "second-parallax": {
+      "background": "img/projects/stac-projects.png",
+      "title": " Innovative Projects",
+      "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
+    },
+    "third-parallax": {
+      "background": "img/background/space16.jpg",
+      "title": "STAC Space Program",
+      "description": "Our innovation in space technologies is a multi-campus and industry-wide effort. We have set up a space program at Berkeley to test space experiments at a low cost. We utilize a high-quality network of university partners and industry advisors to push the technology in the space community through high-impact research. STAC provides a platform for these groups and advisors to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today."
+    },
+    "fourth-parallax": {
+      "background": "img/background/space14.jpg",
+      "title": "We cannot just assume great ideas are being worked on.",
+      "icon": "quote-left",
+      "description": "There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is exactly what STAC is trying to do. We work on projects that get humanity one step closer to long term space innovations."
+    },
+    "fifth-parallax": {
+      "background": "img/background/space7.jpg",
+      "title": "TO BE DONE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    },
+    "sixth-parallax": {
+      "background": "img/subpage/astronut-design.png",
+      "title": "TO BE DONE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    }
+  },
   "industry-advisors": {
-    "upper-nav-link": "#", 
-    "title": "Industry Advisors", 
-    "section": "Awesome industry advice from", 
-    "upper-nav-text": "About Us", 
-    "background": "img/background/space6-cut.jpg", 
+    "title": "Industry Advisors",
+    "upper-nav-link": "#",
+    "upper-nav-text": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section": "Awesome industry advice from",
     "modal-heading": "Industry Advisor"
-  }, 
-  "kickstarter": {
-    "body": "We'll be launching our new Kickstarter campaign in the coming weeks! Hit the form below to sign up for our Pre-launch and get notified when we launch. Thanks for your interest!", 
-    "call-for-action": "Keep Me Updated", 
-    "title": "Kickstarter", 
-    "background-img": "img/background/sci-fi-1-cut.jpg", 
-    "privacy-msg": "*We won't share your email with third parties.", 
-    "error-msg": "Please fill all fields correctly.", 
-    "heading": "Check Back Soon", 
-    "success-msg": "Thanks for your submission, we will be in touch shortly."
-  }, 
-  "version": 45.1, 
+  },
   "aboutus": {
-    "section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors", 
+    "title": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "The People who Make It Happen",
+    "section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors",
     "blocks": [
       {
-        "text-subtitle": "Lorem ipsum dolor", 
-        "image": "img/background/project-single-3.jpg", 
-        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 
-        "image-left": true, 
-        "text-title": "Our Team", 
-        "image-link": "/aboutus/team", 
+        "image-left": true,
+        "image-link": "/aboutus/team",
+        "image": "img/background/project-single-3.jpg",
+        "text-title": "Our Team",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         "button": {
-          "link": "/aboutus/team", 
-          "text": "Get to know us", 
-          "enabled": true, 
-          "size": "regular"
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "/aboutus/team"
         }
-      }, 
+      },
       {
-        "text-subtitle": "Lorem ipsum dolor", 
-        "image": "img/background/project-single-5.jpg", 
-        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 
-        "image-left": false, 
-        "text-title": "Industry Advisors", 
-        "image-link": "/aboutus/industry-advisors", 
+        "image-left": false,
+        "image-link": "/aboutus/industry-advisors",
+        "image": "img/background/project-single-5.jpg",
+        "text-title": "Industry Advisors",
+        "text-subtitle": "Lorem ipsum dolor",
+        "text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         "button": {
-          "link": "/aboutus/industry-advisors", 
-          "text": "Get to know them", 
-          "enabled": true, 
-          "size": "regular"
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know them",
+          "link": "/aboutus/industry-advisors"
         }
       }
-    ], 
-    "section-title": "The People who Make It Happen", 
-    "background": "img/background/space6-cut.jpg", 
-    "title": "About Us"
-  }, 
+    ]
+  },
   "team": {
-    "upper-nav-text": "About Us", 
-    "upper-nav-link": "#", 
-    "section": "The people who make it happen", 
-    "background": "img/background/space6-cut.jpg", 
-    "title": "Team"
-  }
+    "title": "Team",
+    "upper-nav-link": "#",
+    "upper-nav-text": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section": "The people who make it happen"
+  },
+  "alumni": {
+    "title": "Alumni",
+    "upper-nav-link": "#",
+    "upper-nav-text": "About Us",
+    "background": "img/background/space6-cut.jpg",
+    "section": "The people who made it happen"
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "Sponsorships",
+    "section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "/sponsor/industry-partnership",
+        "image": "img/group/group4.jpg",
+        "text-title": "Industry",
+        "text-subtitle": "Company Involvement",
+        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Learn More",
+          "link": "/sponsor/industry-partnership"
+        }
+      },
+      {
+        "image-left": false,
+        "image-link": "/kickstarter",
+        "image": "img/group/gbo.jpg",
+        "text-title": "Individual",
+        "text-subtitle": "Personal Involvement",
+        "text-description": "You can help develop your preferred space project to enable its completion and widespread effect.",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Kickstarter",
+          "link": "/kickstarter"
+        }
+      }
+    ]
+  },
+  "industry-partnership": {
+    "title": "Industry Partnerships",
+    "background": "img/background/space6-cut.jpg",
+    "section1-heading": "The sponsors and partners who support us",
+    "section1-description": [
+      "Thanks to all of our current sponsors and partners!",
+      "Their support ensures that we can continue innovating and breaking through new barriers in space."
+    ],
+    "section2-image": "img/group/group2.jpg",
+    "section2-heading": "Support Us",
+    "section2-description": "If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at",
+    "email": "sponsor@stac.berkeley.edu",
+    "section3-heading": "Sponsorship Package",
+    "section3-description": "Learn what we offer to our sponsors and partners",
+    "section3-text": "By signing up, we will keep your information strictly confidential.",
+    "mailing-list-button-text": "Request Sponsorship Package",
+    "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
+    "mailing-list-error-msg": "Please fill all fields correctly.",
+    "partner-logo": {
+      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png",
+      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
+      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
+      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
+      "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
+      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
+      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
+      "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
+      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
+      "img/logo/partner/citris": "img/logo/partner/citris.png",
+      "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
+      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
+      "img/logo/partner/icorps": "img/logo/partner/icorps.png",
+      "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
+      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
+      "img/logo/partner/pear": "img/logo/partner/pear.png",
+      "img/logo/partner/skydeck": "img/logo/partner/skydeck.png",
+      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
+      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
+      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png"
+    }
+  },
+  "sponsor-confirmation": {
+    "title": "Sponsorship Package Download Page",
+    "confirmation-icon": "download",
+    "confirmation-title": "Get the Sponsorship Package below",
+    "confirmation-text": [
+      "Thank you for your interests.",
+      "We will keep you informed on our latest project and sponsorship updates.",
+      "Please let us know if you have any questions!"
+    ],
+    "download-button-text": "Download",
+    "download-file": "data/files/STACCorporateSponsorship.pdf",
+    "email": "sponsor@stac.berkeley.edu"
+  },
+  "icon": {
+    "email": {
+      "fa": "fa fa-envelope",
+      "ti": "ti-email"
+    },
+    "twitter": {
+      "fa": "fa fa-twitter",
+      "ti": "ti-twitter-alt"
+    },
+    "facebook": {
+      "fa": "fa fa-facebook-square",
+      "ti": "ti-facebook"
+    },
+    "linkedin": {
+      "fa": "fa fa-linkedin-square",
+      "ti": "ti-linkedin"
+    },
+    "medium": {
+      "fa": "fa fa-medium",
+      "ti": "ti-bookmark-alt"
+    },
+    "github": {
+      "fa": "fa fa-github",
+      "ti": "ti-github"
+    },
+    "web": {
+      "fa": "fa fa-globe",
+      "ti": "ti-world"
+    },
+    "checkbox": {
+      "fa": "fa fa-check-square-o",
+      "ti": "ti-check-box"
+    },
+    "download": {
+      "fa": "fa fa-cloud-download",
+      "ti": "ti-download"
+    },
+    "user": {
+      "fa": "fa fa-user-o",
+      "ti": "ti-user"
+    },
+    "tag": {
+      "fa": "fa fa-tag",
+      "ti": "ti-tag"
+    },
+    "bookmark": {
+      "fa": "fa fa-boormark-o",
+      "ti": "ti-bookmark"
+    },
+    "quote-left": {
+      "fa": "fa fa-quote-left",
+      "ti": "ti-quote-left"
+    },
+    "menu": {
+      "fa": "fa fa-bars",
+      "ti": "ti-menu"
+    },
+    "arrow-up": {
+      "fa": "fa fa-chevron-up",
+      "ti": "ti-angle-up"
+    }
+  },
+  "kickstarter": {
+    "title": "Kickstarter",
+    "background-img": "img/background/sci-fi-1-cut.jpg",
+    "heading": "Check Back Soon",
+    "body": "We'll be launching our new Kickstarter campaign in the coming weeks! Hit the form below to sign up for our Pre-launch and get notified when we launch. Thanks for your interest!",
+    "success-msg": "Thanks for your submission, we will be in touch shortly.",
+    "error-msg": "Please fill all fields correctly.",
+    "call-for-action": "Keep Me Updated",
+    "privacy-msg": "*We won't share your email with third parties."
+  },
+  "version": 45.3
 }
