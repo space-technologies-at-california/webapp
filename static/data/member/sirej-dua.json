@@ -1,15 +1,1 @@
-{
-  "name": "Sirej Dua",
-  "photo": "img/team/member/sirej-dua.jpg",
-  "profile-order": 14,
-  "major": "Electrical Engineering & Computer Science",
-  "title": "Autonomous Rover AI Project Lead",
-  "links": {
-    "linkedin": "",
-    "github": "",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"
-}
+{"name": "Sirej Dua", "photo": "img/team/member/sirej-dua.jpg", "profile-order": 12, "major": "Electrical Engineering & Computer Science", "title": "Autonomous Rover AI Project Lead", "links": {"linkedin": "", "github": "", "twitter": "", "web": "", "email": ""}, "bio": "I can't live on Earth my entire life. There's so much to see, so much to learn about our world, that it doesn't make sense to not be interested in space. I love solving hard challenges, and space requires solving a lot of them. Also, pictures of space look awesome and star gazing is really fun!"}

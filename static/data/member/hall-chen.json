@@ -1,15 +1,1 @@
-{
-  "name": "Hall Chen",
-  "photo": "img/team/member/hall-chen.jpg",
-  "profile-order": 5,
-  "major": "Electrical Engineering & Computer Science",
-  "title": "Co-President",
-  "links": {
-    "linkedin": "",
-    "github": "",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "I find high frequency telecommunications poetic that something so delicate, so minute, but so very deliberate, as the coded ripples in the electromagnetic fabric of reality around us can bring together all of mankind. With the inevitability of space exploration, it will be an incredibly humbling experience to extend the unshakable tenet of ubiquitous connectivity to mankind scattered across the stars."
-}
+{"name": "Hall Chen", "photo": "img/team/member/hall-chen.jpg", "profile-order": 4, "major": "Electrical Engineering & Computer Science", "title": "Co-President", "links": {"linkedin": "", "github": "", "twitter": "", "web": "", "email": ""}, "bio": "I find high frequency telecommunications poetic that something so delicate, so minute, but so very deliberate, as the coded ripples in the electromagnetic fabric of reality around us can bring together all of mankind. With the inevitability of space exploration, it will be an incredibly humbling experience to extend the unshakable tenet of ubiquitous connectivity to mankind scattered across the stars."}

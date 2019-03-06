@@ -1,15 +1,1 @@
-{
-  "name": "Ben Hoberman",
-  "photo": "img/team/member/ben-hoberman.jpg",
-  "profile-order": 62,
-  "major": "Engineering Physics",
-  "title": "TIME I Project Member",
-  "links": {
-    "linkedin": "",
-    "github": "https://github.com/bhoberman",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "I didn't used to know that you could want to be an engineer and not be interested in space! I've loved space exploration and technology since I was a kid, and I hope to expand my knowledge while contributing to our species' ability to understand and operate in space."
-}
+{"name": "Ben Hoberman", "photo": "img/team/member/ben-hoberman.jpg", "profile-order": 37, "major": "Engineering Physics", "title": "TIME I Project Member", "links": {"linkedin": "", "github": "https://github.com/bhoberman", "twitter": "", "web": "", "email": ""}, "bio": "I didn't used to know that you could want to be an engineer and not be interested in space! I've loved space exploration and technology since I was a kid, and I hope to expand my knowledge while contributing to our species' ability to understand and operate in space."}

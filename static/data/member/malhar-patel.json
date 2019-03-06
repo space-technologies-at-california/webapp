@@ -1,15 +1,1 @@
-{
-  "name": "Malhar Patel",
-  "photo": "img/team/member/malhar-patel.jpg",
-  "profile-order": 19,
-  "major": "Electrical Engineering & Computer Science",
-  "title": "Senior Advisor",
-  "links": {
-    "linkedin": "https://www.linkedin.com/in/malharp/",
-    "github": "https://github.com/malharpatel",
-    "twitter": "",
-    "web": "",
-    "email": "mailto:malhar@berkeley.edu"
-  },
-  "bio": "I became interested in space after debating space policy my freshman year of high school. There has been a huge resurgence in space research within the past few years and I strive to apply AI to the next frontier. Space is no longer the abstract concept that people believe is out of reach; it's a place where we can have a positive impact."
-}
+{"name": "Malhar Patel", "photo": "img/team/member/malhar-patel.jpg", "profile-order": 17, "major": "Electrical Engineering & Computer Science", "title": "Senior Advisor", "links": {"linkedin": "https://www.linkedin.com/in/malharp/", "github": "https://github.com/malharpatel", "twitter": "", "web": "", "email": "mailto:malhar@berkeley.edu"}, "bio": "I became interested in space after debating space policy my freshman year of high school. There has been a huge resurgence in space research within the past few years and I strive to apply AI to the next frontier. Space is no longer the abstract concept that people believe is out of reach; it's a place where we can have a positive impact."}

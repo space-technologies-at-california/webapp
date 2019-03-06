@@ -1,15 +1,1 @@
-{
-  "name": "David Mai",
-  "photo": "img/team/member/david-mai.jpg",
-  "profile-order": 22,
-  "major": "Bioengineering",
-  "title": "Senior Advisor",
-  "links": {
-    "linkedin": "",
-    "github": "",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "There are so many things we haven't seen, and an incomprehensible amount of space for us to grow both physically and intellectually. I'm interested in furthering life beyond our terrestrial realm through building sustainable synthetic systems."
-}
+{"name": "David Mai", "photo": "img/team/member/david-mai.jpg", "profile-order": 20, "major": "Bioengineering", "title": "Senior Advisor", "links": {"linkedin": "", "github": "", "twitter": "", "web": "", "email": ""}, "bio": "There are so many things we haven't seen, and an incomprehensible amount of space for us to grow both physically and intellectually. I'm interested in furthering life beyond our terrestrial realm through building sustainable synthetic systems."}

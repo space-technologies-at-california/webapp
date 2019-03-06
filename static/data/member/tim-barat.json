@@ -1,15 +1,1 @@
-{
-  "name": "Tim Barat",
-  "photo": "img/team/member/tim-barat.jpg",
-  "profile-order": 65,
-  "major": "EECS",
-  "title": "High Altitude Balloon Project Member",
-  "links": {
-    "linkedin": "https://www.linkedin.com/in/timothybarat/",
-    "github": "https://github.com/timbarat",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "Space is the next frontier. Recent advances in materials, design tools, and manufacturing have expanded the limits of the things we can build and places we can go. Projects that were within the reach of only a small subset of specialists are now accessible to anyone with the drive and passion to explore the unknown. Personally, this is an opportunity I can't ignore."
-}
+{"name": "Tim Barat", "photo": "img/team/member/tim-barat.jpg", "profile-order": 40, "major": "EECS", "title": "High Altitude Balloon Project Member", "links": {"linkedin": "https://www.linkedin.com/in/timothybarat/", "github": "https://github.com/timbarat", "twitter": "", "web": "", "email": ""}, "bio": "Space is the next frontier. Recent advances in materials, design tools, and manufacturing have expanded the limits of the things we can build and places we can go. Projects that were within the reach of only a small subset of specialists are now accessible to anyone with the drive and passion to explore the unknown. Personally, this is an opportunity I can't ignore."}

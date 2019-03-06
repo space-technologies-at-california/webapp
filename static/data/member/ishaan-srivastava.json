@@ -1,15 +1,1 @@
-{
-  "name": "Ishaan Srivastava",
-  "photo": "img/team/member/ishaan-srivastava.jpg",
-  "profile-order": 78,
-  "major": "Materials Science and Engineering",
-  "title": "Autonomous Rover Project Member",
-  "links": {
-    "linkedin": "",
-    "github": "",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "I've always been fascinated by space; in fact, I first chose to become an engineer because I dreamed of designing a new generation of air and spacecraft. In an age where there is little of the Earth left to discover, one naturally looks to the stars, and I hope to do my own part in making space colonisation less of a dream, and more of a reality."
-}
+{"name": "Ishaan Srivastava", "photo": "img/team/member/ishaan-srivastava.jpg", "profile-order": 50, "major": "Materials Science and Engineering", "title": "Autonomous Rover Project Member", "links": {"linkedin": "", "github": "", "twitter": "", "web": "", "email": ""}, "bio": "I've always been fascinated by space; in fact, I first chose to become an engineer because I dreamed of designing a new generation of air and spacecraft. In an age where there is little of the Earth left to discover, one naturally looks to the stars, and I hope to do my own part in making space colonisation less of a dream, and more of a reality."}

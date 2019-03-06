@@ -1,15 +1,1 @@
-{
-  "name": "Philipp Wu",
-  "photo": "img/team/member/philipp-wu.jpg",
-  "profile-order": 18,
-  "major": "EECS & Mechanical Engineering",
-  "title": "Senior Advisor",
-  "links": {
-    "linkedin": "",
-    "github": "",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "I love to learn and there is nothing more prodigious than exploring the depths of space. Growing up next to JPL, space research has always been part of my life. Design is also something that has always been important to me and the projects at STAC allow for us to help aid the human effort in space exploration in a variety of areas. I hope to learn as much as I can. As the writer Brandon Sanderson says, 'Journey before Destination.'"
-}
+{"name": "Philipp Wu", "photo": "img/team/member/philipp-wu.jpg", "profile-order": 16, "major": "EECS & Mechanical Engineering", "title": "Senior Advisor", "links": {"linkedin": "", "github": "", "twitter": "", "web": "", "email": ""}, "bio": "I love to learn and there is nothing more prodigious than exploring the depths of space. Growing up next to JPL, space research has always been part of my life. Design is also something that has always been important to me and the projects at STAC allow for us to help aid the human effort in space exploration in a variety of areas. I hope to learn as much as I can. As the writer Brandon Sanderson says, 'Journey before Destination.'"}

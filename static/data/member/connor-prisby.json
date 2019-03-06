@@ -1,15 +1,1 @@
-{
-  "name": "Connor Prisby",
-  "photo": "img/team/member/connor-prisby.jpg",
-  "profile-order": 34,
-  "major": "Computer Science",
-  "title": "TIME Project Member",
-  "links": {
-    "linkedin": "",
-    "github": "https://github.com/cprizzle",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "I've always had a wide and varying range of interests, but I've been pushed to STAC since I saw how diverse and multifaceted space exploration can be. I'm glad to be at the forefront of the current thread of space technology, and I hope to see my own code headed towards the stars."
-}
+{"name": "Connor Prisby", "photo": "img/team/member/connor-prisby.jpg", "profile-order": 26, "major": "Computer Science", "title": "TIME Project Member", "links": {"linkedin": "", "github": "https://github.com/cprizzle", "twitter": "", "web": "", "email": ""}, "bio": "I've always had a wide and varying range of interests, but I've been pushed to STAC since I saw how diverse and multifaceted space exploration can be. I'm glad to be at the forefront of the current thread of space technology, and I hope to see my own code headed towards the stars."}
