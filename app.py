@@ -377,6 +377,10 @@ def sponsor_confirmation():
 def sts():
     return render_template("stac-sts.html")
 
+@app.route("/sts2")
+def sts2():
+    return render_template("stac-sts-2019.html")
+
 @app.route("/kickstarter")
 def kickstarter():
     #return render_template("kickstarter.html", config=config["kickstarter"])
