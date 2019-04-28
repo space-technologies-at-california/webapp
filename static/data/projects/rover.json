@@ -5,11 +5,11 @@
 		"alt": "Autonomous Resource Rover",
 		"url": "img/projects/rover/rover1.png"
 	},
-	"date": "21 Oct",
+	"date": "27 April",
 	"blog-title": "Autonomous Resource Rover",
 	"blog-info": {
 		"Project Led by": {
-			"list": ["Anoushka Giri"],
+			"list": ["Sirej Dua"],
 			"icon": "user"
 		},
 		"Tagged as": {
@@ -22,20 +22,56 @@
       "class": "lead",
       "content": "<b>A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies.</b>"
     },
-    "Several companies and research groups are developing rovers to explore the surface of Mars to verify its sustenance for humans. However, STAC, in partnership with the NASA Ames Research Center, aims to build an autonomous resource rover that steps further to enable commercial flights and bases on the Moon, which has areas that still remain unknown and uninhabited.",
-    "<div class='row'><div class='col-sm-8 col-sm-offset-2 text-center'><iframe src='https://docs.google.com/presentation/d/e/2PACX-1vQ_B7v47itfV7mBmaLuyydp07B07c0LIk4H-hNITZ2L5xfyDJKS40OGk2TD-uSK5ux03a93YP977U0c/embed?start=false&loop=false&delayms=3000' frameborder='0' width='837' height='400' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true'></iframe></div></div>",
-    "Humans are currently unable to access most of the moon's extensive resources. There is an abundance of water trapped in the Moon's ice caps, vast areas of heavy metals within the ilmenite region, and volatiles scattered across the Moon's surface. With the help of a resource rover that is fully controllable and autonomous, STAC will extract these resources, and either return them to Earth for our utilization, or maintain a resource bank on the Moon itself. As research has shown, a resource bank of extracted water can ease the costs of space travel by splitting hydrogen and oxygen atoms to create rocket fuel.",
-    "Modern AI technology has enabled the ability for even further autonomy in tasks like navigation, exploration, and resource extraction. Current rovers require significant human intervention to operate, which is time consuming and strenuous. Automating this allows us to fully utilize the limited assets that we have on the moon. STAC aims to research the application of state-of-the-art deep learning techniques to safe and efficient rover control as well as high level tasks such as collecting resources.",
+    "Exploration rovers are a staple of modern space exploration, but come with a major caveat: they are dependent on constant human control.  Every movement is decided upon by a human on Earth and transmitted through space \u2013 a 7-minute-long journey to reach a rover on Mars \u2013 before the rover can perform the motion.  This vastly slows down exploration, and the dependence on human control limits the scale with which space agencies can deploy rovers.  The Autonomous Rover team at STAC works on solving that problem.  Our mission is to develop robust, artificially intelligent systems which can control a rover without human input.  We are part of the larger AI Rover team, which under the guidance of NASA AMES is developing the algorithms that will be deployed on the Mechanical Rover team's physical lunar rover intended for exploration and resource extraction.",
+    "An autonomous rover system deployed on the moon could be used to mine resources. Subsurface metals and water on the moon can be used to build tools for a habitable extraterrestrial environment, and can be used to refuel rockets. However, extraction of these resources is incredibly difficult. For instance, rovers need to avoid mining in shadowed regions for extended periods of time, reroute for battery charging and storing collected resources, and communicate with each other to maximize coverage. We employ reinforcement learning as a tool to minimize the cost of extracting minerals. The software team works on simulation of the moon environment and on training reinforcement learning algorithms.",
+    "The end goal is to create a swarm of autonomous rovers that locate and extract resources on the Moon while exploring areas of the Moon that have not been studied in the past. For more info, check out our <a href='https://stac.berkeley.edu/project/rover' target='blank'>project page</a>!",
     {
       "type": "image",
-      "url": "img/projects/rover/deepQ.png",
-      "caption": "Figure 1: Deep Q Learning Architecture"
+      "url": "img/projects/rover/sim.png"
     },
-    "Because these rovers will have autonomous capabilities, they will be extremely easy to maintain and multiply. The end goal is to implement an array of these rovers that all work together to build their own community on the Moon. Once the rovers become powerful and skilled enough, they will be able to use the resources that they extract to aid humans in space exploration.",
     {
       "type": "image",
-      "url": "img/projects/rover/demo.gif",
-      "caption": "Figure 2: Autonomous Mode Demo in Simulator"
-    }
+      "url": "img/projects/rover/rover_images.png"
+    },
+    {
+      "class": "lead",
+      "content": "<b>Our Software Stack</b>"
+    },
+    "Over the last few months, the Autonomous Rover team's software division has put together an end-to-end system for testing reinforcement learning algorithms in a custom environment, built with OpenAI Gym, ROS, and the Gazebo physics simulation engine.",
+    {
+      "class": "lead",
+      "content": "<b>The Simulation</b>"
+    },
+    "In Gazebo, we have simulation of the Moon running on one Linux machine. We use ROS as a framework for connecting the simulation with logging and input. We model the rover using a URDF generated from a CAD model. The inputs to this Gazebo-ROS system are powers to the left and right wheels and the outputs are images, position, velocity, acceleration, and joint manipulation data. The simulation is abstracted as an Open AI Gym environment so that algorithms interacting with it can be environment agnostic.",
+    {
+      "class": "lead",
+      "content": "<b>Why Containers?</b>"
+    },
+    "The one machine setup was fine for initial development but unscalable. We needed a simulation that can be setup easily on different machines regardless of host environment. We also want to run these simulations on remote, GPU-enhanced servers for faster training and testing in the future. We turned to Docker containers. Docker allows for OS-agnostic dependency resolution and quick cluster deployment on cloud services such as Kubernetes. Communication between the simulation container and the host machine was handled by a custom socket interface.",
+    {
+      "type": "image",
+      "url": "img/projects/rover/docker_compose.png"
+    },
+    {
+      "class": "lead",
+      "content": "<b>Algorithms: Random Policy, PPO</b>"
+    },
+    "Given a solid foundation in simulation, we turned to the algorithmic side of our project for testing. We began by formulating our rover as an agent in a Markov Decision Process (MDP) using OpenAI Gym so that we could model behaviors more easily for the context of reinforcement learning. The MDP formulation is defined by:",
+    "A) the state space, which contains a first person view of the rover as an image, gyroscope readings, and accelerometer readings",
+    "B) actions which are defined as pairs of power inputs to the two sides of the rover",
+    "C) transitions which are implicitly defined by the evolution of the physics in Gazebo",
+    "D) reward functions, which evaluate the performance of a policy based on how safe the path chosen was and how long it took",
+    "E) observations, which are currently defined as full-state knowledge of the environment.",
+    "First, we created a random policy. This policy chooses random actions to take, independent of the current state, like a random walk. We thought this was important to baseline our future policies, because in RL, it is often the case that the policies don't end up learning anything useful, and a way to quantify that is to compare the rewards of the trained policy with a baseline, in this case a random policy. Other examples of baseline policies include using A* to find optimal paths.",
+    "We implemented the Proximal Policy Optimization (PPO) algorithm, which we chose for its relevance to the task of driving in an unknown terrain. PPO is an model-free deep reinforcement learning algorithm that works in continuous state action spaces, which is necessary for generating low-level control policies. PPO has two neural networks: one is used for the policy function, with the states as the input, and the actions as the output, and the other is used as a value estimator to estimate what the total reward the rover can obtain from starting at the current state and acting according to the policy. This value function is used to determine the \u201cadvantage\u201d of an action, or to rank the actions in terms of how well each one will do in the future.",
+    {
+      "type": "image",
+      "url": "img/projects/rover/algorithm.png"
+    },
+    {
+      "class": "lead",
+      "content": "<b>Future Plans</b>"
+    },
+    "So far, we have barely scratched the surface of what a rover needs to do. Our reward function can teach rovers to navigate from point A to point B, but that is just one of the many goals. We plan to add functionality to enable resource extraction: identify possible resources in recorded images (e.g. water deposits) and extract them. Once this is completed, we will create multiple rovers, having them work together as a swarm for the most efficient coverage of the Moon."
   ]
 }
