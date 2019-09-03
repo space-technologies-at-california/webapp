@@ -32,8 +32,7 @@
 					{"Off World Programs": {
 						"link": "#",
 						"submenu": [
-								{"Autonomous Rover": "/project/rover"},
-								{"Resource Rover": "/project/resourcerover"}
+								{"Autonomous Rover": "/project/rover"}
 							]
 						}
 					}
