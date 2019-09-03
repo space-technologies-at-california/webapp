@@ -4,10 +4,10 @@
 	"section-title": "Sponsorships",
 	"section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further",
 	"blocks": [
-		{	
+		{
 			"image-left": true,
 			"image-link": "/sponsor/industry-partnership",
-			"image": "img/group/group4.jpg",
+			"image": "img/group/group6.jpg",
 			"text-title": "Industry",
 			"text-subtitle": "Company Involvement",
 			"text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.",
@@ -18,10 +18,10 @@
 				"link": "/sponsor/industry-partnership"
 			}
 		},
-		{	
+		{
 			"image-left": false,
 			"image-link": "/kickstarter",
-			"image": "img/group/gbo.jpg",
+			"image": "img/group/group7.jpg",
 			"text-title": "Individual",
 			"text-subtitle": "Personal Involvement",
 			"text-description": "You can help develop your preferred space project to enable its completion and widespread effect.",

@@ -37,7 +37,7 @@
       "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png"
     }, 
     "background": "img/background/space6-cut.jpg", 
-    "section2-image": "img/group/group2.jpg", 
+    "section2-image": "img/group/group5.jpg", 
     "section2-heading": "Support Us", 
     "section1-heading": "The sponsors and partners who support us", 
     "email": "sponsor@stac.berkeley.edu"
@@ -96,7 +96,7 @@
     "blocks": [
       {
         "text-subtitle": "Company Involvement", 
-        "image": "img/group/group4.jpg", 
+        "image": "img/group/group6.jpg", 
         "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.", 
         "image-left": true, 
         "text-title": "Industry", 
@@ -110,7 +110,7 @@
       }, 
       {
         "text-subtitle": "Personal Involvement", 
-        "image": "img/group/gbo.jpg", 
+        "image": "img/group/group7.jpg", 
         "text-description": "You can help develop your preferred space project to enable its completion and widespread effect.", 
         "image-left": false, 
         "text-title": "Individual", 
@@ -261,11 +261,18 @@
                     "TIME II": "/project/time2"
                   }
                 ], 
-                "link": "/project/time1"
+                "link": "#"
               }
             }, 
             {
-              "CubeSat Deployer": "/project/cubesat"
+              "CubeSats": {
+                "submenu": [
+                  {
+                    "CubeSat Deployer": "/project/cubesat"
+                  }
+                ], 
+                "link": "#"
+              }
             }, 
             {
               "Off World Programs": {
@@ -274,7 +281,7 @@
                     "Autonomous Rover": "/project/rover"
                   }, 
                   {
-                    "Biosphere": "/project/biosphere"
+                    "Resource Rover": "/project/resourcerover"
                   }
                 ], 
                 "link": "#"
@@ -326,7 +333,7 @@
     "heading": "Check Back Soon", 
     "success-msg": "Thanks for your submission, we will be in touch shortly."
   }, 
-  "version": 50.5, 
+  "version": 54.2, 
   "aboutus": {
     "section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors", 
     "blocks": [

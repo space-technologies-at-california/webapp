@@ -1,15 +1,1 @@
-{
-  "name": "Adhiraj Datar",
-  "photo": "img/team/member/adhiraj-datar.jpg",
-  "profile-order": 70,
-  "major": "EECS/Materials Scicence Joint Major",
-  "title": "CubeSat Member",
-  "links": {
-    "linkedin": "",
-    "github": "https://github.com/adhi124",
-    "twitter": "",
-    "web": "",
-    "email": ""
-  },
-  "bio": "From microwaves to foil and propulsion systems, the sheer amount of innovation that has come from the human desire to explore space is mind blowing. Aside from being fascinated by the mysteries of space, I love space technology because of its potential to improve lives and further our fundamental understandings of the universe."
-}
+{"name": "Adhiraj Datar", "photo": "img/team/member/adhiraj-datar.jpg", "profile-order": 52, "major": "EECS/Materials Scicence Joint Major", "title": "CubeSat Member", "links": {"linkedin": "", "github": "https://github.com/adhi124", "twitter": "", "web": "", "email": ""}, "bio": "From microwaves to foil and propulsion systems, the sheer amount of innovation that has come from the human desire to explore space is mind blowing. Aside from being fascinated by the mysteries of space, I love space technology because of its potential to improve lives and further our fundamental understandings of the universe."}

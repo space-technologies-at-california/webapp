@@ -15,19 +15,25 @@
 			"submenu": [
 					{"High Altitude Balloon": "/project/balloon"},
 					{"MicroG Experiments": {
-						"link": "/project/time1",
+						"link": "#",
 						"submenu": [
 								{"TIME I": "/project/time1"},
 								{"TIME II": "/project/time2"}
 							]
 						}
 					},
-					{"CubeSat Deployer": "/project/cubesat"},
+					{"CubeSats": {
+						"link": "#",
+						"submenu": [
+								{"CubeSat Deployer": "/project/cubesat"}
+							]
+						}
+					},
 					{"Off World Programs": {
 						"link": "#",
 						"submenu": [
 								{"Autonomous Rover": "/project/rover"},
-								{"Biosphere": "/project/biosphere"}
+								{"Resource Rover": "/project/resourcerover"}
 							]
 						}
 					}
