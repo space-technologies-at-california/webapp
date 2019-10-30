@@ -25,7 +25,8 @@
 					{"CubeSats": {
 						"link": "#",
 						"submenu": [
-								{"CubeSat Deployer": "/project/cubesat"}
+								{"CubeSat Deployer": "/project/cubesat"},
+								{"QubeSat": "/project/qubesat"}
 							]
 						}
 					},

@@ -1,0 +1,21 @@
+{
+	"title": "QubeSat",
+	"background": "img/background/space11.jpg",
+	"post-img": {
+		"alt": "QubeSat",
+		"url": "img/background/solar.jpg"
+	},
+	"date": "25 Oct",
+	"blog-title": "QubeSat",
+	"blog-info": {
+		"Project Led by": {
+			"list": ["Vidish Gupta"],
+			"icon": "user"
+		},
+		"Tagged as": {
+			"list": ["Engineering"],
+			"icon": "bookmark"
+		}
+	},
+   "blog-content": []
+}
