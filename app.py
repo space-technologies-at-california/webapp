@@ -305,6 +305,9 @@ def industry_advisors():
     return render_template("industry-advisors.html", config=config["industry-advisors"], advisors=advisors)
 
 ##################### Project Pages #####################
+@app.route("/projectDescription")
+def projectDescription():
+	return render_template("summary-page.html", config=config["projectDescription"])
 
 @app.route("/project")
 @app.route("/projects")

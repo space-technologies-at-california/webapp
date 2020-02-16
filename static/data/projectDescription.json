@@ -1,0 +1,38 @@
+{
+	"title": "Our Current Projects",
+	"background": "img/background/space6-cut.jpg",
+	"section-title": "Current STAC Projects",
+	"section-description": "Check us out yo",
+	"blocks": [
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/balloon/hab_ascent_logo2.png",
+			"text-title": "High Altitude Balloon",
+			"text-subtitle": "Project led by Makena Fetzer",
+			"text-description": "A high altitude balloon is an unmanned balloon meant to carry scientific payloads to perform experiments and collect data in near space environments",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "#",
+				"text-title": ""
+			}
+		},
+		{"image-left": true,
+		"image-link": "#",
+		"image": "img/background/project-single-3.jpg",
+		"text-title": "Our Team",
+		"text-subtitle": "Lorem ipsum dolor",
+		"text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		"button": {
+			"enabled": true,
+			"size": "regular",
+			"text": "Get to know us",
+			"link": "/aboutus/team",
+			"text-title": ""}
+}
+
+
+	]
+}

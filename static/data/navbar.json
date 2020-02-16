@@ -11,7 +11,7 @@
 			}
 		},
 		{"Projects": {
-			"link": "#",
+			"link": "/projectDescription",
 			"submenu": [
 					{"High Altitude Balloon": "/project/balloon"},
 					{"MicroG Experiments": {
