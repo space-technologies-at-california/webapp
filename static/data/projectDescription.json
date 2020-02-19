@@ -15,23 +15,56 @@
 				"enabled": true,
 				"size": "regular",
 				"text": "Get to know us",
-				"link": "#",
+				"link": "/project/balloon",
 				"text-title": ""
 			}
 		},
-		{"image-left": true,
-		"image-link": "#",
-		"image": "img/background/project-single-3.jpg",
-		"text-title": "Our Team",
-		"text-subtitle": "Lorem ipsum dolor",
-		"text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		"button": {
-			"enabled": true,
-			"size": "regular",
-			"text": "Get to know us",
-			"link": "/aboutus/team",
-			"text-title": ""}
-}
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/time2/microG.jpg",
+			"text-title": "Time II",
+			"text-subtitle": "Project led by Chelsea Fang",
+			"text-description": "We have been working on the next set of microgravity experiments, after our initial set of microgravity experiments.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/time2",
+				"text-title": ""
+			}
+		},
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/cubesat/rendition-of-CalSat.png",
+			"text-title": "QubeSat",
+			"text-subtitle": "Project led by Vidish Gupta",
+			"text-description": "QubeSat: An Investigation in Quantum Sensors for CubeSats",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/qubesat",
+				"text-title": ""
+			}
+		},
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/rover/sim_better.png",
+			"text-title": "Autonomous Resource Rover",
+			"text-subtitle": "Project led by Sirej Dua",
+			"text-description": "A resource rover is an extraterrestrial vehicle used for space exploration as well as resource extraction on various celestial bodies.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/rover",
+				"text-title": ""
+			}
+		}
+
 
 
 	]
