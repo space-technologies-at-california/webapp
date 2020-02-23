@@ -1,0 +1,104 @@
+{% extends 'core.html' %}
+
+{% block title %}
+    <title> {{ config['title'] }} | Space Technologies at Cal</title>
+{% endblock %}
+
+
+{% block body %}
+<!-- Intro Header -->
+<section class="page-title page-title-4 image-bg overlay parallax">
+    <div class="background-image-holder pretty-holder">
+        <img alt="Background Image" class="background-image" src="{{ url_for('static', filename=config['background']) }}" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">{{ config['title'] }}</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="active">{{ config['title'] }}</li>
+                </ol>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+<!-- End of Intro Header -->
+
+<!-- Sponsor Division -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                <h4 class="uppercase mb16">{{ config['section-title'] }}</h4>
+                <p class="lead mb80">
+                    {{ config['section-description'] }}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                {% for block in config["blocks"] %}
+                <div class="horizontal-tile">
+                    {% if block['image-left'] %}
+                        <div class="tile-left">
+                            <a href="{{ block['image-link'] }}">
+                                <div class="background-image-holder">
+                                    <img alt="image" class="background-image" src="{{ url_for('static', filename=block['image']) }}" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-right bg-secondary">
+                            <div class="description">
+                                <h4 class="mb8">{{ block['text-title'] }}</h4>
+                                <h6 class="uppercase">
+                                    {{ block['text-subtitle'] }}
+                                </h6>
+                                <p>
+                                    {{ block['text-description'] }}
+                                </p>
+                                {% if block['button']['enabled'] %}
+                                    <a class="btn {% if block['button']['size'] == 'large' %}btn-lg{% elif block['button']['size'] == 'small' %}btn-sm{% else %} {% endif %}" href="{{ block['button']['link'] }}">{{ block['button']['text'] }}</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="tile-left bg-secondary">
+                            <div class="description">
+                                <h4 class="mb8">{{ block['text-title'] }}</h4>
+                                {% if  block['text-subtitle'] %}
+                                <h6 class="uppercase">
+                                    {{ block['text-subtitle'] }}
+                                </h6>
+                                {% endif %}
+                                <p>
+                                    {{ block['text-description'] }}
+                                </p>
+                                {% if block['button']['enabled'] %}
+                                    <a class="btn {% if block['button']['size'] == 'large' %}btn-lg{% elif block['button']['size'] == 'small'%}btn-sm{% else %}{% endif %} " href="{{ block['button']['link'] }}">{{ block['button']['text'] }}</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="tile-right">
+                            <a href="{{ block['image-link'] }}">
+                                <div class="background-image-holder">
+                                    <img alt="image" class="background-image" src="{{ url_for('static', filename=block['image']) }}" />
+                                </div>
+                            </a>
+                        </div>
+                {% endif %}
+                </div>
+                <!--end of horizontal tile-->
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    </section>
+<!-- End of Sponsor Division -->
+{% endblock %}

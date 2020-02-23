@@ -270,29 +270,29 @@
     "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
     "mailing-list-error-msg": "Please fill all fields correctly.",
     "partner-logo": {
-      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
-      "img/logo/partner/asuc": "img/logo/partner/asuc.png",
-      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
-      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
-      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
       "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
-      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
-      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
       "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
-      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
-      "img/logo/partner/citris": "img/logo/partner/citris.png",
       "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
-      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/oshpark": "img/logo/partner/oshpark.png",
+      "img/logo/partner/citris": "img/logo/partner/citris.png",
+      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
+      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
       "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
+      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
+      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
+      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
+      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
+      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
+      "img/logo/partner/pear": "img/logo/partner/pear.png",
+      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
       "img/logo/partner/icorps": "img/logo/partner/icorps.png",
       "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
-      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
-      "img/logo/partner/oshpark": "img/logo/partner/oshpark.png",
-      "img/logo/partner/pear": "img/logo/partner/pear.png",
       "img/logo/partner/skydeck": "img/logo/partner/skydeck.png",
-      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
-      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
-      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png"
+      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
+      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
+      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png",
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png"
     }
   },
   "sponsor-confirmation": {
@@ -384,7 +384,7 @@
     "title": "Our Current Projects",
     "background": "img/background/space6-cut.jpg",
     "section-title": "Current STAC Projects",
-    "section-description": "Check us out yo",
+    "section-description": "",
     "blocks": [
       {
         "image-left": true,
@@ -463,5 +463,5 @@
       }
     ]
   },
-  "version": 63.8
+  "version": 65.7
 }
