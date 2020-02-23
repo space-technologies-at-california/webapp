@@ -2,36 +2,84 @@
 	"title": "Our Current Projects",
 	"background": "img/background/space6-cut.jpg",
 	"section-title": "Current STAC Projects",
-	"section-description": "Check us out yo",
+	"section-description": "",
 	"blocks": [
 		{
 			"image-left": true,
 			"image-link": "#",
 			"image": "img/projects/balloon/hab_ascent_logo2.png",
 			"text-title": "High Altitude Balloon",
-			"text-subtitle": "Project led by Makena Fetzer",
-			"text-description": "A high altitude balloon is an unmanned balloon meant to carry scientific payloads to perform experiments and collect data in near space environments",
+			"text-subtitle": "Project led by Gabi Directo and Aaron Lin",
+			"text-description": "While low Earth orbit continues to become more accessible, a tremendous amount of science can still be done in the stratosphere.  For the past two years, STAC’s High Altitude Balloon (HAB) program has melded custom hardware with off-the-shelf parts to lift payloads to 100,000 feet—all at less than $2000 per launch.  Such an altitude is perfect for certain astrobiology and atmospheric experiments; STAC has launched payloads for the NASA Ames Research Center and for Lawrence Berkeley National Laboratory.",
 			"button": {
 				"enabled": true,
 				"size": "regular",
 				"text": "Get to know us",
-				"link": "#",
+				"link": "/project/balloon",
 				"text-title": ""
 			}
 		},
-		{"image-left": true,
-		"image-link": "#",
-		"image": "img/background/project-single-3.jpg",
-		"text-title": "Our Team",
-		"text-subtitle": "Lorem ipsum dolor",
-		"text-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		"button": {
-			"enabled": true,
-			"size": "regular",
-			"text": "Get to know us",
-			"link": "/aboutus/team",
-			"text-title": ""}
-}
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/time2/microG.jpg",
+			"text-title": "Time II",
+			"text-subtitle": "Project led by Chelsea Fang",
+			"text-description": "If humanity is to establish a permanent presence throughout the Solar System, we must better understand the effects of microgravity on human health and disease prevention.  The second iteration of The Interstellar Microgravity Experiment (TIME II) aims to characterize these effects.  The TIME II payload will experience two minutes of microgravity on a suborbital Blue Origin flight, during which it will expose a series of microfluidic E. coli cultures to the antibiotic gentamicin.  Through detailed laboratory analysis of the E. coli’s RNA expression, we will determine the impact of microgravity on antibiotic efficacy, thereby gaining valuable insight towards keeping astronauts healthy.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/time2",
+				"text-title": ""
+			}
+		},
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/cubesat/rendition-of-CalSat.png",
+			"text-title": "QubeSat",
+			"text-subtitle": "Project led by Vidish Gupta",
+			"text-description": "STAC’s Quantum CubeSat (QubeSat) aims to demonstrate the capabilities of emerging quantum technologies in space operations.  The QubeSat will carry as its payload a quantum gyroscope, a novel device developed by UC Berkeley’s Department of Physics, which harnesses nitrogen vacancies in diamond in order to provide attitude control.  If successfully demonstrated in low Earth orbit, the gyroscope—which is orders of magnitude smaller and more accurate than traditional mechanical alternatives—has the potential to revolutionalize sensor technology for CubeSats, WaferSat constellations, and the other microsatellites of the NewSpace era.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/qubesat",
+				"text-title": ""
+			}
+		},
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/rover/sim_better.png",
+			"text-title": "Lunar Autonomous Rover",
+			"text-subtitle": "Project led by Amol Pant",
+			"text-description": "Machine learning and artificial intelligence have a big role to play in the NewSpace era.  The goal of STAC’s AI Rover project is to develop the algorithms and training simulations to teach mining rovers to autonomously navigate the lunar surface.  Through the use of machine vision, SLAM, and CNNs, such rovers would be able to operate with minimal human oversight, dramatically increasing the efficiency, scalability, and affordability of in-situ extraterrestrial resource acquisition.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/rover",
+				"text-title": ""
+			}
+		},
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/resourcerover/setup.png",
+			"text-title": "Lunar Resource Rover",
+			"text-subtitle": "Project led by Levi Evans and Peter Connors",
+			"text-description": "Recent discoveries by NASA conclusively demonstrated that there’s water on the Moon—and a lot of it.  STAC’s Mechanical/Resource Rover project aims to develop a mining rover that can endure the harsh conditions of the Moon’s Permanently-Shadowed Regions (PSRs) in order to access this water.  Once extracted, this water will both supply self-sufficient lunar outposts and be electrolyzed into rocket fuel to enable the further exploration of the Solar System.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/rover",
+				"text-title": ""
+			}
+		}
+
 
 
 	]

@@ -1,15 +1,15 @@
 {
-	"title": "Autonomous Resource Rover",
+	"title": "Lunar Rover - Resource",
 	"background": "img/background/space11.jpg",
 	"post-img": {
-		"alt": "Autonomous Resource Rover",
+		"alt": "Lunar Rover - Resource",
 		"url": "img/projects/rover/rover1.png"
 	},
 	"date": "27 April",
-	"blog-title": "Autonomous Resource Rover",
+	"blog-title": "Lunar Rover - Resource",
 	"blog-info": {
 		"Project Led by": {
-			"list": ["Sirej Dua"],
+			"list": ["Levi Evans & Peter Connors"],
 			"icon": "user"
 		},
 		"Tagged as": {
