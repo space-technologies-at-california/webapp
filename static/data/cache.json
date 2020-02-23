@@ -272,7 +272,7 @@
         "About Us": {
           "submenu": [
             {
-              "Team": "team"
+              "Team": "/team"
             }, 
             {
               "Alumni": "/alumni"
@@ -375,7 +375,7 @@
     "heading": "Check Back Soon", 
     "success-msg": "Thanks for your submission, we will be in touch shortly."
   }, 
-  "version": 62.3, 
+  "version": 62.4, 
   "aboutus": {
     "section-description": "We get to continue innovating and breaking through new barriers in space with our talented team and experienced industry advisors", 
     "blocks": [
