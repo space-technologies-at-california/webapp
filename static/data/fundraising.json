@@ -1,0 +1,38 @@
+{
+	"title": "Our Current Projects",
+	"background": "img/background/space6-cut.jpg",
+	"section-title": "Current STAC Projects",
+	"section-description": "",
+	"blocks": [
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/balloon/hab_ascent_logo2.png",
+			"text-title": "Kickstarter",
+			"text-subtitle": "",
+			"text-description": "While low Earth orbit continues to become more accessible, a tremendous amount of science can still be done in the stratosphere.  For the past two years, STAC’s High Altitude Balloon (HAB) program has melded custom hardware with off-the-shelf parts to lift payloads to 100,000 feet—all at less than $2000 per launch.  Such an altitude is perfect for certain astrobiology and atmospheric experiments; STAC has launched payloads for the NASA Ames Research Center and for Lawrence Berkeley National Laboratory.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/balloon",
+				"text-title": ""
+			}
+		},
+		{
+			"image-left": true,
+			"image-link": "#",
+			"image": "img/projects/time2/time2_newP.jpeg",
+			"text-title": "The BIG GIVE",
+			"text-subtitle": "",
+			"text-description": "If humanity is to establish a permanent presence throughout the Solar System, we must better understand the effects of microgravity on human health and disease prevention.  The second iteration of The Interstellar Microgravity Experiment (TIME II) aims to characterize these effects.  The TIME II payload will experience two minutes of microgravity on a suborbital Blue Origin flight, during which it will expose a series of microfluidic E. coli cultures to the antibiotic gentamicin.  Through detailed laboratory analysis of the E. coli’s RNA expression, we will determine the impact of microgravity on antibiotic efficacy, thereby gaining valuable insight towards keeping astronauts healthy.",
+			"button": {
+				"enabled": true,
+				"size": "regular",
+				"text": "Get to know us",
+				"link": "/project/time2",
+				"text-title": ""
+			}
+		}
+	]
+}

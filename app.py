@@ -387,7 +387,9 @@ def sts2():
 @app.route("/sts3")
 def sts3():
     return render_template("stac-sts-2020.html")
-
+@app.route("/fundraiser")
+def fundraiser():
+    return render_template("summary-page.html", config=config["fundraising"])
 @app.route("/kickstarter")
 def kickstarter():
     #return render_template("kickstarter.html", config=config["kickstarter"])
