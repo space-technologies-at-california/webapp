@@ -76,7 +76,10 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Kickstarter": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad"
+        "Fundraiser": "/fundraiser"
+      },
+      {
+        "STS3": "/sts3"
       }
     ],
     "right-menu-enabled": true,
@@ -131,7 +134,7 @@
       "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
     },
     "second-parallax": {
-      "background": "img/projects/stac-projects.png",
+      "background": "img/projects/stac-projects-sp2020.png",
       "title": " Innovative Projects",
       "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
     },
@@ -404,8 +407,8 @@
       {
         "image-left": true,
         "image-link": "#",
-        "image": "img/projects/time2/microG.jpg",
-        "text-title": "Time II",
+        "image": "img/projects/time2/time2_newP.jpeg",
+        "text-title": "TIME II",
         "text-subtitle": "Project led by Chelsea Fang",
         "text-description": "If humanity is to establish a permanent presence throughout the Solar System, we must better understand the effects of microgravity on human health and disease prevention.  The second iteration of The Interstellar Microgravity Experiment (TIME II) aims to characterize these effects.  The TIME II payload will experience two minutes of microgravity on a suborbital Blue Origin flight, during which it will expose a series of microfluidic E. coli cultures to the antibiotic gentamicin.  Through detailed laboratory analysis of the E. coli\u2019s RNA expression, we will determine the impact of microgravity on antibiotic efficacy, thereby gaining valuable insight towards keeping astronauts healthy.",
         "button": {
@@ -419,7 +422,7 @@
       {
         "image-left": true,
         "image-link": "#",
-        "image": "img/projects/cubesat/rendition-of-CalSat.png",
+        "image": "img/projects/cubesat/CubeSatSketch.png",
         "text-title": "QubeSat",
         "text-subtitle": "Project led by Vidish Gupta",
         "text-description": "STAC\u2019s Quantum CubeSat (QubeSat) aims to demonstrate the capabilities of emerging quantum technologies in space operations.  The QubeSat will carry as its payload a quantum gyroscope, a novel device developed by UC Berkeley\u2019s Department of Physics, which harnesses nitrogen vacancies in diamond in order to provide attitude control.  If successfully demonstrated in low Earth orbit, the gyroscope\u2014which is orders of magnitude smaller and more accurate than traditional mechanical alternatives\u2014has the potential to revolutionalize sensor technology for CubeSats, WaferSat constellations, and the other microsatellites of the NewSpace era.",
@@ -449,7 +452,7 @@
       {
         "image-left": true,
         "image-link": "#",
-        "image": "img/projects/resourcerover/setup.png",
+        "image": "img/projects/resourcerover/theoreticalsetup1.png",
         "text-title": "Lunar Resource Rover",
         "text-subtitle": "Project led by Levi Evans and Peter Connors",
         "text-description": "Recent discoveries by NASA conclusively demonstrated that there\u2019s water on the Moon\u2014and a lot of it.  STAC\u2019s Mechanical/Resource Rover project aims to develop a mining rover that can endure the harsh conditions of the Moon\u2019s Permanently-Shadowed Regions (PSRs) in order to access this water.  Once extracted, this water will both supply self-sufficient lunar outposts and be electrolyzed into rocket fuel to enable the further exploration of the Solar System.",
@@ -463,5 +466,47 @@
       }
     ]
   },
+<<<<<<< HEAD
   "version": 66.0
+=======
+  "fundraising": {
+    "title": "Fundraiser",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "Current STAC Fundraising Projects",
+    "section-description": "",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "#",
+        "image": "img/fundraising/kickstarterhomepage.png",
+        "text-title": "Kickstarter",
+        "text-subtitle": "",
+        "text-description": "",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad",
+          "text-title": ""
+        }
+      },
+      {
+        "image-left": true,
+        "image-link": "#",
+        "image": "img/fundraising/biggive_fb_frame_sample.png",
+        "text-title": "The BIG GIVE",
+        "text-subtitle": "",
+        "text-description": "",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "#",
+          "text-title": ""
+        }
+      }
+    ]
+  },
+  "version": 71.5
+>>>>>>> d315f442111efb606100467c6e8f4b72821c9075
 }
