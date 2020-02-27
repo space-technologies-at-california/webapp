@@ -43,8 +43,7 @@
 		},
 		{"Blog": "https://medium.com/@stac"},
 		{"Sponsor": "/sponsor"},
-		{"Fundraising": "/fundraiser"},
-		{"Kickstarter": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad"},
+		{"Fundraiser": "/fundraiser"},
 		{"STS3": "/sts3" }
 	],
 	"right-menu-enabled": true,
