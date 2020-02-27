@@ -270,29 +270,29 @@
     "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
     "mailing-list-error-msg": "Please fill all fields correctly.",
     "partner-logo": {
-      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
-      "img/logo/partner/asuc": "img/logo/partner/asuc.png",
-      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
-      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
-      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
       "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
-      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
-      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
       "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
-      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
-      "img/logo/partner/citris": "img/logo/partner/citris.png",
       "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
-      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/oshpark": "img/logo/partner/oshpark.png",
+      "img/logo/partner/citris": "img/logo/partner/citris.png",
+      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
+      "img/logo/partner/altium": "img/logo/partner/altium.jpg",
       "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
+      "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
+      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
+      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
+      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
+      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
+      "img/logo/partner/pear": "img/logo/partner/pear.png",
+      "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
       "img/logo/partner/icorps": "img/logo/partner/icorps.png",
       "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
-      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
-      "img/logo/partner/oshpark": "img/logo/partner/oshpark.png",
-      "img/logo/partner/pear": "img/logo/partner/pear.png",
       "img/logo/partner/skydeck": "img/logo/partner/skydeck.png",
-      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
-      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
-      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png"
+      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
+      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
+      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png",
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png"
     }
   },
   "sponsor-confirmation": {
@@ -404,8 +404,8 @@
       {
         "image-left": true,
         "image-link": "#",
-        "image": "img/projects/time2/microG.jpg",
-        "text-title": "Time II",
+        "image": "img/projects/time2/time2_newP.jpeg",
+        "text-title": "TIME II",
         "text-subtitle": "Project led by Chelsea Fang",
         "text-description": "If humanity is to establish a permanent presence throughout the Solar System, we must better understand the effects of microgravity on human health and disease prevention.  The second iteration of The Interstellar Microgravity Experiment (TIME II) aims to characterize these effects.  The TIME II payload will experience two minutes of microgravity on a suborbital Blue Origin flight, during which it will expose a series of microfluidic E. coli cultures to the antibiotic gentamicin.  Through detailed laboratory analysis of the E. coli\u2019s RNA expression, we will determine the impact of microgravity on antibiotic efficacy, thereby gaining valuable insight towards keeping astronauts healthy.",
         "button": {
@@ -419,7 +419,7 @@
       {
         "image-left": true,
         "image-link": "#",
-        "image": "img/projects/cubesat/rendition-of-CalSat.png",
+        "image": "img/projects/cubesat/paul_cubesat.png",
         "text-title": "QubeSat",
         "text-subtitle": "Project led by Vidish Gupta",
         "text-description": "STAC\u2019s Quantum CubeSat (QubeSat) aims to demonstrate the capabilities of emerging quantum technologies in space operations.  The QubeSat will carry as its payload a quantum gyroscope, a novel device developed by UC Berkeley\u2019s Department of Physics, which harnesses nitrogen vacancies in diamond in order to provide attitude control.  If successfully demonstrated in low Earth orbit, the gyroscope\u2014which is orders of magnitude smaller and more accurate than traditional mechanical alternatives\u2014has the potential to revolutionalize sensor technology for CubeSats, WaferSat constellations, and the other microsatellites of the NewSpace era.",
@@ -463,5 +463,5 @@
       }
     ]
   },
-  "version": 68.2
+  "version": 69.0
 }
