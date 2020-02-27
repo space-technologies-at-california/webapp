@@ -37,7 +37,7 @@
 		{
 			"image-left": true,
 			"image-link": "#",
-			"image": "img/projects/cubesat/paul_cubesat.png",
+			"image": "img/projects/cubesat/CubeSatSketch.png",
 			"text-title": "QubeSat",
 			"text-subtitle": "Project led by Vidish Gupta",
 			"text-description": "STAC’s Quantum CubeSat (QubeSat) aims to demonstrate the capabilities of emerging quantum technologies in space operations.  The QubeSat will carry as its payload a quantum gyroscope, a novel device developed by UC Berkeley’s Department of Physics, which harnesses nitrogen vacancies in diamond in order to provide attitude control.  If successfully demonstrated in low Earth orbit, the gyroscope—which is orders of magnitude smaller and more accurate than traditional mechanical alternatives—has the potential to revolutionalize sensor technology for CubeSats, WaferSat constellations, and the other microsatellites of the NewSpace era.",
@@ -67,7 +67,7 @@
 		{
 			"image-left": true,
 			"image-link": "#",
-			"image": "img/projects/resourcerover/setup.png",
+			"image": "img/projects/resourcerover/theoreticalsetup1.png",
 			"text-title": "Lunar Resource Rover",
 			"text-subtitle": "Project led by Levi Evans and Peter Connors",
 			"text-description": "Recent discoveries by NASA conclusively demonstrated that there’s water on the Moon—and a lot of it.  STAC’s Mechanical/Resource Rover project aims to develop a mining rover that can endure the harsh conditions of the Moon’s Permanently-Shadowed Regions (PSRs) in order to access this water.  Once extracted, this water will both supply self-sufficient lunar outposts and be electrolyzed into rocket fuel to enable the further exploration of the Solar System.",

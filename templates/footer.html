@@ -13,8 +13,8 @@
                 <!-- Modal -->
                 <div class="modal-container">
                     <a href="https://www.ocf.berkeley.edu" target="_blank"><img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg" alt="Hosted by the OCF" style="border: 0; width: 60px" /></a>
-                    <a class="btn-modal" href="#"> 
-                        <span class="fade-half" style="text-decoration: underline;"><small>University Student Group Disclaimer</small> </span>  
+                    <a class="btn-modal" href="#">
+                        <span class="fade-half" style="text-decoration: underline;"><small>University Student Group Disclaimer</small> </span>
                     </a>
                     <div class="foundry_modal">
                         <h4>University Student Group Disclaimer</h4>
@@ -23,7 +23,7 @@
                 </div>
                 <!-- End Modal-->
             </div>
-        
+
             <div class="col-sm-4 text-right text-center-xs">
                 <ul class="list-inline social-list">
                     {% for type, link in club['social-media'].items() %}
@@ -35,6 +35,10 @@
                     {% endfor %}
                 </ul>
                 <a href="mailto:{{ club['contact-email']['inquiry'] }}"><span class="fade-half" id="inquiry-email"><u>{{ club['contact-email']['inquiry'] }}</u></span></a>
+                <p> Space Technologies at California<br>
+            				University of California, Berkeley<br>
+            				432 Eshleman Hall, MC 4500 <br>
+            				Berkeley, CA 94720-4500</p>
             </div>
         </div>
     </div>
