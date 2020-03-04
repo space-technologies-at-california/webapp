@@ -29,8 +29,7 @@ else:
 		"sponsor-confirmation": load_json("sponsor-confirmation.json"),
 		"icon": load_json("icon.json"),
 		"kickstarter": load_json("kickstarter.json"),
-		"projectDescription": load_json("projectDescription.json"),
-		"fundraising": load_json("fundraising.json")
+		"projectDescription": load_json("projectDescription.json")
 	}
 
 	with open(real_root_path + "static/version.txt", "r") as f:
