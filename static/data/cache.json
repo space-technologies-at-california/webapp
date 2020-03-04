@@ -490,7 +490,7 @@
       {
         "image-left": true,
         "image-link": "#",
-        "image": "img/fundraising/biggive_fb_frame_sample.png",
+        "image": "img/fundraising/biggive_banner_2.jpg",
         "text-title": "The BIG GIVE",
         "text-subtitle": "",
         "text-description": "",
@@ -498,11 +498,11 @@
           "enabled": true,
           "size": "regular",
           "text": "Get to know us",
-          "link": "#",
+          "link": "https://crowdfund.berkeley.edu/project/19989",
           "text-title": ""
         }
       }
     ]
   },
-  "version": 70.2
+  "version": 70.8
 }
