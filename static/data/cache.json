@@ -76,7 +76,10 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Kickstarter": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad"
+        "Fundraiser": "/fundraiser"
+      },
+      {
+        "STS3": "/sts3"
       }
     ],
     "right-menu-enabled": true,
@@ -463,5 +466,43 @@
       }
     ]
   },
-  "version": 70.0
+  "fundraising": {
+    "title": "Fundraiser",
+    "background": "img/background/space6-cut.jpg",
+    "section-title": "Current STAC Fundraising Projects",
+    "section-description": "",
+    "blocks": [
+      {
+        "image-left": true,
+        "image-link": "#",
+        "image": "img/fundraising/kickstarterhomepage.png",
+        "text-title": "Kickstarter",
+        "text-subtitle": "",
+        "text-description": "",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad",
+          "text-title": ""
+        }
+      },
+      {
+        "image-left": true,
+        "image-link": "#",
+        "image": "img/fundraising/biggive_fb_frame_sample.png",
+        "text-title": "The BIG GIVE",
+        "text-subtitle": "",
+        "text-description": "",
+        "button": {
+          "enabled": true,
+          "size": "regular",
+          "text": "Get to know us",
+          "link": "#",
+          "text-title": ""
+        }
+      }
+    ]
+  },
+  "version": 70.1
 }
