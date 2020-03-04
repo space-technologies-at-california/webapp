@@ -76,9 +76,6 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Fundraiser": "/fundraiser"
-      },
-      {
         "STS3": "/sts3"
       }
     ],
@@ -248,8 +245,8 @@
         "button": {
           "enabled": true,
           "size": "regular",
-          "text": "Kickstarter",
-          "link": "/kickstarter"
+          "text": "Big Give",
+          "link": "https://crowdfund.berkeley.edu/project/19989"
         }
       }
     ]
@@ -273,29 +270,29 @@
     "mailing-list-success-msg": "Thanks for your submission, we will be in touch shortly.",
     "mailing-list-error-msg": "Please fill all fields correctly.",
     "partner-logo": {
-      "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
-      "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
-      "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
-      "img/logo/partner/oshpark": "img/logo/partner/oshpark.png",
-      "img/logo/partner/citris": "img/logo/partner/citris.png",
-      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
       "img/logo/partner/altium": "img/logo/partner/altium.jpg",
-      "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png",
+      "img/logo/partner/autodesk": "img/logo/partner/autodesk.svg",
       "img/logo/partner/bay-area-circuits": "img/logo/partner/bay-area-circuits.png",
-      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
-      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
-      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
-      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
-      "img/logo/partner/pear": "img/logo/partner/pear.png",
       "img/logo/partner/bee-partners": "img/logo/partner/bee-partners.png",
+      "img/logo/partner/berkeley-engineering": "img/logo/partner/berkeley-engineering.jpg",
+      "img/logo/partner/berkeley-innovator": "img/logo/partner/berkeley-innovator.jpg",
+      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
+      "img/logo/partner/berkeley-tech-fund": "img/logo/partner/berkeley-tech-fund.jpg",
+      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
+      "img/logo/partner/citris": "img/logo/partner/citris.png",
+      "img/logo/partner/crowdfunding": "img/logo/partner/crowdfunding.png",
+      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
+      "img/logo/partner/icon-lab": "img/logo/partner/icon-lab.png",
       "img/logo/partner/icorps": "img/logo/partner/icorps.png",
       "img/logo/partner/kla-tencor": "img/logo/partner/kla-tencor.png",
+      "img/logo/partner/nasa": "img/logo/partner/nasa.png",
+      "img/logo/partner/oshpark": "img/logo/partner/oshpark.png",
+      "img/logo/partner/pear": "img/logo/partner/pear.png",
       "img/logo/partner/skydeck": "img/logo/partner/skydeck.png",
-      "img/logo/partner/berkeley-ssl": "img/logo/partner/berkeley-ssl.png",
-      "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
-      "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
-      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png",
-      "img/logo/partner/asuc": "img/logo/partner/asuc.png"
+      "img/logo/partner/ssl": "img/logo/partner/ssl.png",
+      "img/logo/partner/uc-davis-sssc": "img/logo/partner/uc-davis-sssc.png",
+      "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png"
     }
   },
   "sponsor-confirmation": {
@@ -372,16 +369,6 @@
       "fa": "fa fa-chevron-up",
       "ti": "ti-angle-up"
     }
-  },
-  "kickstarter": {
-    "title": "Kickstarter",
-    "background-img": "img/background/sci-fi-1-cut.jpg",
-    "heading": "Check Back Soon",
-    "body": "We'll be launching our new Kickstarter campaign in the coming weeks! Hit the form below to sign up for our Pre-launch and get notified when we launch. Thanks for your interest!",
-    "success-msg": "Thanks for your submission, we will be in touch shortly.",
-    "error-msg": "Please fill all fields correctly.",
-    "call-for-action": "Keep Me Updated",
-    "privacy-msg": "*We won't share your email with third parties."
   },
   "projectDescription": {
     "title": "Our Current Projects",
@@ -466,43 +453,5 @@
       }
     ]
   },
-  "fundraising": {
-    "title": "Fundraiser",
-    "background": "img/background/space6-cut.jpg",
-    "section-title": "Current STAC Fundraising Projects",
-    "section-description": "",
-    "blocks": [
-      {
-        "image-left": true,
-        "image-link": "#",
-        "image": "img/fundraising/kickstarterhomepage.png",
-        "text-title": "Kickstarter",
-        "text-subtitle": "",
-        "text-description": "",
-        "button": {
-          "enabled": true,
-          "size": "regular",
-          "text": "Get to know us",
-          "link": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad",
-          "text-title": ""
-        }
-      },
-      {
-        "image-left": true,
-        "image-link": "#",
-        "image": "img/fundraising/biggive_banner_2.jpg",
-        "text-title": "The BIG GIVE",
-        "text-subtitle": "",
-        "text-description": "",
-        "button": {
-          "enabled": true,
-          "size": "regular",
-          "text": "Get to know us",
-          "link": "https://crowdfund.berkeley.edu/project/19989",
-          "text-title": ""
-        }
-      }
-    ]
-  },
-  "version": 70.8
+  "version": 71.0
 }

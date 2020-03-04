@@ -388,14 +388,14 @@ def sts2():
 def sts3():
    return render_template("stac-sts-2020.html")
 
-@app.route("/fundraiser")
-def fundraiser():
-    return render_template("summary-page.html", config=config["fundraising"])
+#@app.route("/fundraiser")
+#def fundraiser():
+#    return render_template("summary-page.html", config=config["fundraising"])
 
-@app.route("/kickstarter")
-def kickstarter():
+#@app.route("/kickstarter")
+#def kickstarter():
     #return render_template("kickstarter.html", config=config["kickstarter"])
-    return redirect("https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad")
+#    return redirect("https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad")
 
 ##################### Error Handling #####################
 

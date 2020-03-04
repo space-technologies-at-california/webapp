@@ -28,8 +28,8 @@
 			"button": {
 				"enabled": true,
 				"size": "regular",
-				"text": "Kickstarter",
-				"link": "/kickstarter"
+				"text": "Big Give",
+				"link": "https://crowdfund.berkeley.edu/project/19989"
 			}
 		}
 	]
