@@ -7,7 +7,7 @@
 		"description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
 	},
 	"second-parallax": {
-		"background": "img/projects/stac-projects-sp2020.png",
+		"background": "img/projects/stac-projects-sp2020.PNG",
 		"title": " Innovative Projects",
 		"description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
 	},

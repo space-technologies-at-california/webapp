@@ -43,7 +43,6 @@
 		},
 		{"Blog": "https://medium.com/@stac"},
 		{"Sponsor": "/sponsor"},
-		{"Fundraiser": "/fundraiser"},
 		{"STS3": "/sts3" }
 	],
 	"right-menu-enabled": true,

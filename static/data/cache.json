@@ -76,9 +76,6 @@
         "Sponsor": "/sponsor"
       },
       {
-        "Fundraiser": "/fundraiser"
-      },
-      {
         "STS3": "/sts3"
       }
     ],
@@ -134,7 +131,7 @@
       "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies."
     },
     "second-parallax": {
-      "background": "img/projects/stac-projects-sp2020.png",
+      "background": "img/projects/stac-projects-sp2020.PNG",
       "title": " Innovative Projects",
       "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
     },
@@ -248,8 +245,8 @@
         "button": {
           "enabled": true,
           "size": "regular",
-          "text": "Kickstarter",
-          "link": "/kickstarter"
+          "text": "Big Give",
+          "link": "https://crowdfund.berkeley.edu/project/19989"
         }
       }
     ]
@@ -373,16 +370,6 @@
       "ti": "ti-angle-up"
     }
   },
-  "kickstarter": {
-    "title": "Kickstarter",
-    "background-img": "img/background/sci-fi-1-cut.jpg",
-    "heading": "Check Back Soon",
-    "body": "We'll be launching our new Kickstarter campaign in the coming weeks! Hit the form below to sign up for our Pre-launch and get notified when we launch. Thanks for your interest!",
-    "success-msg": "Thanks for your submission, we will be in touch shortly.",
-    "error-msg": "Please fill all fields correctly.",
-    "call-for-action": "Keep Me Updated",
-    "privacy-msg": "*We won't share your email with third parties."
-  },
   "projectDescription": {
     "title": "Our Current Projects",
     "background": "img/background/space6-cut.jpg",
@@ -466,43 +453,5 @@
       }
     ]
   },
-  "fundraising": {
-    "title": "Fundraiser",
-    "background": "img/background/space6-cut.jpg",
-    "section-title": "Current STAC Fundraising Projects",
-    "section-description": "",
-    "blocks": [
-      {
-        "image-left": true,
-        "image-link": "#",
-        "image": "img/fundraising/kickstarterhomepage.png",
-        "text-title": "Kickstarter",
-        "text-subtitle": "",
-        "text-description": "",
-        "button": {
-          "enabled": true,
-          "size": "regular",
-          "text": "Get to know us",
-          "link": "https://www.kickstarter.com/projects/stac/1888649063?ref=475471&token=7bbee2ad",
-          "text-title": ""
-        }
-      },
-      {
-        "image-left": true,
-        "image-link": "#",
-        "image": "img/fundraising/biggive_banner_2.jpg",
-        "text-title": "The BIG GIVE",
-        "text-subtitle": "",
-        "text-description": "",
-        "button": {
-          "enabled": true,
-          "size": "regular",
-          "text": "Get to know us",
-          "link": "https://crowdfund.berkeley.edu/project/19989",
-          "text-title": ""
-        }
-      }
-    ]
-  },
-  "version": 70.8
+  "version": 71.0
 }
