@@ -378,7 +378,7 @@
     "blocks": [
       {
         "image-left": true,
-        "image-link": "#",
+        "image-link": "/project/balloon",
         "image": "img/projects/balloon/hab_ascent_logo2.png",
         "text-title": "High Altitude Balloon",
         "text-subtitle": "Project led by Gabi Directo and Aaron Lin",
@@ -393,7 +393,7 @@
       },
       {
         "image-left": true,
-        "image-link": "#",
+        "image-link": "/project/time2",
         "image": "img/projects/time2/time2_newP.jpeg",
         "text-title": "TIME II",
         "text-subtitle": "Project led by Chelsea Fang",
@@ -408,8 +408,8 @@
       },
       {
         "image-left": true,
-        "image-link": "#",
-        "image": "img/projects/cubesat/CubeSatSketch.png",
+        "image-link": "/project/qubesat",
+        "image": "img/projects/cubesat/CubeSatSketch.PNG",
         "text-title": "QubeSat",
         "text-subtitle": "Project led by Vidish Gupta",
         "text-description": "STAC\u2019s Quantum CubeSat (QubeSat) aims to demonstrate the capabilities of emerging quantum technologies in space operations.  The QubeSat will carry as its payload a quantum gyroscope, a novel device developed by UC Berkeley\u2019s Department of Physics, which harnesses nitrogen vacancies in diamond in order to provide attitude control.  If successfully demonstrated in low Earth orbit, the gyroscope\u2014which is orders of magnitude smaller and more accurate than traditional mechanical alternatives\u2014has the potential to revolutionalize sensor technology for CubeSats, WaferSat constellations, and the other microsatellites of the NewSpace era.",
@@ -423,7 +423,7 @@
       },
       {
         "image-left": true,
-        "image-link": "#",
+        "image-link": "/project/rover",
         "image": "img/projects/rover/sim_better.png",
         "text-title": "Lunar Autonomous Rover",
         "text-subtitle": "Project led by Amol Pant",
@@ -438,7 +438,7 @@
       },
       {
         "image-left": true,
-        "image-link": "#",
+        "image-link": "/project/resourcerover",
         "image": "img/projects/resourcerover/theoreticalsetup1.png",
         "text-title": "Lunar Resource Rover",
         "text-subtitle": "Project led by Levi Evans and Peter Connors",
@@ -447,11 +447,11 @@
           "enabled": true,
           "size": "regular",
           "text": "Get to know us",
-          "link": "/project/rover",
+          "link": "/project/resourcerover",
           "text-title": ""
         }
       }
     ]
   },
-  "version": 73.6
+  "version": 73.8
 }
