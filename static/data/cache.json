@@ -74,9 +74,6 @@
       },
       {
         "Sponsor": "/sponsor"
-      },
-      {
-        "STS3": "/sts3"
       }
     ],
     "right-menu-enabled": true,
@@ -133,7 +130,7 @@
     "second-parallax": {
       "background": "img/projects/STAC-diagram-2.jpg",
       "title": " Innovative Projects",
-      "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
+      "description": "We are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Quantum Gryoscope, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous."
     },
     "third-parallax": {
       "background": "img/background/space16.jpg",
@@ -453,5 +450,5 @@
       }
     ]
   },
-  "version": 73.8
+  "version": 74.8
 }
