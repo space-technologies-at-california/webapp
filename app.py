@@ -31,11 +31,7 @@ def index():
 @app.route("/apply")
 def join():
 	# return render_template("join.html")
-<<<<<<< HEAD
-	return redirect("https://forms.gle/N2N9LM89wSHD3t56A")
-=======
 	return redirect("https://goo.gl/forms/s86BFh1eUmHFRM0P2")
->>>>>>> parent of 6e647b9... Update Join Us
 
 
 ##################### Authentication #####################
