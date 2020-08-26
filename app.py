@@ -31,7 +31,7 @@ def index():
 @app.route("/apply")
 def join():
 	# return render_template("join.html")
-	return redirect("https://goo.gl/forms/s86BFh1eUmHFRM0P2")
+	return redirect("https://forms.gle/N2N9LM89wSHD3t56A")
 
 
 ##################### Authentication #####################
