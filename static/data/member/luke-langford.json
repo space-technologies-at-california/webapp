@@ -1,9 +1,9 @@
 {
   "name": "Luke Langford",
   "photo": "img/team/member/luke-langford.jpg",
-  "profile-order": 6,
+  "profile-order": 223,
   "major": "MSE & Mechanical Engineering Minor",
-  "title": "Engineering Director",
+  "title": "Resource Rover Member",
   "links": {
     "linkedin": "",
     "github": "",
@@ -11,5 +11,5 @@
     "web": "",
     "email": ""
   },
-  "bio": "Catch me @ Berkeley bowl buying some veggies."
+  "bio": "catch me @ Berkeley bowl buying some veggies"
 }
