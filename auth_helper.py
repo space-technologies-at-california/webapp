@@ -2,7 +2,6 @@ import random, sys
 from functools import wraps
 from hashlib import sha256
 import database
-from flask import *
 
 def generate_salt():
     return '{:030x}'.format(random.randrange(16**30))
