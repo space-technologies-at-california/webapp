@@ -45,10 +45,10 @@
                 "link": "#",
                 "submenu": [
                   {
-                    "CubeSat Deployer": "/project/cubesat"
+                    "QubeSat": "/project/qubesat"
                   },
                   {
-                    "QubeSat": "/project/qubesat"
+                    "CubeSat Deployer": "/project/cubesat"
                   }
                 ]
               }
