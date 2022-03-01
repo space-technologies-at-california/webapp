@@ -47,6 +47,7 @@
 	],
 	"right-menu-enabled": true,
 	"right-menu": [
+		{"Space Tech Symposium 3.0": "/sts3"},
 		{"Join Us": "/join"}
 	]
 }
