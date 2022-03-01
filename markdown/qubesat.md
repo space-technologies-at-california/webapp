@@ -1,6 +1,6 @@
 # QubeSat: An Investigation in Quantum Sensors for CubeSats
 
-The primary goal of our 2U Quantum CubeSat is to test and qualify a quantum gyroscope developed by researchers at UC Berkeley in the conditions of low earth orbit. This gyroscope is an application of Nitrogen-Vacancy (NV–) centers in diamond, which is a very active and interesting area of physics research. The benefits of this sensor over traditional options is that it can be made very small while still being accurate, which is perfectly suited for a CubeSat and spacecraft in general. This CubeSat will act as a proof-of-concept experiment to demonstrate the functionality of NV– Center gyroscope technology in space.
+The primary goal of the 2U Quantum CubeSat is to test and qualify a quantum gyroscope developed by researchers at UC Berkeley in the conditions of low earth orbit. This gyroscope is an application of Nitrogen-Vacancy (NV–) centers in diamond, which is a very active and interesting area of physics research. The benefits of this sensor over traditional options is that it can be made very small while still being accurate, which is perfectly suited for a CubeSat and spacecraft in general. This CubeSat will act as a proof-of-concept experiment to demonstrate the functionality of NV– Center gyroscope technology in space.
 
 ![Figure 1: Quantum Gyroscrope](img/projects/cubesat/quantum_gyro_diagram.png)
 
