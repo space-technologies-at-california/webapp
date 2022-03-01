@@ -17,10 +17,10 @@ def add_members(folder):
     member = sanitize_input(member)
 
     template = """
-        INSERT INTO people VALUES ("{0}", "{1}", "{2}", "{3}", "{4}");
-        INSERT INTO members VALUES ("{0}", "{5}", "{6}", {7});
-        INSERT INTO links VALUES ("{0}", "{8}", "{9}", "{10}", "{11}", "{12}", '{13}');
-        INSERT INTO contacts VALUES ("{0}", "{14}");
+        INSERT or REPLACE INTO people VALUES ("{0}", "{1}", "{2}", "{3}", "{4}");
+        INSERT or REPLACE INTO members VALUES ("{0}", "{5}", "{6}", {7});
+        INSERT or REPLACE INTO links VALUES ("{0}", "{8}", "{9}", "{10}", "{11}", "{12}", '{13}');
+        INSERT or REPLACE INTO contacts VALUES ("{0}", "{14}");
     """
 
     for k, v in member.items():

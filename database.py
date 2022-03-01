@@ -7,7 +7,7 @@ real_root_path = os.path.dirname(os.path.realpath(__file__)) + "/"
 
 DATABASE_FILE = real_root_path + 'db'
 # DATABASE_FILE = ':memory:'
-conn = sqlite3.connect(DATABASE_FILE)
+conn = sqlite3.connect(DATABASE_FILE, check_same_thread=False)
 
 # def query_logger(f):
 #     @wraps(f)
