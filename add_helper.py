@@ -5,12 +5,14 @@ import datetime
 import database
 from __init__ import conn, sanitize_input
 
+
 def add_members(folder):
     if len(folder) <= 0:
         return
     elif folder[-1] == "/":
         folder = folder[:-1]
-    member = [json.loads(open(x).read()) for x in glob.glob("{}/*.json".format(folder))]
+    member = [json.loads(open(x).read())
+              for x in glob.glob("{}/*.json".format(folder))]
     member = {
         x['name'].lower().strip().replace(' ', '-'): x for x in member
     }
@@ -26,49 +28,53 @@ def add_members(folder):
     for k, v in member.items():
         try:
             first, last = v['name'].strip().split(" ")
-            escape_null = lambda x: x if x else "NULL"
-            conn.executescript(template.format(\
-                k, first, last, v["photo"], v["bio"], \
-                    v["major"], v["title"], v["profile-order"],\
-                    v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], "NULL", "NULL", \
-                    v["links"]["email"].replace("mailto:", "")).replace('"NULL"', 'null'));
+            def escape_null(x): return x if x else "NULL"
+            conn.executescript(template.format(
+                k, first, last, v["photo"], v["bio"],
+                v["major"], v["title"], v["profile-order"],
+                v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], "NULL", "NULL",
+                v["links"]["email"].replace("mailto:", "")).replace('"NULL"', 'null'))
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
+
 
 def add_advisors(folder):
     if len(folder) <= 0:
         return
     elif folder[-1] == "/":
         folder = folder[:-1]
-    advisors = [json.loads(open(x).read()) for x in glob.glob("{}/*.json".format(folder))]
+    advisors = [json.loads(open(x).read())
+                for x in glob.glob("{}/*.json".format(folder))]
     advisors = {
         x['name'].lower().replace(' ', '-'): x for x in advisors
     }
     advisors = sanitize_input(advisors)
 
     template = """
-        INSERT INTO people VALUES ('{0}', '{1}', '{2}', '{3}', '{4}');
-        INSERT INTO advisors VALUES ('{0}', '{5}', {6});
+        INSERT or REPLACE INTO people VALUES ('{0}', '{1}', '{2}', '{3}', '{4}');
+        INSERT or REPLACE INTO advisors VALUES ('{0}', '{5}', {6});
     """
 
     for k, v in advisors.items():
         try:
             first, last = v['name'].split(" ")
-            escape_null = lambda x: x if x else "NULL"
-            conn.executescript(template.format(\
-                k, first, last, v["photo"], v["bio"], \
-                    v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'));
+            def escape_null(x): return x if x else "NULL"
+            conn.executescript(template.format(
+                k, first, last, v["photo"], v["bio"],
+                v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'))
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
+
 
 def update_advisors(folder):
     if len(folder) <= 0:
         return
     elif folder[-1] == "/":
         folder = folder[:-1]
-    advisors = [json.loads(open(x).read()) for x in glob.glob("{}/*.json".format(folder))]
+    advisors = [json.loads(open(x).read())
+                for x in glob.glob("{}/*.json".format(folder))]
     advisors = {
         x['name'].lower().replace(' ', '-'): x for x in advisors
     }
@@ -82,12 +88,10 @@ def update_advisors(folder):
     for k, v in advisors.items():
         try:
             first, last = v['name'].split(" ")
-            escape_null = lambda x: x if x else "NULL"
-            conn.executescript(template.format(\
-                k, first, last, v["photo"], v["bio"], \
-                    v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'));
+            def escape_null(x): return x if x else "NULL"
+            conn.executescript(template.format(
+                k, first, last, v["photo"], v["bio"],
+                v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'))
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
             break
-
-

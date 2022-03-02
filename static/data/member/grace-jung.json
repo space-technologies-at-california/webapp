@@ -1,1 +1,15 @@
-{"name": "Grace Jung", "photo": "img/team/member/grace-jung.jpg", "profile-order": 50, "major": "Intended Computer Science", "title": "Autonomous Rover AI Member", "links": {"linkedin": "", "github": "https://github.com/GJCompSci", "twitter": "", "web": "", "email": ""}, "bio": "Cue to an ordinary night in the far future. A person looks up at the sky and sees a sky resembling ours, but with multiple moons. To us, it's a surreal sight. To this person, it's normal. I hope to help make this event a reality."}
+{
+    "name": "Grace Jung",
+    "photo": "img/team/member/grace-jung.jpg",
+    "profile-order": 50,
+    "major": "Intended Computer Science",
+    "title": "Autonomous Rover AI Member",
+    "links": {
+        "linkedin": "",
+        "github": "https://github.com/GJCompSci",
+        "twitter": "",
+        "web": "",
+        "email": ""
+    },
+    "bio": "Cue to an ordinary night in the far future. A person looks up at the sky and sees a sky resembling ours, but with multiple moons. To us, it's a surreal sight. To this person, it's normal. I hope to help make this event a reality."
+}
