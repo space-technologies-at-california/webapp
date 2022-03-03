@@ -1,7 +1,7 @@
 {
     "name": "Lori Huang",
     "photo": "img/team/member/lori-huang.jpg",
-    "profile-order": 302,
+    "profile-order": 89,
     "major": "Mechanical Engineering",
     "title": "AI Rover Team Member",
     "links": {
@@ -12,5 +12,5 @@
       "email": ""
     },
     
-    "bio": ""
+    "bio": "Hi!"
   }

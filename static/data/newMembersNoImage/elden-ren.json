@@ -1,7 +1,7 @@
 {
     "name": "Elden Ren",
     "photo": "img/team/member/elden-ren.jpg",
-    "profile-order": 302,
+    "profile-order": 66,
     "major": "Computer Science",
     "title": "AI Rover Team Member",
     "links": {
@@ -12,5 +12,5 @@
       "email": ""
     },
     
-    "bio": ""
+    "bio": "Hi!"
   }

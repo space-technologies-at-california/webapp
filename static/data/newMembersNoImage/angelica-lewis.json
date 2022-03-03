@@ -1,7 +1,7 @@
 {
     "name": "Angelica Lewis",
     "photo": "img/team/member/angelica-lewis.jpg",
-    "profile-order": 302,
+    "profile-order": 56,
     "major": "Mechanical Engineering",
     "title": "QubeSat Team Member",
     "links": {
@@ -12,5 +12,5 @@
       "email": ""
     },
     
-    "bio": ""
+    "bio": "Hi!"
   }

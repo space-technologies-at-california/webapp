@@ -1,7 +1,7 @@
 {
     "name": "Kevin Lu",
-    "photo": "img/team/member/kevin-lu",
-    "profile-order": 302,
+    "photo": "img/team/member/kevin-lu.jpg",
+    "profile-order": 84,
     "major": "Electrical Engineering and Computer Science",
     "title": "AI Rover Team Member",
     "links": {
@@ -12,5 +12,5 @@
       "email": ""
     },
     
-    "bio": ""
+    "bio": "Hi!"
   }

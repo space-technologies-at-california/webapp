@@ -1,7 +1,7 @@
 {
     "name": "Ambrose Liu",
-    "photo": "img/team/member/amrbose-liu.jpg",
-    "profile-order": 302,
+    "photo": "img/team/member/che-liu.jpg",
+    "profile-order": 55,
     "major": "Mechanical Engineering",
     "title": "QubeSat Team Member",
     "links": {
@@ -12,5 +12,5 @@
       "email": ""
     },
     
-    "bio": ""
+    "bio": "Hi!"
   }

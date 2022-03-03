@@ -1,7 +1,7 @@
 {
     "name": "Anish Kashyap",
     "photo": "img/team/member/anish-kashyap.jpg",
-    "profile-order": 302,
+    "profile-order": 57,
     "major": "Computer Science",
     "title": "HAB Team Member",
     "links": {
@@ -12,5 +12,5 @@
       "email": ""
     },
     
-    "bio": ""
+    "bio": "Hi!"
   }
