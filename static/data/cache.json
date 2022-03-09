@@ -219,26 +219,12 @@
     "title": "Sponsor",
     "background": "img/background/space6-cut.jpg",
     "section-title": "Sponsorships",
-    "section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further! Also, Big Give is currently UNDERWAY! Please scroll down to find where to donate, and check out our perks below as well!",
+    "section-description": "We would love for you to join us in innovating space technologies and helping move the space community one step further. Also, Big Give is currently UNDERWAY! Please scroll down to find where to donate, and check out the perks you can receive.",
     "blocks": [
-      {
-        "image-left": true,
-        "image-link": "/sponsor/industry-partnership",
-        "image": "img/group/group6.jpg",
-        "text-title": "Industry",
-        "text-subtitle": "Company Involvement",
-        "text-description": "You can support the creation of multiple projects that are pushing the boundaries of space exploration and development.",
-        "button": {
-          "enabled": true,
-          "size": "regular",
-          "text": "Learn More",
-          "link": "/sponsor/industry-partnership"
-        }
-      },
       {
         "image-left": false,
         "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
-        "image": "img/group/group7.jpg",
+        "image": "img/group/big-give1.jpg",
         "text-title": "Big Give 2022",
         "text-subtitle": "Currently Raised: $0/$5000",
         "text-description": "You can help develop our space projects to enable its completion and widespread effect. Check out the various perks down below!",
@@ -251,7 +237,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/QubeSat-2.png",
         "text-title": "Perk 1: $10",
         "text-subtitle": "Name on QubeSat Flashdrive",
         "text-description": "Get your name and a tweet-lengthed message uploaded to the onboard computer of our QubeSat that will be sent up to space!",
@@ -264,7 +251,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/random-1.png",
         "text-title": "Perk 2: $30",
         "text-subtitle": "STAC Swag Pack",
         "text-description": "A special thank you kit full of STAC stickers and a mission patch will be sent to you, as well as a shout out on the STAC website! You'll also get your name and a message uploaded to the onboard computer of our QubeSat that will be sent up to space! (Swag pack is limited to US donors due to shipping costs).",
@@ -277,7 +265,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/random-3.jpg",
         "text-title": "Perk 3: $100",
         "text-subtitle": "STAC Keychain",
         "text-description": "Get a STAC keychain! We will make and ship you an awesome custom piece of STAC merchandise. You will also receive all the perks below this tier! (Only US donors due to shipping costs).",
@@ -290,20 +279,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
-        "text-title": "Perk 3: $100",
-        "text-subtitle": "STAC Keychain",
-        "text-description": "Get a STAC keychain! We will make and ship you an awesome custom piece of STAC merchandise. You will also receive all the perks below this tier! (Only US donors due to shipping costs).",
-        "button": {
-          "enabled": false,
-          "size": "regular",
-          "text": "Big Give",
-          "link": "https://crowdfund.berkeley.edu/project/19989"
-        }
-      },
-      {
-        "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/QubeSat-1.png",
         "text-title": "Perk 4: $250",
         "text-subtitle": "Your Name Engraved on QubeSat",
         "text-description": "Have your name flown to SPACE with an engraving on our QubeSat mission! You will also receive all the perks below this tier!",
@@ -316,7 +293,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/HAB-1.png",
         "text-title": "Perk 5: $500",
         "text-subtitle": "Invitation to HAB Launch Party",
         "text-description": "You will get a special invite to our next High Altitude Balloon Launch! You will also receive all the perks below this tier!",
@@ -329,7 +307,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/HAB-2.png",
         "text-title": "Perk 6: $1500",
         "text-subtitle": "Payload Space on HAB",
         "text-description": "Through this perk you will be able to use a 3''x3''x3'' space on HAB for experimentation or anything you desire. This exclusive opportunity is perfect for high altitude experimentation or whatever you choose. You will also receive all the perks below this tier!",
@@ -342,7 +321,8 @@
       },
       {
         "image-left": true,
-        "image-link": "/kickstarter",
+        "image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+        "image": "img/group/QubeSat-3.png",
         "text-title": "Perk 7: $3000",
         "text-subtitle": "Naming Rights for the QubeSat",
         "text-description": "You can name the QubeSat Satellite that will be launched into space via NASA's CubeSat Launch Initiative! You will also receive all the perks below this tier!",
@@ -557,5 +537,5 @@
       }
     ]
   },
-  "version": 81.8
+  "version": 82.5
 }
