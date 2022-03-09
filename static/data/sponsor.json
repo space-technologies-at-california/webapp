@@ -9,7 +9,7 @@
 			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
 			"image": "img/group/big-give1.jpg",
 			"text-title": "Big Give 2022",
-			"text-subtitle": "Currently Raised: $0/$15,000",
+			"text-subtitle": "Raised So Far: $0/$15,000",
 			"text-description": "You can help develop our space projects to enable its completion and widespread effect. Check out the various perks down below!",
 			"button": {
 				"enabled": true,
@@ -92,7 +92,7 @@
 			"image-left": true,
 			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
 			"image" : "img/group/HAB-2.png",
-			"text-title": "Perk 6: $1500",
+			"text-title": "Perk 6: $1,500",
 			"text-subtitle": "Payload Space on HAB",
 			"text-description": "Through this perk you will be able to use a 3''x3''x3'' space on HAB for experimentation or anything you desire. This exclusive opportunity is perfect for high altitude experimentation or whatever you choose. You will also receive all the perks below this tier!",
 			"button": {
@@ -106,7 +106,7 @@
 			"image-left": true,
 			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
 			"image" : "img/group/QubeSat-3.png",
-			"text-title": "Perk 7: $3000",
+			"text-title": "Perk 7: $3,000",
 			"text-subtitle": "Naming Rights for the QubeSat",
 			"text-description": "You can name the QubeSat Satellite that will be launched into space via NASA's CubeSat Launch Initiative! You will also receive all the perks below this tier!",
 			"button": {
