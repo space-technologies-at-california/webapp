@@ -12,6 +12,16 @@
       <!-- Google Search Console -->
       <meta name="google-site-verification" content="Vq9Ix2yms9Ifosjf-cCOnadBLfi-E2y3tp8oLPayM9g" />
 
+      <!-- Favicons -->
+      <link rel="icon" href="">
+      <!-- Put favicons (used as icons shown for browsers) here -->
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='img/favicon/apple-touch-icon.png') }}">
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='img/favicon/favicon-32x32.png') }}">
+      <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='img/favicon/favicon-16x16.png') }}">
+      <link rel="manifest" href="{{ url_for('static', filename='img/favicon/manifest.json') }}">
+      <link rel="mask-icon" href="{{ url_for('static', filename='img/favicon/safari-pinned-tab.svg" color="#5bbad5') }}">
+      <meta name="theme-color" content="#ffffff">
+
       <!-- Open graph meta tags -->
       <meta property="og:title" content="2022 Space Tech Symposium by STAC" />
       <meta property="og:type" content="website" />
@@ -299,7 +309,7 @@
             </div>
             <!--End container-->
             <div class="block-content" id="speakers-img">
-               <div class="col-sm-3 pd-0">
+               <div class="col-sm-3 pd-0" style="cursor: pointer">
                   <div class="block-speaker">
                      <a class="md-trigger" data-modal="eugene-tu" style="color: #cccccc">
                         <div class="block-img overlay soft">
@@ -309,24 +319,42 @@
                            <div class="block-info-2">
                               <p>
                                  <strong>Dr. Eugene Tu</strong>
-                                 <small><span>Director of NASA's Ames Research Center </span></small>
+                                 <small><span style="line-height: 120%;">Director of NASA's Ames Research Center </span></small>
                               </p>
                            </div>
                         </div>
                      </a>
                   </div>
                </div>
-               <!-- <div class="col-sm-3 pd-0">
+               <div class="col-sm-3 pd-0" style="cursor: pointer">
                   <div class="block-speaker">
                      <a class="md-trigger" data-modal="sreeja-nag" style="color: #cccccc">
                         <div class="block-img overlay soft">
                            <div class="background-img">
-                              <img src="{{ url_for('static', filename='img/subpage/sts-2022/people/sreeja-nag.png') }}" alt="">
+                              <img src="{{ url_for('static', filename='img/subpage/sts-2022/people/al-tadros.png') }}" alt="">
                            </div>
                            <div class="block-info-2">
                               <p>
-                                 <strong>Dr. Sreeja Nag</strong>
-                                 <small><span>Senior Research Scientist at NASA Ames Research Center</span></small>
+                                 <strong>Al Tadros</strong>
+                                 <small><span style="line-height: 120%;">Chief Growth Officer and Executive Vice President of Space Infrastructure at Redwire Space</span></small>
+                              </p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               
+               <div class="col-sm-3 pd-0" style="cursor: pointer">
+                  <div class="block-speaker">
+                     <a class="md-trigger" data-modal="mike-cassidy" style="color: #cccccc">
+                        <div class="block-img overlay soft">
+                           <div class="background-img">
+                              <img src="{{ url_for('static', filename='img/subpage/sts-2022/people/mike-cassidy.jpeg') }}" alt="">
+                           </div>
+                           <div class="block-info-2">
+                              <p>
+                                 <strong>Mike Cassidy</strong>
+                                 <small><span>VP of Product Management at Astra Space</span></small>
                               </p>
                            </div>
                         </div>
@@ -334,23 +362,26 @@
                   </div>
                </div>
 
-               <div class="col-sm-3 pd-0">
+               <div class="col-sm-3 pd-0" style="cursor: pointer">
                   <div class="block-speaker">
-                     <a class="md-trigger" data-modal="jonathan-knowles" style="color: #cccccc">
+                     <a class="md-trigger" data-modal="grant-kendall-bel" style="color: #cccccc">
                         <div class="block-img overlay soft">
                            <div class="background-img">
-                              <img src="{{ url_for('static', filename='img/subpage/sts-2022/people/jonathan-knowles.jpg') }}" alt="">
+                              <img src="{{ url_for('static', filename='img/subpage/sts-2022/people/grant-kendall-bell.png') }}" alt="">
                            </div>
                            <div class="block-info-2">
                               <p>
-                                 <strong>Mr. Jonathan Knowles </strong>
-                                 <small><span>Advisor to the Chairman of Mission Blue / Sylvia Earle Alliance and many more</span></small>
+                                 <strong>Grant Kendall-Bell</strong>
+                                 <small><span>Business Development Manger at OrbitFab</span></small>
                               </p>
                            </div>
                         </div>
                      </a>
-                  </div> -->
+                  </div>
                </div>
+
+
+
             </div>
          </section>
          <!--End speakers section-->
@@ -894,19 +925,64 @@
       <div class="md-modal md-effect-1" id="sreeja-nag">
          <div class="md-content">
             <div>
-               <h3>Dr. Sreeja Nag</h3>
-               <p>Dr. Sreeja Nag is a Senior Research Scientist at NASA Ames Research Center, contracted by BAER Institute, where she serves as the PI on "D-SHIELD: Distributed Spacecraft with Heuristic Intelligence to Enable Logistical Decisions". She is also the systems engineer on the autonomy stack at Nuro, to help build and validate what could be the first self-driving robots on public roads. Her research interests include distributed space systems, space robotics for Earth observation, planning and scheduling of constellations, and space traffic management.
-Sreeja completed her PhD in Space Systems Engineering from the Department of Aeronautics and Astronautics at Massachusetts Institute of Technology, Cambridge. As a student, she led the SPHERES Zero Robotics program, and has served as an International Fellow at the European Space Agency (ESTEC), NASA's Jet Propulsion Lab, and Goddard Space Flight Center. She has also worked with small satellite startups on systems architecting and constellation design.</p>
+               <h3>Al Tadros</h3>
+               <p>
+                  Tadros oversees the company's long-term growth strategy and business 
+                  development activities. He is responsible for advancing development, increasing adoption, and 
+                  building momentum for Redwire's mission-enabling capabilities within civil, defense and commercial 
+                  space sectors.  
+                  <br></br>
+                  With nearly three decades of experience as an aerospace executive, Tadros is a thought leader in 
+                  on-orbit servicing, assembly and manufacturing with a proven track record in maturing satellite and 
+                  space systems programs for exploration, national security, and commercial innovation.  
+                  <br></br>
+                  Previously, he served as Vice President of Space Infrastructure and Civil Space at Maxar 
+                  Technologies where he led significant innovation in next-generation spacecraft design and space 
+                  infrastructure, integrating robotics and on-orbit satellite manufacturing, servicing, and assembly 
+                  capabilities. Over the course of his career at Maxar, he participated in 13 missions and launch 
+                  campaigns, many of which deployed cutting-edge communications and remote sensing systems 
+                  <br></br>
+                  Tadros has worked with both commercial enterprises and government agencies to develop space 
+                  systems for communications, satellite servicing, remote sensing, and exploration. 
+                  <br></br>
+                  An authority in on-orbit servicing, assembly and manufacturing, Tadros holds patents in the field of 
+                  attitude control systems, and was responsible for early telerobotics research for the International 
+                  Space Station.
+
+               </p><button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="mike-cassidy">
+         <div class="md-content">
+            <div>
+               <h3>Mike Cassidy</h3>
+               <p> 
+                  Mike Cassidy is the VP of Product Management at Astra. Mike Cassidy was recently the CEO of Apollo Fusion, Inc. and a Vice President at Google. He was the Project Leader of GoogleX's Project Loon (balloon-powered Internet for everyone).  
+                  <br></br>
+                  Prior to Astra, Mike was the Co-Founder and CEO of five start-ups: Apollo Fusion, Ruba, Xfire, Direct Hit, and Stylus Innovation. 
+                  <br></br>
+                  Apollo Fusion designs and builds ion thrusters for satellites and was acquired by Astra for $145 million. Ruba helped travelers share their favorite places and was acquired by Google. Xfire helps gamers play online with their friends and was acquired by MTV for $110 million. Direct Hit was a revolutionary search engine whose customers included MSN, Lycos, AOL, etc. and was acquired by Ask Jeeves for $500 million. Stylus Innovation's flagship product was computer telephony software Visual Voice. Artisoft acquired Stylus for $13M.  Mike has a BS/MS in Aerospace Engineering from MIT. 
+                  <br></br>
+                  He graduated from Harvard Business School and has been an advisor to Endeavor.org, StartX, Tim Berners-Lee's WebFoundation, From the Top, Jazz at Lincoln Center, and over 300 startup companies. He has four patents and was selected for the DEMO Lifetime Achievement Award, nominated for a Webby award, and named a Forbes E-gang Trendsetter. His startup products have won PC Magazine's Top 100 Websites, Computer Telephony Product of the Year, CNET Editor's Choice, and PC Magazine's Editor's Choice.
+
+               </p>
                <button class="md-close" style="display: none">Close me!</button>
             </div>
          </div>
       </div>
 
-      <div class="md-modal md-effect-1" id="jonathan-knowles">
+      <div class="md-modal md-effect-1" id="grant-kendall-bel">
          <div class="md-content">
             <div>
-               <h3>Mr. Jonanthan Knowles</h3>
-               <p> Jonathan explores the dynamics of large-scale, long term change with a focus on beyond the horizon technologies. A popular and inspirational advisor and speaker, Jonathan provides insight on the intersection of emerging technologies and social trends, and closing the gap between the theory and the practice of innovation in a world of rapidly accelerating technology capabilities. Jonathan currently serves as the Science and Exploration Fellow at Mission Blue—The Sylvia Earle Alliance; Advisor to Schmidt Marine Technology Partners—a program of the Schmidt Family Foundation; Exploration and Ideation Director at the NASA Frontier Development Lab and ESA Frontier Development Lab. He sits on the boards of, and is an advisor to, several ocean, space, technology, learning, design, engineering, and exploration organizations. With over 27 years in Silicon Valley leadership positions at Apple, Adobe, and Autodesk, Jonathan is a creative thinker and respected thought leader on future trends, long-range vision, "moonshot" thinking, and creating a preferred future. He advises start-ups, business leaders, government officials, and academics around the world.
+               <h3>Grant Kendall-Bell</h3>
+               <p> 
+                  Grant Kendall-Bell is currently a Business Development Manager at Orbit Fab where he helps to grow the business by building relationships, closing contracts, and establishing strong processes across the company. He joined this team to help build towards their mission to enable unlimited mobility in space in an effort to exponentially grow the space industry and extend human civilization into the final frontier.
+                  <br></br>
+                  In his previous role at Techstars Starburst Space Accelerator, he helped NewSpace startup founders to build the next generation of space technology companies. Grant Kendall-Bell worked closely with innovators who had developed incredible technologies to help them iterate on their business model approach and go-to-market strategies. He also helped the startups to strategize fundraising efforts and improve business processes, while he managed program operations for Techstars.
+                  <br></br>
+                  Prior to Techstars, Grant Kendall-Bell worked as a venture investor with VU Venture Partners on the frontier technologies team. He evaluated deals across a range of industries, but focused on Aerospace, Robotics, 3D Printing/Advanced Manufacturing, Transportation, IoT, and Enterprise Infrastructure, with a primary interest in Space Technologies. He values a first-principles approach, challenging the status quo, and those with a unique insight into markets. Kendall-Bell says that he is "constantly looking to meet people that build, finance, consult, and drive forward the growing space industry."
                </p>
                <button class="md-close" style="display: none">Close me!</button>
             </div>
