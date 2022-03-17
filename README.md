@@ -5,15 +5,22 @@ This is the new flask webapp for STAC as the core landing page, in replacement o
 
 You need Makefile for this to work.
 
+You also need to download Flask, https://pypi.org/project/Flask/.
+
 To run the app, type `make`. This will delete the `static/data/cache.json` file, restart the app, and open the browser for you to see the site
 
 If you don't see any changes you made, either clean your browser cache, or type `make clean` to delete `static/data/cache.json` file saved.
+
+After running `make`, you can refresh the page to see live changes (don't need to run `make` again).
 
 ### Update Website
 
 **First, always remember to PULL from ocf branch to get and merge the UPDATED database, before you make any changes locally to the database file, in case someone has updated information through web online portal.**
 
-Then, for new updates and features, always work a seaprate branch when making hcanges. For example, use the `development` branch. 
+***As of February 2022, master is the most updated and is to be used instead of ocf branch***
+
+
+Then, for new updates and features, always work a seaprate branch when making changes. For example, use the `development` branch. 
 
 Type `make` to view changes locally to make sure everthing works.
 
@@ -21,56 +28,24 @@ Then, merge and push your changes to both `master` branch and `ocf` branch.
 
 Lastly, `ssh` into your ocf server, pull changes from `ocf` branch, type `./restart` in the `myapp` folder to udpate the live website.
 
-**Shortcut**
-
-For ease of updating website, you have the option to set it up so you can use `make` commands to do everyhing for you.
-
-First, put your public key on the ocf server so you don't need to type password when sshing.
-
-Second, add the following line to your `.ssh/config` file
-
-```
-Host ocf-stac-webapp
-HostName apphost.ocf.berkeley.edu
-User stac
-```
-
-Now, to sync changes under `development` branch to both `ocf` and `master` branch, type
-
-```
-make update
-```
-
-To restart the website in ocf remote server, type
-
-```
-make restart-remote
-```
-
-
 ### OCF SSH
 
-To access webapp
+To access webapp on OCF to upload/update the site.
 
 ```
-ssh stac@apphost.ocf.berkeley.edu
+ssh stac@vampires.ocf.berkeley.edu
 ```
 
-The repo is under `myapp/src/` linked to the `ocf` branch of the stacweb repo.
+Password can be found in drive. The repo is under `myapp/src/` linked to the `ocf` branch of the stacweb repo. 
 
-To restart the app, run `./restart` under `myapp` folder
+Git status to check status.
 
-To run the app manually, run `./run` under `myapp` folder
+Git pull origin master to pull most updated code.
 
+To restart the app, run `./restart` under `myapp` folder (cd ../ from src)
 
-### New Login
+To run the app manually, run `./run` under `myapp` folder.
 
-To create your own admin account online, run the following
-
-```
-$ python -i auth_helper.py
-$ create_login(<your-username-string-here>, <your-password-string-here>)
-```
 
 ### Members
 
@@ -78,13 +53,13 @@ $ create_login(<your-username-string-here>, <your-password-string-here>)
 
 Go to `stac.berkeley.edu/admin` and login using your account.
 
-You can make live changes to members there, except the photos
+You can make live changes to members there, except the photos. See below for details on how to create an admin account.
 
-#### Add New Members
+#### Add New Members/Update Members via Code
 
-To add new members, write a json file for each new member, and save them all as `firstname-lastname.json` under `static/tmp/new_members` folder. 
+To add new members, write a json file for each new member, and save them all as `firstname-lastname.json` under `static/data/member` folder. 
 
-Save any images under `static/img/team/member` as `firstname-lastname.xxx` with properly cropped image ratio of 1 : 1.4
+Save any images under `static/img/team/member` as `firstname-lastname.xxx` with properly cropped image ratio of 1 : 1.4. Crop images in Figma, see STAC figma file.
 
 An example json schema is included in the folder as "example.txt" for your reference. 
 
@@ -92,12 +67,12 @@ Then, run
 
 ```
 $ python -i add_helper.py
-$ add_members("static/tmp/new_members")
+$ add_members("static/data/member")
 ```
 
-Once you finish adding the members, move your json files out of the `static/tmp/members` folder, and place them into the `static/data/member` folder, for future updates references.
+This will update, replace, or create database entries for everything in "static/data/member".
 
-### Advisors
+### Advisors (has not been updated since 2020. To be edited and mofified)
 
 #### Update Existing Advisors
 
@@ -134,4 +109,43 @@ $ add_members("static/tmp/new_advisors")
 ```
 
 Once you finish adding the advisors, move your json files out of the `static/tmp/new_advisors` folder, and place them into the `static/data/industry-advisors` folder, for future updates references.
+
+
+
+**Shortcut - Not working February 2022**
+
+For ease of updating website, you have the option to set it up so you can use `make` commands to do everyhing for you.
+
+First, put your public key on the ocf server so you don't need to type password when sshing.
+
+Second, add the following line to your `.ssh/config` file
+
+```
+Host ocf-stac-webapp
+HostName apphost.ocf.berkeley.edu
+User stac
+```
+
+Now, to sync changes under `development` branch to both `ocf` and `master` branch, type
+
+```
+make update
+```
+
+To restart the website in ocf remote server, type
+
+```
+make restart-remote
+```
+
+
+### New Login
+
+To create your own admin account online, run the following
+
+```
+$ python -i auth_helper.py
+$ create_login(<your-username-string-here>, <your-password-string-here>)
+```
+
 
