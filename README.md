@@ -3,9 +3,15 @@ This is the new flask webapp for STAC as the core landing page, in replacement o
 
 ### Run the app
 
-You need Makefile for this to work.
+You need Makefile for this to work (in order to run 'make')
 
 You also need to download Flask, https://pypi.org/project/Flask/.
+
+Type in bash: 'virtualenv flask' then 'cd flask'
+
+Then, type 'source bin/activate' 
+
+Back out of the flask directory by typing 'cd ..'
 
 To run the app, type `make`. This will delete the `static/data/cache.json` file, restart the app, and open the browser for you to see the site
 
@@ -22,11 +28,10 @@ After running `make`, you can refresh the page to see live changes (don't need t
 
 Then, for new updates and features, always work a seaprate branch when making changes. For example, use the `development` branch. 
 
-Type `make` to view changes locally to make sure everthing works.
+Type `make` to update the cache and to view changes locally to make sure everthing works.
 
 Then, merge and push your changes to both `master` branch and `ocf` branch. 
 
-Lastly, `ssh` into your ocf server, pull changes from `ocf` branch, type `./restart` in the `myapp` folder to udpate the live website.
 
 ### OCF SSH
 
@@ -45,6 +50,8 @@ Git pull origin master to pull most updated code.
 To restart the app, run `./restart` under `myapp` folder (cd ../ from src)
 
 To run the app manually, run `./run` under `myapp` folder.
+
+***Editor's note: use both ./restart then ./run ***
 
 
 ### Members
