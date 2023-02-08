@@ -1,0 +1,16 @@
+{
+    "name": "Laksh Bhambhani",
+    "photo": "img/team/member/laksh-bhambhani.jpg",
+    "profile-order": 122,
+    "major": "Computer Science",
+    "title": "AI Rover Team Member",
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "twitter": "",
+      "web": "",
+      "email": ""
+    },
+    
+    "bio": "How cool would it be when humans could actually build machines like the Curiosity rover or Star Wars iconic C-3PO or R2-D2 and send them off to space? At STAC, I hope to research and uncover technologies involving robotics in Space."
+  }

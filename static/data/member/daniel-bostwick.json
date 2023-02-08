@@ -1,0 +1,16 @@
+{
+    "name": "Daniel Bostwick",
+    "photo": "img/team/member/daniel-bostwick.jpg",
+    "profile-order": 123,
+    "major": "Data Science",
+    "title": "AI Rover Team Member",
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "twitter": "",
+      "web": "",
+      "email": ""
+    },
+    
+    "bio": "Space is the next frontier for mankind to explore. Limited resources and an expanding populace means that space travel and the ability to live on other surfaces besides earth is paramount. "
+  }

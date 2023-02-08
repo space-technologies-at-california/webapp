@@ -6,25 +6,25 @@
 	"blocks": [
 		{
 			"image-left": false,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
-			"image": "img/group/big-give1.jpg",
-			"text-title": "Big Give 2022",
-			"text-subtitle": "Raised So Far: $10,667.34/$15,000 ",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
+			"image": "img/group/STAC-people.jpg",
+			"text-title": "Fall Crowd Funding 2022",
+			"text-subtitle": "Raised So Far: $130/$15,000 ",
 			"text-description": "You can help develop our space projects to enable its completion and widespread effect. Check out the various perks down below!",
 			"button": {
 				"enabled": true,
 				"size": "regular",
-				"text": "Big Give: DONATE NOW",
-				"link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798"
+				"text": "DONATE NOW",
+				"link": "https://crowdfund.berkeley.edu/project/33296"
 			}
 		},
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
-			"image" : "img/group/QubeSat-2.png",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
+			"image" : "img/group/QubeSat-4.jpg",
 			"text-title": "Perk 1: $10",
-			"text-subtitle": "Name on QubeSat Flashdrive",
-			"text-description": "Get your name and a tweet-lengthed message uploaded to the onboard computer of our QubeSat that will be sent up to space!",
+			"text-subtitle": "Name on TIME II Flashdrive",
+			"text-description": "Get your name and a tweet-lengthed message uploaded to the onboard computer of our TIME II Payload that will be sent up to space!",
 			"button": {
 				"enabled": false,
 				"size": "regular",
@@ -34,7 +34,7 @@
 		},
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
 			"image" : "img/group/random-1.png",
 			"text-title": "Perk 2: $30",
 			"text-subtitle": "STAC Swag Pack",
@@ -48,7 +48,7 @@
 		},
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
 			"image" : "img/group/random-3.jpg",
 			"text-title": "Perk 3: $100",
 			"text-subtitle": "STAC Keychain",
@@ -62,11 +62,11 @@
 		}, 
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
 			"image" : "img/group/QubeSat-1.png",
 			"text-title": "Perk 4: $250",
-			"text-subtitle": "Your Name Engraved on QubeSat",
-			"text-description": "Have your name flown to SPACE with an engraving on our QubeSat mission! You will also receive all the perks below this tier!",
+			"text-subtitle": "Your Name Engraved on TIME II",
+			"text-description": "Have your name flown to SPACE with an engraving on our TIME II mission! You will also receive all the perks below this tier!",
 			"button": {
 				"enabled": false,
 				"size": "regular",
@@ -76,7 +76,7 @@
 		},
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
 			"image" : "img/group/HAB-1.png",
 			"text-title": "Perk 5: $500",
 			"text-subtitle": "Invitation to HAB Launch Party",
@@ -90,7 +90,7 @@
 		}, 
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
 			"image" : "img/group/HAB-2.png",
 			"text-title": "Perk 6: $1,500",
 			"text-subtitle": "Payload Space on HAB",
@@ -104,11 +104,11 @@
 		}, 
 		{
 			"image-left": true,
-			"image-link": "https://givingday.berkeley.edu/giving-day/41247/donate?dept=52798",
+			"image-link": "https://crowdfund.berkeley.edu/project/33296",
 			"image" : "img/group/QubeSat-3.png",
 			"text-title": "Perk 7: $3,000",
-			"text-subtitle": "Naming Rights for the QubeSat",
-			"text-description": "You can name the QubeSat Satellite that will be launched into space via NASA's CubeSat Launch Initiative! You will also receive all the perks below this tier!",
+			"text-subtitle": "Naming Rights for the TIME II Payload",
+			"text-description": "You can name the TIME II Payload that will be launched into space! You will also receive all the perks below this tier!",
 			"button": {
 				"enabled": false,
 				"size": "regular",

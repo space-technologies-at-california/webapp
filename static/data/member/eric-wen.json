@@ -1,0 +1,16 @@
+{
+    "name": "Eric Wen",
+    "photo": "img/team/member/eric-wen.jpg",
+    "profile-order": 125,
+    "major": "EECS",
+    "title": "AI Rover Team Member",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/ericwen10",
+      "github": "",
+      "twitter": "",
+      "web": "",
+      "email": ""
+    },
+    
+    "bio": "The unpredictability of space is what excites me the most. While we can try our best to find patterns and constants within our universe, there will always be strange anomalies that will leave us scratching our heads. As I dive deeper into black holes, quantum tunneling, and string theory, I'm always fascinated by what's left to uncover."
+  }
