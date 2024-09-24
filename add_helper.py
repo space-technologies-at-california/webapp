@@ -30,7 +30,7 @@ def add_members(folder):
             first, last = v['name'].strip().split(" ")
             def escape_null(x): return x if x else "NULL"
             conn.executescript(template.format(
-                k, first, last, v["photo"], v["bio"],
+                k, first, last, v["photo"], v["bio"].encode('utf-8'),
                 v["major"], v["title"], v["profile-order"],
                 v["links"]["github"], v["links"]["linkedin"], v["links"]["twitter"], v["links"]["web"], "NULL", "NULL",
                 v["links"]["email"].replace("mailto:", "")).replace('"NULL"', 'null'))
@@ -61,7 +61,7 @@ def add_advisors(folder):
             first, last = v['name'].split(" ")
             def escape_null(x): return x if x else "NULL"
             conn.executescript(template.format(
-                k, first, last, v["photo"], v["bio"],
+                k, first, last, v["photo"], v["bio"].encode('utf-8'),
                 v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'))
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
@@ -90,7 +90,7 @@ def update_advisors(folder):
             first, last = v['name'].split(" ")
             def escape_null(x): return x if x else "NULL"
             conn.executescript(template.format(
-                k, first, last, v["photo"], v["bio"],
+                k, first, last, v["photo"], v["bio"].encode('utf-8'),
                 v["affiliation"], v["profile-order"]).replace('"NULL"', 'null'))
         except Exception as e:
             print("failed at", k, "for", e, "\n v:\n", v)
