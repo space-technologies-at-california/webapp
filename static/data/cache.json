@@ -94,7 +94,7 @@
     "slogan": "Launch Berkeley to Space!",
     "description": "We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club that focuses on a set competition but rather we focus on making strides in innovating space technologies.\nWe are currently pursuing this goal by working to enable life beyond our Earth. With projects ranging from a 3U CubeSat Deployer of smaller PCBSats, launching Microgravity Experiments with a wide variety of research experiments inside, a High Altitude Balloon program, a BioSphere project to work on implications of life off earth, and even an Autonomous Resource Rover to explore rover designs, make it ISRU capable and autonomous.\nOur innovation in space technologies is a multi-campus and industry-wide effort. Current partners include UC Santa Barbara (PCBSat development), and UC Berkeley Space Science Laboratory (vibration and vacuum testing), and NASA Ames (rover design). STAC provides a platform for these groups to collaborate and make strides in far reaching technology that is also connected to major problems in the space industry today.",
     "ocf-disclaimer": "We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.",
-    "rights": "\u00a9 Copyright 2023 STAC - All Rights Reserved",
+    "rights": "\u00a9 Copyright 2024 STAC - All Rights Reserved",
     "logo": {
       "stac": {
         "light": "img/logo/logo-light.png",
@@ -376,7 +376,8 @@
       "img/logo/partner/blue-origin": "img/logo/partner/blue-origin.png",
       "img/logo/partner/dent-space": "img/logo/partner/dent-space.png",
       "img/logo/partner/ucsb-deepspace-group": "img/logo/partner/ucsb-deepspace-group.png",
-      "img/logo/partner/asuc": "img/logo/partner/asuc.png"
+      "img/logo/partner/asuc": "img/logo/partner/asuc.png",
+      "img/logo/partner/Ansys_logo": "img/logo/partner/Ansys_logo.svg.png"
     }
   },
   "sponsor-confirmation": {
@@ -537,5 +538,5 @@
       }
     ]
   },
-  "version": 96.5
+  "version": 96.7
 }
