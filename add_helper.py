@@ -56,7 +56,7 @@ def add_alumni(folder):
         INSERT or REPLACE INTO links VALUES ("{0}", "{8}", "{9}", "{10}", "{11}", "{12}", '{13}');
         INSERT or REPLACE INTO contacts VALUES ("{0}", "{14}");
     """
-     for k, v in alumni.items():
+    for k, v in alumni.items():
         try:
             first, last = v['name'].strip().split(" ")
             def escape_null(x): return x if x else "NULL"
