@@ -46,7 +46,7 @@ def add_alumni(folder):
     alumni = [json.loads(open(x).read())
               for x in glob.glob("{}/*.json".format(folder))]
     alumni = {
-        x['name'].lower().replace(' ', '-'): x for x in advisors
+        x['name'].lower().replace(' ', '-'): x for x in alumni
     }
     alumni = sanitize_input(alumni)
 
